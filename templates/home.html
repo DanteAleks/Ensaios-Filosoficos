@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="luz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Arquivo filosófico autoral de C. Aleksandr — ensaios, sumas e escritos da Via Peregrini Luminus.">
+  <meta name="theme-color" content="#102a22">
+  <title>Arquivo Peregrini — C. Aleksandr</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="site-header" id="inicio">
+    <a class="brand" href="#inicio" aria-label="Arquivo Peregrini, início">
+      <span class="brand-mark" aria-hidden="true">Ж</span>
+      <span class="brand-copy">
+        <strong>Arquivo Peregrini</strong>
+        <small>C. Aleksandr</small>
+      </span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Navegação principal">
+      <a href="#escritos">Escritos</a>
+      <a href="#sumas">Sumas</a>
+      <a href="#via">A Via</a>
+      <a href="#autor">Autor</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-button" id="theme-toggle" type="button" aria-label="Alternar tema" title="Alternar tema">
+        <span aria-hidden="true">◐</span>
+      </button>
+      <button class="menu-button" id="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Navegação móvel" hidden>
+    <a href="#escritos">Escritos</a>
+    <a href="#sumas">Sumas</a>
+    <a href="#via">A Via</a>
+    <a href="#autor">Autor</a>
+  </nav>
+
+  <main id="conteudo">
+    <section class="hero" aria-labelledby="hero-title">
+      <figure class="hero-art"><img src="./pilgrim.png" alt="Peregrino atravessa um jardim em direção à luz sob um arco clássico, em uma ilustração Art Nouveau." width="1024" height="1536"></figure>
+      <div class="hero-copy">
+        <p class="eyebrow">Via Peregrini Luminus · Arquivo filosófico</p>
+        <h1 id="hero-title">Um peregrino.<br><em>Em busca da luz.</em></h1>
+        <p class="hero-intro">Um repositório vivo de ensaios, reflexões e sumas de leitura sobre metafísica, ontologia, ética e organização social.</p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#escritos">Explorar os escritos <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#via">O sentido do nome</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="library-section" id="escritos" aria-labelledby="escritos-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Biblioteca</p>
+          <h2 id="escritos-title">Escritos filosóficos</h2>
+        </div>
+        <p>Ensaios e investigações em andamento. Escolha o tema e a forma de leitura.</p>
+      </div>
+
+      <div class="library-toolbar" role="search">
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <span class="sr-only">Buscar escritos</span>
+          <input id="search-input" type="search" placeholder="Buscar por título ou tema…" autocomplete="off">
+        </label>
+        <div class="filters" aria-label="Filtrar escritos">
+          <button class="filter is-active" type="button" data-filter="todos" aria-pressed="true">Todos</button>
+          <button class="filter" type="button" data-filter="andamento" aria-pressed="false">Em andamento</button>
+          <button class="filter" type="button" data-filter="finalizado" aria-pressed="false">Finalizados</button>
+        </div>
+      </div>
+
+      <p class="format-guide"><strong>Sintético</strong> · direto e conciso. <strong>Didático</strong> · explicativo e didático. Os indicadores descrevem a forma de apresentação.</p>
+      <label class="format-select">Forma de leitura <select id="format-filter"><option value="todos">Todas as formas</option><option value="sintetico">Sintético</option><option value="didatico">Didático</option></select></label>
+      <p class="demo-notice">Acervo de demonstração: os exemplos em latim são fictícios; as leituras em português são trechos de apresentação, não versões integrais das obras.</p>
+      <div class="work-grid" id="work-grid">{{WORKS}}</div>
+      <p class="empty-state" id="empty-state" hidden>Nenhum escrito corresponde a esta busca.</p>
+    </section>
+
+    <section class="sumas-section" id="sumas" aria-labelledby="sumas-title">
+      <div class="section-heading compact">
+        <div>
+          <p class="eyebrow">Caderno de leitura</p>
+          <h2 id="sumas-title">Sumas de obras</h2>
+        </div>
+        <p>Sínteses analíticas de obras estudadas, com conceitos centrais, percurso argumentativo e observações próprias.</p>
+      </div>
+      <div class="work-grid" id="sumas-grid">{{SUMAS}}</div>
+    </section>
+
+    <section class="method-section" id="via" aria-labelledby="via-title">
+      <div class="method-intro"><p class="eyebrow">O sentido do nome</p><h2 id="via-title">Via Peregrini<br><em>Luminus</em></h2><p class="lead">O caminho de um peregrino em busca da luz.</p></div>
+      <div class="method-content"><p>Peregrini evoca a figura do peregrino: alguém que percorre um caminho, aprende com a jornada e procura uma direção para a própria existência.</p><p>No nome Via Peregrini Luminus, a via representa o caminho; o peregrino, aquele que o percorre; e a luz, a verdade e a compreensão que orientam sua busca. Essa imagem dá sentido ao nome deste espaço e à reunião dos escritos que acompanham esse percurso.</p></div>
+    </section>
+
+    <section class="about-section" id="autor" aria-labelledby="autor-title">
+      <div class="author-monogram" aria-hidden="true">CA</div>
+      <div>
+        <p class="eyebrow">O autor</p>
+        <h2 id="autor-title">C. Aleksandr</h2>
+        <p>Estatístico, filósofo e escritor amador. Reúno aqui meus ensaios, reflexões e registros de leitura sobre a realidade, o conhecimento e a maneira como vivemos.</p>
+      </div>
+      <div class="author-topics" aria-label="Temas de estudo">
+        <span>Metafísica</span><span>Ontologia</span><span>Ética</span><span>Filosofia social</span>
+      </div>
+    </section>
+    <section class="editorial-note" id="metodo" aria-labelledby="metodo-title"><h2 id="metodo-title">Sobre a escrita e este site</h2><p>As ideias e os argumentos dos meus textos são de minha autoria. Utilizo inteligência artificial como apoio à digitação, à revisão e à clareza, enquanto desenvolvo minha escrita, e também na construção e no aprimoramento deste site. A seleção, a revisão final e a responsabilidade pelo conteúdo permanecem comigo.</p></section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true">Ж</span><span class="brand-copy"><strong>Via Peregrini Luminus</strong><small>Arquivo filosófico</small></span></a>
+    <p>Conteúdo autoral de C. Aleksandr.<br>Ensaios, reflexões e cadernos de leitura.</p>
+    <a class="back-top" href="#inicio">Voltar ao início ↑</a>
+  </footer>
+
+  <script src="./preferences.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

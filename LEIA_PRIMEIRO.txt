@@ -1,0 +1,36 @@
+VIA PEREGRINI LUMINUS — VERSÃO LOCAL 3
+
+COMO ABRIR
+1. Extraia todo o ZIP para uma pasta no computador.
+2. Abra ABRIR_SITE.html com seu navegador (Firefox, Chrome ou Edge).
+   Você também pode abrir dist/index.html diretamente.
+3. Mantenha as pastas juntas: os links dependem dessa estrutura.
+
+Não é necessário instalar nada para ler o site. Imagens, estilos e scripts estão incluídos e funcionam offline. Os textos em latim são demonstrações; os textos em português são trechos de apresentação.
+
+CONTROLES DE LEITURA
+Abra uma obra. Em Aparência da leitura, ajuste tamanho, fonte e tema.
+Use o sumário para navegar por capítulos e subcapítulos.
+Para PDF, clique em Imprimir / salvar como PDF e escolha Salvar como PDF na janela do navegador.
+
+PREFERÊNCIAS ENTRE PÁGINAS
+Ao abrir arquivos diretamente, a persistência entre páginas depende do navegador. Para usar uma origem local comum, caso você já tenha Python instalado, abra um terminal nesta pasta e execute:
+python -m http.server 8000 --bind 127.0.0.1 --directory dist
+Depois abra http://127.0.0.1:8000 no navegador. Encerre com Ctrl+C no terminal.
+Esse servidor é opcional e atende apenas o próprio computador.
+
+COMO EDITAR
+Os textos e metadados estão em content/obras.json.
+Depois de editar, use Node.js para executar, nesta pasta:
+node scripts/generate.mjs
+Node.js só é necessário para gerar novamente as páginas, não para abrir a versão pronta.
+Consulte README.md para os campos, capítulos, subcapítulos e versões.
+
+CONTEÚDO DO PACOTE
+- dist/: site pronto, incluindo todas as páginas e imagens.
+- content/: textos e metadados editáveis.
+- templates/: modelo da página inicial.
+- scripts/: gerador do acervo.
+- README.md: manual de manutenção.
+
+O pacote não depende da hospedagem do ChatGPT e não inclui configurações ou credenciais dela.
