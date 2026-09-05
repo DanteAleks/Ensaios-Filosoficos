@@ -1,0 +1,9 @@
+Correção baseada em DanteAleks/Ensaios-Filosoficos, commit e6d3dc973484cf7337c1ea56dfcb323ab37fe566.
+
+Corrige o catálogo atual, preservando os 23 parágrafos do ensaio de metafísica e os textos demonstrativos em latim que estão no repositório. Foram reunidos campos paragraphs repetidos, escapadas as quebras de linha e removida uma chave de abertura extra. Também inclui páginas regeneradas, sem os links repetidos de capítulo anterior/próximo.
+
+Extraia este ZIP na pasta do repositório, mantendo os caminhos e substituindo os arquivos correspondentes. Caso tenha editado o repositório depois do commit acima, compare suas alterações antes de substituir content/obras.json. O ZIP contém somente os arquivos alterados; a imagem e os demais arquivos existentes devem permanecer.
+
+Faça commit e push. Em Settings > Pages > Build and deployment > Source, selecione GitHub Actions. Acompanhe Actions > Atualizar site Peregrini. Se necessário, execute Run workflow depois de alterar a configuração de Pages.
+
+A conexão GitHub do ChatGPT recusou a gravação com 403 Resource not accessible by integration. Nenhum commit remoto foi criado por esta correção.

@@ -50,3 +50,25 @@ O leitor escolhe fonte clássica (Georgia), de livro (Palatino, quando instalada
 ## Estado do acervo
 
 Os textos em latim são demonstrações. Os textos existentes em português permanecem identificados como trechos. Os documentos Word não foram importados nem substituídos neste trabalho. Altere a disponibilidade para `integral` apenas depois de inserir o conteúdo completo correspondente.
+
+
+
+## Atualização pelo GitHub
+
+Em Settings → Pages → Build and deployment → Source, selecione **GitHub Actions**. O workflow `Atualizar site Peregrini` gera e publica o conteúdo de `dist` após cada commit na branch padrão. Acompanhe os trabalhos `build` e `deploy` na aba Actions. Se você mudar essa configuração depois de enviar os arquivos, use Actions → Atualizar site Peregrini → Run workflow.
+
+Edite `content/obras.json` na versão desejada. Não repita o campo `paragraphs` no mesmo capítulo. Todos os parágrafos pertencem a uma única lista:
+
+```json
+"paragraphs": [
+  "Primeiro parágrafo.",
+  "Segundo parágrafo.",
+  "Terceiro parágrafo."
+]
+```
+
+Use uma string por parágrafo. Para quebra de linha dentro de uma string, use `\n`; não coloque uma quebra literal entre aspas. O gerador agora recusa chaves repetidas para evitar a perda silenciosa de texto.
+
+O workflow publica os HTMLs gerados como artefato e não os grava em novos commits. Para atualizar sua cópia local depois de editar o catálogo, execute `node scripts/generate.mjs` e abra `dist/index.html`.
+
+A leitura é contínua: use o sumário para capítulos e subcapítulos. Os links de capítulo anterior/próximo foram removidos.
