@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src https://api.github.com; img-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<title>Editor do autor — Arquivo Peregrini</title><link rel="stylesheet" href="./editor.css">
+</head>
+<body>
+<header class="topbar"><a href="../index.html">← Voltar ao site</a><span>Arquivo Peregrini · Editor do autor</span><button id="disconnect" hidden type="button">Sair</button></header>
+<main>
+<section id="connection" class="connection"><p class="eyebrow">Seu espaço de escrita</p><h1>Escreva. Revise.<br>Publique.</h1><p>Entre com a autorização da sua conta <strong>DanteAleks</strong> para editar os textos do site.</p>
+<form id="connect-form"><label for="token">Chave de acesso do GitHub</label><input id="token" type="password" autocomplete="off" spellcheck="false" required placeholder="Cole sua chave aqui"><button class="primary" type="submit">Entrar no editor</button></form>
+<p class="muted">A chave fica apenas na memória desta aba. Você precisará inseri-la novamente ao abrir o editor.</p>
+<details><summary>Primeiro acesso: criar minha chave</summary><ol><li>Abra <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">a criação de chave no GitHub</a>, conectado como DanteAleks.</li><li>Dê o nome “Editor Peregrini”, escolha uma validade e selecione <strong>Only select repositories → Ensaios-Filosoficos</strong>.</li><li>Em <strong>Repository permissions</strong>, habilite apenas <strong>Contents → Read and write</strong>. Metadata é incluída pelo GitHub.</li><li>Gere a chave, guarde-a em seu gerenciador de senhas e cole-a no campo acima. Não a coloque em arquivos do site.</li></ol><p>O GitHub protege as gravações. Para manter a edição exclusiva, não compartilhe a chave nem conceda acesso de escrita ao repositório a outras pessoas.</p></details>
+</section>
+<p id="notice" class="notice" role="status" aria-live="polite"></p>
+<section id="workspace" hidden>
+<div class="savebar"><span id="dirty-state">Sem alterações</span><div><button id="download" type="button">Baixar cópia</button><button id="reload" type="button">Recarregar</button><button id="preview" type="button">Prévia</button><button id="save" type="button" class="primary">Salvar no GitHub</button></div></div>
+<p id="publication" hidden>Texto salvo. A publicação é feita pelo GitHub. <a href="https://github.com/DanteAleks/Ensaios-Filosoficos/actions/workflows/peregrini-pages.yml" target="_blank" rel="noopener noreferrer">Acompanhar publicação</a></p>
+<div class="editor-layout"><aside><h2>Minhas obras</h2><button id="new-work" type="button">+ Nova obra</button><nav id="work-list" aria-label="Escolher obra"></nav></aside><form id="editor-form"><fieldset id="fields"><div id="editor"></div></fieldset></form></div>
+</section>
+</main>
+<dialog id="preview-dialog"><button id="close-preview" type="button">Fechar prévia</button><article id="preview-content"></article></dialog>
+<dialog id="new-dialog"><form id="new-form"><h2>Nova obra</h2><label for="new-title">Título</label><input id="new-title" required><div class="dialog-actions"><button id="cancel-new" type="button">Cancelar</button><button type="submit" class="primary">Criar obra</button></div></form></dialog>
+<script src="./model.js"></script><script src="./github.js"></script><script src="./editor.js"></script>
+</body></html>
