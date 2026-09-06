@@ -1,0 +1,68 @@
+PEREGRINI — MELHORIAS DE LEITURA E EDIÇÃO
+Preparado em 6 de setembro de 2026.
+Base: GitHub DanteAleks/Ensaios-Filosoficos,
+84c7af187ce6ecde47d00d555a7e5384515fc363.
+
+INSTALAÇÃO
+1. Extraia este ZIP.
+2. Abra a pasta local do seu repositório e copie as pastas dist, scripts,
+   templates e tests para ela, mesclando as pastas e substituindo somente
+   os arquivos de mesmo nome. Não apague as pastas existentes.
+3. Envie as mudanças ao GitHub. Pelo site, use Add file > Upload files na
+   raiz do repositório e arraste as pastas extraídas, preservando os caminhos.
+   Pelo celular, se o navegador não aceitar pastas, abra cada pasta de destino
+   e envie os arquivos correspondentes. Não envie o ZIP como arquivo do site.
+4. Confirme em Commit changes na branch principal. Aguarde o processo
+   Peregrini Pages terminar na aba Actions.
+5. Reabra o site e o editor. Se houver uma aba antiga aberta, recarregue-a.
+
+Não é necessário instalar Node ou executar comandos para atualizar o site.
+O GitHub já executa a geração e a publicação automaticamente. O pacote não
+contém content/obras.json, imagens ou páginas geradas antigas: seus textos
+atuais são usados na reconstrução. Não foi feito um envio remoto por esta
+conversa. Mudanças posteriores nos arquivos de código devem ser mescladas.
+
+O QUE MUDOU
+• Retomar leitura: o site lembra a última obra e a posição neste navegador.
+  Na página inicial, escolha Retomar; dentro da obra, use Retomar leitura.
+  Você pode esquecer a posição na página inicial. Links para capítulos
+  continuam tendo prioridade sobre a retomada automática.
+• Rascunho: as alterações ficam guardadas automaticamente neste navegador
+  após uma breve pausa na digitação; Salvar rascunho grava imediatamente.
+  Elas não ficam públicas. Ao conectar novamente, o editor oferece restaurar,
+  baixar ou descartar. Baixar cópia continua disponível para backups.
+• Publicar alterações: valida e envia TODO o acervo editado ao GitHub.
+  Os rascunhos não são individuais por obra. Você pode revisar cada obra em
+  Prévia antes de publicar. Um texto Em andamento também pode ser publicado.
+• Confirmação: o editor distingue o envio ao GitHub da versão disponível no
+  site. Compara uma assinatura do conteúdo enviado com a versão publicada.
+  Verifica por até cinco minutos; você pode usar Verificar publicação depois.
+  Se houver falha ou demora, o link Ver processo no GitHub mostra o processo.
+  A chave continua apenas na memória da aba; não precisa de novas permissões.
+• Cartões compactos: título, resumo, forma, estado e disponibilidade. Datas,
+  última parte escrita e próxima parte permanecem dentro da leitura.
+• Avisos individuais: não há mais aviso genérico chamando todo o acervo de
+  demonstração. O indicador depende da disponibilidade escolhida no editor.
+• Ícone Peregrini na aba; molduras e ornamentos existentes preservados.
+• Voltar ao início aponta para o corpo do documento, não o cabeçalho sticky.
+
+RASCUNHOS E APARELHOS
+O rascunho e a posição de leitura pertencem a este navegador. Não são enviados
+para uma conta ou sincronizados entre aparelhos; limpar os dados do navegador
+os apaga. Use um aparelho pessoal e baixe cópias dos textos importantes.
+Se o acervo mudar no GitHub depois de iniciar um rascunho, a restauração
+automática é bloqueada: baixe-o e copie os trechos desejados para o acervo
+atual. Isso preserva ambas as versões em vez de sobrescrevê-las.
+
+VERIFICAÇÃO
+Geração das 5 obras e 6 páginas concluída. 19 testes automatizados passaram,
+incluindo fluxos de interface em DOM simulado, conflitos, recuperação,
+publicação e posição de leitura. A instalação de um navegador de testes
+não ficou disponível neste ambiente; a aparência final e o fluxo real de
+publicação devem ser conferidos após o envio ao GitHub.
+
+PARA DESENVOLVIMENTO (não necessário para usar ou atualizar pelo editor)
+node scripts/generate.mjs
+node --test tests/editor.test.cjs tests/improvements.test.cjs
+O teste adicional tests/ui.test.cjs requer jsdom instalado no ambiente de
+quem desenvolve. Não é dependência do site nem do processo de publicação.

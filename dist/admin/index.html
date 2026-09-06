@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src https://api.github.com; img-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
-<title>Editor do autor — Arquivo Peregrini</title><link rel="stylesheet" href="./editor.css">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self' https://api.github.com; img-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml"><title>Editor do autor — Arquivo Peregrini</title><link rel="stylesheet" href="./editor.css">
 </head>
 <body>
 <header class="topbar"><a href="../index.html">← Voltar ao site</a><span>Arquivo Peregrini · Editor do autor</span><button id="disconnect" hidden type="button">Sair</button></header>
@@ -16,12 +16,14 @@
 </section>
 <p id="notice" class="notice" role="status" aria-live="polite"></p>
 <section id="workspace" hidden>
-<div class="savebar"><span id="dirty-state">Sem alterações</span><div><button id="download" type="button">Baixar cópia</button><button id="reload" type="button">Recarregar</button><button id="preview" type="button">Prévia</button><button id="save" type="button" class="primary">Salvar no GitHub</button></div></div>
-<p id="publication" hidden>Texto salvo. A publicação é feita pelo GitHub. <a href="https://github.com/DanteAleks/Ensaios-Filosoficos/actions/workflows/peregrini-pages.yml" target="_blank" rel="noopener noreferrer">Acompanhar publicação</a></p>
+<div class="savebar"><span id="dirty-state">Sem alterações</span><div><button id="download" type="button">Baixar cópia</button><button id="reload" type="button">Recarregar</button><button id="preview" type="button">Prévia</button><button id="draft-save" type="button">Salvar rascunho</button><button id="save" type="button" class="primary">Publicar alterações</button></div></div>
+<p id="draft-status" role="status"></p><p class="muted">Rascunhos são salvos automaticamente neste navegador. Não aparecem no site e não são sincronizados com outros aparelhos.</p>
+<div id="draft-recovery" hidden><p>Existe um rascunho guardado neste navegador.</p><button id="draft-restore" type="button">Restaurar rascunho</button><button id="draft-export" type="button">Baixar rascunho</button><button id="draft-discard" type="button">Descartar rascunho</button></div>
+<div id="publication" hidden><p id="publication-state" role="status" aria-live="polite"></p><button id="publication-check" type="button">Verificar publicação</button> <a href="https://github.com/DanteAleks/Ensaios-Filosoficos/actions/workflows/peregrini-pages.yml" target="_blank" rel="noopener noreferrer">Ver processo no GitHub</a> · <a href="../index.html" target="_blank" rel="noopener">Abrir site</a></div>
 <div class="editor-layout"><aside><h2>Minhas obras</h2><button id="new-work" type="button">+ Nova obra</button><nav id="work-list" aria-label="Escolher obra"></nav></aside><form id="editor-form"><fieldset id="fields"><div id="editor"></div></fieldset></form></div>
 </section>
 </main>
 <dialog id="preview-dialog"><button id="close-preview" type="button">Fechar prévia</button><article id="preview-content"></article></dialog>
 <dialog id="new-dialog"><form id="new-form"><h2>Nova obra</h2><label for="new-title">Título</label><input id="new-title" required><div class="dialog-actions"><button id="cancel-new" type="button">Cancelar</button><button type="submit" class="primary">Criar obra</button></div></form></dialog>
-<script src="./model.js"></script><script src="./github.js"></script><script src="./editor.js"></script>
+<script src="./model.js"></script><script src="./github.js"></script><script src="./drafts.js"></script><script src="./publication.js"></script><script src="./editor.js"></script>
 </body></html>

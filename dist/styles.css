@@ -329,3 +329,17 @@ html[data-theme="noite"] .hero-art { box-shadow:0 22px 55px rgba(0,0,0,.4),inset
  .reading-text > .chapter + .chapter { margin-top:1.5rem; border:0; }
  .reading-text > .chapter > p:first-of-type::first-letter { color:inherit; font-size:inherit; }
 }
+
+/* Acervo compacto e retomada da leitura */
+.work-grid { grid-template-columns:repeat(2,minmax(0,1fr)); align-items:start; }
+.work-card h3,.work-card:not(.featured) h3 { font-size:clamp(1.5rem,2.5vw,2.15rem); margin:.4rem 0 1rem; }
+.card-body { padding:1.5rem 1.6rem 2rem; }
+.card-body > p { margin:0 0 1rem; }
+.card-state { display:flex; flex-wrap:wrap; gap:.5rem 1rem; font-size:.85rem; color:var(--muted); border-top:1px solid var(--line); padding-top:1rem; }
+.card-state span:first-child { color:var(--ink); }
+.resume-reading { display:flex; flex-wrap:wrap; align-items:center; gap:.75rem; padding:1rem; margin:1rem 0 2rem; border:3px double var(--gold); background:var(--surface); }
+.resume-reading a { flex:1; text-underline-offset:.25rem; }
+.resume-reading button { font:inherit; color:var(--ink); background:var(--ivory); border:1px solid var(--line); padding:.5rem .7rem; cursor:pointer; }
+.resume-reading small { flex-basis:100%; color:var(--muted); }
+@media(max-width:800px) { .work-grid { grid-template-columns:minmax(0,1fr); } }
+@media print { .resume-reading { display:none !important; } }

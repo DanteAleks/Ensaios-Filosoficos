@@ -6,12 +6,13 @@
   <meta name="description" content="Arquivo filosófico autoral de C. Aleksandr — ensaios, sumas e escritos da Via Peregrini Luminus.">
   <meta name="theme-color" content="#102a22">
   <title>Arquivo Peregrini — C. Aleksandr</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
+<body id="inicio">
   <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
 
-  <header class="site-header" id="inicio">
+  <header class="site-header">
     <a class="brand" href="#inicio" aria-label="Arquivo Peregrini, início">
       <span class="brand-mark" aria-hidden="true">Ж</span>
       <span class="brand-copy">
@@ -80,7 +81,8 @@
 
       <p class="format-guide"><strong>Sintético</strong> · direto e conciso. <strong>Didático</strong> · explicativo e didático. Os indicadores descrevem a forma de apresentação.</p>
       <label class="format-select">Forma de leitura <select id="format-filter"><option value="todos">Todas as formas</option><option value="sintetico">Sintético</option><option value="didatico">Didático</option></select></label>
-      <p class="demo-notice">Acervo de demonstração: os exemplos em latim são fictícios; as leituras em português são trechos de apresentação, não versões integrais das obras.</p>
+
+      <div id="resume-reading" class="resume-reading" hidden><a href="#escritos">Retomar leitura</a><button type="button">Esquecer posição</button><small>Salvo apenas neste navegador.</small></div>
       <div class="work-grid" id="work-grid">{{WORKS}}</div>
       <p class="empty-state" id="empty-state" hidden>Nenhum escrito corresponde a esta busca.</p>
     </section>
@@ -123,6 +125,7 @@
 
   <script src="./preferences.js"></script>
   <script src="./app.js"></script>
+  <script src="./reading-memory.js"></script>
 </body>
 </html>
 
