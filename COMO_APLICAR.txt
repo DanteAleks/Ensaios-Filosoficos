@@ -1,0 +1,26 @@
+ACABAMENTO PEREGRINI — 6 de setembro de 2026
+
+Este pacote altera somente dist/styles.css, partindo da versão do GitHub
+39da57aec6a866b1798bfcf621f0722304620b52.
+Não inclui textos, editor ou páginas antigas.
+
+COMO APLICAR
+1. Extraia o ZIP.
+2. No repositório DanteAleks/Ensaios-Filosoficos, abra a pasta dist.
+3. Clique em Add file > Upload files e envie o styles.css extraído.
+4. Confirme a substituição com Commit changes na branch principal.
+5. Aguarde a publicação concluir na aba Actions e recarregue o site.
+
+Não é necessário executar node generate. A publicação já está automatizada.
+Se você alterou styles.css depois desta versão, preserve uma cópia antes de
+substituí-lo. Os ornamentos novos estão no bloco final identificado como
+“Peregrini · ornamentos botânicos e acabamento editorial · 2026-09”.
+
+Inclui moldura botânica, acabamento dourado, bordas duplas, cartões refinados
+e detalhes nas aberturas dos capítulos. Mantém os controles de fonte e tema.
+Os ornamentos são vetoriais incorporados ao CSS, sem imagens ou bibliotecas
+externas adicionais. O peregrino e o símbolo original permanecem no site.
+
+Não foi possível concluir a verificação visual em navegador neste ambiente;
+confira desktop e celular após a publicação. O pacote não foi enviado ao
+GitHub por esta conversa.
