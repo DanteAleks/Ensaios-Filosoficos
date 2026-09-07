@@ -1,18 +1,28 @@
-CORREÇÃO: VOLTAR AO INÍCIO
+CONTATO POR E-MAIL E OBSERVAÇÃO SOBRE A ESCRITA
 
-1. Extraia o ZIP.
-2. No GitHub, abra Ensaios-Filosoficos > templates.
-3. Use Add file > Upload files e envie home.html deste pacote.
-4. Confirme em Commit changes e aguarde a publicação na aba Actions.
-5. Recarregue o site e teste o link no rodapé.
+Destinatário confirmado: viaperegriniluminus@hotmail.com
+Base do GitHub: ce97069f39befa7267fd3054b92192fc8fb5da2c
 
-O alvo #inicio agora está no corpo do documento, em vez do cabeçalho sticky.
-O GitHub Actions regenera a página automaticamente. Não é necessário rodar
-comandos no computador. Os textos, o editor e o CSS não são substituídos.
+INSTALAÇÃO
+Extraia o ZIP e envie as pastas dist, templates e scripts à raiz do seu
+repositório Ensaios-Filosoficos, mesclando as pastas existentes e substituindo
+os arquivos de mesmo nome. Não apague pastas. Confirme em Commit changes e
+aguarde a publicação automática em Actions > Atualizar site Peregrini.
+Não é necessário executar comandos. Este pacote não inclui textos nem páginas
+geradas antigas; a publicação reconstruirá as páginas com seu acervo atual.
 
-Este template foi obtido da versão atual do GitHub em 6/9/2026. Se fizer
-outras mudanças nele antes de aplicar, basta mover id="inicio" da tag
-<header class="site-header"> para a tag <body>, preservando suas mudanças.
+O botão ao final de cada texto abre o aplicativo de e-mail do leitor com seu
+endereço, o título e a forma da leitura no assunto e o link do texto no corpo.
+Nada é enviado automaticamente. O site não coleta nem armazena mensagens.
+Se não houver aplicativo de e-mail configurado, o leitor pode copiar o endereço.
 
-Conferência estrutural concluída: um único alvo inicio no body e três links
-apontando para ele. O comportamento em navegador ainda precisa ser conferido.
+A redação aprovada sobre IA está no rodapé, dentro de uma observação recolhida
+que o leitor pode abrir. Não se repete nos ensaios.
+
+As avaliações (corações públicos e não gostei privado) ainda não estão
+implementadas: exigem armazenamento externo e acesso autenticado do autor.
+
+Verificação: geração das seis páginas concluída; destinatário, assunto, link,
+posição do contato, copiar endereço e alternativa em caso de falha verificados
+em DOM simulado. A abertura do aplicativo de e-mail depende do aparelho.
+Não houve envio de mensagens nem publicação no GitHub por esta conversa.

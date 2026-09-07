@@ -343,3 +343,16 @@ html[data-theme="noite"] .hero-art { box-shadow:0 22px 55px rgba(0,0,0,.4),inset
 .resume-reading small { flex-basis:100%; color:var(--muted); }
 @media(max-width:800px) { .work-grid { grid-template-columns:minmax(0,1fr); } }
 @media print { .resume-reading { display:none !important; } }
+
+/* Contato e observação discreta sobre a escrita */
+.writing-observation { grid-column:1/-1; max-width:70rem; font-size:.875rem; line-height:1.65; color:#c5c9c0; }
+.writing-observation summary { cursor:pointer; text-underline-offset:.25rem; }
+.writing-observation[open] summary { margin-bottom:.8rem; }
+footer .writing-observation p { color:inherit; font:inherit; text-align:left; margin:.65rem 0; }
+.reader-contact { margin-top:4rem; padding:1.5rem 0; border-top:3px double var(--gold); font:1rem/1.65 var(--sans); }
+.reading-text .reader-contact h2 { font:400 1.5rem/1.3 var(--serif); margin:0 0 1rem; }
+.contact-actions { display:flex; flex-wrap:wrap; gap:.8rem; align-items:center; }
+.contact-email,.contact-actions button { padding:.65rem .9rem; border:1px solid var(--gold); background:var(--surface); color:var(--ink); font:inherit; text-decoration:none; cursor:pointer; }
+.reader-contact .contact-help,.reader-contact .contact-address,.contact-status { color:var(--muted); font-size:.9rem; }
+.contact-address { overflow-wrap:anywhere; user-select:all; }
+@media print { .reader-contact { display:none; } }
