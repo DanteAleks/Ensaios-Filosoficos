@@ -1,4 +1,4 @@
-Este pacote corrige as avaliações e acrescenta mensagens privadas para o autor.
+Este pacote corrige as avaliações, reúne o editor e a caixa de mensagens numa única área do autor e mantém as mensagens privadas.
 
 1. Copie os arquivos mantendo as pastas para dentro do repositório Ensaios-Filosoficos.
 2. Faça commit/push na branch main. O GitHub Pages executará scripts/generate.mjs.
