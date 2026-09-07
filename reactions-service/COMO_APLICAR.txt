@@ -1,0 +1,16 @@
+CAPITULARES PEREGRINI
+
+Substitua dist/styles.css no GitHub pelo arquivo deste pacote. Aguarde a
+publicação automática. A base foi consultada no GitHub nesta atualização.
+Se alterar o CSS depois, mescle o bloco final “Iluminuras Peregrini” em vez
+de substituir as outras alterações.
+
+As capitulares usam letras grandes, moldura em arco, detalhe botânico e a
+paleta atual. Aparecem na abertura de cada capítulo principal. Títulos e
+subtítulos recebem detalhes discretos. As letras continuam sendo texto
+selecionável e o tamanho acompanha as preferências de leitura. A impressão
+conserva o estilo simples já existente.
+
+O pacote altera somente a aparência. Não implementa caixa de mensagens nem
+sincronização do Hotmail. Não foi publicado por esta conversa e ainda requer
+conferência visual em navegador.

@@ -357,13 +357,51 @@ footer .writing-observation p { color:inherit; font:inherit; text-align:left; ma
 .contact-address { overflow-wrap:anywhere; user-select:all; }
 @media print { .reader-contact { display:none; } }
 
-/* Avaliações: apenas os corações têm contagem pública. */
-.reader-reactions { margin-top:3rem; padding-top:1.5rem; border-top:3px double var(--gold); font:1rem/1.65 var(--sans); }
-.reading-text .reader-reactions h2 { font:400 1.5rem/1.3 var(--serif); }
-.reaction-buttons { display:flex; flex-wrap:wrap; gap:.8rem; }
-.reaction-buttons button { display:inline-flex; align-items:center; gap:.6rem; padding:.65rem 1rem; min-height:44px; border:1px solid var(--gold); color:var(--ink); background:var(--surface); font:inherit; cursor:pointer; }
-.reaction-buttons button[aria-pressed="true"] { background:var(--forest); color:#f3efe4; box-shadow:inset 0 -3px var(--gold); }
-.reaction-buttons button:disabled { opacity:.55; cursor:default; }
-.reaction-buttons [data-vote="like"] > span:first-child { font-size:1.6rem; line-height:1; }
-.reaction-help,.reader-reactions [role="status"] { font-size:.875rem; color:var(--muted); }
-@media print { .reader-reactions { display:none; } }
+/* Iluminuras Peregrini: capitulares na abertura dos capítulos. */
+@media screen {
+ .reading-text > .chapter > p:first-of-type { display:flow-root; }
+ .reading-text > .chapter > p:first-of-type::first-letter {
+  float:left;
+  font-family:Palatino,'Palatino Linotype','Book Antiqua',Georgia,serif;
+  font-size:3.15em;
+  font-weight:400;
+  line-height:1;
+  color:var(--gold);
+  padding:.18em .24em .16em;
+  margin:.09em .2em .04em 0;
+  border:3px double var(--gold);
+  border-radius:44% 44% 2px 2px;
+  background-color:var(--paper);
+  background-image:var(--ornament-corner);
+  background-position:left bottom;
+  background-repeat:no-repeat;
+  background-size:65% auto;
+ }
+ .reading-text > .chapter > h2 {
+  padding-top:1.25rem;
+  letter-spacing:.015em;
+  text-wrap:balance;
+ }
+ .reading-text > .chapter > h2::before {
+  width:clamp(4rem,16vw,8rem);
+  height:.8rem;
+  border-top:3px double var(--ornament-line);
+  border-bottom:1px solid var(--ornament-line);
+  border-radius:50%;
+  margin-bottom:1.25rem;
+ }
+ .reading-text > .chapter > .chapter > h3 {
+  border-left:3px double var(--ornament-line);
+  padding-left:.7em;
+ }
+}
+@media screen and (max-width:600px) {
+ .reading-text > .chapter > p:first-of-type::first-letter {
+  font-size:2.5em;
+  padding:.14em .18em;
+  margin-right:.16em;
+ }
+}
+@media (forced-colors:active) {
+ .reading-text > .chapter > p:first-of-type::first-letter { background:none; color:CanvasText; border-color:CanvasText; }
+}
