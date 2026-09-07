@@ -3,7 +3,8 @@ const MANIFEST=ORIGIN+'/Ensaios-Filosoficos/reactions-manifest.json';
 const validWork=s=>typeof s==='string'&&/^[a-z0-9]+(?:-[a-z0-9]+)*\/(didatico|sintetico)$/.test(s)&&s.length<=150;
 const validId=s=>typeof s==='string'&&/^[a-f0-9]{32}$/.test(s);
 async function digest(text){return Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(text))),b=>b.toString(16).padStart(2,'0')).join('');}
-async function published(work){const r=await fetch(MANIFEST,{cf:{cacheTtl:60,cacheEverything:true},signal:AbortSignal.timeout(8000)});if(!r.ok)throw Error('manifest');const list=await r.json();return Array.isArray(list)?list.find(w=>w.id===work):null;}
+async function manifest(){const r=await fetch(MANIFEST,{cf:{cacheTtl:60,cacheEverything:true},signal:AbortSignal.timeout(8000)});if(!r.ok)throw Error('manifest');const list=await r.json();if(!Array.isArray(list))throw Error('manifest');return list;}
+async function published(work){return (await manifest()).find(w=>w.id===work)||null;}
 async function authorized(request,secret){if(typeof secret!=='string'||secret.length<32)return false;const token=request.headers.get('Authorization')||'';if(token.length>512)return false;const a=await digest(token),b=await digest('Bearer '+secret);let diff=0;for(let i=0;i<a.length;i++)diff|=a.charCodeAt(i)^b.charCodeAt(i);return diff===0;}
 class InputError extends Error {constructor(message,status=400){super(message);this.status=status;}}
 async function body(request){if(!request.headers.get('Content-Type')?.toLowerCase().startsWith('application/json'))throw new InputError('Formato inválido.',415);const reader=request.body?.getReader();if(!reader)throw new InputError('Envio vazio.');const chunks=[];let size=0;while(true){const {done,value}=await reader.read();if(done)break;size+=value.length;if(size>10000){await reader.cancel();throw new InputError('Mensagem muito grande.',413);}chunks.push(value);}const bytes=new Uint8Array(size);let offset=0;for(const chunk of chunks){bytes.set(chunk,offset);offset+=chunk.length;}try{const value=JSON.parse(new TextDecoder().decode(bytes));if(!value||Array.isArray(value)||typeof value!=='object')throw Error();return value;}catch{throw new InputError('Envio inválido.');}}
@@ -21,7 +22,7 @@ export default {
    return reply({ready:!missing.length,missing},missing.length?503:200);
   }
   if(origin!==ORIGIN)return reply({error:'Origem não permitida.'},403);
-  const routes={'/counts':'GET','/vote':'POST','/messages':'POST','/email-click':'POST','/admin/inbox':'GET','/admin/message':'POST'};
+  const routes={'/counts':'GET','/vote':'POST','/messages':'POST','/email-click':'POST','/admin/inbox':'GET','/admin/feedback':'GET','/admin/message':'POST'};
   if(!routes[url.pathname])return reply({error:'Não encontrado.'},404);
   if(request.method==='OPTIONS')return new Response(null,{status:204,headers:{...headers,'Access-Control-Allow-Methods':'GET, POST, OPTIONS','Access-Control-Allow-Headers':'Content-Type, Authorization','Access-Control-Max-Age':'600'}});
   if(request.method!==routes[url.pathname])return reply({error:'Método não permitido.'},405);
@@ -35,6 +36,12 @@ export default {
     const rows=await env.DB.prepare('SELECT id,kind,work,title,name,email,message,status,created_at FROM private_messages WHERE id < ? ORDER BY id DESC LIMIT 26').bind(before).all();
     const items=rows.results.slice(0,25),unread=Number((await env.DB.prepare("SELECT COUNT(*) AS n FROM private_messages WHERE status='new'").first()).n);
     return reply({items,unread,next:rows.results.length>25?items.at(-1).id:null});
+   }
+   if(url.pathname==='/admin/feedback'){
+    const rows=await env.DB.prepare("SELECT work, SUM(CASE WHEN value='like' THEN 1 ELSE 0 END) AS likes, SUM(CASE WHEN value='dislike' THEN 1 ELSE 0 END) AS dislikes FROM reactions GROUP BY work").all();
+    const counts=new Map(rows.results.map(row=>[row.work,{likes:Number(row.likes)||0,dislikes:Number(row.dislikes)||0}]));
+    const items=(await manifest()).map(entry=>{const count=counts.get(entry.id)||{likes:0,dislikes:0};return {work:entry.id,title:entry.title,format:entry.format,likes:count.likes,dislikes:count.dislikes};});
+    return reply({items});
    }
    const data=await body(request);
    if(url.pathname==='/admin/message'){

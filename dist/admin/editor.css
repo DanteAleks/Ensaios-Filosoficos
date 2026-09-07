@@ -7,6 +7,7 @@
 
 .author-navigation { display:flex; flex-wrap:wrap; gap:1.5rem; margin-bottom:2rem; }
 .messages-panel { margin-top:4rem; padding-top:2rem; border-top:3px double #ba9550; }
+.feedback-panel { margin-top:4rem; padding-top:2rem; border-top:3px double #ba9550; }
 .inbox-login-row { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:.7rem; align-items:end; }
 .inbox-login-row input { min-width:0; }
 .inbox-login-row button { white-space:nowrap; }
@@ -17,4 +18,10 @@
 .inbox-question { white-space:pre-wrap; }
 .inbox-actions { display:flex; flex-wrap:wrap; gap:.5rem; margin:1rem 0; }
 .inbox-reply { display:inline-block; margin:.5rem 1rem .5rem 0; }
+.feedback-list { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:1rem; margin-top:1rem; }
+.feedback-item { padding:1rem 1.1rem; border:1px solid #bca777; background:var(--surface); }
+.feedback-item h3 { margin:0 0 .25rem; overflow-wrap:anywhere; }
+.feedback-item small { color:var(--muted); overflow-wrap:anywhere; }
+.feedback-values { display:flex; gap:1.2rem; margin-top:.9rem; color:var(--ink); font-family:Georgia,serif; font-size:1.08rem; }
+.feedback-values span:last-child { color:var(--muted); }
 @media(max-width:600px){.inbox-login-row{grid-template-columns:1fr}.inbox-login-row button{width:100%;}}

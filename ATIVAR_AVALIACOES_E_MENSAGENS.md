@@ -70,7 +70,7 @@ O GitHub Pages executa `node scripts/generate.mjs` a cada alteração na branch 
 - o e-mail e a pergunta armazenados somente no D1;
 - o registro anônimo de que alguém clicou em enviar e-mail.
 
-Na área `dist/admin`, o primeiro formulário reúne o acesso ao editor e, opcionalmente, a chave `MESSAGES_ADMIN_KEY`. Assim, você informa as duas chaves uma única vez na entrada da área do autor; a chave de mensagens não é enviada ao GitHub. Depois do login, “Escreva. Revise. Publique.” e **Mensagens para o autor** ficam na mesma área. Se deixar a chave de mensagens em branco, ela poderá ser informada uma vez dentro do painel de mensagens.
+Na área `dist/admin`, o primeiro formulário reúne o acesso ao editor e, opcionalmente, a chave `MESSAGES_ADMIN_KEY`. Assim, você informa as duas chaves uma única vez na entrada da área do autor; a chave de mensagens não é enviada ao GitHub. Depois do login, “Escreva. Revise. Publique.”, **Mensagens para o autor** e **Feedback dos textos** ficam na mesma área. O feedback mostra, de forma privada, os corações e os “não gostei” de cada obra. Se deixar a chave de mensagens em branco, ela poderá ser informada uma vez dentro do painel de mensagens; essa mesma autorização libera o feedback, sem pedir uma segunda senha.
 
 A resposta abre o aplicativo de e-mail do autor com o título, a obra e a pergunta já preenchidos. O leitor recebe a resposta no e-mail informado.
 
