@@ -1,11 +1,8 @@
-Envie as pastas dist e scripts deste pacote à raiz do repositório GitHub,
-mesclando-as e substituindo somente os arquivos de mesmo nome.
-Aguarde Actions > Atualizar site Peregrini concluir.
+Este pacote corrige as avaliações e acrescenta mensagens privadas para o autor.
 
-Removidos os textos explicativos das avaliações, a explicação do botão de
-e-mail e o endereço fixo na página. Botões de contato e copiar preservados.
-Se a cópia automática falhar, o endereço aparece em um campo selecionável.
-Sem URL do serviço configurada, a seção de avaliações fica oculta. Com URL
-configurada, os botões continuam funcionando e mostram erros ou confirmações.
-O campo apiUrl e seus textos não são alterados por este pacote.
-Não houve publicação remota por esta conversa.
+1. Copie os arquivos mantendo as pastas para dentro do repositório Ensaios-Filosoficos.
+2. Faça commit/push na branch main. O GitHub Pages executará scripts/generate.mjs.
+3. No Cloudflare, execute reactions-service/schema.sql no D1, publique reactions-service/worker.mjs, vincule o D1 como DB e crie os segredos REACTION_SALT e MESSAGES_ADMIN_KEY.
+4. Leia ATIVAR_AVALIACOES_E_MENSAGENS.md antes de configurar o Worker.
+
+Não há senhas neste pacote. Os exemplos de chaves no manual são públicos e servem apenas para mostrar o formato; crie valores novos para uso real.

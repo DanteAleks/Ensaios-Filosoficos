@@ -4,3 +4,12 @@
 #draft-recovery,#publication { padding:1rem; margin:1rem 0; border:3px double #ba9550; }
 #draft-status { color:#496854; }
 #draft-status.error { color:#a32929; }
+
+.author-navigation { display:flex; flex-wrap:wrap; gap:1.5rem; margin-bottom:2rem; }
+.messages-panel { margin-top:4rem; padding-top:2rem; border-top:3px double #ba9550; }
+.inbox-item { padding:1.25rem; margin:1rem 0; border:1px solid #bca777; overflow-wrap:anywhere; }
+.inbox-item h3 { margin-top:0; }
+.inbox-item small { display:block; margin:.5rem 0; }
+.inbox-question { white-space:pre-wrap; }
+.inbox-actions { display:flex; flex-wrap:wrap; gap:.5rem; margin:1rem 0; }
+.inbox-reply { display:inline-block; margin:.5rem 1rem .5rem 0; }
