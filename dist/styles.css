@@ -372,13 +372,24 @@ footer .writing-observation p { color:inherit; font:inherit; text-align:left; ma
 /* Correspondência privada */
 .author-message { margin-top:3rem; border-top:3px double var(--gold); padding-top:1.5rem; font:1rem/1.65 var(--sans); }
 .reader-contact.author-message .contact-actions { margin-bottom:1rem; }
-.reader-contact.author-message .contact-help { margin:1.5rem 0 .25rem; }
+.reader-contact.author-message .contact-help { margin:0 0 1rem; }
 .reading-text .author-message h2 { font:400 1.5rem/1.3 var(--serif); }
-.author-message fieldset { margin:0; padding:0; border:0; min-width:0; }
-.author-message label { display:block; margin-top:1rem; }
-.author-message label span,.author-message > p { color:var(--muted); }
-.author-message input,.author-message textarea { display:block; width:100%; max-width:100%; padding:.7rem; border:1px solid var(--line); background:var(--surface); color:var(--ink); font:inherit; border-radius:2px; }
-.author-message textarea { resize:vertical; }
-.author-message button { margin-top:1rem; padding:.75rem 1.2rem; border:1px solid var(--gold); background:var(--forest); color:#f3efe4; font:inherit; cursor:pointer; }
-.author-message fieldset:disabled { opacity:.65; }
+.author-message > .contact-status { min-height:1.5em; margin:.4rem 0 1rem; }
+.private-message-details { border:1px solid var(--line); background:color-mix(in srgb,var(--surface) 86%,var(--gold) 14%); }
+.private-message-details > summary { display:flex; align-items:center; justify-content:space-between; gap:1rem; padding:.9rem 1rem; cursor:pointer; list-style:none; color:var(--ink); font-family:var(--serif); font-size:1.05rem; }
+.private-message-details > summary::-webkit-details-marker { display:none; }
+.private-message-details > summary::after { content:'+'; color:var(--gold); font:1.35rem/1 var(--sans); }
+.private-message-details[open] > summary { border-bottom:1px solid var(--line); }
+.private-message-details[open] > summary::after { content:'−'; }
+.private-message-details > summary small { margin-left:auto; color:var(--muted); font: .82rem/1.4 var(--sans); text-align:right; }
+.private-message-body { padding:1rem 1.1rem 1.25rem; }
+.private-message-form { max-width:48rem; margin:0; }
+.private-message-form fieldset { display:grid; gap:.8rem; margin:0; padding:0; border:0; min-width:0; }
+.private-message-form label { display:grid; gap:.35rem; margin:0; color:var(--ink); }
+.private-message-form label span { color:var(--muted); font-size:.9rem; font-weight:400; }
+.private-message-form input,.private-message-form textarea { display:block; width:100%; max-width:100%; padding:.7rem; border:1px solid var(--line); background:var(--surface); color:var(--ink); font:inherit; border-radius:2px; }
+.private-message-form textarea { resize:vertical; }
+.private-message-form button { justify-self:start; margin:0; padding:.75rem 1.2rem; border:1px solid var(--gold); background:var(--forest); color:#f3efe4; font:inherit; cursor:pointer; }
+.private-message-form fieldset:disabled { opacity:.65; }
+.private-message-body [data-message-status] { min-height:1.5em; margin:.9rem 0 0; color:var(--muted); }
 @media print { .author-message { display:none; } }

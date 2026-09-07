@@ -1,7 +1,7 @@
 (() => {
  'use strict';
  const box=document.querySelector('[data-author-message]');if(!box)return;
- const work=box.dataset.authorMessage,form=box.querySelector('form'),notice=box.querySelector('[role="status"]'),fieldset=box.querySelector('fieldset');
+ const work=box.dataset.authorMessage,form=box.querySelector('form'),notice=box.querySelector('[data-message-status]')||box.querySelector('[role="status"]'),fieldset=box.querySelector('fieldset');
  const base=window.PeregriniReactionsConfig?.apiUrl?.trim().replace(/\/$/,'');
  function api(){try{const u=new URL(base);if(u.protocol!=='https:'||u.username||u.password||u.pathname!=='/'||u.search||u.hash)throw Error();return u.origin;}catch{return null;}}
  const endpoint=api();
