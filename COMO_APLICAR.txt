@@ -1,28 +1,11 @@
-CONTATO POR E-MAIL E OBSERVAÇÃO SOBRE A ESCRITA
+Envie as pastas dist e scripts deste pacote à raiz do repositório GitHub,
+mesclando-as e substituindo somente os arquivos de mesmo nome.
+Aguarde Actions > Atualizar site Peregrini concluir.
 
-Destinatário confirmado: viaperegriniluminus@hotmail.com
-Base do GitHub: ce97069f39befa7267fd3054b92192fc8fb5da2c
-
-INSTALAÇÃO
-Extraia o ZIP e envie as pastas dist, templates e scripts à raiz do seu
-repositório Ensaios-Filosoficos, mesclando as pastas existentes e substituindo
-os arquivos de mesmo nome. Não apague pastas. Confirme em Commit changes e
-aguarde a publicação automática em Actions > Atualizar site Peregrini.
-Não é necessário executar comandos. Este pacote não inclui textos nem páginas
-geradas antigas; a publicação reconstruirá as páginas com seu acervo atual.
-
-O botão ao final de cada texto abre o aplicativo de e-mail do leitor com seu
-endereço, o título e a forma da leitura no assunto e o link do texto no corpo.
-Nada é enviado automaticamente. O site não coleta nem armazena mensagens.
-Se não houver aplicativo de e-mail configurado, o leitor pode copiar o endereço.
-
-A redação aprovada sobre IA está no rodapé, dentro de uma observação recolhida
-que o leitor pode abrir. Não se repete nos ensaios.
-
-As avaliações (corações públicos e não gostei privado) ainda não estão
-implementadas: exigem armazenamento externo e acesso autenticado do autor.
-
-Verificação: geração das seis páginas concluída; destinatário, assunto, link,
-posição do contato, copiar endereço e alternativa em caso de falha verificados
-em DOM simulado. A abertura do aplicativo de e-mail depende do aparelho.
-Não houve envio de mensagens nem publicação no GitHub por esta conversa.
+Removidos os textos explicativos das avaliações, a explicação do botão de
+e-mail e o endereço fixo na página. Botões de contato e copiar preservados.
+Se a cópia automática falhar, o endereço aparece em um campo selecionável.
+Sem URL do serviço configurada, a seção de avaliações fica oculta. Com URL
+configurada, os botões continuam funcionando e mostram erros ou confirmações.
+O campo apiUrl e seus textos não são alterados por este pacote.
+Não houve publicação remota por esta conversa.
