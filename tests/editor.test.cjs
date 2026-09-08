@@ -22,3 +22,4 @@ test('Current owner saves only the catalog; token never goes in URL or body',asy
 test('Concurrent edits stop before any write',async()=>{const s=server({conflict:true}),c=G.createClient(s.fetcher);await c.connect('test-only-value');await assert.rejects(c.save(original),/mais recente/);assert(!s.calls.some(x=>x.options.method==='PUT'));});
 test('Read-only token cannot claim successful save',async()=>{const s=server({denied:true}),c=G.createClient(s.fetcher);await c.connect('test-only-value');await assert.rejects(c.save(original),/não autorizou/);});
 test('Ambiguous network failure is reconciled without a second write',async()=>{const s=server({uncertain:true}),c=G.createClient(s.fetcher);await c.connect('test-only-value');await c.save(original);assert.equal(s.calls.filter(x=>x.options.method==='PUT').length,1);});
+

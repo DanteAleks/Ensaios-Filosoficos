@@ -13,3 +13,4 @@ filters.forEach(b=>b.onclick=()=>{active=b.dataset.filter;filters.forEach(f=>{f.
 document.querySelectorAll('[data-sort]').forEach(select=>select.addEventListener('change',()=>{const grid=document.getElementById(select.dataset.sort);const cards=[...grid.children];cards.sort((a,b)=>{if(select.value==='author')return Number(a.dataset.order)-Number(b.dataset.order);const x=a.dataset.date,y=b.dataset.date;if(!x||!y)return x?-1:y?1:Number(a.dataset.order)-Number(b.dataset.order);return (select.value==='newest'?y.localeCompare(x):x.localeCompare(y))||Number(a.dataset.order)-Number(b.dataset.order);});grid.append(...cards);}));
 })();
 
+

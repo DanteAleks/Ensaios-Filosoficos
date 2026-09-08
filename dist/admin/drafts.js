@@ -10,3 +10,4 @@ function create(storage){return {
 const api={create};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.PeregriniDrafts=api;
 })(typeof window!=='undefined'?window:{});
 
+

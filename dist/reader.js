@@ -9,3 +9,4 @@
   window.addEventListener('hashchange',mark);mark();
   document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',()=>{const target=document.getElementById(a.hash.slice(1));if(target?.matches('.chapter'))target.focus({preventScroll:true});}));
 })();
+

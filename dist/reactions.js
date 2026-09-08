@@ -14,3 +14,4 @@
  buttons.forEach(button=>button.addEventListener('click',async()=>{if(busy||!available||!voter)return;busy=true;render();const next=selected===button.dataset.vote?'none':button.dataset.vote;message.textContent='Registrando…';try{const result=await request('/vote',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({work,voter,value:next})});if(result.selection!==next)throw Error('Não foi possível confirmar a avaliação. Tente novamente.');selected=next;try{localStorage.setItem(key,selected);}catch{}message.textContent=next==='none'?'Avaliação retirada.':next==='dislike'?'Avaliação registrada.':'Obrigado pela avaliação!';}catch(e){message.textContent=e instanceof TypeError||e.name==='TimeoutError'?'Não foi possível confirmar a avaliação. Tente novamente.':e.message;}finally{busy=false;render();}}));
  init();
 })();
+

@@ -18,3 +18,4 @@ export function parseCatalog(source) {
   }
   return data;
 }
+

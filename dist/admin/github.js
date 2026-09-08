@@ -25,3 +25,4 @@
   const api={createClient,encode,decode};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.PeregriniEditorGitHub=api;
 })(typeof window!=='undefined'?window:{});
 
+

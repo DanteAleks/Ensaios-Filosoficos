@@ -37,3 +37,15 @@
 #import-works label { border-bottom:1px solid var(--line); padding:.5rem 0; }#import-works input { width:auto; margin-right:.6rem; }
 #notice { position:sticky; top:0; z-index:5; }
 #feedback-list { display:grid; gap:1rem; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); }
+
+/* Página de escrita Peregrini */
+.editor-intro { max-width:70ch; color:var(--muted); }
+.document-toolbar { position:sticky; top:5.6rem; z-index:1; border-radius:12px 12px 0 0; box-shadow:0 4px 16px #172e2510; }
+.document-editor { border:3px double var(--gold); border-top:0; border-radius:0 0 12px 12px; background:linear-gradient(110deg,#bca7770a,transparent 25%),var(--surface); }
+.document-editor:focus { outline:2px solid var(--gold); }
+.document-editor h2 { letter-spacing:.015em; }
+.document-editor h2::after { content:' ❦'; color:var(--gold); font-size:.65em; }
+.document-editor h3 { padding-left:.7rem; border-left:2px solid var(--gold); }
+#editor-form { min-width:0; }
+@media(max-width:800px){.document-toolbar{top:0}.document-toolbar button{min-height:44px}.document-editor{padding:1.1rem}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}

@@ -413,3 +413,11 @@ footer .writing-observation p { color:inherit; font:inherit; text-align:left; ma
 #colecoes { background:radial-gradient(ellipse at top right,color-mix(in srgb,var(--gold) 7%,transparent),transparent 60%); }
 #colecoes > h2::after { content:'❦'; color:var(--gold); margin-left:1rem; }
 @media print { .doc-block { color:#000; } }
+
+/* Bordas do manuscrito e ornamentos de capítulo */
+.reading-text > .chapter { padding-top:.6rem; }
+.reading-text > .chapter > h2::after,.reading-text > h2.doc-block::after { content:' ❦'; color:var(--gold); font-size:.65em; }
+.reading-text .chapter .chapter > h3 { border-left:2px solid var(--gold); padding-left:.8rem; }
+.collection-section { border-radius:10px; padding:1.5rem 1rem 2rem; }
+.catalog-order select { max-width:100%; padding:.65rem; color:var(--ink); background:var(--surface); border:1px solid var(--gold); font:inherit; }
+@media print{.reading-text > .chapter > h2::after,.reading-text > h2.doc-block::after{content:''}}

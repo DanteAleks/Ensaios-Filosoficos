@@ -24,7 +24,9 @@ jobs:
           node-version: '24'
           package-manager-cache: false
       - name: Validar e gerar paginas com os textos atuais
-        run: node scripts/generate.mjs
+        run: |
+          node scripts/generate.mjs
+          node scripts/verify-site.mjs
       - name: Preparar GitHub Pages
         uses: actions/configure-pages@v5
       - name: Enviar site gerado
@@ -44,3 +46,4 @@ jobs:
       - name: Publicar
         id: deployment
         uses: actions/deploy-pages@v4
+

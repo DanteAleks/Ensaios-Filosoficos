@@ -13,3 +13,4 @@
  let lastClick=0;
  document.querySelectorAll('.contact-email').forEach(a=>a.addEventListener('click',()=>{if(!endpoint||Date.now()-lastClick<30000)return;lastClick=Date.now();post('/email-click',{work,requestId:uid()},true).catch(()=>{});}));
 })();
+

@@ -12,3 +12,4 @@ let timer;
 function save(){if(scrollY<200)return;let section;for(const node of article.querySelectorAll('.chapter'))if(node.getBoundingClientRect().top<=100)section=node;const value={path,title:article.querySelector('h1').textContent,y:scrollY,chapter:section?.id||'',offset:section?Math.max(0,scrollY-(section.getBoundingClientRect().top+scrollY)):0};try{localStorage.setItem(key,JSON.stringify(value));}catch{}}
 window.addEventListener('scroll',()=>{clearTimeout(timer);timer=setTimeout(save,350);},{passive:true});window.addEventListener('pagehide',save);
 })();
+

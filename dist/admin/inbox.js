@@ -32,3 +32,4 @@
  window.PeregriniInbox={open,lock};
  window.addEventListener('pagehide',lock);
 })();
+
