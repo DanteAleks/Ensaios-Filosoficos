@@ -394,7 +394,7 @@
     },
     {
       "id": "suma",
-      "title": "Caderno I — De vita contemplativa",
+      "title": "Caderno I — Test",
       "kind": "Suma",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "variants": [
@@ -402,7 +402,7 @@
           "id": "sintetico",
           "status": "finalizado",
           "availability": "demonstracao",
-          "updated": null,
+          "updated": "2026-09-08",
           "last": "",
           "next": "",
           "chapters": [
