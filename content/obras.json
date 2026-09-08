@@ -394,44 +394,2299 @@
     },
     {
       "id": "suma",
-      "title": "Caderno I — Test",
+      "title": "Investigação sobre o entendimento humano - David Hume",
       "kind": "Suma",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "summary": "Suma sobre a obra Investigação sobre o entendimento humano, de David Hume, publicada originalmente em 1748.",
       "variants": [
         {
           "id": "sintetico",
-          "status": "finalizado",
-          "availability": "demonstracao",
+          "status": "andamento",
+          "availability": "trecho",
           "updated": "2026-09-08",
-          "last": "",
-          "next": "",
+          "last": "Secção 3",
+          "next": "Secção 4",
           "chapters": [
             {
-              "id": "capitulo-1",
-              "title": "Conceitos centrais",
+              "id": "introducao",
+              "title": "Das diferentes espécies de filosofia",
               "paragraphs": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae sapien vel massa consequat dignissim. Donec porttitor, lorem at fermentum interdum, nisl erat luctus neque, vitae finibus velit justo sed augue. Sed tempus, arcu non posuere tincidunt, lectus neque faucibus ipsum, vel consequat lectus nibh ac risus."
+                "\nA questão central do texto pode ser formulada da seguinte maneira: a filosofia deve ensinar as pessoas a viver melhor ou deve investigar com precisão os fundamentos do conhecimento e da ação? Hume não considera essas finalidades incompatíveis. Embora reconheça as diferenças entre elas, procura mostrar que a filosofia alcança sua melhor forma quando combina profundidade, clareza e utilidade para a vida.\n",
+                "\n"
               ],
-              "subchapters": []
+              "subchapters": [
+                {
+                  "id": "secao-4",
+                  "title": "A filosofia como ciência da natureza humana",
+                  "paragraphs": [
+                    "Hume inicia o texto afirmando que a filosofia moral pode ser tratada de duas maneiras. A expressão “filosofia moral”, porém, possui em sua obra um significado mais amplo do que costuma ter atualmente. Ela não se refere somente ao estudo do certo e do errado. Para Hume, a filosofia moral é a ciência da natureza humana, isto é, a investigação de como os seres humanos pensam, sentem, julgam, escolhem e agem.",
+                    "Essa ciência deveria examinar tanto o entendimento quanto as paixões. O entendimento corresponde às capacidades relacionadas ao pensamento, ao conhecimento e ao raciocínio. As paixões abrangem os desejos, sentimentos e impulsos que influenciam nossas escolhas. Hume não considera o ser humano uma criatura governada exclusivamente pela razão. Por isso, uma filosofia adequada precisa levar em consideração as diferentes forças que participam da conduta humana.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-8",
+                  "title": "A filosofia fácil e humana",
+                  "paragraphs": [
+                    "\n",
+                    "A primeira maneira de filosofar é chamada por Hume de filosofia fácil e humana. Ela considera o ser humano principalmente como um ser destinado à ação. Seu interesse não está apenas em definir teoricamente a virtude, mas em fazer com que as pessoas reconheçam seu valor e sejam motivadas a praticá-la.",
+                    "Os autores dessa tradição empregam exemplos retirados da vida cotidiana, contrastam comportamentos virtuosos e viciosos e utilizam recursos literários capazes de alcançar a imaginação e os sentimentos. Seu objetivo é apresentar a virtude de maneira atraente e o vício de maneira repulsiva. A filosofia torna-se, assim, um instrumento de formação do caráter.",
+                    "Hume relaciona essa maneira de escrever a autores como Cícero, Joseph Addison e La Bruyère. Esses escritores não se limitam a formular sistemas conceituais. Eles observam os costumes, descrevem personalidades e procuram tornar suas reflexões compreensíveis para leitores que não possuem formação filosófica especializada.",
+                    "Essa concepção aproxima-se, em certos aspectos, da ética de Aristóteles. Na Ética a Nicômaco, Aristóteles afirma que o estudo da virtude não deve ser realizado apenas para sabermos o que ela é, mas para nos tornarmos virtuosos. Conhecer teoricamente a justiça não é suficiente se esse conhecimento não modificar nossas escolhas. Para Aristóteles, o caráter é formado pelo hábito: tornamo-nos justos realizando ações justas e corajosos praticando ações corajosas.",
+                    "Hume e Aristóteles compartilham, portanto, a ideia de que a filosofia moral não pode permanecer inteiramente separada da vida. A reflexão sobre a virtude deve participar da formação daquele que reflete.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-1",
+                  "title": "Os perigos dos dois extremos",
+                  "paragraphs": [
+                    "Hume reconhece vantagens e riscos nas duas maneiras de filosofar. A filosofia fácil consegue alcançar a vida, influenciar os sentimentos e orientar a conduta. Seu risco consiste em permanecer superficial e empregar conceitos que não foram suficientemente examinados.",
+                    "A filosofia abstrata oferece maior rigor e procura descobrir os fundamentos de nossos pensamentos e avaliações. Seu risco consiste em afastar-se demasiadamente da experiência, criar uma linguagem desnecessariamente obscura ou produzir sistemas que não podem ser relacionados à realidade humana.",
+                    "O problema não está na profundidade, mas na profundidade sem clareza. Da mesma maneira, o problema não está na simplicidade, mas na simplicidade sem fundamento. Uma filosofia acessível pode orientar as pessoas de maneira equivocada quando não examina cuidadosamente suas próprias premissas. Uma filosofia rigorosa, por outro lado, pode tornar-se estéril quando já não consegue comunicar seus resultados.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-5",
+                  "title": "O equilíbrio entre pensamento e vida",
+                  "paragraphs": [
+                    "Para Hume, o ser humano possui uma natureza composta. Ele é racional porque deseja conhecer, sociável porque necessita da convivência e ativo porque precisa agir e ocupar-se dos assuntos da vida.",
+                    "Uma existência dedicada exclusivamente ao pensamento pode conduzir ao isolamento e à melancolia. Uma vida limitada às relações sociais pode tornar-se superficial. Uma vida inteiramente consumida pelo trabalho e pelas obrigações pode não deixar espaço para a reflexão e para o desenvolvimento intelectual.",
+                    "Hume defende, por isso, um gênero misto de vida. A busca pelo conhecimento deve ser cultivada sem destruir a sociabilidade e a capacidade de agir. A filosofia precisa fazer parte da existência sem retirar o filósofo do mundo humano. Essa ideia é sintetizada pela recomendação mais conhecida da seção: devemos ser filósofos, mas, no meio de toda a nossa filosofia, devemos continuar sendo humanos.",
+                    "Essa afirmação não constitui uma rejeição da investigação profunda. Hume pretende lembrar que o conhecimento deve respeitar a constituição humana daquele que conhece. O filósofo continua sujeito às emoções, às necessidades do corpo, às relações sociais e às exigências da vida prática.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-10",
+                  "title": "A utilidade da filosofia abstrata",
+                  "paragraphs": [
+                    "Apesar de reconhecer a preferência natural das pessoas pela filosofia acessível, Hume apresenta uma defesa da investigação abstrata. Segundo ele, a própria filosofia prática depende do trabalho realizado pela filosofia rigorosa.",
+                    "Para falar adequadamente sobre justiça, virtude, beleza ou conhecimento, precisamos compreender o significado desses conceitos. Também precisamos investigar como formamos nossos julgamentos e por que determinadas ações despertam aprovação enquanto outras provocam censura. Sem esse trabalho, a filosofia moral corre o risco de repetir opiniões comuns sem saber se elas possuem um fundamento seguro.",
+                    "Hume explica essa relação por meio da comparação entre o anatomista e o pintor. O anatomista estuda a estrutura interna do corpo, inclusive seus aspectos menos agradáveis. O pintor, por sua vez, representa a aparência exterior do corpo e procura produzir uma imagem bela. Apesar da diferença entre suas atividades, o conhecimento do anatomista pode ajudar o pintor a representar corretamente as formas humanas.",
+                    "A filosofia abstrata realiza uma espécie de anatomia da mente. Ela investiga as estruturas internas do pensamento e dos sentimentos. A filosofia fácil emprega esse conhecimento para representar a vida humana e orientar a conduta. Assim como o pintor pode beneficiar-se da anatomia, o escritor moral pode beneficiar-se de uma compreensão rigorosa da natureza humana.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-15",
+                  "title": "A verdadeira e a falsa metafísica",
+                  "paragraphs": [
+                    "Uma das principais objeções à filosofia abstrata consiste na possibilidade de ela produzir obscuridade, incerteza e erro. Hume admite que grande parte da metafísica tradicional empregou conceitos obscuros e raciocínios que ultrapassavam as capacidades do entendimento humano. Algumas dessas construções também teriam servido para proteger superstições e preconceitos religiosos.",
+                    "Entretanto, Hume não conclui que toda investigação metafísica deva ser abandonada. Para ele, precisamos cultivar uma metafísica verdadeira justamente para combater a metafísica falsa.",
+                    "A verdadeira metafísica consiste na investigação crítica do entendimento humano. Antes de afirmar que conhecemos alguma realidade distante da experiência, devemos perguntar como esse conhecimento seria possível. Também devemos investigar quais são as capacidades da razão, até onde elas alcançam e em quais assuntos deixam de oferecer respostas seguras.",
+                    "A metafísica falsa começa quando empregamos palavras sem ideias suficientemente claras, quando apresentamos uma suposição como conhecimento ou quando pretendemos alcançar realidades que ultrapassam inteiramente nossas capacidades. O remédio para esse problema não é abandonar o raciocínio, mas raciocinar com maior cuidado.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-20",
+                  "title": "A proximidade com John Locke",
+                  "paragraphs": [
+                    "Esse projeto aproxima Hume de John Locke. No Ensaio sobre o entendimento humano, Locke procurou investigar a origem, a certeza e a extensão do conhecimento. Antes de discutir os grandes problemas da realidade, seria necessário examinar o próprio instrumento por meio do qual tentamos conhecê-la.",
+                    "Para Locke, compreender os limites do entendimento permite distinguir conhecimento, opinião e crença. Também impede que as pessoas discutam com excessiva confiança sobre questões que talvez estejam além de suas capacidades.",
+                    "Hume continua esse projeto, mas desenvolve suas próprias conclusões. Ele procura investigar como as ideias se formam, como realizamos inferências e quais princípios explicam nossas crenças. A filosofia torna-se, assim, uma análise das condições e dos limites do conhecimento humano.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-24",
+                  "title": "A geografia mental",
+                  "paragraphs": [
+                    "Hume chama de geografia mental o trabalho de identificar, distinguir e organizar as operações da mente. Podemos perceber, por exemplo, que vontade, entendimento, imaginação e paixão não são exatamente a mesma coisa. Entretanto, explicar as fronteiras entre essas faculdades é uma tarefa difícil.",
+                    "Os objetos externos podem ser observados pelos sentidos. As operações da mente, porém, precisam ser examinadas por meio da reflexão. Além disso, nossos pensamentos e sentimentos se transformam rapidamente. Quando tentamos observá-los, muitas vezes aquilo que pretendíamos analisar já se modificou.",
+                    "Mesmo que a filosofia não consiga descobrir os princípios mais profundos da mente, o simples mapeamento de suas operações já constitui uma contribuição importante. Distinguir percepção, memória, imaginação, raciocínio, vontade e sentimento permite compreender melhor como produzimos nossos julgamentos."
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-28",
+                  "title": "O exemplo de Newton",
+                  "paragraphs": [
+                    "Hume compara a investigação da mente ao desenvolvimento da astronomia. Durante muito tempo, os astrônomos descreveram o movimento e a posição dos corpos celestes. Posteriormente, Isaac Newton formulou princípios capazes de explicar esses movimentos.",
+                    "Hume esperava que algo semelhante pudesse ocorrer no estudo da natureza humana. O filósofo não deveria limitar-se a descrever pensamentos e sentimentos isolados. Ele deveria procurar princípios gerais que explicassem como as operações mentais se relacionam.",
+                    "Essa aproximação não significa que Hume pretendesse tratar a mente exatamente como um objeto físico. Seu objetivo era adotar uma atitude investigativa semelhante à das ciências: observar os fenômenos, evitar hipóteses sem fundamento e procurar explicações gerais apoiadas na experiência.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-32",
+                  "title": "A influência sobre Kant",
+                  "paragraphs": [
+                    "A investigação de Hume influenciou profundamente Immanuel Kant. Nos Prolegômenos a toda metafísica futura, Kant reconheceu que o problema levantado por Hume interrompeu seu “sono dogmático” e deu uma nova direção às suas pesquisas.",
+                    "Kant não aceitou todas as conclusões de Hume. Enquanto Hume investigava a origem experimental de nossas ideias e questionava certas pretensões da metafísica, Kant procurou descobrir quais estruturas do entendimento tornam a experiência possível. Mesmo discordando de Hume, reconheceu a importância de seu desafio.",
+                    "O diálogo entre os dois filósofos mostra que a análise dos limites da razão não precisa conduzir simplesmente à rejeição da metafísica. Ela pode conduzir à tentativa de reconstruí-la sobre fundamentos mais seguros.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-36",
+                  "title": "Uma aplicação contemporânea",
+                  "paragraphs": [
+                    "A distinção apresentada por Hume continua atual. Um texto sobre justiça pode contar histórias comoventes, apresentar exemplos de boas ações e estimular o leitor a agir de maneira justa. Esse texto possui as características da filosofia fácil e humana. Ele pode influenciar a conduta, mas talvez não explique o que torna uma ação verdadeiramente justa.",
+                    "Outro texto pode distinguir justiça de igualdade, investigar o fundamento da obrigação moral e analisar diferentes teorias da responsabilidade. Esse trabalho se aproxima da filosofia exata e abstrata. Ele oferece maior precisão, mas pode tornar-se inacessível para muitos leitores.",
+                    "Uma filosofia completa procuraria reunir essas duas atividades. Primeiro, investigaria rigorosamente o conceito de justiça. Depois, apresentaria suas conclusões de maneira clara e mostraria como elas se aplicam à vida.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-40",
+                  "title": "Consideração crítica",
+                  "paragraphs": [
+                    "Alguns julgamentos históricos de Hume mostram-se excessivos. Ele sugere que autores de estilo acessível, como Cícero, Addison e La Bruyère, conservariam sua reputação, enquanto pensadores abstratos, como Aristóteles, Locke e Malebranche, poderiam ser esquecidos. A história não confirmou inteiramente essa previsão. Aristóteles e Locke permanecem entre os filósofos mais estudados.",
+                    "Isso demonstra que a permanência de uma obra não depende apenas da facilidade de sua leitura. Textos difíceis podem atravessar os séculos quando formulam problemas importantes ou oferecem conceitos que continuam intelectualmente fecundos.",
+                    "Essa objeção, porém, não elimina o núcleo do argumento de Hume. Sua contribuição mais importante está na defesa da complementaridade entre rigor e clareza. A filosofia profunda fornece fundamentos à reflexão prática, enquanto a exposição acessível devolve os resultados da investigação à vida humana.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-68",
+                  "title": "Síntese final",
+                  "paragraphs": [
+                    "Na primeira seção da Investigação sobre o entendimento humano, Hume distingue duas maneiras de fazer filosofia. A filosofia fácil e humana procura formar o caráter, orientar a conduta e aproximar a virtude dos sentimentos. A filosofia exata e abstrata investiga os princípios do pensamento, das avaliações e do conhecimento.",
+                    "Hume reconhece que a primeira é mais agradável e exerce maior influência sobre a vida. Ainda assim, defende a necessidade da segunda. Somente uma investigação rigorosa do entendimento pode esclarecer os conceitos empregados pela filosofia prática, estabelecer os limites do conhecimento e combater a superstição e a falsa metafísica.",
+                    "Seu objetivo final não é escolher uma filosofia e rejeitar a outra. Hume pretende reconciliar a investigação profunda com a clareza. A melhor filosofia deve ser rigorosa sem se tornar desnecessariamente obscura e acessível sem se tornar superficial. Ela deve compreender o ser humano e, ao mesmo tempo, permanecer ligada à experiência concreta daquele que procura compreender.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                }
+              ]
             },
             {
-              "id": "capitulo-2",
-              "title": "Percurso argumentativo",
+              "id": "secao-73",
+              "title": "Da origem das ideias",
               "paragraphs": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae sapien vel massa consequat dignissim. Donec porttitor, lorem at fermentum interdum, nisl erat luctus neque, vitae finibus velit justo sed augue. Sed tempus, arcu non posuere tincidunt, lectus neque faucibus ipsum, vel consequat lectus nibh ac risus."
+                "\n",
+                "A questão central dessa seção pode ser formulada da seguinte maneira: de onde vêm os conteúdos presentes em nosso pensamento? A imaginação realmente consegue criar algo inteiramente novo ou apenas reorganiza aquilo que anteriormente recebemos pela experiência?",
+                "Para responder, Hume distingue impressões e ideias e formula o princípio segundo o qual nossas ideias derivam, em última instância, de experiências anteriores.",
+                "\n"
               ],
-              "subchapters": []
+              "subchapters": [
+                {
+                  "id": "secao-1-2",
+                  "title": "O significado de percepção",
+                  "paragraphs": [
+                    "Hume emprega a palavra “percepção” em um sentido bastante amplo. Para ele, percepção é tudo aquilo que se apresenta à mente, como uma sensação, um sentimento, uma lembrança, uma imagem mental, um desejo ou um pensamento.",
+                    "Na tradução apresentada, aparece frequentemente a expressão “percepções do espírito”. Nesse contexto, a palavra “espírito” traduz o termo inglês mind e significa mente. Hume não está tratando de uma entidade espiritual no sentido religioso, mas do conjunto das atividades que compõem nossa experiência mental.",
+                    "As percepções são divididas em duas grandes classes: impressões e ideias. Essa distinção constitui o ponto de partida de sua teoria do conhecimento.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-5-2",
+                  "title": "A diferença entre impressões e ideias",
+                  "paragraphs": [
+                    "As impressões são nossas percepções mais fortes e vivas. Elas ocorrem quando sentimos dor ou prazer, vemos uma cor, ouvimos um som, desejamos alguma coisa, amamos, odiamos ou experimentamos uma emoção.",
+                    "As ideias são percepções menos intensas. Elas aparecem quando recordamos, imaginamos ou pensamos naquilo que anteriormente sentimos.",
+                    "Existe, por exemplo, uma diferença entre sentir uma dor e lembrar-se dela. A lembrança pode ser precisa e até emocionalmente marcante, mas normalmente não possui a mesma força da experiência original. Da mesma maneira, imaginar o sabor de uma fruta não equivale a prová-la.",
+                    "A diferença entre impressão e ideia não está necessariamente no objeto ao qual elas se referem. A mesma dor pode estar presente primeiro como experiência e depois como lembrança. O que se modifica é o modo como ela aparece à mente. Na experiência imediata, apresenta-se com maior força; na memória ou na imaginação, aparece de maneira mais fraca.",
+                    "A palavra “impressão” não significa, nesse contexto, uma opinião incerta, como quando dizemos que temos uma impressão sobre alguém. Ela designa uma experiência mental presente e viva. A palavra “ideia”, por sua vez, não significa uma entidade perfeita e eterna, como nas formas platônicas, nem uma simples opinião. Para Hume, ideia é a representação menos viva de algo que anteriormente foi experimentado.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-11",
+                  "title": "Força e vivacidade",
+                  "paragraphs": [
+                    "Hume utiliza a força e a vivacidade como critérios para distinguir impressões e ideias. A sensação atual costuma ser mais intensa do que sua representação no pensamento.",
+                    "Podemos imaginar uma chama, mas essa imagem mental não nos aquece. Podemos recordar uma música, mas a lembrança não possui normalmente a mesma presença do som que estamos efetivamente ouvindo. Podemos pensar na alegria de outra pessoa sem experimentar integralmente a emoção que ela sente.",
+                    "Hume admite que certas ideias podem alcançar grande intensidade. Uma lembrança traumática, um sonho ou uma imaginação especialmente vigorosa podem aproximar-se de uma experiência presente. Também existem impressões muito fracas, como um som distante ou uma sensação quase imperceptível.",
+                    "Isso cria uma dificuldade para sua classificação. Se a diferença entre impressões e ideias fosse exclusivamente uma diferença de intensidade, algumas lembranças poderiam ser mais vivas do que determinadas sensações.",
+                    "A distinção de Hume deve ser compreendida, portanto, como uma regra geral sobre o modo como nossas experiências normalmente aparecem. As impressões são originárias e diretamente experimentadas; as ideias são representações dessas experiências na memória ou na imaginação. A força e a vivacidade ajudam a reconhecer essa diferença, mas talvez não sejam suficientes para explicar todos os casos possíveis.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-17",
+                  "title": "O aparente poder da imaginação",
+                  "paragraphs": [
+                    "À primeira vista, o pensamento humano parece não possuir limites. Podemos imaginar criaturas que nunca vimos, lugares que não existem e acontecimentos que jamais ocorreram. O corpo permanece em um lugar determinado, enquanto o pensamento pode percorrer o universo em poucos instantes.",
+                    "Hume reconhece que a imaginação possui grande liberdade. Sua tese, porém, é que essa liberdade não é absoluta. A mente consegue combinar, separar, aumentar, diminuir e reorganizar os materiais fornecidos pela experiência, mas não consegue produzir um conteúdo completamente independente deles.",
+                    "Quando imaginamos uma montanha de ouro, reunimos a ideia de montanha e a ideia de ouro. Nunca precisamos ter visto uma montanha feita desse metal. Precisamos, contudo, ter alguma experiência de uma montanha e alguma experiência do ouro para formar a nova imagem.",
+                    "O mesmo acontece com os animais fantásticos. Um cavalo alado não precisa ter sido observado para ser imaginado. A mente combina a forma conhecida de um cavalo com as asas encontradas em outros animais. A criatura completa é imaginária, mas os elementos empregados em sua composição procedem da experiência.",
+                    "Por isso, a criatividade não consiste necessariamente em produzir conteúdos a partir do nada. Ela pode consistir em estabelecer combinações novas entre elementos anteriormente conhecidos.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-23",
+                  "title": "Ideias simples e ideias complexas",
+                  "paragraphs": [
+                    "A teoria de Hume torna-se mais clara quando distinguimos ideias simples e complexas. Uma ideia simples não pode ser dividida, naquele contexto, em conteúdos mentais menores. A experiência de um determinado tom de azul, por exemplo, pode ser considerada uma percepção simples.",
+                    "Uma ideia complexa reúne diferentes elementos. A ideia de uma cidade feita de cristal pode incluir formas arquitetônicas, ruas, torres, luzes e a aparência do cristal. Mesmo que essa cidade nunca tenha existido, seus componentes podem ser encontrados em experiências anteriores.",
+                    "A imaginação possui liberdade para construir ideias complexas. Entretanto, segundo Hume, os elementos simples empregados nessa construção precisam ter sua origem em impressões anteriores.",
+                    "Essa tese é conhecida como princípio da cópia. De acordo com ela, as ideias simples são cópias de impressões simples. O pensamento reorganiza aquilo que a experiência primeiramente lhe oferece.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-28-2",
+                  "title": "O primeiro argumento de Hume",
+                  "paragraphs": [
+                    "Hume apresenta dois argumentos em defesa do princípio da cópia. O primeiro parte da análise das ideias complexas.",
+                    "Quando examinamos uma ideia aparentemente original, podemos decompô-la em elementos mais simples. Cada um desses elementos corresponde a alguma experiência anterior. A mente pode alterar a proporção, a posição e a combinação dos componentes, mas não cria os materiais básicos sem alguma experiência precedente.",
+                    "A ideia de uma criatura gigantesca, por exemplo, resulta da ampliação de formas que já conhecemos. A ideia de invisibilidade nasce da combinação entre a concepção de um objeto e a retirada imaginária de sua aparência visível. A ideia de uma inteligência extremamente elevada parte de operações mentais conhecidas e as amplia muito além da capacidade humana comum.",
+                    "Hume transforma sua tese em um desafio: quem acredita possuir uma ideia simples que não proceda da experiência deve indicar essa ideia. Caberia então ao defensor do princípio da cópia demonstrar a impressão da qual ela se originou.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-33",
+                  "title": "O exemplo da ideia de Deus",
+                  "paragraphs": [
+                    "Hume aplica esse raciocínio à ideia de Deus. Segundo ele, formamos a representação de um ser infinitamente inteligente, sábio e bom a partir das qualidades que encontramos de maneira limitada na experiência humana. A mente retira os limites dessas qualidades e as amplia indefinidamente.",
+                    "Esse argumento não constitui, por si mesmo, uma demonstração da existência ou da inexistência de Deus. Hume está investigando a origem psicológica da ideia, e não decidindo diretamente se o ser ao qual ela se refere existe.",
+                    "Essa distinção é importante. Explicar como uma ideia se forma não equivale a determinar se seu objeto é real. Podemos investigar a origem de nossa ideia de árvore sem concluir que as árvores são apenas construções mentais. Da mesma maneira, uma explicação sobre a formação do conceito de um ser infinito não resolve automaticamente a questão de sua realidade.",
+                    "A posição de Hume contrasta com a de René Descartes. Na terceira de suas Meditações, Descartes sustenta que a ideia de um ser infinito e perfeito não poderia ter sido produzida exclusivamente por uma mente finita. Para ele, essa ideia não procede dos sentidos nem é uma invenção inteiramente controlada pela imaginação, mas possui caráter inato. ",
+                    "A divergência entre os dois filósofos não está apenas na conclusão. Eles adotam critérios diferentes para explicar a origem das ideias. Descartes procura saber se a causa de uma ideia deve possuir uma realidade proporcional ao seu conteúdo. Hume procura decompor o conceito em qualidades anteriormente experimentadas e operações realizadas pela imaginação.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-39",
+                  "title": "O segundo argumento de Hume",
+                  "paragraphs": [
+                    "O segundo argumento parte da relação entre a ausência de determinadas experiências e a incapacidade de formar as ideias correspondentes.",
+                    "Uma pessoa cega desde o nascimento não formaria uma ideia visual das cores. Uma pessoa que jamais pudesse ouvir não possuiria uma ideia auditiva dos sons. Quando uma via de experiência permanece completamente fechada, as ideias correspondentes também não se desenvolvem.",
+                    "O argumento não se limita aos sentidos externos. Hume acredita que algo semelhante ocorre com sentimentos e paixões. Uma pessoa que nunca tivesse experimentado determinado sentimento teria dificuldade para formar uma representação adequada dele.",
+                    "Podemos compreender intelectualmente a descrição de uma experiência sem saber como é vivê-la. Alguém pode estudar os mecanismos físicos da dor e ainda assim não conhecer, somente por essa descrição, o modo como uma dor específica é sentida.",
+                    "Esse ponto mostra que existem aspectos da experiência que não são completamente transmitidos por definições. As palavras podem orientar o pensamento, mas precisam encontrar algum conteúdo correspondente na experiência daquele que as recebe.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-45",
+                  "title": "Experiência externa e experiência interna",
+                  "paragraphs": [
+                    "A teoria de Hume não afirma que todas as ideias procedem exclusivamente dos cinco sentidos. Ele reconhece duas fontes gerais de experiência.",
+                    "As sensações externas incluem cores, sons, sabores, cheiros, temperaturas e outras experiências relacionadas ao contato com o mundo. As experiências internas abrangem emoções, desejos, prazeres, dores e movimentos da própria mente.",
+                    "A ideia de tristeza não precisa derivar de um objeto visível ou de um som específico. Ela pode proceder da experiência interior de estar triste. A ideia de desejo nasce do próprio ato de desejar. Assim, o empirismo de Hume inclui tanto aquilo que sentimos por meio dos sentidos quanto aquilo que experimentamos interiormente.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-49",
+                  "title": "O matiz de azul ausente",
+                  "paragraphs": [
+                    "Depois de apresentar o princípio da cópia, Hume reconhece um possível contraexemplo. Ele imagina uma pessoa que conhece quase todos os matizes de azul, exceto um. Se as diferentes tonalidades forem organizadas gradualmente, essa pessoa perceberá uma lacuna entre os tons conhecidos.",
+                    "Hume pergunta se ela seria capaz de imaginar o tom ausente mesmo sem tê-lo visto anteriormente. Sua resposta é que provavelmente seria capaz de preencher a lacuna por meio da imaginação.",
+                    "Esse caso parece contrariar o princípio segundo o qual toda ideia simples precisa proceder de uma impressão correspondente. A pessoa formaria a ideia simples de uma tonalidade que nunca experimentou diretamente.",
+                    "Hume admite a exceção, mas não considera necessário abandonar sua máxima geral. O caso seria muito particular e dependeria de uma série de experiências extremamente semelhantes. A mente não produziria uma cor sem possuir qualquer experiência visual, mas completaria uma gradação a partir das tonalidades vizinhas.",
+                    "O exemplo tornou-se conhecido como o problema do “matiz de azul ausente” e permanece discutido pelos intérpretes de Hume. Alguns consideram que ele constitui uma verdadeira exceção ao princípio da cópia. Outros sustentam que a nova tonalidade pode ser construída pela combinação ou interpolação de experiências próximas, sem destruir a tese geral. ",
+                    "A importância filosófica do exemplo está também na atitude de Hume. Ele não esconde uma dificuldade presente em sua própria teoria. Reconhece o caso contrário e procura determinar se ele é suficientemente forte para exigir a rejeição do princípio geral.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-56",
+                  "title": "Hume e o empirismo",
+                  "paragraphs": [
+                    "A tese de Hume faz parte da tradição empirista. O empirismo sustenta, em sentido geral, que a experiência desempenha um papel fundamental na formação do conhecimento.",
+                    "John Locke já havia defendido, no Ensaio sobre o entendimento humano, que devemos investigar como a mente adquire seus conteúdos. Para ele, nossas ideias procedem da sensação e da reflexão. A sensação fornece os conteúdos relacionados ao mundo exterior, enquanto a reflexão permite observar as operações da própria mente.",
+                    "Hume torna essa proposta mais rigorosa ao distinguir impressões e ideias. Ele também estabelece um critério para investigar conceitos filosóficos: se uma ideia possui significado, devemos procurar a impressão da qual ela se originou.",
+                    "Apesar dessa proximidade, Locke e Hume não utilizam a palavra “ideia” exatamente da mesma maneira. Locke emprega o termo para designar, de modo amplo, os objetos imediatos do pensamento. Hume reserva a palavra “ideia” às percepções menos vivas e utiliza “impressão” para as experiências originárias.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-61",
+                  "title": "O contraste com o racionalismo",
+                  "paragraphs": [
+                    "O empirismo de Hume contrasta com formas de racionalismo segundo as quais a mente possui determinados conteúdos ou princípios que não dependem da experiência sensível.",
+                    "Descartes admite a existência de ideias inatas. Elas não precisariam estar sempre presentes de forma consciente, mas pertenceriam à própria capacidade racional da mente. Hume, ao contrário, procura mostrar que os conteúdos do pensamento podem ser explicados a partir das impressões e das operações pelas quais a mente as combina.",
+                    "Isso não significa que Hume negue a atividade da mente. Ela não recebe passivamente imagens prontas. A imaginação combina, amplia, reduz e reorganiza os materiais da experiência. O que Hume nega é que essa atividade seja capaz de produzir, como regra geral, conteúdos simples completamente independentes de qualquer experiência.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-65",
+                  "title": "A resposta posterior de Kant",
+                  "paragraphs": [
+                    "Immanuel Kant aceita uma parte do ponto de partida empirista, mas rejeita sua conclusão mais ampla. Na Crítica da razão pura, afirma que todo conhecimento começa com a experiência, mas que isso não significa que todo conhecimento proceda inteiramente dela.",
+                    "Para Kant, os objetos despertam nossas capacidades cognitivas e fornecem o material da experiência. Entretanto, a mente também participa ativamente da organização desse material. Certas estruturas empregadas para compreender o mundo não seriam simples cópias das sensações.",
+                    "A diferença pode ser resumida da seguinte maneira. Hume procura explicar as ideias a partir das impressões e das operações da imaginação. Kant pergunta se a experiência organizada seria possível sem estruturas anteriores por meio das quais a mente relaciona aquilo que recebe. ",
+                    "Kant não retorna simplesmente à teoria cartesiana das ideias inatas. Seu argumento é que algumas formas e conceitos não são conteúdos prontos existentes na mente, mas condições necessárias para organizar a experiência.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-70",
+                  "title": "O princípio da cópia como instrumento crítico",
+                  "paragraphs": [
+                    "A finalidade do princípio da cópia não é apenas explicar psicologicamente a formação das ideias. Hume também pretende transformá-lo em um instrumento para avaliar a linguagem filosófica.",
+                    "Quando encontramos um termo abstrato, devemos perguntar qual impressão lhe corresponde. Se nenhuma experiência externa ou interna puder ser identificada, existe a possibilidade de estarmos empregando uma palavra sem um significado determinado.",
+                    "Uma pessoa pode repetir palavras como “substância”, “poder”, “essência” ou “conexão necessária” e acreditar que possui ideias claras sobre elas. Hume recomenda que se investigue o conteúdo efetivamente presente no pensamento. Não basta que uma palavra seja conhecida ou tradicionalmente empregada. É necessário mostrar o que pensamos quando a utilizamos.",
+                    "Esse procedimento será importante nas seções posteriores da obra, especialmente quando Hume examinar a causalidade e a ideia de conexão necessária. Ele perguntará de qual impressão procede nossa ideia de que uma causa está necessariamente ligada ao seu efeito.",
+                    "O princípio da cópia funciona, portanto, como um teste de clareza conceitual. Seu objetivo é revelar quando a linguagem aparenta possuir um conteúdo que não conseguimos determinar.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-76",
+                  "title": "Um exemplo contemporâneo",
+                  "paragraphs": [
+                    "Podemos aplicar o método de Hume ao emprego da palavra “energia” fora de seu significado científico. Alguém pode afirmar que determinado lugar possui uma “energia negativa”. Para compreender a afirmação, precisaríamos perguntar qual experiência está sendo designada.",
+                    "Talvez a pessoa esteja se referindo a medo, desconforto, tensão ou tristeza. Nesse caso, existem impressões internas que fornecem conteúdo à expressão. Entretanto, se ela insistir que se trata de uma entidade diferente de todos esses sentimentos, Hume perguntaria qual experiência permite formar essa nova ideia.",
+                    "A pergunta não demonstra imediatamente que a afirmação é falsa. Ela exige que o conceito seja esclarecido. Se nenhuma impressão correspondente puder ser indicada, talvez a palavra esteja sendo empregada sem um conteúdo definido.",
+                    "O mesmo método pode ser aplicado a conceitos filosóficos. Antes de discutir se determinada entidade possui uma propriedade, precisamos saber se conseguimos formar uma ideia clara da entidade e da propriedade mencionadas.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-81",
+                  "title": "Limitações do princípio de Hume",
+                  "paragraphs": [
+                    "A distinção entre impressões e ideias é intuitivamente convincente em muitos casos, mas enfrenta dificuldades. Uma lembrança intensa pode ser mais viva do que uma sensação fraca. Um sonho pode parecer real enquanto acontece. Uma alucinação pode ser experimentada com uma força semelhante à percepção comum.",
+                    "O matiz de azul ausente também mostra que a relação entre experiência e imaginação talvez seja mais complexa do que uma simples cópia. A mente pode reconhecer padrões, completar sequências e produzir conteúdos a partir das relações entre experiências anteriores.",
+                    "Outra dificuldade está na determinação das ideias simples. Nem sempre é evidente onde termina uma percepção simples e começa uma percepção complexa. Uma cor pode parecer simples, mas possui tonalidade, luminosidade e saturação. A decomposição das experiências depende, em alguma medida, do modo como as analisamos.",
+                    "Os exemplos humanos empregados por Hume também refletem limitações históricas de seu tempo. A referência a grupos humanos como se sua origem determinasse aquilo que poderiam conhecer não deve ser preservada como generalização. O argumento filosoficamente relevante diz respeito à ausência de determinada experiência, e não à etnia ou ao lugar de origem da pessoa.",
+                    "Essas dificuldades não tornam inútil o princípio da cópia. Elas mostram que ele funciona melhor como orientação metodológica do que como uma lei psicológica absolutamente livre de exceções.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-87",
+                  "title": "Consideração crítica",
+                  "paragraphs": [
+                    "A principal força da segunda seção está em exigir que a filosofia explique o conteúdo de suas próprias palavras. Hume percebe que podemos empregar conceitos abstratos sem saber exatamente o que eles significam. Ao perguntar de qual experiência uma ideia deriva, obriga o pensamento a tornar-se mais claro.",
+                    "Entretanto, a origem de uma ideia e a validade de um conhecimento são questões diferentes. Mesmo que um conceito tenha surgido da experiência, ainda precisamos investigar se os juízos formados com ele são verdadeiros. De modo semelhante, explicar a formação psicológica de uma ideia não é suficiente para demonstrar que o objeto representado por ela não existe.",
+                    "Também é possível questionar se todos os componentes do conhecimento podem ser explicados como cópias de experiências. Relações lógicas, estruturas matemáticas e condições gerais do pensamento parecem exigir uma análise mais ampla. Essa dificuldade contribuirá para o desenvolvimento da resposta de Kant ao empirismo.",
+                    "A teoria de Hume permanece relevante porque não apresenta a imaginação como inteiramente passiva. A mente depende da experiência para obter seus materiais, mas possui liberdade para reorganizá-los. O pensamento humano não cria seus elementos fundamentais a partir do nada, embora consiga produzir combinações que nunca foram encontradas na realidade.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-92",
+                  "title": "Síntese final",
+                  "paragraphs": [
+                    "Na segunda seção da Investigação sobre o entendimento humano, Hume divide as percepções da mente em impressões e ideias. As impressões são as experiências mais fortes e vivas, enquanto as ideias são suas representações menos intensas na memória, na imaginação e no pensamento.",
+                    "A partir dessa distinção, Hume formula o princípio da cópia: nossas ideias simples derivam de impressões anteriores. A imaginação consegue combinar, ampliar, reduzir e reorganizar aquilo que experimentamos, mas não consegue, como regra geral, produzir conteúdos simples completamente independentes da experiência.",
+                    "Hume sustenta sua tese mostrando que as ideias complexas podem ser decompostas em elementos anteriormente experimentados e que a ausência de determinada capacidade sensorial impede a formação das ideias correspondentes. Ao mesmo tempo, reconhece uma possível exceção no caso do matiz de azul ausente.",
+                    "O princípio da cópia possui também uma função crítica. Quando um conceito filosófico parece obscuro, devemos perguntar de qual impressão deriva a ideia que ele pretende expressar. Se nenhuma impressão puder ser encontrada, existe a possibilidade de estarmos empregando palavras sem conteúdo claramente determinado.",
+                    "A seção estabelece, assim, uma das bases do empirismo humeano. Antes de investigar aquilo que podemos conhecer, Hume procura compreender de onde vêm os materiais com os quais pensamos. Sua conclusão é que a experiência fornece esses materiais, enquanto a mente os recorda, transforma e combina.",
+                    "\n",
+                    "\n",
+                    "\n\n",
+                    "\n",
+                    "\n\n"
+                  ],
+                  "subchapters": []
+                }
+              ]
+            }
+          ],
+          "blocks": [
+            {
+              "tag": "h2",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Das diferentes espécies de filosofia"
+                }
+              ],
+              "id": "introducao"
             },
             {
-              "id": "capitulo-3",
-              "title": "Observações de leitura",
-              "paragraphs": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae sapien vel massa consequat dignissim. Donec porttitor, lorem at fermentum interdum, nisl erat luctus neque, vitae finibus velit justo sed augue. Sed tempus, arcu non posuere tincidunt, lectus neque faucibus ipsum, vel consequat lectus nibh ac risus."
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                },
+                {
+                  "text": "A questão central do texto pode ser formulada da seguinte maneira: a filosofia deve ensinar as pessoas a viver melhor ou deve investigar com precisão os fundamentos do conhecimento e da ação? Hume não considera essas finalidades incompatíveis. Embora reconheça as diferenças entre elas, procura mostrar que a filosofia alcança sua melhor forma quando combina profundidade, clareza e utilidade para a vida."
+                },
+                {
+                  "text": "\n"
+                }
               ],
-              "subchapters": []
+              "id": "introducao"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A filosofia como ciência da natureza humana"
+                }
+              ],
+              "id": "secao-4"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume inicia o texto afirmando que a filosofia moral pode ser tratada de duas maneiras. A expressão “filosofia moral”, porém, possui em sua obra um significado mais amplo do que costuma ter atualmente. Ela não se refere somente ao estudo do certo e do errado. Para Hume, a filosofia moral é a ciência da natureza humana, isto é, a investigação de como os seres humanos pensam, sentem, julgam, escolhem e agem."
+                }
+              ],
+              "id": "introducao"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Essa ciência deveria examinar tanto o entendimento quanto as paixões. O entendimento corresponde às capacidades relacionadas ao pensamento, ao conhecimento e ao raciocínio. As paixões abrangem os desejos, sentimentos e impulsos que influenciam nossas escolhas. Hume não considera o ser humano uma criatura governada exclusivamente pela razão. Por isso, uma filosofia adequada precisa levar em consideração as diferentes forças que participam da conduta humana."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A filosofia fácil e humana"
+                }
+              ],
+              "id": "secao-8"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A primeira maneira de filosofar é chamada por Hume de filosofia fácil e humana. Ela considera o ser humano principalmente como um ser destinado à ação. Seu interesse não está apenas em definir teoricamente a virtude, mas em fazer com que as pessoas reconheçam seu valor e sejam motivadas a praticá-la."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Os autores dessa tradição empregam exemplos retirados da vida cotidiana, contrastam comportamentos virtuosos e viciosos e utilizam recursos literários capazes de alcançar a imaginação e os sentimentos. Seu objetivo é apresentar a virtude de maneira atraente e o vício de maneira repulsiva. A filosofia torna-se, assim, um instrumento de formação do caráter."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume relaciona essa maneira de escrever a autores como Cícero, Joseph Addison e La Bruyère. Esses escritores não se limitam a formular sistemas conceituais. Eles observam os costumes, descrevem personalidades e procuram tornar suas reflexões compreensíveis para leitores que não possuem formação filosófica especializada."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Essa concepção aproxima-se, em certos aspectos, da ética de Aristóteles. Na "
+                },
+                {
+                  "text": "Ética a Nicômaco",
+                  "italic": true
+                },
+                {
+                  "text": ", Aristóteles afirma que o estudo da virtude não deve ser realizado apenas para sabermos o que ela é, mas para nos tornarmos virtuosos. Conhecer teoricamente a justiça não é suficiente se esse conhecimento não modificar nossas escolhas. Para Aristóteles, o caráter é formado pelo hábito: tornamo-nos justos realizando ações justas e corajosos praticando ações corajosas."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume e Aristóteles compartilham, portanto, a ideia de que a filosofia moral não pode permanecer inteiramente separada da vida. A reflexão sobre a virtude deve participar da formação daquele que reflete."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Os perigos dos dois extremos"
+                }
+              ],
+              "id": "secao-1"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume reconhece vantagens e riscos nas duas maneiras de filosofar. A filosofia fácil consegue alcançar a vida, influenciar os sentimentos e orientar a conduta. Seu risco consiste em permanecer superficial e empregar conceitos que não foram suficientemente examinados."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A filosofia abstrata oferece maior rigor e procura descobrir os fundamentos de nossos pensamentos e avaliações. Seu risco consiste em afastar-se demasiadamente da experiência, criar uma linguagem desnecessariamente obscura ou produzir sistemas que não podem ser relacionados à realidade humana."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O problema não está na profundidade, mas na profundidade sem clareza. Da mesma maneira, o problema não está na simplicidade, mas na simplicidade sem fundamento. Uma filosofia acessível pode orientar as pessoas de maneira equivocada quando não examina cuidadosamente suas próprias premissas. Uma filosofia rigorosa, por outro lado, pode tornar-se estéril quando já não consegue comunicar seus resultados."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O equilíbrio entre pensamento e vida"
+                }
+              ],
+              "id": "secao-5"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Para Hume, o ser humano possui uma natureza composta. Ele é racional porque deseja conhecer, sociável porque necessita da convivência e ativo porque precisa agir e ocupar-se dos assuntos da vida."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Uma existência dedicada exclusivamente ao pensamento pode conduzir ao isolamento e à melancolia. Uma vida limitada às relações sociais pode tornar-se superficial. Uma vida inteiramente consumida pelo trabalho e pelas obrigações pode não deixar espaço para a reflexão e para o desenvolvimento intelectual."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume defende, por isso, um gênero misto de vida. A busca pelo conhecimento deve ser cultivada sem destruir a sociabilidade e a capacidade de agir. A filosofia precisa fazer parte da existência sem retirar o filósofo do mundo humano. Essa ideia é sintetizada pela recomendação mais conhecida da seção: devemos ser filósofos, mas, no meio de toda a nossa filosofia, devemos continuar sendo humanos."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Essa afirmação não constitui uma rejeição da investigação profunda. Hume pretende lembrar que o conhecimento deve respeitar a constituição humana daquele que conhece. O filósofo continua sujeito às emoções, às necessidades do corpo, às relações sociais e às exigências da vida prática."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A utilidade da filosofia abstrata"
+                }
+              ],
+              "id": "secao-10"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Apesar de reconhecer a preferência natural das pessoas pela filosofia acessível, Hume apresenta uma defesa da investigação abstrata. Segundo ele, a própria filosofia prática depende do trabalho realizado pela filosofia rigorosa."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Para falar adequadamente sobre justiça, virtude, beleza ou conhecimento, precisamos compreender o significado desses conceitos. Também precisamos investigar como formamos nossos julgamentos e por que determinadas ações despertam aprovação enquanto outras provocam censura. Sem esse trabalho, a filosofia moral corre o risco de repetir opiniões comuns sem saber se elas possuem um fundamento seguro."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume explica essa relação por meio da comparação entre o anatomista e o pintor. O anatomista estuda a estrutura interna do corpo, inclusive seus aspectos menos agradáveis. O pintor, por sua vez, representa a aparência exterior do corpo e procura produzir uma imagem bela. Apesar da diferença entre suas atividades, o conhecimento do anatomista pode ajudar o pintor a representar corretamente as formas humanas."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A filosofia abstrata realiza uma espécie de anatomia da mente. Ela investiga as estruturas internas do pensamento e dos sentimentos. A filosofia fácil emprega esse conhecimento para representar a vida humana e orientar a conduta. Assim como o pintor pode beneficiar-se da anatomia, o escritor moral pode beneficiar-se de uma compreensão rigorosa da natureza humana."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A verdadeira e a falsa metafísica"
+                }
+              ],
+              "id": "secao-15"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Uma das principais objeções à filosofia abstrata consiste na possibilidade de ela produzir obscuridade, incerteza e erro. Hume admite que grande parte da metafísica tradicional empregou conceitos obscuros e raciocínios que ultrapassavam as capacidades do entendimento humano. Algumas dessas construções também teriam servido para proteger superstições e preconceitos religiosos."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Entretanto, Hume não conclui que toda investigação metafísica deva ser abandonada. Para ele, precisamos cultivar uma metafísica verdadeira justamente para combater a metafísica falsa."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A verdadeira metafísica consiste na investigação crítica do entendimento humano. Antes de afirmar que conhecemos alguma realidade distante da experiência, devemos perguntar como esse conhecimento seria possível. Também devemos investigar quais são as capacidades da razão, até onde elas alcançam e em quais assuntos deixam de oferecer respostas seguras."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A metafísica falsa começa quando empregamos palavras sem ideias suficientemente claras, quando apresentamos uma suposição como conhecimento ou quando pretendemos alcançar realidades que ultrapassam inteiramente nossas capacidades. O remédio para esse problema não é abandonar o raciocínio, mas raciocinar com maior cuidado."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A proximidade com John Locke"
+                }
+              ],
+              "id": "secao-20"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Esse projeto aproxima Hume de John Locke. No "
+                },
+                {
+                  "text": "Ensaio sobre o entendimento humano",
+                  "italic": true
+                },
+                {
+                  "text": ", Locke procurou investigar a origem, a certeza e a extensão do conhecimento. Antes de discutir os grandes problemas da realidade, seria necessário examinar o próprio instrumento por meio do qual tentamos conhecê-la."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Para Locke, compreender os limites do entendimento permite distinguir conhecimento, opinião e crença. Também impede que as pessoas discutam com excessiva confiança sobre questões que talvez estejam além de suas capacidades."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume continua esse projeto, mas desenvolve suas próprias conclusões. Ele procura investigar como as ideias se formam, como realizamos inferências e quais princípios explicam nossas crenças. A filosofia torna-se, assim, uma análise das condições e dos limites do conhecimento humano."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A geografia mental"
+                }
+              ],
+              "id": "secao-24"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume chama de geografia mental o trabalho de identificar, distinguir e organizar as operações da mente. Podemos perceber, por exemplo, que vontade, entendimento, imaginação e paixão não são exatamente a mesma coisa. Entretanto, explicar as fronteiras entre essas faculdades é uma tarefa difícil."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Os objetos externos podem ser observados pelos sentidos. As operações da mente, porém, precisam ser examinadas por meio da reflexão. Além disso, nossos pensamentos e sentimentos se transformam rapidamente. Quando tentamos observá-los, muitas vezes aquilo que pretendíamos analisar já se modificou."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Mesmo que a filosofia não consiga descobrir os princípios mais profundos da mente, o simples mapeamento de suas operações já constitui uma contribuição importante. Distinguir percepção, memória, imaginação, raciocínio, vontade e sentimento permite compreender melhor como produzimos nossos julgamentos."
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O exemplo de Newton"
+                }
+              ],
+              "id": "secao-28"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume compara a investigação da mente ao desenvolvimento da astronomia. Durante muito tempo, os astrônomos descreveram o movimento e a posição dos corpos celestes. Posteriormente, Isaac Newton formulou princípios capazes de explicar esses movimentos."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume esperava que algo semelhante pudesse ocorrer no estudo da natureza humana. O filósofo não deveria limitar-se a descrever pensamentos e sentimentos isolados. Ele deveria procurar princípios gerais que explicassem como as operações mentais se relacionam."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Essa aproximação não significa que Hume pretendesse tratar a mente exatamente como um objeto físico. Seu objetivo era adotar uma atitude investigativa semelhante à das ciências: observar os fenômenos, evitar hipóteses sem fundamento e procurar explicações gerais apoiadas na experiência."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A influência sobre Kant"
+                }
+              ],
+              "id": "secao-32"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A investigação de Hume influenciou profundamente Immanuel Kant. Nos "
+                },
+                {
+                  "text": "Prolegômenos a toda metafísica futura",
+                  "italic": true
+                },
+                {
+                  "text": ", Kant reconheceu que o problema levantado por Hume interrompeu seu “sono dogmático” e deu uma nova direção às suas pesquisas."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Kant não aceitou todas as conclusões de Hume. Enquanto Hume investigava a origem experimental de nossas ideias e questionava certas pretensões da metafísica, Kant procurou descobrir quais estruturas do entendimento tornam a experiência possível. Mesmo discordando de Hume, reconheceu a importância de seu desafio."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O diálogo entre os dois filósofos mostra que a análise dos limites da razão não precisa conduzir simplesmente à rejeição da metafísica. Ela pode conduzir à tentativa de reconstruí-la sobre fundamentos mais seguros."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Uma aplicação contemporânea"
+                }
+              ],
+              "id": "secao-36"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A distinção apresentada por Hume continua atual. Um texto sobre justiça pode contar histórias comoventes, apresentar exemplos de boas ações e estimular o leitor a agir de maneira justa. Esse texto possui as características da filosofia fácil e humana. Ele pode influenciar a conduta, mas talvez não explique o que torna uma ação verdadeiramente justa."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Outro texto pode distinguir justiça de igualdade, investigar o fundamento da obrigação moral e analisar diferentes teorias da responsabilidade. Esse trabalho se aproxima da filosofia exata e abstrata. Ele oferece maior precisão, mas pode tornar-se inacessível para muitos leitores."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Uma filosofia completa procuraria reunir essas duas atividades. Primeiro, investigaria rigorosamente o conceito de justiça. Depois, apresentaria suas conclusões de maneira clara e mostraria como elas se aplicam à vida."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Consideração crítica"
+                }
+              ],
+              "id": "secao-40"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Alguns julgamentos históricos de Hume mostram-se excessivos. Ele sugere que autores de estilo acessível, como Cícero, Addison e La Bruyère, conservariam sua reputação, enquanto pensadores abstratos, como Aristóteles, Locke e Malebranche, poderiam ser esquecidos. A história não confirmou inteiramente essa previsão. Aristóteles e Locke permanecem entre os filósofos mais estudados."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Isso demonstra que a permanência de uma obra não depende apenas da facilidade de sua leitura. Textos difíceis podem atravessar os séculos quando formulam problemas importantes ou oferecem conceitos que continuam intelectualmente fecundos."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Essa objeção, porém, não elimina o núcleo do argumento de Hume. Sua contribuição mais importante está na defesa da complementaridade entre rigor e clareza. A filosofia profunda fornece fundamentos à reflexão prática, enquanto a exposição acessível devolve os resultados da investigação à vida humana."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Síntese final"
+                }
+              ],
+              "id": "secao-68"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Na primeira seção da "
+                },
+                {
+                  "text": "Investigação sobre o entendimento humano",
+                  "italic": true
+                },
+                {
+                  "text": ", Hume distingue duas maneiras de fazer filosofia. A filosofia fácil e humana procura formar o caráter, orientar a conduta e aproximar a virtude dos sentimentos. A filosofia exata e abstrata investiga os princípios do pensamento, das avaliações e do conhecimento."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume reconhece que a primeira é mais agradável e exerce maior influência sobre a vida. Ainda assim, defende a necessidade da segunda. Somente uma investigação rigorosa do entendimento pode esclarecer os conceitos empregados pela filosofia prática, estabelecer os limites do conhecimento e combater a superstição e a falsa metafísica."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Seu objetivo final não é escolher uma filosofia e rejeitar a outra. Hume pretende reconciliar a investigação profunda com a clareza. A melhor filosofia deve ser rigorosa sem se tornar desnecessariamente obscura e acessível sem se tornar superficial. Ela deve compreender o ser humano e, ao mesmo tempo, permanecer ligada à experiência concreta daquele que procura compreender."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ],
+              "id": "introducao"
+            },
+            {
+              "tag": "h2",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Da origem das ideias"
+                }
+              ],
+              "id": "secao-73"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A questão central dessa seção pode ser formulada da seguinte maneira: de onde vêm os conteúdos presentes em nosso pensamento? A imaginação realmente consegue criar algo inteiramente novo ou apenas reorganiza aquilo que anteriormente recebemos pela experiência?"
+                }
+              ],
+              "id": "introducao"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Para responder, Hume distingue impressões e ideias e formula o princípio segundo o qual nossas ideias derivam, em última instância, de experiências anteriores."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O significado de percepção"
+                }
+              ],
+              "id": "secao-1-2"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume emprega a palavra “percepção” em um sentido bastante amplo. Para ele, percepção é tudo aquilo que se apresenta à mente, como uma sensação, um sentimento, uma lembrança, uma imagem mental, um desejo ou um pensamento."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Na tradução apresentada, aparece frequentemente a expressão “percepções do espírito”. Nesse contexto, a palavra “espírito” traduz o termo inglês "
+                },
+                {
+                  "text": "mind",
+                  "italic": true
+                },
+                {
+                  "text": " e significa mente. Hume não está tratando de uma entidade espiritual no sentido religioso, mas do conjunto das atividades que compõem nossa experiência mental."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "As percepções são divididas em duas grandes classes: impressões e ideias. Essa distinção constitui o ponto de partida de sua teoria do conhecimento."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A diferença entre impressões e ideias"
+                }
+              ],
+              "id": "secao-5-2"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "As impressões são nossas percepções mais fortes e vivas. Elas ocorrem quando sentimos dor ou prazer, vemos uma cor, ouvimos um som, desejamos alguma coisa, amamos, odiamos ou experimentamos uma emoção."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "As ideias são percepções menos intensas. Elas aparecem quando recordamos, imaginamos ou pensamos naquilo que anteriormente sentimos."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Existe, por exemplo, uma diferença entre sentir uma dor e lembrar-se dela. A lembrança pode ser precisa e até emocionalmente marcante, mas normalmente não possui a mesma força da experiência original. Da mesma maneira, imaginar o sabor de uma fruta não equivale a prová-la."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A diferença entre impressão e ideia não está necessariamente no objeto ao qual elas se referem. A mesma dor pode estar presente primeiro como experiência e depois como lembrança. O que se modifica é o modo como ela aparece à mente. Na experiência imediata, apresenta-se com maior força; na memória ou na imaginação, aparece de maneira mais fraca."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A palavra “impressão” não significa, nesse contexto, uma opinião incerta, como quando dizemos que temos uma impressão sobre alguém. Ela designa uma experiência mental presente e viva. A palavra “ideia”, por sua vez, não significa uma entidade perfeita e eterna, como nas formas platônicas, nem uma simples opinião. Para Hume, ideia é a representação menos viva de algo que anteriormente foi experimentado."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Força e vivacidade"
+                }
+              ],
+              "id": "secao-11"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume utiliza a força e a vivacidade como critérios para distinguir impressões e ideias. A sensação atual costuma ser mais intensa do que sua representação no pensamento."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Podemos imaginar uma chama, mas essa imagem mental não nos aquece. Podemos recordar uma música, mas a lembrança não possui normalmente a mesma presença do som que estamos efetivamente ouvindo. Podemos pensar na alegria de outra pessoa sem experimentar integralmente a emoção que ela sente."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume admite que certas ideias podem alcançar grande intensidade. Uma lembrança traumática, um sonho ou uma imaginação especialmente vigorosa podem aproximar-se de uma experiência presente. Também existem impressões muito fracas, como um som distante ou uma sensação quase imperceptível."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Isso cria uma dificuldade para sua classificação. Se a diferença entre impressões e ideias fosse exclusivamente uma diferença de intensidade, algumas lembranças poderiam ser mais vivas do que determinadas sensações."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A distinção de Hume deve ser compreendida, portanto, como uma regra geral sobre o modo como nossas experiências normalmente aparecem. As impressões são originárias e diretamente experimentadas; as ideias são representações dessas experiências na memória ou na imaginação. A força e a vivacidade ajudam a reconhecer essa diferença, mas talvez não sejam suficientes para explicar todos os casos possíveis."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O aparente poder da imaginação"
+                }
+              ],
+              "id": "secao-17"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "À primeira vista, o pensamento humano parece não possuir limites. Podemos imaginar criaturas que nunca vimos, lugares que não existem e acontecimentos que jamais ocorreram. O corpo permanece em um lugar determinado, enquanto o pensamento pode percorrer o universo em poucos instantes."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume reconhece que a imaginação possui grande liberdade. Sua tese, porém, é que essa liberdade não é absoluta. A mente consegue combinar, separar, aumentar, diminuir e reorganizar os materiais fornecidos pela experiência, mas não consegue produzir um conteúdo completamente independente deles."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Quando imaginamos uma montanha de ouro, reunimos a ideia de montanha e a ideia de ouro. Nunca precisamos ter visto uma montanha feita desse metal. Precisamos, contudo, ter alguma experiência de uma montanha e alguma experiência do ouro para formar a nova imagem."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O mesmo acontece com os animais fantásticos. Um cavalo alado não precisa ter sido observado para ser imaginado. A mente combina a forma conhecida de um cavalo com as asas encontradas em outros animais. A criatura completa é imaginária, mas os elementos empregados em sua composição procedem da experiência."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Por isso, a criatividade não consiste necessariamente em produzir conteúdos a partir do nada. Ela pode consistir em estabelecer combinações novas entre elementos anteriormente conhecidos."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Ideias simples e ideias complexas"
+                }
+              ],
+              "id": "secao-23"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A teoria de Hume torna-se mais clara quando distinguimos ideias simples e complexas. Uma ideia simples não pode ser dividida, naquele contexto, em conteúdos mentais menores. A experiência de um determinado tom de azul, por exemplo, pode ser considerada uma percepção simples."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Uma ideia complexa reúne diferentes elementos. A ideia de uma cidade feita de cristal pode incluir formas arquitetônicas, ruas, torres, luzes e a aparência do cristal. Mesmo que essa cidade nunca tenha existido, seus componentes podem ser encontrados em experiências anteriores."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A imaginação possui liberdade para construir ideias complexas. Entretanto, segundo Hume, os elementos simples empregados nessa construção precisam ter sua origem em impressões anteriores."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Essa tese é conhecida como princípio da cópia. De acordo com ela, as ideias simples são cópias de impressões simples. O pensamento reorganiza aquilo que a experiência primeiramente lhe oferece."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O primeiro argumento de Hume"
+                }
+              ],
+              "id": "secao-28-2"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume apresenta dois argumentos em defesa do princípio da cópia. O primeiro parte da análise das ideias complexas."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Quando examinamos uma ideia aparentemente original, podemos decompô-la em elementos mais simples. Cada um desses elementos corresponde a alguma experiência anterior. A mente pode alterar a proporção, a posição e a combinação dos componentes, mas não cria os materiais básicos sem alguma experiência precedente."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A ideia de uma criatura gigantesca, por exemplo, resulta da ampliação de formas que já conhecemos. A ideia de invisibilidade nasce da combinação entre a concepção de um objeto e a retirada imaginária de sua aparência visível. A ideia de uma inteligência extremamente elevada parte de operações mentais conhecidas e as amplia muito além da capacidade humana comum."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume transforma sua tese em um desafio: quem acredita possuir uma ideia simples que não proceda da experiência deve indicar essa ideia. Caberia então ao defensor do princípio da cópia demonstrar a impressão da qual ela se originou."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O exemplo da ideia de Deus"
+                }
+              ],
+              "id": "secao-33"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume aplica esse raciocínio à ideia de Deus. Segundo ele, formamos a representação de um ser infinitamente inteligente, sábio e bom a partir das qualidades que encontramos de maneira limitada na experiência humana. A mente retira os limites dessas qualidades e as amplia indefinidamente."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Esse argumento não constitui, por si mesmo, uma demonstração da existência ou da inexistência de Deus. Hume está investigando a origem psicológica da ideia, e não decidindo diretamente se o ser ao qual ela se refere existe."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Essa distinção é importante. Explicar como uma ideia se forma não equivale a determinar se seu objeto é real. Podemos investigar a origem de nossa ideia de árvore sem concluir que as árvores são apenas construções mentais. Da mesma maneira, uma explicação sobre a formação do conceito de um ser infinito não resolve automaticamente a questão de sua realidade."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A posição de Hume contrasta com a de René Descartes. Na terceira de suas "
+                },
+                {
+                  "text": "Meditações",
+                  "italic": true
+                },
+                {
+                  "text": ", Descartes sustenta que a ideia de um ser infinito e perfeito não poderia ter sido produzida exclusivamente por uma mente finita. Para ele, essa ideia não procede dos sentidos nem é uma invenção inteiramente controlada pela imaginação, mas possui caráter inato. "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A divergência entre os dois filósofos não está apenas na conclusão. Eles adotam critérios diferentes para explicar a origem das ideias. Descartes procura saber se a causa de uma ideia deve possuir uma realidade proporcional ao seu conteúdo. Hume procura decompor o conceito em qualidades anteriormente experimentadas e operações realizadas pela imaginação."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O segundo argumento de Hume"
+                }
+              ],
+              "id": "secao-39"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O segundo argumento parte da relação entre a ausência de determinadas experiências e a incapacidade de formar as ideias correspondentes."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Uma pessoa cega desde o nascimento não formaria uma ideia visual das cores. Uma pessoa que jamais pudesse ouvir não possuiria uma ideia auditiva dos sons. Quando uma via de experiência permanece completamente fechada, as ideias correspondentes também não se desenvolvem."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O argumento não se limita aos sentidos externos. Hume acredita que algo semelhante ocorre com sentimentos e paixões. Uma pessoa que nunca tivesse experimentado determinado sentimento teria dificuldade para formar uma representação adequada dele."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Podemos compreender intelectualmente a descrição de uma experiência sem saber como é vivê-la. Alguém pode estudar os mecanismos físicos da dor e ainda assim não conhecer, somente por essa descrição, o modo como uma dor específica é sentida."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Esse ponto mostra que existem aspectos da experiência que não são completamente transmitidos por definições. As palavras podem orientar o pensamento, mas precisam encontrar algum conteúdo correspondente na experiência daquele que as recebe."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Experiência externa e experiência interna"
+                }
+              ],
+              "id": "secao-45"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A teoria de Hume não afirma que todas as ideias procedem exclusivamente dos cinco sentidos. Ele reconhece duas fontes gerais de experiência."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "As sensações externas incluem cores, sons, sabores, cheiros, temperaturas e outras experiências relacionadas ao contato com o mundo. As experiências internas abrangem emoções, desejos, prazeres, dores e movimentos da própria mente."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A ideia de tristeza não precisa derivar de um objeto visível ou de um som específico. Ela pode proceder da experiência interior de estar triste. A ideia de desejo nasce do próprio ato de desejar. Assim, o empirismo de Hume inclui tanto aquilo que sentimos por meio dos sentidos quanto aquilo que experimentamos interiormente."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O matiz de azul ausente"
+                }
+              ],
+              "id": "secao-49"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Depois de apresentar o princípio da cópia, Hume reconhece um possível contraexemplo. Ele imagina uma pessoa que conhece quase todos os matizes de azul, exceto um. Se as diferentes tonalidades forem organizadas gradualmente, essa pessoa perceberá uma lacuna entre os tons conhecidos."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume pergunta se ela seria capaz de imaginar o tom ausente mesmo sem tê-lo visto anteriormente. Sua resposta é que provavelmente seria capaz de preencher a lacuna por meio da imaginação."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Esse caso parece contrariar o princípio segundo o qual toda ideia simples precisa proceder de uma impressão correspondente. A pessoa formaria a ideia simples de uma tonalidade que nunca experimentou diretamente."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume admite a exceção, mas não considera necessário abandonar sua máxima geral. O caso seria muito particular e dependeria de uma série de experiências extremamente semelhantes. A mente não produziria uma cor sem possuir qualquer experiência visual, mas completaria uma gradação a partir das tonalidades vizinhas."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O exemplo tornou-se conhecido como o problema do “matiz de azul ausente” e permanece discutido pelos intérpretes de Hume. Alguns consideram que ele constitui uma verdadeira exceção ao princípio da cópia. Outros sustentam que a nova tonalidade pode ser construída pela combinação ou interpolação de experiências próximas, sem destruir a tese geral. "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A importância filosófica do exemplo está também na atitude de Hume. Ele não esconde uma dificuldade presente em sua própria teoria. Reconhece o caso contrário e procura determinar se ele é suficientemente forte para exigir a rejeição do princípio geral."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume e o empirismo"
+                }
+              ],
+              "id": "secao-56"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A tese de Hume faz parte da tradição empirista. O empirismo sustenta, em sentido geral, que a experiência desempenha um papel fundamental na formação do conhecimento."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "John Locke já havia defendido, no "
+                },
+                {
+                  "text": "Ensaio sobre o entendimento humano",
+                  "italic": true
+                },
+                {
+                  "text": ", que devemos investigar como a mente adquire seus conteúdos. Para ele, nossas ideias procedem da sensação e da reflexão. A sensação fornece os conteúdos relacionados ao mundo exterior, enquanto a reflexão permite observar as operações da própria mente."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume torna essa proposta mais rigorosa ao distinguir impressões e ideias. Ele também estabelece um critério para investigar conceitos filosóficos: se uma ideia possui significado, devemos procurar a impressão da qual ela se originou."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Apesar dessa proximidade, Locke e Hume não utilizam a palavra “ideia” exatamente da mesma maneira. Locke emprega o termo para designar, de modo amplo, os objetos imediatos do pensamento. Hume reserva a palavra “ideia” às percepções menos vivas e utiliza “impressão” para as experiências originárias."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O contraste com o racionalismo"
+                }
+              ],
+              "id": "secao-61"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O empirismo de Hume contrasta com formas de racionalismo segundo as quais a mente possui determinados conteúdos ou princípios que não dependem da experiência sensível."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Descartes admite a existência de ideias inatas. Elas não precisariam estar sempre presentes de forma consciente, mas pertenceriam à própria capacidade racional da mente. Hume, ao contrário, procura mostrar que os conteúdos do pensamento podem ser explicados a partir das impressões e das operações pelas quais a mente as combina."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Isso não significa que Hume negue a atividade da mente. Ela não recebe passivamente imagens prontas. A imaginação combina, amplia, reduz e reorganiza os materiais da experiência. O que Hume nega é que essa atividade seja capaz de produzir, como regra geral, conteúdos simples completamente independentes de qualquer experiência."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A resposta posterior de Kant"
+                }
+              ],
+              "id": "secao-65"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Immanuel Kant aceita uma parte do ponto de partida empirista, mas rejeita sua conclusão mais ampla. Na "
+                },
+                {
+                  "text": "Crítica da razão pura",
+                  "italic": true
+                },
+                {
+                  "text": ", afirma que todo conhecimento começa com a experiência, mas que isso não significa que todo conhecimento proceda inteiramente dela."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Para Kant, os objetos despertam nossas capacidades cognitivas e fornecem o material da experiência. Entretanto, a mente também participa ativamente da organização desse material. Certas estruturas empregadas para compreender o mundo não seriam simples cópias das sensações."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A diferença pode ser resumida da seguinte maneira. Hume procura explicar as ideias a partir das impressões e das operações da imaginação. Kant pergunta se a experiência organizada seria possível sem estruturas anteriores por meio das quais a mente relaciona aquilo que recebe. "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Kant não retorna simplesmente à teoria cartesiana das ideias inatas. Seu argumento é que algumas formas e conceitos não são conteúdos prontos existentes na mente, mas condições necessárias para organizar a experiência."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O princípio da cópia como instrumento crítico"
+                }
+              ],
+              "id": "secao-70"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A finalidade do princípio da cópia não é apenas explicar psicologicamente a formação das ideias. Hume também pretende transformá-lo em um instrumento para avaliar a linguagem filosófica."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Quando encontramos um termo abstrato, devemos perguntar qual impressão lhe corresponde. Se nenhuma experiência externa ou interna puder ser identificada, existe a possibilidade de estarmos empregando uma palavra sem um significado determinado."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Uma pessoa pode repetir palavras como “substância”, “poder”, “essência” ou “conexão necessária” e acreditar que possui ideias claras sobre elas. Hume recomenda que se investigue o conteúdo efetivamente presente no pensamento. Não basta que uma palavra seja conhecida ou tradicionalmente empregada. É necessário mostrar o que pensamos quando a utilizamos."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Esse procedimento será importante nas seções posteriores da obra, especialmente quando Hume examinar a causalidade e a ideia de conexão necessária. Ele perguntará de qual impressão procede nossa ideia de que uma causa está necessariamente ligada ao seu efeito."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O princípio da cópia funciona, portanto, como um teste de clareza conceitual. Seu objetivo é revelar quando a linguagem aparenta possuir um conteúdo que não conseguimos determinar."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Um exemplo contemporâneo"
+                }
+              ],
+              "id": "secao-76"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Podemos aplicar o método de Hume ao emprego da palavra “energia” fora de seu significado científico. Alguém pode afirmar que determinado lugar possui uma “energia negativa”. Para compreender a afirmação, precisaríamos perguntar qual experiência está sendo designada."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Talvez a pessoa esteja se referindo a medo, desconforto, tensão ou tristeza. Nesse caso, existem impressões internas que fornecem conteúdo à expressão. Entretanto, se ela insistir que se trata de uma entidade diferente de todos esses sentimentos, Hume perguntaria qual experiência permite formar essa nova ideia."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A pergunta não demonstra imediatamente que a afirmação é falsa. Ela exige que o conceito seja esclarecido. Se nenhuma impressão correspondente puder ser indicada, talvez a palavra esteja sendo empregada sem um conteúdo definido."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O mesmo método pode ser aplicado a conceitos filosóficos. Antes de discutir se determinada entidade possui uma propriedade, precisamos saber se conseguimos formar uma ideia clara da entidade e da propriedade mencionadas."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Limitações do princípio de Hume"
+                }
+              ],
+              "id": "secao-81"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A distinção entre impressões e ideias é intuitivamente convincente em muitos casos, mas enfrenta dificuldades. Uma lembrança intensa pode ser mais viva do que uma sensação fraca. Um sonho pode parecer real enquanto acontece. Uma alucinação pode ser experimentada com uma força semelhante à percepção comum."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O matiz de azul ausente também mostra que a relação entre experiência e imaginação talvez seja mais complexa do que uma simples cópia. A mente pode reconhecer padrões, completar sequências e produzir conteúdos a partir das relações entre experiências anteriores."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Outra dificuldade está na determinação das ideias simples. Nem sempre é evidente onde termina uma percepção simples e começa uma percepção complexa. Uma cor pode parecer simples, mas possui tonalidade, luminosidade e saturação. A decomposição das experiências depende, em alguma medida, do modo como as analisamos."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Os exemplos humanos empregados por Hume também refletem limitações históricas de seu tempo. A referência a grupos humanos como se sua origem determinasse aquilo que poderiam conhecer não deve ser preservada como generalização. O argumento filosoficamente relevante diz respeito à ausência de determinada experiência, e não à etnia ou ao lugar de origem da pessoa."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Essas dificuldades não tornam inútil o princípio da cópia. Elas mostram que ele funciona melhor como orientação metodológica do que como uma lei psicológica absolutamente livre de exceções."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Consideração crítica"
+                }
+              ],
+              "id": "secao-87"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A principal força da segunda seção está em exigir que a filosofia explique o conteúdo de suas próprias palavras. Hume percebe que podemos empregar conceitos abstratos sem saber exatamente o que eles significam. Ao perguntar de qual experiência uma ideia deriva, obriga o pensamento a tornar-se mais claro."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Entretanto, a origem de uma ideia e a validade de um conhecimento são questões diferentes. Mesmo que um conceito tenha surgido da experiência, ainda precisamos investigar se os juízos formados com ele são verdadeiros. De modo semelhante, explicar a formação psicológica de uma ideia não é suficiente para demonstrar que o objeto representado por ela não existe."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Também é possível questionar se todos os componentes do conhecimento podem ser explicados como cópias de experiências. Relações lógicas, estruturas matemáticas e condições gerais do pensamento parecem exigir uma análise mais ampla. Essa dificuldade contribuirá para o desenvolvimento da resposta de Kant ao empirismo."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A teoria de Hume permanece relevante porque não apresenta a imaginação como inteiramente passiva. A mente depende da experiência para obter seus materiais, mas possui liberdade para reorganizá-los. O pensamento humano não cria seus elementos fundamentais a partir do nada, embora consiga produzir combinações que nunca foram encontradas na realidade."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Síntese final"
+                }
+              ],
+              "id": "secao-92"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Na segunda seção da "
+                },
+                {
+                  "text": "Investigação sobre o entendimento humano",
+                  "italic": true
+                },
+                {
+                  "text": ", Hume divide as percepções da mente em impressões e ideias. As impressões são as experiências mais fortes e vivas, enquanto as ideias são suas representações menos intensas na memória, na imaginação e no pensamento."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A partir dessa distinção, Hume formula o princípio da cópia: nossas ideias simples derivam de impressões anteriores. A imaginação consegue combinar, ampliar, reduzir e reorganizar aquilo que experimentamos, mas não consegue, como regra geral, produzir conteúdos simples completamente independentes da experiência."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume sustenta sua tese mostrando que as ideias complexas podem ser decompostas em elementos anteriormente experimentados e que a ausência de determinada capacidade sensorial impede a formação das ideias correspondentes. Ao mesmo tempo, reconhece uma possível exceção no caso do matiz de azul ausente."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O princípio da cópia possui também uma função crítica. Quando um conceito filosófico parece obscuro, devemos perguntar de qual impressão deriva a ideia que ele pretende expressar. Se nenhuma impressão puder ser encontrada, existe a possibilidade de estarmos empregando palavras sem conteúdo claramente determinado."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A seção estabelece, assim, uma das bases do empirismo humeano. Antes de investigar aquilo que podemos conhecer, Hume procura compreender de onde vêm os materiais com os quais pensamos. Sua conclusão é que a experiência fornece esses materiais, enquanto a mente os recorda, transforma e combina."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                },
+                {
+                  "text": "\n"
+                }
+              ],
+              "id": "introducao"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                },
+                {
+                  "text": "\n"
+                }
+              ],
+              "id": "introducao"
             }
           ]
         }
+      ],
+      "collections": [
+        "David Hume"
       ]
     }
   ]
