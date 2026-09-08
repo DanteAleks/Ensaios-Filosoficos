@@ -49,3 +49,8 @@
 #editor-form { min-width:0; }
 @media(max-width:800px){.document-toolbar{top:0}.document-toolbar button{min-height:44px}.document-editor{padding:1.1rem}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+
+.collection-picks{display:flex;flex-wrap:wrap;gap:.5rem;margin:.7rem 0}
+.collection-picks label{display:flex;align-items:center;gap:.5rem;padding:.45rem .75rem;border:1px solid var(--gold);border-radius:20px;margin:0;font-size:.9rem;font-weight:400;background:var(--surface)}
+.collection-picks input{width:auto;min-height:20px;accent-color:var(--ink)}
+#published-today{margin-top:.5rem;font-size:.9rem}

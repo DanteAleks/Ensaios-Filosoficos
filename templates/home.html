@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#102a22">
   <title>Arquivo Peregrini — C. Aleksandr</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=10">
+  <link rel="stylesheet" href="./styles.css?v=11">
 </head>
 <body id="inicio">
   <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
@@ -23,7 +23,7 @@
 
     <nav class="desktop-nav" aria-label="Navegação principal">
       <a href="#escritos">Escritos</a>
-      <a href="#sumas">Sumas</a><a href="#colecoes">Coleções</a>
+      <a href="#sumas">Sumas</a><a href="#atualizacoes">Novidades</a><a href="#colecoes">Coleções</a>
       <a href="#via">A Via</a>
       <a href="#autor">Autor</a>
     </nav>
@@ -38,7 +38,7 @@
 
   <nav class="mobile-nav" id="mobile-nav" aria-label="Navegação móvel" hidden>
     <a href="#escritos">Escritos</a>
-    <a href="#sumas">Sumas</a><a href="#colecoes">Coleções</a>
+    <a href="#sumas">Sumas</a><a href="#atualizacoes">Novidades</a><a href="#colecoes">Coleções</a>
     <a href="#via">A Via</a>
     <a href="#autor">Autor</a>
   </nav>
@@ -98,7 +98,8 @@
       {{ORDER_SUMAS}}<div class="work-grid" id="sumas-grid">{{SUMAS}}</div>
     </section>
 
-    <section class="library-section" id="colecoes"><p class="eyebrow">Percursos de leitura</p><h2>Coleções</h2>{{COLLECTIONS}}</section>
+    <section class="library-section updates-section" id="atualizacoes" aria-labelledby="updates-title"><p class="eyebrow">O acervo em movimento</p><h2 id="updates-title">Publicações recentes</h2><p class="section-description">Os últimos textos publicados, em ordem de chegada.</p>{{UPDATES}}</section>
+    <section class="library-section" id="colecoes"><p class="eyebrow">Percursos de leitura</p><h2>Coleções</h2><p class="section-description">Escolha um tema para descobrir seu percurso de leitura.</p>{{COLLECTIONS}}</section>
     <section class="method-section" id="via" aria-labelledby="via-title">
       <div class="method-intro"><p class="eyebrow">O sentido do nome</p><h2 id="via-title">Via Peregrini<br><em>Luminus</em></h2><p class="lead">O caminho de um peregrino em busca da luz.</p></div>
       <div class="method-content"><p>Peregrini evoca a figura do peregrino: alguém que percorre um caminho, aprende com a jornada e procura uma direção para a própria existência.</p><p>No nome Via Peregrini Luminus, a via representa o caminho; o peregrino, aquele que o percorre; e a luz, a verdade e a compreensão que orientam sua busca. Essa imagem dá sentido ao nome deste espaço e à reunião dos escritos que acompanham esse percurso.</p></div>
@@ -121,15 +122,16 @@
   <footer>
     <a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true">Ж</span><span class="brand-copy"><strong>Via Peregrini Luminus</strong><small>Arquivo filosófico</small></span></a>
     <p>Conteúdo autoral de C. Aleksandr.<br>Ensaios, reflexões e cadernos de leitura.</p>
-    <div><a class="back-top" href="#inicio">Voltar ao início ↑</a><br><a href="./admin/index.html?v=10">Área do autor</a></div>
+    <div><a class="back-top" href="#inicio">Voltar ao início ↑</a><br><a href="./admin/index.html?v=11">Área do autor</a></div>
     <details class="writing-observation" id="metodo"><summary>Observação sobre a escrita e o uso de IA</summary><div><p>Escrevo os textos deste acervo e utilizo inteligência artificial para revisar minha escrita, procurando identificar problemas de clareza, organização e expressão. Reconheço que minha escrita ainda apresenta limitações e vejo essa revisão como parte de um processo de aprendizado: busco compreender as alterações sugeridas e aprimorar, com o tempo, minha própria capacidade de escrever.</p><p>As ideias e os argumentos são de minha autoria. Cabe a mim avaliar as sugestões, decidir o que incorporar e assumir a responsabilidade pela versão publicada. A inteligência artificial também auxilia na construção e no aprimoramento deste site.</p></div></details>
   </footer>
 
   <script src="./preferences.js"></script>
-  <script src="./app.js?v=10"></script>
+  <script src="./app.js?v=11"></script>
   <script src="./reading-memory.js"></script>
 </body>
 </html>
+
 
 
 
