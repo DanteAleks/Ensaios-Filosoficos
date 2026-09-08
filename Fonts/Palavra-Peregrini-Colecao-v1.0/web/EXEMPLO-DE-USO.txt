@@ -1,0 +1,11 @@
+Inclua palavra-peregrini.css no site, preservando os caminhos relativos das fontes.
+Exemplo de capitular (a palavra inteira continua sendo texto):
+<p class="peregrini-texto"><span class="peregrini-capitular">A</span> escrita começa com uma letra ornamental.</p>
+
+Exemplo experimental de composição Peregrini RTL:
+<p class="peregrini-texto peregrini-rtl" lang="und">CЛОVО <span class="trecho-ltr">2026</span></p>
+
+lang="und" indica idioma não determinado; não inventa um código ISO para Peregrini.
+O exemplo não implementa teclado, editor, tratamento integral de seleção/cópia
+ou todos os casos de pontuação bidirecional. A fonte não altera a direção Unicode.
+Use a isolação LTR em números, fórmulas e trechos que devam manter essa direção.

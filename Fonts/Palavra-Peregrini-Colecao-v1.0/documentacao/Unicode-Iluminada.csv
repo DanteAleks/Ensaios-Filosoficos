@@ -1,0 +1,679 @@
+Unicode,Caractere,Nome,Origem
+U+0020, ,SPACE,DejaVu Serif: base vetorial licenciada
+U+0041,A,LATIN CAPITAL LETTER A,Peregrini Iluminada: desenho aprovado suavizado
+U+0042,B,LATIN CAPITAL LETTER B,Peregrini Iluminada: desenho aprovado suavizado
+U+0043,C,LATIN CAPITAL LETTER C,Peregrini Iluminada: desenho aprovado suavizado
+U+0044,D,LATIN CAPITAL LETTER D,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0045,E,LATIN CAPITAL LETTER E,Peregrini Iluminada: desenho aprovado suavizado
+U+0046,F,LATIN CAPITAL LETTER F,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0047,G,LATIN CAPITAL LETTER G,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0048,H,LATIN CAPITAL LETTER H,Peregrini Iluminada: desenho aprovado suavizado
+U+0049,I,LATIN CAPITAL LETTER I,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+004A,J,LATIN CAPITAL LETTER J,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+004B,K,LATIN CAPITAL LETTER K,Peregrini Iluminada: desenho aprovado suavizado
+U+004C,L,LATIN CAPITAL LETTER L,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+004D,M,LATIN CAPITAL LETTER M,Peregrini Iluminada: desenho aprovado suavizado
+U+004E,N,LATIN CAPITAL LETTER N,Peregrini Iluminada: desenho aprovado suavizado
+U+004F,O,LATIN CAPITAL LETTER O,Peregrini Iluminada: desenho aprovado suavizado
+U+0050,P,LATIN CAPITAL LETTER P,Peregrini Iluminada: desenho aprovado suavizado
+U+0051,Q,LATIN CAPITAL LETTER Q,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0052,R,LATIN CAPITAL LETTER R,Peregrini Iluminada: desenho aprovado suavizado
+U+0053,S,LATIN CAPITAL LETTER S,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0054,T,LATIN CAPITAL LETTER T,Peregrini Iluminada: desenho aprovado suavizado
+U+0055,U,LATIN CAPITAL LETTER U,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0056,V,LATIN CAPITAL LETTER V,Peregrini Iluminada: desenho aprovado suavizado
+U+0057,W,LATIN CAPITAL LETTER W,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0058,X,LATIN CAPITAL LETTER X,Peregrini Iluminada: desenho aprovado suavizado
+U+0059,Y,LATIN CAPITAL LETTER Y,Peregrini Iluminada: desenho aprovado suavizado
+U+005A,Z,LATIN CAPITAL LETTER Z,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+00A0, ,NO-BREAK SPACE,DejaVu Serif: base vetorial licenciada
+U+00C0,À,LATIN CAPITAL LETTER A WITH GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00C1,Á,LATIN CAPITAL LETTER A WITH ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00C2,Â,LATIN CAPITAL LETTER A WITH CIRCUMFLEX,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00C3,Ã,LATIN CAPITAL LETTER A WITH TILDE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00C4,Ä,LATIN CAPITAL LETTER A WITH DIAERESIS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00C5,Å,LATIN CAPITAL LETTER A WITH RING ABOVE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+00C6,Æ,LATIN CAPITAL LETTER AE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+00C7,Ç,LATIN CAPITAL LETTER C WITH CEDILLA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00C8,È,LATIN CAPITAL LETTER E WITH GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00C9,É,LATIN CAPITAL LETTER E WITH ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00CA,Ê,LATIN CAPITAL LETTER E WITH CIRCUMFLEX,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00CB,Ë,LATIN CAPITAL LETTER E WITH DIAERESIS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00CC,Ì,LATIN CAPITAL LETTER I WITH GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00CD,Í,LATIN CAPITAL LETTER I WITH ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00CE,Î,LATIN CAPITAL LETTER I WITH CIRCUMFLEX,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00CF,Ï,LATIN CAPITAL LETTER I WITH DIAERESIS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00D0,Ð,LATIN CAPITAL LETTER ETH,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+00D1,Ñ,LATIN CAPITAL LETTER N WITH TILDE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00D2,Ò,LATIN CAPITAL LETTER O WITH GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00D3,Ó,LATIN CAPITAL LETTER O WITH ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00D4,Ô,LATIN CAPITAL LETTER O WITH CIRCUMFLEX,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00D5,Õ,LATIN CAPITAL LETTER O WITH TILDE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00D6,Ö,LATIN CAPITAL LETTER O WITH DIAERESIS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00D8,Ø,LATIN CAPITAL LETTER O WITH STROKE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+00D9,Ù,LATIN CAPITAL LETTER U WITH GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00DA,Ú,LATIN CAPITAL LETTER U WITH ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00DB,Û,LATIN CAPITAL LETTER U WITH CIRCUMFLEX,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00DC,Ü,LATIN CAPITAL LETTER U WITH DIAERESIS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00DD,Ý,LATIN CAPITAL LETTER Y WITH ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+00DE,Þ,LATIN CAPITAL LETTER THORN,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0100,Ā,LATIN CAPITAL LETTER A WITH MACRON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0102,Ă,LATIN CAPITAL LETTER A WITH BREVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0104,Ą,LATIN CAPITAL LETTER A WITH OGONEK,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0106,Ć,LATIN CAPITAL LETTER C WITH ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0108,Ĉ,LATIN CAPITAL LETTER C WITH CIRCUMFLEX,Composição Unicode com base ornamental e sinais da base DejaVu
+U+010A,Ċ,LATIN CAPITAL LETTER C WITH DOT ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+010C,Č,LATIN CAPITAL LETTER C WITH CARON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+010E,Ď,LATIN CAPITAL LETTER D WITH CARON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0110,Đ,LATIN CAPITAL LETTER D WITH STROKE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0112,Ē,LATIN CAPITAL LETTER E WITH MACRON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0114,Ĕ,LATIN CAPITAL LETTER E WITH BREVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0116,Ė,LATIN CAPITAL LETTER E WITH DOT ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0118,Ę,LATIN CAPITAL LETTER E WITH OGONEK,Composição Unicode com base ornamental e sinais da base DejaVu
+U+011A,Ě,LATIN CAPITAL LETTER E WITH CARON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+011C,Ĝ,LATIN CAPITAL LETTER G WITH CIRCUMFLEX,Composição Unicode com base ornamental e sinais da base DejaVu
+U+011E,Ğ,LATIN CAPITAL LETTER G WITH BREVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0120,Ġ,LATIN CAPITAL LETTER G WITH DOT ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0122,Ģ,LATIN CAPITAL LETTER G WITH CEDILLA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0124,Ĥ,LATIN CAPITAL LETTER H WITH CIRCUMFLEX,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0126,Ħ,LATIN CAPITAL LETTER H WITH STROKE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0128,Ĩ,LATIN CAPITAL LETTER I WITH TILDE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+012A,Ī,LATIN CAPITAL LETTER I WITH MACRON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+012C,Ĭ,LATIN CAPITAL LETTER I WITH BREVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+012E,Į,LATIN CAPITAL LETTER I WITH OGONEK,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0130,İ,LATIN CAPITAL LETTER I WITH DOT ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0132,Ĳ,LATIN CAPITAL LIGATURE IJ,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0134,Ĵ,LATIN CAPITAL LETTER J WITH CIRCUMFLEX,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0136,Ķ,LATIN CAPITAL LETTER K WITH CEDILLA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0139,Ĺ,LATIN CAPITAL LETTER L WITH ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+013B,Ļ,LATIN CAPITAL LETTER L WITH CEDILLA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+013D,Ľ,LATIN CAPITAL LETTER L WITH CARON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+013F,Ŀ,LATIN CAPITAL LETTER L WITH MIDDLE DOT,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0141,Ł,LATIN CAPITAL LETTER L WITH STROKE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0143,Ń,LATIN CAPITAL LETTER N WITH ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0145,Ņ,LATIN CAPITAL LETTER N WITH CEDILLA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0147,Ň,LATIN CAPITAL LETTER N WITH CARON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+014A,Ŋ,LATIN CAPITAL LETTER ENG,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+014C,Ō,LATIN CAPITAL LETTER O WITH MACRON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+014E,Ŏ,LATIN CAPITAL LETTER O WITH BREVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0150,Ő,LATIN CAPITAL LETTER O WITH DOUBLE ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0152,Œ,LATIN CAPITAL LIGATURE OE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0154,Ŕ,LATIN CAPITAL LETTER R WITH ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0156,Ŗ,LATIN CAPITAL LETTER R WITH CEDILLA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0158,Ř,LATIN CAPITAL LETTER R WITH CARON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+015A,Ś,LATIN CAPITAL LETTER S WITH ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+015C,Ŝ,LATIN CAPITAL LETTER S WITH CIRCUMFLEX,Composição Unicode com base ornamental e sinais da base DejaVu
+U+015E,Ş,LATIN CAPITAL LETTER S WITH CEDILLA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0160,Š,LATIN CAPITAL LETTER S WITH CARON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0162,Ţ,LATIN CAPITAL LETTER T WITH CEDILLA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0164,Ť,LATIN CAPITAL LETTER T WITH CARON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0166,Ŧ,LATIN CAPITAL LETTER T WITH STROKE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0168,Ũ,LATIN CAPITAL LETTER U WITH TILDE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+016A,Ū,LATIN CAPITAL LETTER U WITH MACRON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+016C,Ŭ,LATIN CAPITAL LETTER U WITH BREVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+016E,Ů,LATIN CAPITAL LETTER U WITH RING ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0170,Ű,LATIN CAPITAL LETTER U WITH DOUBLE ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0172,Ų,LATIN CAPITAL LETTER U WITH OGONEK,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0174,Ŵ,LATIN CAPITAL LETTER W WITH CIRCUMFLEX,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0176,Ŷ,LATIN CAPITAL LETTER Y WITH CIRCUMFLEX,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0178,Ÿ,LATIN CAPITAL LETTER Y WITH DIAERESIS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0179,Ź,LATIN CAPITAL LETTER Z WITH ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+017B,Ż,LATIN CAPITAL LETTER Z WITH DOT ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+017D,Ž,LATIN CAPITAL LETTER Z WITH CARON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0181,Ɓ,LATIN CAPITAL LETTER B WITH HOOK,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0182,Ƃ,LATIN CAPITAL LETTER B WITH TOPBAR,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0184,Ƅ,LATIN CAPITAL LETTER TONE SIX,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0186,Ɔ,LATIN CAPITAL LETTER OPEN O,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0187,Ƈ,LATIN CAPITAL LETTER C WITH HOOK,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0189,Ɖ,LATIN CAPITAL LETTER AFRICAN D,Composição Unicode com base ornamental e sinais da base DejaVu
+U+018A,Ɗ,LATIN CAPITAL LETTER D WITH HOOK,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+018B,Ƌ,LATIN CAPITAL LETTER D WITH TOPBAR,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+018E,Ǝ,LATIN CAPITAL LETTER REVERSED E,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+018F,Ə,LATIN CAPITAL LETTER SCHWA,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0190,Ɛ,LATIN CAPITAL LETTER OPEN E,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0191,Ƒ,LATIN CAPITAL LETTER F WITH HOOK,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0193,Ɠ,LATIN CAPITAL LETTER G WITH HOOK,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0194,Ɣ,LATIN CAPITAL LETTER GAMMA,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0196,Ɩ,LATIN CAPITAL LETTER IOTA,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0197,Ɨ,LATIN CAPITAL LETTER I WITH STROKE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0198,Ƙ,LATIN CAPITAL LETTER K WITH HOOK,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+019C,Ɯ,LATIN CAPITAL LETTER TURNED M,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+019D,Ɲ,LATIN CAPITAL LETTER N WITH LEFT HOOK,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+019F,Ɵ,LATIN CAPITAL LETTER O WITH MIDDLE TILDE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+01A0,Ơ,LATIN CAPITAL LETTER O WITH HORN,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01A2,Ƣ,LATIN CAPITAL LETTER OI,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+01A4,Ƥ,LATIN CAPITAL LETTER P WITH HOOK,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+01A6,Ʀ,LATIN LETTER YR,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+01A7,Ƨ,LATIN CAPITAL LETTER TONE TWO,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+01A9,Ʃ,LATIN CAPITAL LETTER ESH,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01AC,Ƭ,LATIN CAPITAL LETTER T WITH HOOK,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+01AE,Ʈ,LATIN CAPITAL LETTER T WITH RETROFLEX HOOK,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+01AF,Ư,LATIN CAPITAL LETTER U WITH HORN,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01B1,Ʊ,LATIN CAPITAL LETTER UPSILON,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+01B2,Ʋ,LATIN CAPITAL LETTER V WITH HOOK,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+01B3,Ƴ,LATIN CAPITAL LETTER Y WITH HOOK,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+01B5,Ƶ,LATIN CAPITAL LETTER Z WITH STROKE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+01B7,Ʒ,LATIN CAPITAL LETTER EZH,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+01B8,Ƹ,LATIN CAPITAL LETTER EZH REVERSED,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+01BC,Ƽ,LATIN CAPITAL LETTER TONE FIVE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+01C4,Ǆ,LATIN CAPITAL LETTER DZ WITH CARON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01C5,ǅ,LATIN CAPITAL LETTER D WITH SMALL LETTER Z WITH CARON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01C7,Ǉ,LATIN CAPITAL LETTER LJ,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01C8,ǈ,LATIN CAPITAL LETTER L WITH SMALL LETTER J,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01CA,Ǌ,LATIN CAPITAL LETTER NJ,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01CB,ǋ,LATIN CAPITAL LETTER N WITH SMALL LETTER J,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01CD,Ǎ,LATIN CAPITAL LETTER A WITH CARON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01CF,Ǐ,LATIN CAPITAL LETTER I WITH CARON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01D1,Ǒ,LATIN CAPITAL LETTER O WITH CARON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01D3,Ǔ,LATIN CAPITAL LETTER U WITH CARON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01D5,Ǖ,LATIN CAPITAL LETTER U WITH DIAERESIS AND MACRON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01D7,Ǘ,LATIN CAPITAL LETTER U WITH DIAERESIS AND ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01D9,Ǚ,LATIN CAPITAL LETTER U WITH DIAERESIS AND CARON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01DB,Ǜ,LATIN CAPITAL LETTER U WITH DIAERESIS AND GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01DE,Ǟ,LATIN CAPITAL LETTER A WITH DIAERESIS AND MACRON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01E0,Ǡ,LATIN CAPITAL LETTER A WITH DOT ABOVE AND MACRON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01E2,Ǣ,LATIN CAPITAL LETTER AE WITH MACRON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01E4,Ǥ,LATIN CAPITAL LETTER G WITH STROKE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+01E6,Ǧ,LATIN CAPITAL LETTER G WITH CARON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01E8,Ǩ,LATIN CAPITAL LETTER K WITH CARON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01EA,Ǫ,LATIN CAPITAL LETTER O WITH OGONEK,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01EC,Ǭ,LATIN CAPITAL LETTER O WITH OGONEK AND MACRON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01EE,Ǯ,LATIN CAPITAL LETTER EZH WITH CARON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01F1,Ǳ,LATIN CAPITAL LETTER DZ,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01F2,ǲ,LATIN CAPITAL LETTER D WITH SMALL LETTER Z,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01F4,Ǵ,LATIN CAPITAL LETTER G WITH ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01F6,Ƕ,LATIN CAPITAL LETTER HWAIR,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+01F7,Ƿ,LATIN CAPITAL LETTER WYNN,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+01F8,Ǹ,LATIN CAPITAL LETTER N WITH GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01FA,Ǻ,LATIN CAPITAL LETTER A WITH RING ABOVE AND ACUTE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+01FC,Ǽ,LATIN CAPITAL LETTER AE WITH ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+01FE,Ǿ,LATIN CAPITAL LETTER O WITH STROKE AND ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0200,Ȁ,LATIN CAPITAL LETTER A WITH DOUBLE GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0202,Ȃ,LATIN CAPITAL LETTER A WITH INVERTED BREVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0204,Ȅ,LATIN CAPITAL LETTER E WITH DOUBLE GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0206,Ȇ,LATIN CAPITAL LETTER E WITH INVERTED BREVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0208,Ȉ,LATIN CAPITAL LETTER I WITH DOUBLE GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+020A,Ȋ,LATIN CAPITAL LETTER I WITH INVERTED BREVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+020C,Ȍ,LATIN CAPITAL LETTER O WITH DOUBLE GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+020E,Ȏ,LATIN CAPITAL LETTER O WITH INVERTED BREVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0210,Ȑ,LATIN CAPITAL LETTER R WITH DOUBLE GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0212,Ȓ,LATIN CAPITAL LETTER R WITH INVERTED BREVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0214,Ȕ,LATIN CAPITAL LETTER U WITH DOUBLE GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0216,Ȗ,LATIN CAPITAL LETTER U WITH INVERTED BREVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0218,Ș,LATIN CAPITAL LETTER S WITH COMMA BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+021A,Ț,LATIN CAPITAL LETTER T WITH COMMA BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+021C,Ȝ,LATIN CAPITAL LETTER YOGH,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+021E,Ȟ,LATIN CAPITAL LETTER H WITH CARON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0220,Ƞ,LATIN CAPITAL LETTER N WITH LONG RIGHT LEG,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0222,Ȣ,LATIN CAPITAL LETTER OU,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0224,Ȥ,LATIN CAPITAL LETTER Z WITH HOOK,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0226,Ȧ,LATIN CAPITAL LETTER A WITH DOT ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0228,Ȩ,LATIN CAPITAL LETTER E WITH CEDILLA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+022A,Ȫ,LATIN CAPITAL LETTER O WITH DIAERESIS AND MACRON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+022C,Ȭ,LATIN CAPITAL LETTER O WITH TILDE AND MACRON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+022E,Ȯ,LATIN CAPITAL LETTER O WITH DOT ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0230,Ȱ,LATIN CAPITAL LETTER O WITH DOT ABOVE AND MACRON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0232,Ȳ,LATIN CAPITAL LETTER Y WITH MACRON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+023A,Ⱥ,LATIN CAPITAL LETTER A WITH STROKE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+023B,Ȼ,LATIN CAPITAL LETTER C WITH STROKE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+023D,Ƚ,LATIN CAPITAL LETTER L WITH BAR,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+023E,Ⱦ,LATIN CAPITAL LETTER T WITH DIAGONAL STROKE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0241,Ɂ,LATIN CAPITAL LETTER GLOTTAL STOP,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0243,Ƀ,LATIN CAPITAL LETTER B WITH STROKE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0244,Ʉ,LATIN CAPITAL LETTER U BAR,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0245,Ʌ,LATIN CAPITAL LETTER TURNED V,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0246,Ɇ,LATIN CAPITAL LETTER E WITH STROKE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0248,Ɉ,LATIN CAPITAL LETTER J WITH STROKE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+024A,Ɋ,LATIN CAPITAL LETTER SMALL Q WITH HOOK TAIL,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+024C,Ɍ,LATIN CAPITAL LETTER R WITH STROKE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+024E,Ɏ,LATIN CAPITAL LETTER Y WITH STROKE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0300,̀,COMBINING GRAVE ACCENT,DejaVu Serif: base vetorial licenciada
+U+0301,́,COMBINING ACUTE ACCENT,DejaVu Serif: base vetorial licenciada
+U+0302,̂,COMBINING CIRCUMFLEX ACCENT,DejaVu Serif: base vetorial licenciada
+U+0303,̃,COMBINING TILDE,DejaVu Serif: base vetorial licenciada
+U+0304,̄,COMBINING MACRON,DejaVu Serif: base vetorial licenciada
+U+0305,̅,COMBINING OVERLINE,DejaVu Serif: base vetorial licenciada
+U+0306,̆,COMBINING BREVE,DejaVu Serif: base vetorial licenciada
+U+0307,̇,COMBINING DOT ABOVE,DejaVu Serif: base vetorial licenciada
+U+0308,̈,COMBINING DIAERESIS,DejaVu Serif: base vetorial licenciada
+U+0309,̉,COMBINING HOOK ABOVE,DejaVu Serif: base vetorial licenciada
+U+030A,̊,COMBINING RING ABOVE,DejaVu Serif: base vetorial licenciada
+U+030B,̋,COMBINING DOUBLE ACUTE ACCENT,DejaVu Serif: base vetorial licenciada
+U+030C,̌,COMBINING CARON,DejaVu Serif: base vetorial licenciada
+U+030D,̍,COMBINING VERTICAL LINE ABOVE,DejaVu Serif: base vetorial licenciada
+U+030E,̎,COMBINING DOUBLE VERTICAL LINE ABOVE,DejaVu Serif: base vetorial licenciada
+U+030F,̏,COMBINING DOUBLE GRAVE ACCENT,DejaVu Serif: base vetorial licenciada
+U+0310,̐,COMBINING CANDRABINDU,DejaVu Serif: base vetorial licenciada
+U+0311,̑,COMBINING INVERTED BREVE,DejaVu Serif: base vetorial licenciada
+U+0312,̒,COMBINING TURNED COMMA ABOVE,DejaVu Serif: base vetorial licenciada
+U+0313,̓,COMBINING COMMA ABOVE,DejaVu Serif: base vetorial licenciada
+U+0314,̔,COMBINING REVERSED COMMA ABOVE,DejaVu Serif: base vetorial licenciada
+U+0315,̕,COMBINING COMMA ABOVE RIGHT,DejaVu Serif: base vetorial licenciada
+U+0316,̖,COMBINING GRAVE ACCENT BELOW,DejaVu Serif: base vetorial licenciada
+U+0317,̗,COMBINING ACUTE ACCENT BELOW,DejaVu Serif: base vetorial licenciada
+U+0318,̘,COMBINING LEFT TACK BELOW,DejaVu Serif: base vetorial licenciada
+U+0319,̙,COMBINING RIGHT TACK BELOW,DejaVu Serif: base vetorial licenciada
+U+031A,̚,COMBINING LEFT ANGLE ABOVE,DejaVu Serif: base vetorial licenciada
+U+031B,̛,COMBINING HORN,DejaVu Serif: base vetorial licenciada
+U+031C,̜,COMBINING LEFT HALF RING BELOW,DejaVu Serif: base vetorial licenciada
+U+031D,̝,COMBINING UP TACK BELOW,DejaVu Serif: base vetorial licenciada
+U+031E,̞,COMBINING DOWN TACK BELOW,DejaVu Serif: base vetorial licenciada
+U+031F,̟,COMBINING PLUS SIGN BELOW,DejaVu Serif: base vetorial licenciada
+U+0320,̠,COMBINING MINUS SIGN BELOW,DejaVu Serif: base vetorial licenciada
+U+0321,̡,COMBINING PALATALIZED HOOK BELOW,DejaVu Serif: base vetorial licenciada
+U+0322,̢,COMBINING RETROFLEX HOOK BELOW,DejaVu Serif: base vetorial licenciada
+U+0323,̣,COMBINING DOT BELOW,DejaVu Serif: base vetorial licenciada
+U+0324,̤,COMBINING DIAERESIS BELOW,DejaVu Serif: base vetorial licenciada
+U+0325,̥,COMBINING RING BELOW,DejaVu Serif: base vetorial licenciada
+U+0326,̦,COMBINING COMMA BELOW,DejaVu Serif: base vetorial licenciada
+U+0327,̧,COMBINING CEDILLA,DejaVu Serif: base vetorial licenciada
+U+0328,̨,COMBINING OGONEK,DejaVu Serif: base vetorial licenciada
+U+0329,̩,COMBINING VERTICAL LINE BELOW,DejaVu Serif: base vetorial licenciada
+U+032A,̪,COMBINING BRIDGE BELOW,DejaVu Serif: base vetorial licenciada
+U+032B,̫,COMBINING INVERTED DOUBLE ARCH BELOW,DejaVu Serif: base vetorial licenciada
+U+032C,̬,COMBINING CARON BELOW,DejaVu Serif: base vetorial licenciada
+U+032D,̭,COMBINING CIRCUMFLEX ACCENT BELOW,DejaVu Serif: base vetorial licenciada
+U+032E,̮,COMBINING BREVE BELOW,DejaVu Serif: base vetorial licenciada
+U+032F,̯,COMBINING INVERTED BREVE BELOW,DejaVu Serif: base vetorial licenciada
+U+0330,̰,COMBINING TILDE BELOW,DejaVu Serif: base vetorial licenciada
+U+0331,̱,COMBINING MACRON BELOW,DejaVu Serif: base vetorial licenciada
+U+0332,̲,COMBINING LOW LINE,DejaVu Serif: base vetorial licenciada
+U+0333,̳,COMBINING DOUBLE LOW LINE,DejaVu Serif: base vetorial licenciada
+U+0334,̴,COMBINING TILDE OVERLAY,DejaVu Serif: base vetorial licenciada
+U+0335,̵,COMBINING SHORT STROKE OVERLAY,DejaVu Serif: base vetorial licenciada
+U+0336,̶,COMBINING LONG STROKE OVERLAY,DejaVu Serif: base vetorial licenciada
+U+0337,̷,COMBINING SHORT SOLIDUS OVERLAY,DejaVu Serif: base vetorial licenciada
+U+0338,̸,COMBINING LONG SOLIDUS OVERLAY,DejaVu Serif: base vetorial licenciada
+U+0339,̹,COMBINING RIGHT HALF RING BELOW,DejaVu Serif: base vetorial licenciada
+U+033A,̺,COMBINING INVERTED BRIDGE BELOW,DejaVu Serif: base vetorial licenciada
+U+033B,̻,COMBINING SQUARE BELOW,DejaVu Serif: base vetorial licenciada
+U+033C,̼,COMBINING SEAGULL BELOW,DejaVu Serif: base vetorial licenciada
+U+033D,̽,COMBINING X ABOVE,DejaVu Serif: base vetorial licenciada
+U+033E,̾,COMBINING VERTICAL TILDE,DejaVu Serif: base vetorial licenciada
+U+033F,̿,COMBINING DOUBLE OVERLINE,DejaVu Serif: base vetorial licenciada
+U+0342,͂,COMBINING GREEK PERISPOMENI,"Perispômeni combinante: glifo de til da base, código Unicode próprio"
+U+0343,̓,COMBINING GREEK KORONIS,DejaVu Serif: base vetorial licenciada
+U+0344,̈́,COMBINING GREEK DIALYTIKA TONOS,Marca grega composta: contornos DejaVu e ancoragem OpenType adaptada
+U+0345,ͅ,COMBINING GREEK YPOGEGRAMMENI,Marca grega composta: contornos DejaVu e ancoragem OpenType adaptada
+U+034F,͏,COMBINING GRAPHEME JOINER,DejaVu Serif: base vetorial licenciada
+U+0358,͘,COMBINING DOT ABOVE RIGHT,DejaVu Serif: base vetorial licenciada
+U+0360,͠,COMBINING DOUBLE TILDE,DejaVu Serif: base vetorial licenciada
+U+0361,͡,COMBINING DOUBLE INVERTED BREVE,DejaVu Serif: base vetorial licenciada
+U+0370,Ͱ,GREEK CAPITAL LETTER HETA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0372,Ͳ,GREEK CAPITAL LETTER ARCHAIC SAMPI,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0376,Ͷ,GREEK CAPITAL LETTER PAMPHYLIAN DIGAMMA,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+037F,Ϳ,GREEK CAPITAL LETTER YOT,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0386,Ά,GREEK CAPITAL LETTER ALPHA WITH TONOS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0388,Έ,GREEK CAPITAL LETTER EPSILON WITH TONOS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0389,Ή,GREEK CAPITAL LETTER ETA WITH TONOS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+038A,Ί,GREEK CAPITAL LETTER IOTA WITH TONOS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+038C,Ό,GREEK CAPITAL LETTER OMICRON WITH TONOS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+038E,Ύ,GREEK CAPITAL LETTER UPSILON WITH TONOS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+038F,Ώ,GREEK CAPITAL LETTER OMEGA WITH TONOS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0391,Α,GREEK CAPITAL LETTER ALPHA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0392,Β,GREEK CAPITAL LETTER BETA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0393,Γ,GREEK CAPITAL LETTER GAMMA,"Peregrini Iluminada: desenho equivalente, Unicode distinto"
+U+0394,Δ,GREEK CAPITAL LETTER DELTA,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0395,Ε,GREEK CAPITAL LETTER EPSILON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0396,Ζ,GREEK CAPITAL LETTER ZETA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0397,Η,GREEK CAPITAL LETTER ETA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0398,Θ,GREEK CAPITAL LETTER THETA,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0399,Ι,GREEK CAPITAL LETTER IOTA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+039A,Κ,GREEK CAPITAL LETTER KAPPA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+039B,Λ,GREEK CAPITAL LETTER LAMDA,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+039C,Μ,GREEK CAPITAL LETTER MU,Composição Unicode com base ornamental e sinais da base DejaVu
+U+039D,Ν,GREEK CAPITAL LETTER NU,Composição Unicode com base ornamental e sinais da base DejaVu
+U+039E,Ξ,GREEK CAPITAL LETTER XI,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+039F,Ο,GREEK CAPITAL LETTER OMICRON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+03A0,Π,GREEK CAPITAL LETTER PI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+03A1,Ρ,GREEK CAPITAL LETTER RHO,Composição Unicode com base ornamental e sinais da base DejaVu
+U+03A3,Σ,GREEK CAPITAL LETTER SIGMA,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+03A4,Τ,GREEK CAPITAL LETTER TAU,Composição Unicode com base ornamental e sinais da base DejaVu
+U+03A5,Υ,GREEK CAPITAL LETTER UPSILON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+03A6,Φ,GREEK CAPITAL LETTER PHI,Peregrini Iluminada: desenho aprovado suavizado
+U+03A7,Χ,GREEK CAPITAL LETTER CHI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+03A8,Ψ,GREEK CAPITAL LETTER PSI,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+03A9,Ω,GREEK CAPITAL LETTER OMEGA,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+03AA,Ϊ,GREEK CAPITAL LETTER IOTA WITH DIALYTIKA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+03AB,Ϋ,GREEK CAPITAL LETTER UPSILON WITH DIALYTIKA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+03CF,Ϗ,GREEK CAPITAL KAI SYMBOL,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+03D2,ϒ,GREEK UPSILON WITH HOOK SYMBOL,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+03D3,ϓ,GREEK UPSILON WITH ACUTE AND HOOK SYMBOL,Composição Unicode com base ornamental e sinais da base DejaVu
+U+03D4,ϔ,GREEK UPSILON WITH DIAERESIS AND HOOK SYMBOL,Composição Unicode com base ornamental e sinais da base DejaVu
+U+03D8,Ϙ,GREEK LETTER ARCHAIC KOPPA,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+03DA,Ϛ,GREEK LETTER STIGMA,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+03DC,Ϝ,GREEK LETTER DIGAMMA,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+03DE,Ϟ,GREEK LETTER KOPPA,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+03E0,Ϡ,GREEK LETTER SAMPI,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+03F4,ϴ,GREEK CAPITAL THETA SYMBOL,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+03F7,Ϸ,GREEK CAPITAL LETTER SHO,Composição Unicode com base ornamental e sinais da base DejaVu
+U+03F9,Ϲ,GREEK CAPITAL LUNATE SIGMA SYMBOL,Composição Unicode com base ornamental e sinais da base DejaVu
+U+03FA,Ϻ,GREEK CAPITAL LETTER SAN,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+03FD,Ͻ,GREEK CAPITAL REVERSED LUNATE SIGMA SYMBOL,Composição Unicode com base ornamental e sinais da base DejaVu
+U+03FE,Ͼ,GREEK CAPITAL DOTTED LUNATE SIGMA SYMBOL,Composição Unicode com base ornamental e sinais da base DejaVu
+U+03FF,Ͽ,GREEK CAPITAL REVERSED DOTTED LUNATE SIGMA SYMBOL,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0400,Ѐ,CYRILLIC CAPITAL LETTER IE WITH GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0401,Ё,CYRILLIC CAPITAL LETTER IO,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0402,Ђ,CYRILLIC CAPITAL LETTER DJE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0403,Ѓ,CYRILLIC CAPITAL LETTER GJE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0404,Є,CYRILLIC CAPITAL LETTER UKRAINIAN IE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0405,Ѕ,CYRILLIC CAPITAL LETTER DZE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0406,І,CYRILLIC CAPITAL LETTER BYELORUSSIAN-UKRAINIAN I,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0407,Ї,CYRILLIC CAPITAL LETTER YI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0408,Ј,CYRILLIC CAPITAL LETTER JE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0409,Љ,CYRILLIC CAPITAL LETTER LJE,Peregrini Iluminada: desenho aprovado suavizado
+U+040A,Њ,CYRILLIC CAPITAL LETTER NJE,Peregrini Iluminada: desenho aprovado suavizado
+U+040B,Ћ,CYRILLIC CAPITAL LETTER TSHE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+040C,Ќ,CYRILLIC CAPITAL LETTER KJE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+040D,Ѝ,CYRILLIC CAPITAL LETTER I WITH GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+040E,Ў,CYRILLIC CAPITAL LETTER SHORT U,Composição Unicode com base ornamental e sinais da base DejaVu
+U+040F,Џ,CYRILLIC CAPITAL LETTER DZHE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0410,А,CYRILLIC CAPITAL LETTER A,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0411,Б,CYRILLIC CAPITAL LETTER BE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0412,В,CYRILLIC CAPITAL LETTER VE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0413,Г,CYRILLIC CAPITAL LETTER GHE,Peregrini Iluminada: desenho aprovado suavizado
+U+0414,Д,CYRILLIC CAPITAL LETTER DE,Peregrini Iluminada: desenho aprovado suavizado
+U+0415,Е,CYRILLIC CAPITAL LETTER IE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0416,Ж,CYRILLIC CAPITAL LETTER ZHE,Peregrini Iluminada: desenho aprovado suavizado
+U+0417,З,CYRILLIC CAPITAL LETTER ZE,Peregrini Iluminada: desenho aprovado suavizado
+U+0418,И,CYRILLIC CAPITAL LETTER I,Peregrini Iluminada: desenho aprovado suavizado
+U+0419,Й,CYRILLIC CAPITAL LETTER SHORT I,Composição Unicode com base ornamental e sinais da base DejaVu
+U+041A,К,CYRILLIC CAPITAL LETTER KA,"Peregrini Iluminada: desenho equivalente, Unicode distinto"
+U+041B,Л,CYRILLIC CAPITAL LETTER EL,Peregrini Iluminada: desenho aprovado suavizado
+U+041C,М,CYRILLIC CAPITAL LETTER EM,Composição Unicode com base ornamental e sinais da base DejaVu
+U+041D,Н,CYRILLIC CAPITAL LETTER EN,Composição Unicode com base ornamental e sinais da base DejaVu
+U+041E,О,CYRILLIC CAPITAL LETTER O,Composição Unicode com base ornamental e sinais da base DejaVu
+U+041F,П,CYRILLIC CAPITAL LETTER PE,Peregrini Iluminada: desenho aprovado suavizado
+U+0420,Р,CYRILLIC CAPITAL LETTER ER,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0421,С,CYRILLIC CAPITAL LETTER ES,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0422,Т,CYRILLIC CAPITAL LETTER TE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0423,У,CYRILLIC CAPITAL LETTER U,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0424,Ф,CYRILLIC CAPITAL LETTER EF,"Peregrini Iluminada: desenho equivalente, Unicode distinto"
+U+0425,Х,CYRILLIC CAPITAL LETTER HA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0426,Ц,CYRILLIC CAPITAL LETTER TSE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0427,Ч,CYRILLIC CAPITAL LETTER CHE,Peregrini Iluminada: desenho aprovado suavizado
+U+0428,Ш,CYRILLIC CAPITAL LETTER SHA,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0429,Щ,CYRILLIC CAPITAL LETTER SHCHA,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+042A,Ъ,CYRILLIC CAPITAL LETTER HARD SIGN,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+042B,Ы,CYRILLIC CAPITAL LETTER YERU,Composição Unicode com base ornamental e sinais da base DejaVu
+U+042C,Ь,CYRILLIC CAPITAL LETTER SOFT SIGN,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+042D,Э,CYRILLIC CAPITAL LETTER E,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+042E,Ю,CYRILLIC CAPITAL LETTER YU,Peregrini Iluminada: desenho aprovado suavizado
+U+042F,Я,CYRILLIC CAPITAL LETTER YA,Peregrini Iluminada: desenho aprovado suavizado
+U+0462,Ѣ,CYRILLIC CAPITAL LETTER YAT,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0464,Ѥ,CYRILLIC CAPITAL LETTER IOTIFIED E,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+046A,Ѫ,CYRILLIC CAPITAL LETTER BIG YUS,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+046C,Ѭ,CYRILLIC CAPITAL LETTER IOTIFIED BIG YUS,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0470,Ѱ,CYRILLIC CAPITAL LETTER PSI,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0472,Ѳ,CYRILLIC CAPITAL LETTER FITA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0474,Ѵ,CYRILLIC CAPITAL LETTER IZHITSA,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0476,Ѷ,CYRILLIC CAPITAL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT,Composição Unicode com base ornamental e sinais da base DejaVu
+U+048C,Ҍ,CYRILLIC CAPITAL LETTER SEMISOFT SIGN,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0490,Ґ,CYRILLIC CAPITAL LETTER GHE WITH UPTURN,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0492,Ғ,CYRILLIC CAPITAL LETTER GHE WITH STROKE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0494,Ҕ,CYRILLIC CAPITAL LETTER GHE WITH MIDDLE HOOK,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0496,Җ,CYRILLIC CAPITAL LETTER ZHE WITH DESCENDER,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0498,Ҙ,CYRILLIC CAPITAL LETTER ZE WITH DESCENDER,Composição Unicode com base ornamental e sinais da base DejaVu
+U+049A,Қ,CYRILLIC CAPITAL LETTER KA WITH DESCENDER,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+049E,Ҟ,CYRILLIC CAPITAL LETTER KA WITH STROKE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+04A0,Ҡ,CYRILLIC CAPITAL LETTER BASHKIR KA,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+04A2,Ң,CYRILLIC CAPITAL LETTER EN WITH DESCENDER,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+04A4,Ҥ,CYRILLIC CAPITAL LIGATURE EN GHE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+04A6,Ҧ,CYRILLIC CAPITAL LETTER PE WITH MIDDLE HOOK,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+04AA,Ҫ,CYRILLIC CAPITAL LETTER ES WITH DESCENDER,Composição Unicode com base ornamental e sinais da base DejaVu
+U+04AC,Ҭ,CYRILLIC CAPITAL LETTER TE WITH DESCENDER,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+04AE,Ү,CYRILLIC CAPITAL LETTER STRAIGHT U,Composição Unicode com base ornamental e sinais da base DejaVu
+U+04B0,Ұ,CYRILLIC CAPITAL LETTER STRAIGHT U WITH STROKE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+04B2,Ҳ,CYRILLIC CAPITAL LETTER HA WITH DESCENDER,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+04B4,Ҵ,CYRILLIC CAPITAL LIGATURE TE TSE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+04B6,Ҷ,CYRILLIC CAPITAL LETTER CHE WITH DESCENDER,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+04BA,Һ,CYRILLIC CAPITAL LETTER SHHA,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+04C0,Ӏ,CYRILLIC LETTER PALOCHKA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+04C1,Ӂ,CYRILLIC CAPITAL LETTER ZHE WITH BREVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+04C3,Ӄ,CYRILLIC CAPITAL LETTER KA WITH HOOK,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+04C7,Ӈ,CYRILLIC CAPITAL LETTER EN WITH HOOK,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+04CB,Ӌ,CYRILLIC CAPITAL LETTER KHAKASSIAN CHE,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+04D0,Ӑ,CYRILLIC CAPITAL LETTER A WITH BREVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+04D2,Ӓ,CYRILLIC CAPITAL LETTER A WITH DIAERESIS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+04D4,Ӕ,CYRILLIC CAPITAL LIGATURE A IE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+04D6,Ӗ,CYRILLIC CAPITAL LETTER IE WITH BREVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+04D8,Ә,CYRILLIC CAPITAL LETTER SCHWA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+04DA,Ӛ,CYRILLIC CAPITAL LETTER SCHWA WITH DIAERESIS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+04DC,Ӝ,CYRILLIC CAPITAL LETTER ZHE WITH DIAERESIS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+04DE,Ӟ,CYRILLIC CAPITAL LETTER ZE WITH DIAERESIS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+04E0,Ӡ,CYRILLIC CAPITAL LETTER ABKHASIAN DZE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+04E2,Ӣ,CYRILLIC CAPITAL LETTER I WITH MACRON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+04E4,Ӥ,CYRILLIC CAPITAL LETTER I WITH DIAERESIS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+04E6,Ӧ,CYRILLIC CAPITAL LETTER O WITH DIAERESIS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+04E8,Ө,CYRILLIC CAPITAL LETTER BARRED O,Composição Unicode com base ornamental e sinais da base DejaVu
+U+04EA,Ӫ,CYRILLIC CAPITAL LETTER BARRED O WITH DIAERESIS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+04EC,Ӭ,CYRILLIC CAPITAL LETTER E WITH DIAERESIS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+04EE,Ӯ,CYRILLIC CAPITAL LETTER U WITH MACRON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+04F0,Ӱ,CYRILLIC CAPITAL LETTER U WITH DIAERESIS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+04F2,Ӳ,CYRILLIC CAPITAL LETTER U WITH DOUBLE ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+04F4,Ӵ,CYRILLIC CAPITAL LETTER CHE WITH DIAERESIS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+04F6,Ӷ,CYRILLIC CAPITAL LETTER GHE WITH DESCENDER,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+04F8,Ӹ,CYRILLIC CAPITAL LETTER YERU WITH DIAERESIS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0510,Ԑ,CYRILLIC CAPITAL LETTER REVERSED ZE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+0512,Ԓ,CYRILLIC CAPITAL LETTER EL WITH HOOK,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+0514,Ԕ,CYRILLIC CAPITAL LETTER LHA,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+051A,Ԛ,CYRILLIC CAPITAL LETTER QA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+051C,Ԝ,CYRILLIC CAPITAL LETTER WE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E00,Ḁ,LATIN CAPITAL LETTER A WITH RING BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E02,Ḃ,LATIN CAPITAL LETTER B WITH DOT ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E04,Ḅ,LATIN CAPITAL LETTER B WITH DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E06,Ḇ,LATIN CAPITAL LETTER B WITH LINE BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E08,Ḉ,LATIN CAPITAL LETTER C WITH CEDILLA AND ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E0A,Ḋ,LATIN CAPITAL LETTER D WITH DOT ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E0C,Ḍ,LATIN CAPITAL LETTER D WITH DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E0E,Ḏ,LATIN CAPITAL LETTER D WITH LINE BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E10,Ḑ,LATIN CAPITAL LETTER D WITH CEDILLA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E12,Ḓ,LATIN CAPITAL LETTER D WITH CIRCUMFLEX BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E14,Ḕ,LATIN CAPITAL LETTER E WITH MACRON AND GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E16,Ḗ,LATIN CAPITAL LETTER E WITH MACRON AND ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E18,Ḙ,LATIN CAPITAL LETTER E WITH CIRCUMFLEX BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E1A,Ḛ,LATIN CAPITAL LETTER E WITH TILDE BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E1C,Ḝ,LATIN CAPITAL LETTER E WITH CEDILLA AND BREVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E1E,Ḟ,LATIN CAPITAL LETTER F WITH DOT ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E20,Ḡ,LATIN CAPITAL LETTER G WITH MACRON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E22,Ḣ,LATIN CAPITAL LETTER H WITH DOT ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E24,Ḥ,LATIN CAPITAL LETTER H WITH DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E26,Ḧ,LATIN CAPITAL LETTER H WITH DIAERESIS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E28,Ḩ,LATIN CAPITAL LETTER H WITH CEDILLA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E2A,Ḫ,LATIN CAPITAL LETTER H WITH BREVE BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E2C,Ḭ,LATIN CAPITAL LETTER I WITH TILDE BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E2E,Ḯ,LATIN CAPITAL LETTER I WITH DIAERESIS AND ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E30,Ḱ,LATIN CAPITAL LETTER K WITH ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E32,Ḳ,LATIN CAPITAL LETTER K WITH DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E34,Ḵ,LATIN CAPITAL LETTER K WITH LINE BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E36,Ḷ,LATIN CAPITAL LETTER L WITH DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E38,Ḹ,LATIN CAPITAL LETTER L WITH DOT BELOW AND MACRON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E3A,Ḻ,LATIN CAPITAL LETTER L WITH LINE BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E3C,Ḽ,LATIN CAPITAL LETTER L WITH CIRCUMFLEX BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E3E,Ḿ,LATIN CAPITAL LETTER M WITH ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E40,Ṁ,LATIN CAPITAL LETTER M WITH DOT ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E42,Ṃ,LATIN CAPITAL LETTER M WITH DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E44,Ṅ,LATIN CAPITAL LETTER N WITH DOT ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E46,Ṇ,LATIN CAPITAL LETTER N WITH DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E48,Ṉ,LATIN CAPITAL LETTER N WITH LINE BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E4A,Ṋ,LATIN CAPITAL LETTER N WITH CIRCUMFLEX BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E4C,Ṍ,LATIN CAPITAL LETTER O WITH TILDE AND ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E4E,Ṏ,LATIN CAPITAL LETTER O WITH TILDE AND DIAERESIS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E50,Ṑ,LATIN CAPITAL LETTER O WITH MACRON AND GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E52,Ṓ,LATIN CAPITAL LETTER O WITH MACRON AND ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E54,Ṕ,LATIN CAPITAL LETTER P WITH ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E56,Ṗ,LATIN CAPITAL LETTER P WITH DOT ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E58,Ṙ,LATIN CAPITAL LETTER R WITH DOT ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E5A,Ṛ,LATIN CAPITAL LETTER R WITH DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E5C,Ṝ,LATIN CAPITAL LETTER R WITH DOT BELOW AND MACRON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E5E,Ṟ,LATIN CAPITAL LETTER R WITH LINE BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E60,Ṡ,LATIN CAPITAL LETTER S WITH DOT ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E62,Ṣ,LATIN CAPITAL LETTER S WITH DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E64,Ṥ,LATIN CAPITAL LETTER S WITH ACUTE AND DOT ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E66,Ṧ,LATIN CAPITAL LETTER S WITH CARON AND DOT ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E68,Ṩ,LATIN CAPITAL LETTER S WITH DOT BELOW AND DOT ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E6A,Ṫ,LATIN CAPITAL LETTER T WITH DOT ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E6C,Ṭ,LATIN CAPITAL LETTER T WITH DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E6E,Ṯ,LATIN CAPITAL LETTER T WITH LINE BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E70,Ṱ,LATIN CAPITAL LETTER T WITH CIRCUMFLEX BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E72,Ṳ,LATIN CAPITAL LETTER U WITH DIAERESIS BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E74,Ṵ,LATIN CAPITAL LETTER U WITH TILDE BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E76,Ṷ,LATIN CAPITAL LETTER U WITH CIRCUMFLEX BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E78,Ṹ,LATIN CAPITAL LETTER U WITH TILDE AND ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E7A,Ṻ,LATIN CAPITAL LETTER U WITH MACRON AND DIAERESIS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E7C,Ṽ,LATIN CAPITAL LETTER V WITH TILDE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E7E,Ṿ,LATIN CAPITAL LETTER V WITH DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E80,Ẁ,LATIN CAPITAL LETTER W WITH GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E82,Ẃ,LATIN CAPITAL LETTER W WITH ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E84,Ẅ,LATIN CAPITAL LETTER W WITH DIAERESIS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E86,Ẇ,LATIN CAPITAL LETTER W WITH DOT ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E88,Ẉ,LATIN CAPITAL LETTER W WITH DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E8A,Ẋ,LATIN CAPITAL LETTER X WITH DOT ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E8C,Ẍ,LATIN CAPITAL LETTER X WITH DIAERESIS,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E8E,Ẏ,LATIN CAPITAL LETTER Y WITH DOT ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E90,Ẑ,LATIN CAPITAL LETTER Z WITH CIRCUMFLEX,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E92,Ẓ,LATIN CAPITAL LETTER Z WITH DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E94,Ẕ,LATIN CAPITAL LETTER Z WITH LINE BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1E9E,ẞ,LATIN CAPITAL LETTER SHARP S,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+1EA0,Ạ,LATIN CAPITAL LETTER A WITH DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EA2,Ả,LATIN CAPITAL LETTER A WITH HOOK ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EA4,Ấ,LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EA6,Ầ,LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EA8,Ẩ,LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND HOOK ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EAA,Ẫ,LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND TILDE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EAC,Ậ,LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EAE,Ắ,LATIN CAPITAL LETTER A WITH BREVE AND ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EB0,Ằ,LATIN CAPITAL LETTER A WITH BREVE AND GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EB2,Ẳ,LATIN CAPITAL LETTER A WITH BREVE AND HOOK ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EB4,Ẵ,LATIN CAPITAL LETTER A WITH BREVE AND TILDE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EB6,Ặ,LATIN CAPITAL LETTER A WITH BREVE AND DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EB8,Ẹ,LATIN CAPITAL LETTER E WITH DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EBA,Ẻ,LATIN CAPITAL LETTER E WITH HOOK ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EBC,Ẽ,LATIN CAPITAL LETTER E WITH TILDE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EBE,Ế,LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EC0,Ề,LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EC2,Ể,LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND HOOK ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EC4,Ễ,LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND TILDE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EC6,Ệ,LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EC8,Ỉ,LATIN CAPITAL LETTER I WITH HOOK ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1ECA,Ị,LATIN CAPITAL LETTER I WITH DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1ECC,Ọ,LATIN CAPITAL LETTER O WITH DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1ECE,Ỏ,LATIN CAPITAL LETTER O WITH HOOK ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1ED0,Ố,LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1ED2,Ồ,LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1ED4,Ổ,LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND HOOK ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1ED6,Ỗ,LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND TILDE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1ED8,Ộ,LATIN CAPITAL LETTER O WITH CIRCUMFLEX AND DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EDA,Ớ,LATIN CAPITAL LETTER O WITH HORN AND ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EDC,Ờ,LATIN CAPITAL LETTER O WITH HORN AND GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EDE,Ở,LATIN CAPITAL LETTER O WITH HORN AND HOOK ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EE0,Ỡ,LATIN CAPITAL LETTER O WITH HORN AND TILDE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EE2,Ợ,LATIN CAPITAL LETTER O WITH HORN AND DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EE4,Ụ,LATIN CAPITAL LETTER U WITH DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EE6,Ủ,LATIN CAPITAL LETTER U WITH HOOK ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EE8,Ứ,LATIN CAPITAL LETTER U WITH HORN AND ACUTE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EEA,Ừ,LATIN CAPITAL LETTER U WITH HORN AND GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EEC,Ử,LATIN CAPITAL LETTER U WITH HORN AND HOOK ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EEE,Ữ,LATIN CAPITAL LETTER U WITH HORN AND TILDE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EF0,Ự,LATIN CAPITAL LETTER U WITH HORN AND DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EF2,Ỳ,LATIN CAPITAL LETTER Y WITH GRAVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EF4,Ỵ,LATIN CAPITAL LETTER Y WITH DOT BELOW,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EF6,Ỷ,LATIN CAPITAL LETTER Y WITH HOOK ABOVE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EF8,Ỹ,LATIN CAPITAL LETTER Y WITH TILDE,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1EFA,Ỻ,LATIN CAPITAL LETTER MIDDLE-WELSH LL,DejaVu Serif adaptada com gravura e ornamentação vetorial Peregrini
+U+1F08,Ἀ,GREEK CAPITAL LETTER ALPHA WITH PSILI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F09,Ἁ,GREEK CAPITAL LETTER ALPHA WITH DASIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F0A,Ἂ,GREEK CAPITAL LETTER ALPHA WITH PSILI AND VARIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F0B,Ἃ,GREEK CAPITAL LETTER ALPHA WITH DASIA AND VARIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F0C,Ἄ,GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F0D,Ἅ,GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F0E,Ἆ,GREEK CAPITAL LETTER ALPHA WITH PSILI AND PERISPOMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F0F,Ἇ,GREEK CAPITAL LETTER ALPHA WITH DASIA AND PERISPOMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F18,Ἐ,GREEK CAPITAL LETTER EPSILON WITH PSILI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F19,Ἑ,GREEK CAPITAL LETTER EPSILON WITH DASIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F1A,Ἒ,GREEK CAPITAL LETTER EPSILON WITH PSILI AND VARIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F1B,Ἓ,GREEK CAPITAL LETTER EPSILON WITH DASIA AND VARIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F1C,Ἔ,GREEK CAPITAL LETTER EPSILON WITH PSILI AND OXIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F1D,Ἕ,GREEK CAPITAL LETTER EPSILON WITH DASIA AND OXIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F28,Ἠ,GREEK CAPITAL LETTER ETA WITH PSILI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F29,Ἡ,GREEK CAPITAL LETTER ETA WITH DASIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F2A,Ἢ,GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F2B,Ἣ,GREEK CAPITAL LETTER ETA WITH DASIA AND VARIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F2C,Ἤ,GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F2D,Ἥ,GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F2E,Ἦ,GREEK CAPITAL LETTER ETA WITH PSILI AND PERISPOMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F2F,Ἧ,GREEK CAPITAL LETTER ETA WITH DASIA AND PERISPOMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F38,Ἰ,GREEK CAPITAL LETTER IOTA WITH PSILI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F39,Ἱ,GREEK CAPITAL LETTER IOTA WITH DASIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F3A,Ἲ,GREEK CAPITAL LETTER IOTA WITH PSILI AND VARIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F3B,Ἳ,GREEK CAPITAL LETTER IOTA WITH DASIA AND VARIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F3C,Ἴ,GREEK CAPITAL LETTER IOTA WITH PSILI AND OXIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F3D,Ἵ,GREEK CAPITAL LETTER IOTA WITH DASIA AND OXIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F3E,Ἶ,GREEK CAPITAL LETTER IOTA WITH PSILI AND PERISPOMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F3F,Ἷ,GREEK CAPITAL LETTER IOTA WITH DASIA AND PERISPOMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F48,Ὀ,GREEK CAPITAL LETTER OMICRON WITH PSILI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F49,Ὁ,GREEK CAPITAL LETTER OMICRON WITH DASIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F4A,Ὂ,GREEK CAPITAL LETTER OMICRON WITH PSILI AND VARIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F4B,Ὃ,GREEK CAPITAL LETTER OMICRON WITH DASIA AND VARIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F4C,Ὄ,GREEK CAPITAL LETTER OMICRON WITH PSILI AND OXIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F4D,Ὅ,GREEK CAPITAL LETTER OMICRON WITH DASIA AND OXIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F59,Ὑ,GREEK CAPITAL LETTER UPSILON WITH DASIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F5B,Ὓ,GREEK CAPITAL LETTER UPSILON WITH DASIA AND VARIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F5D,Ὕ,GREEK CAPITAL LETTER UPSILON WITH DASIA AND OXIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F5F,Ὗ,GREEK CAPITAL LETTER UPSILON WITH DASIA AND PERISPOMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F68,Ὠ,GREEK CAPITAL LETTER OMEGA WITH PSILI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F69,Ὡ,GREEK CAPITAL LETTER OMEGA WITH DASIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F6A,Ὢ,GREEK CAPITAL LETTER OMEGA WITH PSILI AND VARIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F6B,Ὣ,GREEK CAPITAL LETTER OMEGA WITH DASIA AND VARIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F6C,Ὤ,GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F6D,Ὥ,GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F6E,Ὦ,GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F6F,Ὧ,GREEK CAPITAL LETTER OMEGA WITH DASIA AND PERISPOMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F88,ᾈ,GREEK CAPITAL LETTER ALPHA WITH PSILI AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F89,ᾉ,GREEK CAPITAL LETTER ALPHA WITH DASIA AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F8A,ᾊ,GREEK CAPITAL LETTER ALPHA WITH PSILI AND VARIA AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F8B,ᾋ,GREEK CAPITAL LETTER ALPHA WITH DASIA AND VARIA AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F8C,ᾌ,GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F8D,ᾍ,GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F8E,ᾎ,GREEK CAPITAL LETTER ALPHA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F8F,ᾏ,GREEK CAPITAL LETTER ALPHA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F98,ᾘ,GREEK CAPITAL LETTER ETA WITH PSILI AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F99,ᾙ,GREEK CAPITAL LETTER ETA WITH DASIA AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F9A,ᾚ,GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F9B,ᾛ,GREEK CAPITAL LETTER ETA WITH DASIA AND VARIA AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F9C,ᾜ,GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F9D,ᾝ,GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F9E,ᾞ,GREEK CAPITAL LETTER ETA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1F9F,ᾟ,GREEK CAPITAL LETTER ETA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FA8,ᾨ,GREEK CAPITAL LETTER OMEGA WITH PSILI AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FA9,ᾩ,GREEK CAPITAL LETTER OMEGA WITH DASIA AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FAA,ᾪ,GREEK CAPITAL LETTER OMEGA WITH PSILI AND VARIA AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FAB,ᾫ,GREEK CAPITAL LETTER OMEGA WITH DASIA AND VARIA AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FAC,ᾬ,GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FAD,ᾭ,GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FAE,ᾮ,GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FAF,ᾯ,GREEK CAPITAL LETTER OMEGA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FB8,Ᾰ,GREEK CAPITAL LETTER ALPHA WITH VRACHY,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FB9,Ᾱ,GREEK CAPITAL LETTER ALPHA WITH MACRON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FBA,Ὰ,GREEK CAPITAL LETTER ALPHA WITH VARIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FBB,Ά,GREEK CAPITAL LETTER ALPHA WITH OXIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FBC,ᾼ,GREEK CAPITAL LETTER ALPHA WITH PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FC8,Ὲ,GREEK CAPITAL LETTER EPSILON WITH VARIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FC9,Έ,GREEK CAPITAL LETTER EPSILON WITH OXIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FCA,Ὴ,GREEK CAPITAL LETTER ETA WITH VARIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FCB,Ή,GREEK CAPITAL LETTER ETA WITH OXIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FCC,ῌ,GREEK CAPITAL LETTER ETA WITH PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FD8,Ῐ,GREEK CAPITAL LETTER IOTA WITH VRACHY,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FD9,Ῑ,GREEK CAPITAL LETTER IOTA WITH MACRON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FDA,Ὶ,GREEK CAPITAL LETTER IOTA WITH VARIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FDB,Ί,GREEK CAPITAL LETTER IOTA WITH OXIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FE8,Ῠ,GREEK CAPITAL LETTER UPSILON WITH VRACHY,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FE9,Ῡ,GREEK CAPITAL LETTER UPSILON WITH MACRON,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FEA,Ὺ,GREEK CAPITAL LETTER UPSILON WITH VARIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FEB,Ύ,GREEK CAPITAL LETTER UPSILON WITH OXIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FEC,Ῥ,GREEK CAPITAL LETTER RHO WITH DASIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FF8,Ὸ,GREEK CAPITAL LETTER OMICRON WITH VARIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FF9,Ό,GREEK CAPITAL LETTER OMICRON WITH OXIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FFA,Ὼ,GREEK CAPITAL LETTER OMEGA WITH VARIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FFB,Ώ,GREEK CAPITAL LETTER OMEGA WITH OXIA,Composição Unicode com base ornamental e sinais da base DejaVu
+U+1FFC,ῼ,GREEK CAPITAL LETTER OMEGA WITH PROSGEGRAMMENI,Composição Unicode com base ornamental e sinais da base DejaVu

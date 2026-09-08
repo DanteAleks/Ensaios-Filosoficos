@@ -1,0 +1,41 @@
+[
+  {
+    "family": "Display",
+    "unicode_count": 4549,
+    "glyph_count": 4629,
+    "formats_equal_cmap": true,
+    "required_missing": [],
+    "shaping_NFC_NFD": [
+      ".ttf",
+      ".otf"
+    ],
+    "RTL_forced_shaping_only": true,
+    "tested_in_Word": false
+  },
+  {
+    "family": "Texto",
+    "unicode_count": 4549,
+    "glyph_count": 4629,
+    "formats_equal_cmap": true,
+    "required_missing": [],
+    "shaping_NFC_NFD": [
+      ".ttf",
+      ".otf"
+    ],
+    "RTL_forced_shaping_only": true,
+    "tested_in_Word": false
+  },
+  {
+    "family": "Iluminada",
+    "unicode_count": 678,
+    "glyph_count": 756,
+    "formats_equal_cmap": true,
+    "required_missing": [],
+    "shaping_NFC_NFD": [
+      ".ttf",
+      ".otf"
+    ],
+    "RTL_forced_shaping_only": true,
+    "tested_in_Word": false
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "family": "Display",
+    "unicode_count": 4549,
+    "glyph_count": 4629,
+    "missing_required": []
+  },
+  {
+    "family": "Texto",
+    "unicode_count": 4549,
+    "glyph_count": 4629,
+    "missing_required": []
+  },
+  {
+    "family": "Iluminada",
+    "unicode_count": 678,
+    "glyph_count": 756,
+    "missing_required": []
+  }
+]
