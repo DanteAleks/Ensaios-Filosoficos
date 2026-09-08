@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#102a22">
   <title>Arquivo Peregrini — C. Aleksandr</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./styles.css?v=8">
 </head>
 <body id="inicio">
   <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
@@ -23,7 +23,7 @@
 
     <nav class="desktop-nav" aria-label="Navegação principal">
       <a href="#escritos">Escritos</a>
-      <a href="#sumas">Sumas</a>
+      <a href="#sumas">Sumas</a><a href="#colecoes">Coleções</a>
       <a href="#via">A Via</a>
       <a href="#autor">Autor</a>
     </nav>
@@ -38,7 +38,7 @@
 
   <nav class="mobile-nav" id="mobile-nav" aria-label="Navegação móvel" hidden>
     <a href="#escritos">Escritos</a>
-    <a href="#sumas">Sumas</a>
+    <a href="#sumas">Sumas</a><a href="#colecoes">Coleções</a>
     <a href="#via">A Via</a>
     <a href="#autor">Autor</a>
   </nav>
@@ -83,7 +83,7 @@
       <label class="format-select">Forma de leitura <select id="format-filter"><option value="todos">Todas as formas</option><option value="sintetico">Sintético</option><option value="didatico">Didático</option></select></label>
 
       <div id="resume-reading" class="resume-reading" hidden><a href="#escritos">Retomar leitura</a><button type="button">Esquecer posição</button><small>Salvo apenas neste navegador.</small></div>
-      <div class="work-grid" id="work-grid">{{WORKS}}</div>
+      {{ORDER_WORKS}}<div class="work-grid" id="work-grid">{{WORKS}}</div>
       <p class="empty-state" id="empty-state" hidden>Nenhum escrito corresponde a esta busca.</p>
     </section>
 
@@ -95,9 +95,10 @@
         </div>
         <p>Sínteses analíticas de obras estudadas, com conceitos centrais, percurso argumentativo e observações próprias.</p>
       </div>
-      <div class="work-grid" id="sumas-grid">{{SUMAS}}</div>
+      {{ORDER_SUMAS}}<div class="work-grid" id="sumas-grid">{{SUMAS}}</div>
     </section>
 
+    <section class="library-section" id="colecoes"><p class="eyebrow">Percursos de leitura</p><h2>Coleções</h2>{{COLLECTIONS}}</section>
     <section class="method-section" id="via" aria-labelledby="via-title">
       <div class="method-intro"><p class="eyebrow">O sentido do nome</p><h2 id="via-title">Via Peregrini<br><em>Luminus</em></h2><p class="lead">O caminho de um peregrino em busca da luz.</p></div>
       <div class="method-content"><p>Peregrini evoca a figura do peregrino: alguém que percorre um caminho, aprende com a jornada e procura uma direção para a própria existência.</p><p>No nome Via Peregrini Luminus, a via representa o caminho; o peregrino, aquele que o percorre; e a luz, a verdade e a compreensão que orientam sua busca. Essa imagem dá sentido ao nome deste espaço e à reunião dos escritos que acompanham esse percurso.</p></div>
@@ -125,8 +126,9 @@
   </footer>
 
   <script src="./preferences.js"></script>
-  <script src="./app.js"></script>
+  <script src="./app.js?v=8"></script>
   <script src="./reading-memory.js"></script>
 </body>
 </html>
+
 

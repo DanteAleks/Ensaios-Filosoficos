@@ -10,4 +10,6 @@ const search=document.querySelector('#search-input'),format=document.querySelect
 const normalize=t=>t.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 function update(){let n=0;document.querySelectorAll('#work-grid .work-card').forEach(c=>{c.hidden=!((active==='todos'||c.dataset.status===active)&&(format.value==='todos'||c.dataset.format===format.value)&&normalize(c.textContent).includes(normalize(search.value.trim())));if(!c.hidden)n++;});document.querySelector('#empty-state').hidden=!!n;}
 filters.forEach(b=>b.onclick=()=>{active=b.dataset.filter;filters.forEach(f=>{f.classList.toggle('is-active',f===b);f.setAttribute('aria-pressed',String(f===b));});update();});search.oninput=update;format.onchange=update;update();
+document.querySelectorAll('[data-sort]').forEach(select=>select.addEventListener('change',()=>{const grid=document.getElementById(select.dataset.sort);const cards=[...grid.children];cards.sort((a,b)=>{if(select.value==='author')return Number(a.dataset.order)-Number(b.dataset.order);const x=a.dataset.date,y=b.dataset.date;if(!x||!y)return x?-1:y?1:Number(a.dataset.order)-Number(b.dataset.order);return (select.value==='newest'?y.localeCompare(x):x.localeCompare(y))||Number(a.dataset.order)-Number(b.dataset.order);});grid.append(...cards);}));
 })();
+

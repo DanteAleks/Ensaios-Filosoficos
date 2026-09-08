@@ -393,3 +393,23 @@ footer .writing-observation p { color:inherit; font:inherit; text-align:left; ma
 .private-message-form fieldset:disabled { opacity:.65; }
 .private-message-body [data-message-status] { min-height:1.5em; margin:.9rem 0 0; color:var(--muted); }
 @media print { .author-message { display:none; } }
+
+
+/* Manuscrito Peregrini: linhas leves, folha clara, ornamento contido. */
+.doc-block { white-space:pre-wrap; overflow-wrap:anywhere; }
+.reading-text .align-left { text-align:left; }
+.reading-text .align-center { text-align:center; }
+.reading-text .align-right { text-align:right; }
+.reading-text .align-justify { text-align:justify; }
+.reading-text > h2.doc-block { margin-top:3rem; padding-top:1.2rem; border-top:3px double var(--gold); scroll-margin-top:6rem; }
+.reading-text > h3.doc-block { margin-top:2rem; scroll-margin-top:6rem; }
+.reading-text > h2.doc-block + p::first-letter { font-family:var(--serif); color:var(--gold); font-size:1.7em; }
+.catalog-order { display:flex; gap:.8rem; flex-wrap:wrap; align-items:center; margin:1.3rem 0; }
+.newest-badge { align-self:flex-start; border-bottom:1px solid var(--gold); color:var(--gold); font-size:.8rem; letter-spacing:.08em; margin-bottom:.5rem; }
+.publication-date { font-size:.85rem; color:var(--muted); }
+.collection-section { padding:1.5rem 0 2rem; border-top:3px double var(--line); scroll-margin-top:7rem; }
+.collection-section > h3 { font:400 2rem var(--serif); }
+.collection-link { display:inline-block; border:1px solid var(--line); padding:.25rem .65rem; margin:.4rem 0; font:.9rem var(--sans); }
+#colecoes { background:radial-gradient(ellipse at top right,color-mix(in srgb,var(--gold) 7%,transparent),transparent 60%); }
+#colecoes > h2::after { content:'❦'; color:var(--gold); margin-left:1rem; }
+@media print { .doc-block { color:#000; } }
