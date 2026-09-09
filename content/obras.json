@@ -4771,7 +4771,7 @@
               "paragraphs": [
                 "O paradoxo de Skolem é um dos resultados mais surpreendentes da lógica matemática e da teoria dos conjuntos. Ele parece colocar em conflito dois teoremas fundamentais.",
                 "O primeiro é o teorema de Cantor, que demonstra que existem conjuntos infinitos maiores do que outros. Em particular, demonstra que existem conjuntos incontáveis, isto é, conjuntos que não podem ser enumerados pelos números naturais.",
-                "O segundo é o teorema de Löwenheim-Skolem, que afirma, em uma de suas formas principais, que toda teoria de primeira ordem formulada em uma linguagem contável, caso possua um modelo infinito, também possui um modelo contável.",
+                "O segundo é o teorema de Löwenheim-Skolem, que afirma, em uma de suas formas principais que toda teoria de primeira ordem formulada em uma linguagem contável, caso possua um modelo infinito, também possui um modelo contável.",
                 "A dificuldade aparece quando percebemos que a teoria dos conjuntos pode ser formulada como uma teoria de primeira ordem e que, dentro dela, é possível demonstrar o teorema de Cantor. Se a teoria dos conjuntos possui um modelo contável, como esse modelo pode satisfazer os axiomas que demonstram a existência de conjuntos incontáveis?",
                 "A pergunta parece conduzir a uma contradição:",
                 "Como um modelo que possui apenas contavelmente muitos objetos pode conter um conjunto que, segundo os seus próprios axiomas, é incontável?",
@@ -4788,14 +4788,15 @@
                 "Em situações finitas, costumamos comparar o tamanho de dois conjuntos contando seus elementos. Um conjunto com cinco objetos é maior do que um conjunto com três objetos. Entretanto, esse método não funciona diretamente para conjuntos infinitos, pois não podemos simplesmente terminar de contar todos os seus elementos.",
                 "Georg Cantor propôs uma maneira mais geral de comparar conjuntos. Dois conjuntos possuem a mesma cardinalidade quando existe entre eles uma correspondência biunívoca, também chamada de bijeção.",
                 "Uma bijeção é uma função que associa cada elemento do primeiro conjunto a exatamente um elemento do segundo, sem repetir associações e sem deixar elementos de nenhum dos dois lados sem correspondente.",
-                "Por exemplo, considere o conjunto dos números naturais:\n\\(\\mathbb{N}={0,1,2,3,4,\\ldots}\\).",
-                "Considere também o conjunto dos números pares:",
-                "\n\\(E={0,2,4,6,8,\\ldots}\\).\n\n",
-                "Embora os números pares pareçam ser apenas uma parte dos números naturais, existe uma bijeção entre os dois conjuntos. A função\n\\(f(n)=2n\\)",
-                "associa cada número natural a um número par. O número (0) é associado a (0), o número (1) é associado a (2), o número (2) é associado a (4), e assim por diante.",
-                "Cada número par aparece exatamente uma vez nessa correspondência. Portanto, embora (E) seja um subconjunto próprio de \\((\\mathbb{N})\\), os dois conjuntos possuem a mesma cardinalidade.",
+                "Por exemplo, considere o conjunto dos números naturais: ",
+                "\\(\\mathbb{N}={0,1,2,3,4,\\ldots}\\).",
+                "Considere também o conjunto dos números pares: ",
+                "\\(E={0,2,4,6,8,\\ldots}\\).",
+                "Embora os números pares pareçam ser apenas uma parte dos números naturais, existe uma bijeção entre os dois conjuntos. A função \\(f(n)=2n\\) associa cada número natural a um número par. O número \\((0)\\) é associado a \\((0)\\), o número \\((1)\\) é associado a \\((2)\\), o número \\((2)\\) é associado a \\((4)\\), e assim por diante.",
+                "Cada número par aparece exatamente uma vez nessa correspondência. Portanto, embora \\((E)\\) seja um subconjunto próprio de \\((\\mathbb{N})\\), os dois conjuntos possuem a mesma cardinalidade.",
                 "Esse é um dos aspectos contraintuitivos dos conjuntos infinitos. Um conjunto infinito pode possuir a mesma cardinalidade que uma parte própria de si mesmo.",
-                "Os números inteiros também são contáveis. Apesar de incluírem números negativos, podemos organizá-los em uma sequência, por exemplo:\n\\(0,1,-1,2,-2,3,-3,\\ldots\\)",
+                "Os números inteiros também são contáveis. Apesar de incluírem números negativos, podemos organizá-los em uma sequência, por exemplo: ",
+                "\\(0,1,-1,2,-2,3,-3,\\ldots\\)",
                 "Como é possível associar cada inteiro a uma posição nessa sequência, os inteiros possuem a mesma cardinalidade que os naturais.",
                 "Os números racionais também são contáveis. Embora entre dois números racionais sempre existam outros números racionais, eles ainda podem ser organizados em uma enumeração que os associa aos números naturais.",
                 "Um conjunto é chamado de contável quando seus elementos podem ser enumerados usando os números naturais. Em termos formais, um conjunto (A) é contável quando existe uma função bijetiva entre (A) e \\((\\mathbb{N})\\), ou, em algumas definições, quando existe uma injeção de (A) em \\((\\mathbb{N})\\).",
@@ -4808,12 +4809,16 @@
               "title": "O teorema de Cantor",
               "paragraphs": [
                 "O teorema de Cantor afirma que, para qualquer conjunto (A), o conjunto formado por todos os subconjuntos de (A) possui cardinalidade maior do que a cardinalidade de (A).",
-                "O conjunto de todos os subconjuntos de (A) é chamado de conjunto das partes de (A) e é representado por:\n\\(\\mathcal{P}(A)\\).",
-                "Se\n\\(A={1,2,3}\\),",
-                "então:\n\\(\\mathcal{P}(A)={\\varnothing,{1},{2},{3},{1,2},{1,3},{2,3},{1,2,3}}\\).",
+                "O conjunto de todos os subconjuntos de (A) é chamado de conjunto das partes de (A) e é representado por:",
+                "\\(\\mathcal{P}(A)\\).",
+                "Se",
+                " \\(A={1,2,3}\\),",
+                "então: ",
+                "\\(\\mathcal{P}(A)={\\varnothing,{1},{2},{3},{1,2},{1,3},{2,3},{1,2,3}}\\).",
                 "O conjunto (A) possui três elementos, enquanto\\((\\mathcal{P}(A))\\) possui oito elementos.",
                 "Em geral, se um conjunto finito possui (n) elementos, seu conjunto das partes possui (2^n) elementos. O teorema de Cantor mostra que essa diferença não desaparece quando passamos aos conjuntos infinitos.",
-                "Para todo conjunto (A), vale:\n\\(|\\mathcal{P}(A)|>|A|\\).",
+                "Para todo conjunto (A), vale: ",
+                "\\(|\\mathcal{P}(A)|>|A|\\).",
                 "Essa desigualdade significa que não existe uma bijeção entre (A) e \\((\\mathcal{P}(A))\\).",
                 "A demonstração de Cantor possui duas partes. Primeiro, é fácil mostrar que (A) pode ser injetado em \\((\\mathcal{P}(A))\\). Basta associar a cada elemento \\((a\\in A)\\) o conjunto unitário \\(({a})\\).",
                 "A segunda parte é demonstrar que não existe uma função sobrejetiva de (A) sobre \\((\\mathcal{P}(A))\\). Essa é a parte conhecida como argumento diagonal."
@@ -4824,19 +4829,27 @@
               "id": "secao-45",
               "title": "O argumento diagonal de Cantor",
               "paragraphs": [
-                "Suponhamos, para obter uma contradição, que exista uma função\n\\(f\\to\\mathcal{P}(A)\\)",
+                "Suponhamos, para obter uma contradição, que exista uma função ",
+                "\\(f\\to\\mathcal{P}(A)\\)",
                 "que seja sobrejetiva. Isso significa que todo subconjunto de (A) aparece como (f(a)) para algum elemento \\((a\\in A)\\).",
-                "Construímos então o seguinte subconjunto de (A):\n\\(D={a\\in A\\notin f(a)}\\).",
+                "Construímos então o seguinte subconjunto de (A): ",
+                "\\(D={a\\in A\\notin f(a)}\\).",
                 "O conjunto (D) contém exatamente aqueles elementos de (A) que não pertencem ao subconjunto que a função (f) lhes atribui.",
-                "Como supusemos que (f) é sobrejetiva, o conjunto (D) deveria aparecer na lista. Portanto, deveria existir algum \\((d\\in A)\\)tal que:\n\\(f(d)=D\\).",
+                "Como supusemos que (f) é sobrejetiva, o conjunto (D) deveria aparecer na lista. Portanto, deveria existir algum \\((d\\in A)\\)tal que: ",
+                "\\(f(d)=D\\).",
                 "Agora perguntamos se (d) pertence a (D).",
-                "Se \\((d\\in D)\\), então, pela definição de (D), temos:\n\\(d\\notin f(d)\\).",
-                "Mas \\((f(d)=D)\\). Logo:\n\\(d\\notin D\\).",
-                "Por outro lado, se \\((d\\notin D),\\) então, pela definição de (D), temos:\n\\(d\\in f(d)\\).",
-                "Como \\((f(d)=D)\\), concluímos:\n\\(d\\in D\\).",
+                "Se \\((d\\in D)\\), então, pela definição de (D), temos: ",
+                "\\(d\\notin f(d)\\).",
+                "Mas \\((f(d)=D)\\). Logo: ",
+                "\\(d\\notin D\\).",
+                "Por outro lado, se \\((d\\notin D),\\) então, pela definição de (D), temos: ",
+                "\\(d\\in f(d)\\).",
+                "Como \\((f(d)=D)\\), concluímos: ",
+                "\\(d\\in D\\).",
                 "Nos dois casos surge uma contradição. Portanto, (D) não pode ser um dos subconjuntos incluídos na lista de (f).",
                 "A função (f) não é sobrejetiva. Como nenhuma função de (A) para \\((\\mathcal{P}(A))\\) pode alcançar todos os subconjuntos de (A), não existe bijeção entre os dois conjuntos.",
-                "Assim, o conjunto das partes de (A) é sempre maior do que o próprio conjunto:\n\\(|\\mathcal{P}(A)|>|A|\\)."
+                "Assim, o conjunto das partes de (A) é sempre maior do que o próprio conjunto: ",
+                "\\(|\\mathcal{P}(A)|>|A|\\)."
               ],
               "subchapters": []
             },
@@ -4844,16 +4857,21 @@
               "id": "secao-67",
               "title": "Por que existem conjuntos incontáveis?",
               "paragraphs": [
-                "Agora aplicamos o teorema de Cantor ao conjunto dos números naturais:\n\\(\\mathcal{P}(\\mathbb{N})\\).",
-                "O teorema afirma:\n\\(|\\mathcal{P}(\\mathbb{N})|>|\\mathbb{N}|\\).",
+                "Agora aplicamos o teorema de Cantor ao conjunto dos números naturais: ",
+                "\\(\\mathcal{P}(\\mathbb{N})\\).",
+                "O teorema afirma: ",
+                "\\(|\\mathcal{P}(\\mathbb{N})|>|\\mathbb{N}|\\).",
                 "Portanto, o conjunto de todos os subconjuntos dos números naturais não é contável.",
                 "Isso já é suficiente para demonstrar que existem conjuntos incontáveis.",
                 "Os números reais também são incontáveis. Uma maneira de compreender isso é observar que muitos números reais podem ser representados por sequências infinitas de algarismos binários. Cada sequência binária pode ser associada a um subconjunto dos números naturais.",
-                "Por exemplo, uma sequência como:\n\\(1,0,1,0,0,1,\\ldots\\)",
+                "Por exemplo, uma sequência como: ",
+                "\\(1,0,1,0,0,1,\\ldots\\)",
                 "pode ser associada ao conjunto formado pelas posições em que aparece o algarismo (1).",
-                "Assim, existe uma relação profunda entre o conjunto dos números reais e o conjunto das partes dos naturais. A cardinalidade dos reais é normalmente representada por:\n|\\(\\mathbb{R}|=2^{\\aleph_0}\\),",
-                "enquanto a cardinalidade dos naturais é representada por:\n\\(|\\mathbb{N}|=\\aleph_0\\).\n\n",
-                "A desigualdade de Cantor pode então ser expressa como:\n\\(\\aleph_0<2^{\\aleph_0}\\).",
+                "\\(|\\mathbb{R}|=2^{\\aleph_0}\\\\),",
+                "enquanto a cardinalidade dos naturais é representada por: ",
+                "\\(|\\mathbb{N}|=\\aleph_0\\).",
+                "A desigualdade de Cantor pode então ser expressa como: ",
+                "\\(\\aleph_0<2^{\\aleph_0}\\).",
                 "É importante distinguir esse resultado da hipótese do contínuo. O teorema de Cantor afirma que os reais são mais numerosos do que os naturais. A hipótese do contínuo pergunta se existe uma cardinalidade intermediária entre esses dois tamanhos. São questões diferentes."
               ],
               "subchapters": []
@@ -4864,18 +4882,20 @@
               "paragraphs": [
                 "A teoria dos conjuntos contemporânea não é construída apenas por meio de explicações informais. Ela pode ser apresentada como um sistema axiomático formal.",
                 "A teoria mais conhecida é a teoria ZFC, formada pelos axiomas de Zermelo-Fraenkel juntamente com o axioma da escolha.",
-                "A linguagem básica da teoria dos conjuntos é extremamente simples. Em sua forma mais comum, ela possui um único símbolo não lógico fundamental:",
-                "[\n\\in\n]",
+                "A linguagem básica da teoria dos conjuntos é extremamente simples. Em sua forma mais comum, ela possui um único símbolo não lógico fundamental: ",
+                "\\(\\in\\)",
                 "Esse símbolo é interpretado como “pertence a”.",
                 "A teoria não precisa possuir símbolos separados para números, funções, pares ordenados, números reais ou espaços geométricos. Esses objetos podem ser construídos como conjuntos a partir da relação de pertencimento.",
-                "A linguagem também possui variáveis, conectivos lógicos, igualdade e quantificadores. Uma fórmula como",
-                "[\n\\forall x,\\exists y,(x\\in y)\n]",
+                "A linguagem também possui variáveis, conectivos lógicos, igualdade e quantificadores. Uma fórmula como ",
+                "\\(\\forall x,\\exists y,(x\\in y)\\)",
                 "pode ser lida como:",
-                "“Para todo objeto (x), existe algum objeto (y) tal que (x) pertence a (y).”",
+                "“Para todo objeto \\((x)\\), existe algum objeto \\((y)\\) tal que \\((x)\\) pertence a \\((y)\\).”",
                 "Os axiomas de ZFC estabelecem princípios sobre a formação e a identidade dos conjuntos. O axioma da extensionalidade, por exemplo, afirma que dois conjuntos são iguais quando possuem exatamente os mesmos elementos:",
-                "[\n\\forall x\\forall y\n\\left[\n\\forall z,(z\\in x\\leftrightarrow z\\in y)\n\\rightarrow x=y\n\\right].\n]",
+                "\\(\n\\forall x\\forall y\n\\left[\n\\forall z,(z\\in x\\leftrightarrow z\\in y)\n\\rightarrow x=y\n\\right].\n",
+                "\\)",
                 "O axioma do conjunto das partes afirma que, para cada conjunto (x), existe um conjunto formado pelos subconjuntos de (x). Uma formulação simplificada é:",
-                "[\n\\forall x,\\exists y,\\forall z\n\\left[\nz\\subseteq x\\leftrightarrow z\\in y\n\\right].\n]",
+                "\\(\n\\forall x,\\exists y,\\forall z\n\\left[\nz\\subseteq x\\leftrightarrow z\\in y\n\\right].",
+                "\\)",
                 "O axioma do infinito garante a existência de um conjunto infinito. A partir dele, é possível construir o conjunto dos números naturais.",
                 "O teorema de Cantor utiliza recursos como o conjunto das partes, a noção de função e o argumento diagonal. Todos esses conceitos podem ser definidos dentro da teoria dos conjuntos.",
                 "Portanto, a própria teoria que demonstra a existência de conjuntos incontáveis pode ser formulada como uma teoria de primeira ordem."
@@ -4886,11 +4906,11 @@
               "id": "secao-103",
               "title": "O que é uma linguagem de primeira ordem?",
               "paragraphs": [
-                "Uma linguagem de primeira ordem permite quantificar sobre os objetos que pertencem ao seu domínio. Suas fórmulas podem conter expressões como:",
-                "[\n\\forall x,\\varphi(x)\n]",
-                "e:",
-                "[\n\\exists x,\\varphi(x).\n]",
-                "A primeira significa que a fórmula (\\varphi(x)) é verdadeira para todo objeto do domínio. A segunda significa que existe pelo menos um objeto do domínio que satisfaz (\\varphi(x)).",
+                "Uma linguagem de primeira ordem permite quantificar sobre os objetos que pertencem ao seu domínio. Suas fórmulas podem conter expressões como: ",
+                "\\(\\forall x,\\varphi(x)\\)",
+                "e: ",
+                "\\(\\exists x,\\varphi(x)\\).",
+                "A primeira significa que a fórmula \\((\\varphi(x))\\) é verdadeira para todo objeto do domínio. A segunda significa que existe pelo menos um objeto do domínio que satisfaz \\((\\varphi(x))\\).",
                 "A expressão “do domínio” é essencial. Os quantificadores não percorrem automaticamente tudo o que existe. Eles percorrem apenas os objetos que pertencem à estrutura que está sendo interpretada.",
                 "Essa limitação diferencia a lógica de primeira ordem de linguagens mais fortes. Na lógica de segunda ordem, por exemplo, também podemos quantificar sobre propriedades ou subconjuntos de objetos. Na lógica de primeira ordem, entretanto, os quantificadores percorrem apenas os elementos do domínio.",
                 "As teorias de primeira ordem podem ser muito expressivas, mas não conseguem fixar completamente todos os aspectos infinitários de suas estruturas."
@@ -4902,16 +4922,15 @@
               "title": "O que é um modelo?",
               "paragraphs": [
                 "Um modelo é uma estrutura que fornece um domínio de objetos e interpreta os símbolos de uma linguagem.",
-                "Para a linguagem da teoria dos conjuntos, podemos representar um modelo por:",
-                "[\nM=\\langle |M|,\\in^M\\rangle.\n]",
-                "O símbolo (|M|) representa o domínio do modelo. O símbolo (\\in^M) representa a relação que o modelo interpreta como pertencimento.",
-                "É importante perceber que (\\in^M) não precisa ser automaticamente idêntico à relação de pertencimento que o matemático utiliza externamente. Em alguns modelos, seus elementos podem ser objetos abstratos da estrutura, e não conjuntos no sentido habitual.",
-                "Quando escrevemos:",
-                "[\nM\\models\\varphi,\n]",
-                "estamos afirmando que a fórmula (\\varphi) é satisfeita pelo modelo (M).",
-                "Se (T) é uma teoria, escrevemos:",
-                "[\nM\\models T\n]",
-                "quando todas as sentenças de (T) são satisfeitas por (M). Nesse caso, dizemos que (M) é um modelo de (T).",
+                "Para a linguagem da teoria dos conjuntos, podemos representar um modelo por:\n\\(M=\\langle |M|,\\in^M\\rangle\\).",
+                "O símbolo \\((|M|)\\) representa o domínio do modelo. O símbolo \\((\\in^M)\\) representa a relação que o modelo interpreta como pertencimento.",
+                "É importante perceber que \\((\\in^M)\\) não precisa ser automaticamente idêntico à relação de pertencimento que o matemático utiliza externamente. Em alguns modelos, seus elementos podem ser objetos abstratos da estrutura, e não conjuntos no sentido habitual.",
+                "Quando escrevemos: ",
+                "\\(M\\models\\varphi\\),",
+                "estamos afirmando que a fórmula \\((\\varphi)\\) é satisfeita pelo modelo (M).",
+                "Se \\((T)\\)é uma teoria, escrevemos: ",
+                "\\(M\\models T\\)",
+                "quando todas as sentenças de \\((T)\\) são satisfeitas por \\((M)\\). Nesse caso, dizemos que \\((M)\\) é um modelo de \\((T)\\).",
                 "Uma teoria é, portanto, uma coleção de sentenças. Um modelo é uma estrutura que torna essas sentenças verdadeiras.",
                 "A diferença entre teoria e modelo pode ser comparada à diferença entre uma descrição e aquilo que realiza a descrição. Uma teoria estabelece as condições formais. Um modelo fornece uma estrutura que satisfaz essas condições.",
                 "Entretanto, uma mesma teoria pode possuir muitos modelos diferentes. Esses modelos podem variar em tamanho, em estrutura interna e em propriedades que não são expressas pela linguagem da teoria.",
@@ -5376,7 +5395,7 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "O segundo é o teorema de Löwenheim-Skolem, que afirma, em uma de suas formas principais, que toda teoria de primeira ordem formulada em uma linguagem contável, caso possua um modelo infinito, também possui um modelo contável."
+                  "text": "O segundo é o teorema de Löwenheim-Skolem, que afirma, em uma de suas formas principais que toda teoria de primeira ordem formulada em uma linguagem contável, caso possua um modelo infinito, também possui um modelo contável."
                 }
               ]
             },
@@ -5403,7 +5422,8 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Como um modelo que possui apenas contavelmente muitos objetos pode conter um conjunto que, segundo os seus próprios axiomas, é incontável?"
+                  "text": "Como um modelo que possui apenas contavelmente muitos objetos pode conter um conjunto que, segundo os seus próprios axiomas, é incontável?",
+                  "italic": true
                 }
               ]
             },
@@ -5476,11 +5496,14 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Por exemplo, considere o conjunto dos números naturais:"
-                },
-                {
-                  "text": "\n"
-                },
+                  "text": "Por exemplo, considere o conjunto dos números naturais: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
                 {
                   "text": "\\(\\mathbb{N}={0,1,2,3,4,\\ldots}\\)"
                 },
@@ -5494,28 +5517,19 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Considere também o conjunto dos números pares:"
+                  "text": "Considere também o conjunto dos números pares: "
                 }
               ]
             },
             {
               "tag": "p",
-              "align": "left",
+              "align": "center",
               "runs": [
-                {
-                  "text": "\n"
-                },
                 {
                   "text": "\\(E={0,2,4,6,8,\\ldots}\\)"
                 },
                 {
                   "text": "."
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "\n"
                 }
               ]
             },
@@ -5524,13 +5538,13 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Embora os números pares pareçam ser apenas uma parte dos números naturais, existe uma bijeção entre os dois conjuntos. A função"
-                },
-                {
-                  "text": "\n"
+                  "text": "Embora os números pares pareçam ser apenas uma parte dos números naturais, existe uma bijeção entre os dois conjuntos. A função "
                 },
                 {
                   "text": "\\(f(n)=2n\\)"
+                },
+                {
+                  "text": " associa cada número natural a um número par. O número \\((0)\\) é associado a \\((0)\\), o número \\((1)\\) é associado a \\((2)\\), o número \\((2)\\) é associado a \\((4)\\), e assim por diante."
                 }
               ]
             },
@@ -5539,16 +5553,7 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "associa cada número natural a um número par. O número (0) é associado a (0), o número (1) é associado a (2), o número (2) é associado a (4), e assim por diante."
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "Cada número par aparece exatamente uma vez nessa correspondência. Portanto, embora (E) seja um subconjunto próprio de "
+                  "text": "Cada número par aparece exatamente uma vez nessa correspondência. Portanto, embora \\((E)\\) seja um subconjunto próprio de "
                 },
                 {
                   "text": "\\((\\mathbb{N})\\)"
@@ -5572,11 +5577,14 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Os números inteiros também são contáveis. Apesar de incluírem números negativos, podemos organizá-los em uma sequência, por exemplo:"
-                },
-                {
-                  "text": "\n"
-                },
+                  "text": "Os números inteiros também são contáveis. Apesar de incluírem números negativos, podemos organizá-los em uma sequência, por exemplo: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
                 {
                   "text": "\\(0,1,-1,2,-2,3,-3,\\ldots\\)"
                 }
@@ -5655,10 +5663,13 @@
               "runs": [
                 {
                   "text": "O conjunto de todos os subconjuntos de (A) é chamado de conjunto das partes de (A) e é representado por:"
-                },
-                {
-                  "text": "\n"
-                },
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
                 {
                   "text": "\\(\\mathcal{P}(A)\\)"
                 },
@@ -5673,9 +5684,15 @@
               "runs": [
                 {
                   "text": "Se"
-                },
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
                 {
-                  "text": "\n"
+                  "text": " "
                 },
                 {
                   "text": "\\(A={1,2,3}\\)"
@@ -5690,11 +5707,14 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "então:"
-                },
-                {
-                  "text": "\n"
-                },
+                  "text": "então: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
                 {
                   "text": "\\(\\mathcal{P}(A)={\\varnothing,{1},{2},{3},{1,2},{1,3},{2,3},{1,2,3}}\\)"
                 },
@@ -5732,11 +5752,14 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Para todo conjunto (A), vale:"
-                },
-                {
-                  "text": "\n"
-                },
+                  "text": "Para todo conjunto (A), vale: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
                 {
                   "text": "\\(|\\mathcal{P}(A)|>|A|\\)"
                 },
@@ -5817,11 +5840,14 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Suponhamos, para obter uma contradição, que exista uma função"
-                },
-                {
-                  "text": "\n"
-                },
+                  "text": "Suponhamos, para obter uma contradição, que exista uma função "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
                 {
                   "text": "\\(f\\to\\mathcal{P}(A)\\)"
                 }
@@ -5832,7 +5858,13 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "que seja sobrejetiva. Isso significa que todo subconjunto de (A) aparece como (f(a)) para algum elemento \\((a\\in A)\\)."
+                  "text": "que seja sobrejetiva. Isso significa que todo subconjunto de (A) aparece como (f(a)) para algum elemento "
+                },
+                {
+                  "text": "\\((a\\in A)\\)"
+                },
+                {
+                  "text": "."
                 }
               ]
             },
@@ -5841,13 +5873,19 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Construímos então o seguinte subconjunto de (A):"
+                  "text": "Construímos então o seguinte subconjunto de (A): "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
+                {
+                  "text": "\\(D={a\\in A\\notin f(a)}\\)"
                 },
                 {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\(D={a\\in A\\notin f(a)}\\)."
+                  "text": "."
                 }
               ]
             },
@@ -5865,13 +5903,25 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Como supusemos que (f) é sobrejetiva, o conjunto (D) deveria aparecer na lista. Portanto, deveria existir algum \\((d\\in A)\\)tal que:"
+                  "text": "Como supusemos que (f) é sobrejetiva, o conjunto (D) deveria aparecer na lista. Portanto, deveria existir algum "
                 },
                 {
-                  "text": "\n"
+                  "text": "\\((d\\in A)\\)"
                 },
                 {
-                  "text": "\\(f(d)=D\\)."
+                  "text": "tal que: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
+                {
+                  "text": "\\(f(d)=D\\)"
+                },
+                {
+                  "text": "."
                 }
               ]
             },
@@ -5889,13 +5939,25 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Se \\((d\\in D)\\), então, pela definição de (D), temos:"
+                  "text": "Se "
                 },
                 {
-                  "text": "\n"
+                  "text": "\\((d\\in D)\\)"
                 },
                 {
-                  "text": "\\(d\\notin f(d)\\)."
+                  "text": ", então, pela definição de (D), temos: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
+                {
+                  "text": "\\(d\\notin f(d)\\)"
+                },
+                {
+                  "text": "."
                 }
               ]
             },
@@ -5904,13 +5966,25 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Mas \\((f(d)=D)\\). Logo:"
+                  "text": "Mas "
                 },
                 {
-                  "text": "\n"
+                  "text": "\\((f(d)=D)\\)"
                 },
                 {
-                  "text": "\\(d\\notin D\\)."
+                  "text": ". Logo: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
+                {
+                  "text": "\\(d\\notin D\\)"
+                },
+                {
+                  "text": "."
                 }
               ]
             },
@@ -5919,13 +5993,25 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Por outro lado, se \\((d\\notin D),\\) então, pela definição de (D), temos:"
+                  "text": "Por outro lado, se "
                 },
                 {
-                  "text": "\n"
+                  "text": "\\((d\\notin D),\\)"
                 },
                 {
-                  "text": "\\(d\\in f(d)\\)."
+                  "text": " então, pela definição de (D), temos: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
+                {
+                  "text": "\\(d\\in f(d)\\)"
+                },
+                {
+                  "text": "."
                 }
               ]
             },
@@ -5934,13 +6020,25 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Como \\((f(d)=D)\\), concluímos:"
+                  "text": "Como "
                 },
                 {
-                  "text": "\n"
+                  "text": "\\((f(d)=D)\\)"
                 },
                 {
-                  "text": "\\(d\\in D\\)."
+                  "text": ", concluímos: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
+                {
+                  "text": "\\(d\\in D\\)"
+                },
+                {
+                  "text": "."
                 }
               ]
             },
@@ -5958,7 +6056,13 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "A função (f) não é sobrejetiva. Como nenhuma função de (A) para \\((\\mathcal{P}(A))\\) pode alcançar todos os subconjuntos de (A), não existe bijeção entre os dois conjuntos."
+                  "text": "A função (f) não é sobrejetiva. Como nenhuma função de (A) para "
+                },
+                {
+                  "text": "\\((\\mathcal{P}(A))\\)"
+                },
+                {
+                  "text": " pode alcançar todos os subconjuntos de (A), não existe bijeção entre os dois conjuntos."
                 }
               ]
             },
@@ -5967,13 +6071,19 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Assim, o conjunto das partes de (A) é sempre maior do que o próprio conjunto:"
+                  "text": "Assim, o conjunto das partes de (A) é sempre maior do que o próprio conjunto: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
+                {
+                  "text": "\\(|\\mathcal{P}(A)|>|A|\\)"
                 },
                 {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\(|\\mathcal{P}(A)|>|A|\\)."
+                  "text": "."
                 }
               ]
             },
@@ -5992,13 +6102,19 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Agora aplicamos o teorema de Cantor ao conjunto dos números naturais:"
+                  "text": "Agora aplicamos o teorema de Cantor ao conjunto dos números naturais: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
+                {
+                  "text": "\\(\\mathcal{P}(\\mathbb{N})\\)"
                 },
                 {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\(\\mathcal{P}(\\mathbb{N})\\)."
+                  "text": "."
                 }
               ]
             },
@@ -6007,13 +6123,19 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "O teorema afirma:"
+                  "text": "O teorema afirma: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
+                {
+                  "text": "\\(|\\mathcal{P}(\\mathbb{N})|>|\\mathbb{N}|\\)"
                 },
                 {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\(|\\mathcal{P}(\\mathbb{N})|>|\\mathbb{N}|\\)."
+                  "text": "."
                 }
               ]
             },
@@ -6049,11 +6171,14 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Por exemplo, uma sequência como:"
-                },
-                {
-                  "text": "\n"
-                },
+                  "text": "Por exemplo, uma sequência como: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
                 {
                   "text": "\\(1,0,1,0,0,1,\\ldots\\)"
                 }
@@ -6070,16 +6195,32 @@
             },
             {
               "tag": "p",
+              "align": "center",
+              "runs": [
+                {
+                  "text": "\\(|\\mathbb{R}|=2^{\\aleph_0}\\\\),"
+                }
+              ],
+              "id": "introducao"
+            },
+            {
+              "tag": "p",
               "align": "left",
               "runs": [
                 {
-                  "text": "Assim, existe uma relação profunda entre o conjunto dos números reais e o conjunto das partes dos naturais. A cardinalidade dos reais é normalmente representada por:"
+                  "text": "enquanto a cardinalidade dos naturais é representada por: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
+                {
+                  "text": "\\(|\\mathbb{N}|=\\aleph_0\\)"
                 },
                 {
-                  "text": "\n"
-                },
-                {
-                  "text": "|\\(\\mathbb{R}|=2^{\\aleph_0}\\),"
+                  "text": "."
                 }
               ]
             },
@@ -6088,34 +6229,19 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "enquanto a cardinalidade dos naturais é representada por:"
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\(|\\mathbb{N}|=\\aleph_0\\)."
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "\n"
+                  "text": "A desigualdade de Cantor pode então ser expressa como: "
                 }
               ]
             },
             {
               "tag": "p",
-              "align": "left",
+              "align": "center",
               "runs": [
                 {
-                  "text": "A desigualdade de Cantor pode então ser expressa como:"
+                  "text": "\\(\\aleph_0<2^{\\aleph_0}\\)"
                 },
                 {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\(\\aleph_0<2^{\\aleph_0}\\)."
+                  "text": "."
                 }
               ]
             },
@@ -6161,28 +6287,16 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "A linguagem básica da teoria dos conjuntos é extremamente simples. Em sua forma mais comum, ela possui um único símbolo não lógico fundamental:"
+                  "text": "A linguagem básica da teoria dos conjuntos é extremamente simples. Em sua forma mais comum, ela possui um único símbolo não lógico fundamental: "
                 }
               ]
             },
             {
               "tag": "p",
-              "align": "left",
+              "align": "center",
               "runs": [
                 {
-                  "text": "["
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\in"
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "\\(\\in\\)"
                 }
               ]
             },
@@ -6209,28 +6323,16 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "A linguagem também possui variáveis, conectivos lógicos, igualdade e quantificadores. Uma fórmula como"
+                  "text": "A linguagem também possui variáveis, conectivos lógicos, igualdade e quantificadores. Uma fórmula como "
                 }
               ]
             },
             {
               "tag": "p",
-              "align": "left",
+              "align": "center",
               "runs": [
                 {
-                  "text": "["
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\forall x,\\exists y,(x\\in y)"
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "\\(\\forall x,\\exists y,(x\\in y)\\)"
                 }
               ]
             },
@@ -6245,10 +6347,10 @@
             },
             {
               "tag": "p",
-              "align": "left",
+              "align": "center",
               "runs": [
                 {
-                  "text": "“Para todo objeto (x), existe algum objeto (y) tal que (x) pertence a (y).”"
+                  "text": "“Para todo objeto \\((x)\\), existe algum objeto \\((y)\\) tal que \\((x)\\) pertence a \\((y)\\).”"
                 }
               ]
             },
@@ -6266,7 +6368,7 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "["
+                  "text": "\\("
                 },
                 {
                   "text": "\n"
@@ -6300,11 +6402,19 @@
                 },
                 {
                   "text": "\n"
-                },
-                {
-                  "text": "]"
                 }
-              ]
+              ],
+              "id": "introducao"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\\)"
+                }
+              ],
+              "id": "introducao"
             },
             {
               "tag": "p",
@@ -6320,7 +6430,7 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "["
+                  "text": "\\("
                 },
                 {
                   "text": "\n"
@@ -6345,12 +6455,16 @@
                 },
                 {
                   "text": "\\right]."
-                },
+                }
+              ],
+              "id": "introducao"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
                 {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "\\)"
                 }
               ]
             },
@@ -6396,7 +6510,16 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Uma linguagem de primeira ordem permite quantificar sobre os objetos que pertencem ao seu domínio. Suas fórmulas podem conter expressões como:"
+                  "text": "Uma linguagem de primeira ordem permite quantificar sobre os objetos que pertencem ao seu domínio. Suas fórmulas podem conter expressões como: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
+                {
+                  "text": "\\(\\forall x,\\varphi(x)\\)"
                 }
               ]
             },
@@ -6405,19 +6528,16 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "["
-                },
+                  "text": "e: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
                 {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\forall x,\\varphi(x)"
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "\\(\\exists x,\\varphi(x)\\)."
                 }
               ]
             },
@@ -6426,37 +6546,7 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "e:"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "["
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\exists x,\\varphi(x)."
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "A primeira significa que a fórmula (\\varphi(x)) é verdadeira para todo objeto do domínio. A segunda significa que existe pelo menos um objeto do domínio que satisfaz (\\varphi(x))."
+                  "text": "A primeira significa que a fórmula \\((\\varphi(x))\\) é verdadeira para todo objeto do domínio. A segunda significa que existe pelo menos um objeto do domínio que satisfaz \\((\\varphi(x))\\)."
                 }
               ]
             },
@@ -6512,27 +6602,12 @@
               "runs": [
                 {
                   "text": "Para a linguagem da teoria dos conjuntos, podemos representar um modelo por:"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "["
                 },
                 {
                   "text": "\n"
                 },
                 {
-                  "text": "M=\\langle |M|,\\in^M\\rangle."
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "\\(M=\\langle |M|,\\in^M\\rangle\\)."
                 }
               ]
             },
@@ -6541,7 +6616,7 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "O símbolo (|M|) representa o domínio do modelo. O símbolo (\\in^M) representa a relação que o modelo interpreta como pertencimento."
+                  "text": "O símbolo \\((|M|)\\) representa o domínio do modelo. O símbolo \\((\\in^M)\\) representa a relação que o modelo interpreta como pertencimento."
                 }
               ]
             },
@@ -6550,7 +6625,7 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "É importante perceber que (\\in^M) não precisa ser automaticamente idêntico à relação de pertencimento que o matemático utiliza externamente. Em alguns modelos, seus elementos podem ser objetos abstratos da estrutura, e não conjuntos no sentido habitual."
+                  "text": "É importante perceber que \\((\\in^M)\\) não precisa ser automaticamente idêntico à relação de pertencimento que o matemático utiliza externamente. Em alguns modelos, seus elementos podem ser objetos abstratos da estrutura, e não conjuntos no sentido habitual."
                 }
               ]
             },
@@ -6559,7 +6634,16 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Quando escrevemos:"
+                  "text": "Quando escrevemos: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
+                {
+                  "text": "\\(M\\models\\varphi\\),"
                 }
               ]
             },
@@ -6568,19 +6652,7 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "["
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "M\\models\\varphi,"
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "estamos afirmando que a fórmula \\((\\varphi)\\) é satisfeita pelo modelo (M)."
                 }
               ]
             },
@@ -6589,7 +6661,16 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "estamos afirmando que a fórmula (\\varphi) é satisfeita pelo modelo (M)."
+                  "text": "Se \\((T)\\)é uma teoria, escrevemos: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
+                {
+                  "text": "\\(M\\models T\\)"
                 }
               ]
             },
@@ -6598,37 +6679,7 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Se (T) é uma teoria, escrevemos:"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "["
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "M\\models T"
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "quando todas as sentenças de (T) são satisfeitas por (M). Nesse caso, dizemos que (M) é um modelo de (T)."
+                  "text": "quando todas as sentenças de \\((T)\\) são satisfeitas por \\((M)\\). Nesse caso, dizemos que \\((M)\\) é um modelo de \\((T)\\)."
                 }
               ]
             },
