@@ -4747,5 +4747,43 @@
         }
       ]
     }
-  ]
+  ],
+  "peregrini": {
+    "lexicon": [
+      {
+        "term": "ДA",
+        "meaning": "Sim.",
+        "partOfSpeech": "expressao",
+        "pronunciation": "Da",
+        "example": ""
+      },
+      {
+        "term": "HИET",
+        "meaning": "Não.",
+        "partOfSpeech": "expressao",
+        "pronunciation": "Niet",
+        "example": ""
+      },
+      {
+        "term": "MEHCAЖИ",
+        "meaning": "Mensagem; conteúdo transmitido.",
+        "partOfSpeech": "substantivo"
+      },
+      {
+        "term": "ЛYMИHY",
+        "meaning": "Luz enquanto fenômeno, conceito ou princípio luminoso.",
+        "partOfSpeech": "substantivo"
+      },
+      {
+        "term": "CAV",
+        "meaning": "Saber; possuir conhecimento.",
+        "partOfSpeech": "verbo"
+      },
+      {
+        "term": "CЛOVO",
+        "meaning": "Slovo: nome adotado para Palavra Peregrini, com raiz no russo слово.",
+        "partOfSpeech": "substantivo"
+      }
+    ]
+  }
 }
