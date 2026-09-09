@@ -4751,38 +4751,46 @@
   "peregrini": {
     "lexicon": [
       {
-        "term": "ДA",
+        "term": "Дa",
         "meaning": "Sim.",
         "partOfSpeech": "expressao",
         "pronunciation": "Da",
         "example": ""
       },
       {
-        "term": "HИET",
+        "term": "Hиet",
         "meaning": "Não.",
         "partOfSpeech": "expressao",
         "pronunciation": "Niet",
         "example": ""
       },
       {
-        "term": "MEHCAЖИ",
+        "term": "Mehcaжи",
         "meaning": "Mensagem; conteúdo transmitido.",
-        "partOfSpeech": "substantivo"
+        "partOfSpeech": "substantivo",
+        "pronunciation": "Mensagi",
+        "example": ""
       },
       {
-        "term": "ЛYMИHY",
+        "term": "Лymиhy",
         "meaning": "Luz enquanto fenômeno, conceito ou princípio luminoso.",
-        "partOfSpeech": "substantivo"
+        "partOfSpeech": "substantivo",
+        "pronunciation": "Luminu",
+        "example": ""
       },
       {
-        "term": "CAV",
+        "term": "Cav",
         "meaning": "Saber; possuir conhecimento.",
-        "partOfSpeech": "verbo"
+        "partOfSpeech": "verbo",
+        "pronunciation": "Sav",
+        "example": ""
       },
       {
-        "term": "CЛOVO",
-        "meaning": "Slovo: nome adotado para Palavra Peregrini, com raiz no russo слово.",
-        "partOfSpeech": "substantivo"
+        "term": "Cлovo",
+        "meaning": "Idioma",
+        "partOfSpeech": "substantivo",
+        "pronunciation": "Slovo",
+        "example": ""
       }
     ]
   }
