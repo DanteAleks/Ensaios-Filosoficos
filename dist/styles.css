@@ -553,3 +553,11 @@ details.collection-section[open] .collection-invitation span{transform:rotate(45
 .vocabulary-grammar{display:inline-block;margin:.2rem 0!important;color:var(--gold);font:.72rem/1.4 var(--sans);letter-spacing:.08em;text-transform:uppercase}
 #vocabulary-count{font:.85rem/1.5 var(--sans);color:var(--muted)}
 @media(max-width:750px){.vocabulary-controls{grid-template-columns:1fr}.language-door{grid-template-columns:1fr;border-radius:2.5rem .3rem 2.5rem .3rem}.language-door-glyph{display:none}.peregrini-wordmark{font-size:clamp(1.5rem,7vw,3rem)}}
+
+/* Fórmulas LaTeX: MathJax local e direção matemática sempre LTR. */
+.latex-source{direction:ltr;unicode-bidi:isolate;font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+mjx-container{direction:ltr;unicode-bidi:isolate;max-width:100%;overflow-x:auto;overflow-y:hidden;color:inherit}
+mjx-container[display="true"]{display:block!important;text-align:center;margin:1.25rem auto!important;padding:.2rem 0}
+mjx-container svg{max-width:100%}
+.peregrini-document .latex-source,.peregrini-document mjx-container{direction:ltr;unicode-bidi:isolate;font-family:initial}
+@media print{mjx-container{overflow:visible}.latex-source{break-inside:avoid}}

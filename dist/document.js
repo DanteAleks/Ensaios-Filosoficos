@@ -8,12 +8,22 @@
     'peregrini-iluminada':'font-peregrini-iluminada'
   };
   const allowedFonts=new Set(Object.keys(fontClasses));
+  const mathSource=/\\\([\s\S]+?\\\)|\\\[[\s\S]+?\\\]|\$\$[\s\S]+?\$\$|\$[^$\n]+\$/g;
   function valid(blocks){
     return Array.isArray(blocks)&&blocks.length<=20000&&blocks.every(b=>b&&tags.includes(b.tag)&&(!b.align||['left','center','right','justify','start'].includes(b.align))&&(!b.direction||['ltr','rtl'].includes(b.direction))&&(!b.initial||b.initial==='illuminated')&&Array.isArray(b.runs)&&b.runs.every(r=>r&&typeof r.text==='string'&&r.text.length<=500000&&(!r.font||allowedFonts.has(r.font))));
   }
   function text(b){return b.runs.map(r=>r.text).join('');}
+  function renderText(value){
+    const input=String(value??'');let html='',index=0;
+    for(const match of input.matchAll(mathSource)){
+      html+=escape(input.slice(index,match.index)).replace(/\n/g,'<br>');
+      html+=`<span class="latex-source" dir="ltr">${escape(match[0]).replace(/\n/g,'<br>')}</span>`;
+      index=match.index+match[0].length;
+    }
+    return html+escape(input.slice(index)).replace(/\n/g,'<br>');
+  }
   function renderRun(r){
-    let s=escape(r.text).replace(/\n/g,'<br>');
+    let s=renderText(r.text);
     for(const [key,tag] of [['bold','strong'],['italic','em'],['underline','u'],['strike','s']])if(r[key]===true)s=`<${tag}>${s}</${tag}>`;
     if(r.font&&fontClasses[r.font])s=`<span class="${fontClasses[r.font]}">${s}</span>`;
     return s;
@@ -24,6 +34,7 @@
     let pending=initial;
     return runs.map(r=>{
       if(!pending||!r.text||!r.text.trim())return renderRun(r);
+      if(/^(?:\\\(|\\\[|\$\$|\$)/.test(r.text.trimStart()))return renderRun(r);
       const match=/^(\s*)([\s\S])([\s\S]*)$/u.exec(r.text);
       if(!match)return renderRun(r);
       pending=false;

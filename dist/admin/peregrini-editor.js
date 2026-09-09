@@ -3,7 +3,7 @@
   const D=root.PeregriniDocument;
   const blockSelector='p,h2,h3,blockquote,li';
   root.mountPeregriniEditor=function(host,v,changed){
-    host.innerHTML='<div class="peregrini-toolbar" role="toolbar" aria-label="Ferramentas de escrita Peregrini"><label>Estilo <select data-peregrini-style><option value="p">Parágrafo</option><option value="h2">Título</option><option value="h3">Subtítulo</option><option value="blockquote">Citação</option></select></label><button type="button" data-peregrini-direction>Direção: direita → esquerda</button><button type="button" data-peregrini-initial>Capitular iluminada</button><span class="peregrini-direction-status" data-peregrini-direction-status role="status" aria-live="polite">Escrita visual da direita para a esquerda</span><div class="peregrini-palette" aria-label="Letras Peregrini"></div></div><div class="document-editor peregrini-document" contenteditable="true" role="textbox" aria-label="Documento original em Peregrini" aria-multiline="true" spellcheck="false"></div><p class="help">Digite na ordem lógica normal; a composição visual da escrita Peregrini é feita da direita para a esquerda. Não inverta manualmente as palavras. A paleta oferece cada letra em maiúscula e minúscula.</p>';
+    host.innerHTML='<div class="peregrini-toolbar" role="toolbar" aria-label="Ferramentas de escrita Peregrini"><label>Estilo <select data-peregrini-style><option value="p">Parágrafo</option><option value="h2">Título</option><option value="h3">Subtítulo</option><option value="blockquote">Citação</option></select></label><button type="button" data-peregrini-direction>Direção: direita → esquerda</button><button type="button" data-peregrini-initial>Capitular iluminada</button><span class="peregrini-direction-status" data-peregrini-direction-status role="status" aria-live="polite">Escrita visual da direita para a esquerda</span><div class="peregrini-palette" aria-label="Letras Peregrini"></div></div><div class="document-editor peregrini-document tex2jax_ignore" contenteditable="true" role="textbox" aria-label="Documento original em Peregrini" aria-multiline="true" spellcheck="false"></div><p class="help">Digite na ordem lógica normal; a composição visual da escrita Peregrini é feita da direita para a esquerda. Não inverta manualmente as palavras. A paleta oferece cada letra em maiúscula e minúscula. Fórmulas podem ser inseridas pelos botões LaTeX e permanecem orientadas da esquerda para a direita.</p>';
     const toolbar=host.querySelector('.peregrini-toolbar'),editor=host.querySelector('.document-editor'),palette=host.querySelector('.peregrini-palette'),directionButton=toolbar.querySelector('[data-peregrini-direction]'),directionStatus=toolbar.querySelector('[data-peregrini-direction-status]');
     editor.innerHTML=D.render(D.fromVersion(v));
 
@@ -40,7 +40,7 @@
       const range=selection.getRangeAt(0);
       return [...editor.querySelectorAll(blockSelector)].filter(node=>range.intersectsNode(node));
     }
-    function insertGlyph(glyph){
+    function insertGlyph(glyph,ltr=false){
       const selection=window.getSelection?.();
       let range;
       if(selection?.rangeCount&&editor.contains(selection.anchorNode))range=selection.getRangeAt(0);
@@ -53,11 +53,22 @@
       }
       editor.focus();
       range.deleteContents();
-      const node=document.createTextNode(glyph);
+      const node=ltr?document.createElement('span'):document.createTextNode(glyph);
+      if(ltr){node.className='latex-source';node.dir='ltr';node.textContent=glyph;}
       range.insertNode(node);
       range.setStartAfter(node);range.collapse(true);
       if(selection){selection.removeAllRanges();selection.addRange(range);}
       sync();
+    }
+    function insertFormula(display){
+      const selection=window.getSelection?.();
+      const selected=selection?.toString().trim()||'';
+      let value=window.prompt(display?'Digite a fórmula LaTeX em destaque, sem os delimitadores:':'Digite a fórmula LaTeX em linha, sem os delimitadores:',selected||(display?'\\frac{a}{b}':'x^2'));
+      if(value===null)return;
+      value=value.trim();if(!value)return;
+      const pairs=[['\\[','\\]'],['\\(','\\)'],['$$','$$'],['$','$']];
+      for(const [start,end] of pairs)if(value.startsWith(start)&&value.endsWith(end)){value=value.slice(start.length,-end.length).trim();break;}
+      insertGlyph(display?'\\['+value+'\\]':'\\('+value+'\\)',true);
     }
     function sync(){
       const direction=editor.dataset.study==='ltr'?'ltr':'rtl';
@@ -74,6 +85,9 @@
     toolbar.querySelector('[data-peregrini-style]').onchange=event=>{editor.focus();document.execCommand('formatBlock',false,event.target.value);sync();};
     for(const [cmd,label] of [['bold','Negrito'],['italic','Itálico'],['underline','Sublinhado'],['strikeThrough','Tachado'],['justifyCenter','Centralizar'],['justifyFull','Justificar'],['undo','Desfazer'],['redo','Refazer']]){
       const button=document.createElement('button');button.type='button';button.textContent=label;button.addEventListener('mousedown',event=>event.preventDefault());button.onclick=()=>{editor.focus();document.execCommand(cmd,false,null);sync();};toolbar.append(button);
+    }
+    for(const [display,label,attribute] of [[false,'LaTeX em linha','data-latex-inline'],[true,'LaTeX em destaque','data-latex-display']]){
+      const button=document.createElement('button');button.type='button';button.textContent=label;button.setAttribute(attribute,'');button.addEventListener('mousedown',event=>event.preventDefault());button.onclick=()=>insertFormula(display);toolbar.append(button);
     }
     editor.addEventListener('input',sync);editor.addEventListener('blur',sync);
     editor.addEventListener('paste',event=>{

@@ -94,3 +94,8 @@
 .author-vocabulary-list bdo{max-width:100%;text-align:right}
 .author-vocabulary-list p{margin:.35rem 0}.author-vocabulary-list small{color:var(--muted)}
 @media(max-width:650px){.vocabulary-edit-grid,.vocabulary-admin-controls{grid-template-columns:1fr}.vocabulary-edit-grid .full-row{grid-column:auto}}
+
+.document-editor .latex-source{direction:ltr;unicode-bidi:isolate;display:inline-block;max-width:100%;padding:.08rem .3rem;border:1px dashed var(--gold);border-radius:3px;background:color-mix(in srgb,var(--surface) 80%,var(--gold) 20%);font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.92em}
+#preview-content mjx-container{direction:ltr;unicode-bidi:isolate;max-width:100%;overflow-x:auto;overflow-y:hidden}
+#preview-content mjx-container[display="true"]{display:block!important;text-align:center;margin:1.25rem auto!important}
+#preview-content mjx-container svg{max-width:100%}

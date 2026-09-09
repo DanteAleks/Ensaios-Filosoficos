@@ -1,0 +1,7 @@
+MathJax 3.2.2
+
+Arquivo distribuído localmente: tex-svg-full.js
+Pacote de origem: https://www.npmjs.com/package/mathjax/v/3.2.2
+Integridade do pacote: sha512-Bt+SSVU8eBG27zChVewOicYs7Xsdt40qm4+UpHyX7k0/O9NliPc+x77k1/FEsPsjKPZGJvtRZM1vO+geW0OhGw==
+
+O texto da licença Apache 2.0 está em LICENSE.txt.

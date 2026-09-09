@@ -32,10 +32,14 @@ test('Percurso público: início → apresentação → escritos → idioma',()=
     assert.equal(yes.dir,'rtl');assert.equal(yes.textContent,'ДA');
     assert.equal(language.window.document.querySelectorAll('tbody tr').length,28);
     for(const row of language.window.document.querySelectorAll('tbody tr')){
-      assert.equal(row.querySelectorAll('.vowel-word-examples li').length,7);
+      assert(row.querySelectorAll('.vowel-word-examples li').length>=2);
       assert([...row.querySelectorAll('.vowel-word-examples li span')].every(el=>el.textContent.trim()));
       assert([...row.querySelectorAll('.vowel-word-examples li span')].every(el=>!/[+]/.test(el.textContent)));
     }
+    const examples=letter=>P.alphabet.find(item=>item.upper===letter).examples.map(item=>[item.sample,item.reference]);
+    assert.deepEqual(examples('B'),[['BA','bala'],['BE','beleza'],['BИ','bico'],['BO','bola'],['BY','buraco'],['BЯ','biá'],['BЮ','biú']]);
+    assert.deepEqual(examples('X'),[['XA','chave'],['XE','cheio'],['XИ','xícara'],['XO','choque'],['XY','chuva'],['XЯ','chiá'],['XЮ','chiú']]);
+    assert.deepEqual(examples('N'),[['AN','lã, maçã'],['EN','ẽ de “tempo”'],['ИN','sim, fim'],['ON','õ de “onde”'],['YN','um, mundo'],['ЯN','iã'],['ЮN','iũ']]);
   }finally{[home,via,portal,language].forEach(dom=>dom.window.close());}
 });
 

@@ -70,7 +70,7 @@ test('Build gera o portal Peregrini e entrega as três fontes web',()=>{
   assert(!portal.includes('<table>'));
   assert.match(portal,/href="\.\/idioma\.html"/);
   const idioma=fs.readFileSync(path.join(root,'dist/peregrini/idioma.html'),'utf8');
-  assert.match(idioma,/Exemplos com vogais/);
+  assert.match(idioma,/Combinações e exemplos vocálicos/);
   assert(!idioma.includes('Vocabulário ratificado'));
   assert(!portal.includes('<th scope="col">Estado</th>'));
   const via=fs.readFileSync(path.join(root,'dist/peregrini/via.html'),'utf8');

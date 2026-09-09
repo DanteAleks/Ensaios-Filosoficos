@@ -29,48 +29,41 @@
     ['Y','y','u','Como em lua e música.'],['V','v','v','Como em vida.'],
     ['З','з','z /z/','Como em zero.'],['N','n','nasalização','Nasaliza a vogal anterior; não é a consoante n.']
   ];
-  // Palavras portuguesas de apoio sonoro, não entradas do léxico Peregrini.
-  // Cada célula usa uma única palavra: ela é uma aproximação auditiva da
-  // combinação da consoante com a vogal da coluna.
-  const soundWords={
-    B:['bala','bebê','bicho','biombo','burro','bola','bule'],
-    K:['casa','querer','quilo','copo','cubo','caixa','cuca'],
-    X:['caixa','chegar','chinelo','choro','chuva','chuchu','chave'],
-    Д:['dado','dedo','dito','diodo','duro','dono','duna'],
-    Φ:['faca','feliz','fita','foca','fumo','feira','fúria'],
-    Ж:['janela','gelo','giro','jogo','juba','jeito','julho'],
-    Г:['gato','guerra','guia','gota','gula','gêmeo','guitarra'],
-    Л:['lado','lema','lima','lobo','lua','lago','luta'],
-    Љ:['palha','colher','velhice','filhote','palhudo','malha','telhado'],
-    M:['mala','mesa','mimo','mola','muro','maçã','muda'],
-    H:['navio','neve','ninho','nome','nuvem','nada','nudez'],
-    Њ:['aranha','companhia','ninho','sonho','nenhum','manhã','nhambu'],
-    П:['pato','pelo','pipa','povo','pulo','paca','puma'],
-    P:['rato','rede','rico','roda','rua','rala','ruma'],
-    R:['cara','areia','ferida','caro','peru','cera','cura'],
-    C:['sapo','cedo','sino','sopa','suco','sala','suma'],
-    T:['tato','telha','tipo','toca','tubo','tala','tua'],
-    Ч:['tchau','tchê','tchibum','tchã','tchaca','tchuru','tchutchuca'],
-    V:['vaca','vela','vida','voto','vulto','vila','viva'],
-    З:['azar','zero','zinco','zona','azul','zaga','zulu']
+  // Transcrição da coluna “Combinações e exemplos vocálicos em português”
+  // do Alfabeto Peregrini Oficial v5, de 24 de agosto de 2026. Não invente
+  // substitutos nesta tabela: as aproximações fazem parte do documento oficial.
+  const officialExamples={
+    A:[['A','casa'],['AN','lã, maçã']],
+    B:[['BA','bala'],['BE','beleza'],['BИ','bico'],['BO','bola'],['BY','buraco'],['BЯ','biá'],['BЮ','biú']],
+    K:[['KA','casa'],['KE','quero'],['KИ','quilo'],['KO','coisa'],['KY','culinária'],['KЯ','kiá'],['KЮ','kiú']],
+    X:[['XA','chave'],['XE','cheio'],['XИ','xícara'],['XO','choque'],['XY','chuva'],['XЯ','chiá'],['XЮ','chiú']],
+    Д:[['ДA','dado'],['ДE','dedo'],['ДИ','di'],['ДO','dono'],['ДY','duro'],['ДЯ','diá'],['ДЮ','diú']],
+    E:[['E','escola, elefante'],['EN','ẽ aproximado, como o primeiro E de “tempo”']],
+    Φ:[['ΦA','faca'],['ΦE','feira'],['ΦИ','fita'],['ΦO','fogo'],['ΦY','fumaça'],['ΦЯ','fiá'],['ΦЮ','fiú']],
+    Ж:[['ЖA','jato'],['ЖE','jeito'],['ЖИ','girafa'],['ЖO','jogo'],['ЖY','juro'],['ЖЯ','jiá'],['ЖЮ','jiú']],
+    И:[['И','vida'],['ИN','sim, fim'],['MAИ','/ma.i/']],
+    Я:[['Я','iá como unidade Peregrini; aproximadamente a sequência “iá” de piá'],['ЯN','iã']],
+    Ю:[['Ю','iú como unidade Peregrini; aproximadamente a sequência “iú”'],['ЮN','iũ']],
+    Г:[['ГA','gato'],['ГE','guerra'],['ГИ','guia'],['ГO','gota'],['ГY','gula'],['ГЯ','guiá'],['ГЮ','guiú']],
+    Л:[['ЛA','lado'],['ЛE','leite'],['ЛИ','livro'],['ЛO','lobo'],['ЛY','lua'],['ЛЯ','liá'],['ЛЮ','liú']],
+    Љ:[['ЉA','lha'],['ЉE','lhe'],['ЉИ','lhi'],['ЉO','lho'],['ЉY','lhu'],['ЉЯ','lhiá'],['ЉЮ','lhiú']],
+    M:[['MA','mala'],['ME','mesa'],['MИ','milho'],['MO','moda'],['MY','música'],['MЯ','miá'],['MЮ','miú']],
+    H:[['HA','navio'],['HE','neve'],['HИ','nível'],['HO','nome'],['HY','nuvem'],['HЯ','niá'],['HЮ','niú']],
+    Њ:[['ЊA','“nha” de manhã'],['ЊE','nhe'],['ЊИ','“nhi” de ninho'],['ЊO','“nho” de sonho'],['ЊY','nhu'],['ЊЯ','nhiá'],['ЊЮ','nhiú']],
+    O:[['O','onde, ostra'],['ON','õ, como o primeiro O de “onde”']],
+    П:[['ПA','pato'],['ПE','pedra'],['ПИ','pino'],['ПO','povo'],['ПY','puro'],['ПЯ','piá'],['ПЮ','piú']],
+    P:[['PA','rato'],['PE','remo'],['PИ','rio'],['PO','roda'],['PY','rua'],['PЯ','riá forte'],['PЮ','riú forte']],
+    R:[['RA','arara'],['RE','parede'],['RИ','perigo'],['RO','caro'],['RY','peru'],['RЯ','riá'],['RЮ','riú']],
+    C:[['CA','salada'],['CE','cegonha'],['CИ','Sicília'],['CO','sobre'],['CY','sul'],['CЯ','siá'],['CЮ','siú']],
+    T:[['TA','tato'],['TE','tela'],['TИ','ti'],['TO','toca'],['TY','tudo'],['TЯ','tiá'],['TЮ','tiú']],
+    Ч:[['ЧA','tchau'],['ЧE','tchê'],['ЧИ','tchim'],['ЧO','tcho'],['ЧY','tchu'],['ЧЯ','tchiá'],['ЧЮ','tchiú'],['ЧAИ','/tʃa.i/']],
+    Y:[['Y','lua, música'],['YN','um, mundo']],
+    V:[['VA','vaca'],['VE','vela'],['VИ','vida'],['VO','voto'],['VY','vulcão'],['VЯ','viá'],['VЮ','viú']],
+    З:[['ЗA','zaga'],['ЗE','zero'],['ЗИ','zíper'],['ЗO','zona'],['ЗY','zulu'],['ЗЯ','ziá'],['ЗЮ','ziú']],
+    N:[['AN','lã, maçã'],['EN','ẽ de “tempo”'],['ИN','sim, fim'],['ON','õ de “onde”'],['YN','um, mundo'],['ЯN','iã'],['ЮN','iũ']]
   };
-  const vowelWords={
-    A:['casa','cedo','ilha','iate','viúva','ovo','uva'],
-    E:['mesa','bebê','ilha','iate','viúva','ovo','uva'],
-    И:['míssil','medida','ilha','iate','viúva','ovo','uva'],
-    Я:['piada','mediano','viagem','iate','viúva','violão','rua'],
-    Ю:['viúva','miúdo','viagem','iate','viúva','violão','lua'],
-    O:['casa','mesa','ilha','iate','viúva','ovo','uva'],
-    Y:['lua','leu','lixo','iate','viúva','ovo','uva']
-  };
-  const fallbackWords=['casa','mesa','ilha','iate','viúva','ovo','uva'];
-  const nasalWords=['lã','venda','tinta','gente','mundo','onda','nunca'];
   function examplesFor(upper){
-    return vowels.map((v,index)=>{
-      if(upper==='N')return {vowel:v.upper,sample:v.upper+'N',reference:nasalWords[index]};
-      const words=soundWords[upper]||vowelWords[upper]||fallbackWords;
-      return {vowel:v.upper,sample:upper+v.upper,reference:words[index]||fallbackWords[index]};
-    });
+    return (officialExamples[upper]||[]).map(([sample,reference])=>({sample,reference}));
   }
   const alphabet=rows.map(([upper,lower,sound,note])=>({upper,lower,sound,note,examples:examplesFor(upper)}));
   const defaults={
