@@ -4891,11 +4891,9 @@
                 "pode ser lida como:",
                 "“Para todo objeto \\((x)\\), existe algum objeto \\((y)\\) tal que \\((x)\\) pertence a \\((y)\\).”",
                 "Os axiomas de ZFC estabelecem princípios sobre a formação e a identidade dos conjuntos. O axioma da extensionalidade, por exemplo, afirma que dois conjuntos são iguais quando possuem exatamente os mesmos elementos:",
-                "\\(\n\\forall x\\forall y\n\\left[\n\\forall z,(z\\in x\\leftrightarrow z\\in y)\n\\rightarrow x=y\n\\right].\n",
-                "\\)",
-                "O axioma do conjunto das partes afirma que, para cada conjunto (x), existe um conjunto formado pelos subconjuntos de (x). Uma formulação simplificada é:",
-                "\\(\n\\forall x,\\exists y,\\forall z\n\\left[\nz\\subseteq x\\leftrightarrow z\\in y\n\\right].",
-                "\\)",
+                "\\(\\forall x\\forall y\\)\n\\(\\left[\\)\n\\(\\forall z,(z\\in x\\leftrightarrow z\\in y)\\)\n\\(\\rightarrow x=y\\)\n\\(\\right]\\).",
+                "O axioma do conjunto das partes afirma que, para cada conjunto (x), existe um conjunto formado pelos subconjuntos de (x). Uma formulação simplificada é: ",
+                "\\(\\forall x,\\exists y,\\forall z\\)\n\\(\\left[\\)\n\\(z\\subseteq x\\leftrightarrow z\\in y\\)\n\\(\\right]\\).",
                 "O axioma do infinito garante a existência de um conjunto infinito. A partir dele, é possível construir o conjunto dos números naturais.",
                 "O teorema de Cantor utiliza recursos como o conjunto das partes, a noção de função e o argumento diagonal. Todos esses conceitos podem ser definidos dentro da teoria dos conjuntos.",
                 "Portanto, a própria teoria que demonstra a existência de conjuntos incontáveis pode ser formulada como uma teoria de primeira ordem."
@@ -5544,7 +5542,43 @@
                   "text": "\\(f(n)=2n\\)"
                 },
                 {
-                  "text": " associa cada número natural a um número par. O número \\((0)\\) é associado a \\((0)\\), o número \\((1)\\) é associado a \\((2)\\), o número \\((2)\\) é associado a \\((4)\\), e assim por diante."
+                  "text": " associa cada número natural a um número par. O número "
+                },
+                {
+                  "text": "\\((0)\\)"
+                },
+                {
+                  "text": " é associado a "
+                },
+                {
+                  "text": "\\((0)\\)"
+                },
+                {
+                  "text": ", o número "
+                },
+                {
+                  "text": "\\((1)\\)"
+                },
+                {
+                  "text": " é associado a "
+                },
+                {
+                  "text": "\\((2)\\)"
+                },
+                {
+                  "text": ", o número "
+                },
+                {
+                  "text": "\\((2)\\)"
+                },
+                {
+                  "text": " é associado a "
+                },
+                {
+                  "text": "\\((4)\\)"
+                },
+                {
+                  "text": ", e assim por diante."
                 }
               ]
             },
@@ -5553,7 +5587,13 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Cada número par aparece exatamente uma vez nessa correspondência. Portanto, embora \\((E)\\) seja um subconjunto próprio de "
+                  "text": "Cada número par aparece exatamente uma vez nessa correspondência. Portanto, embora "
+                },
+                {
+                  "text": "\\((E)\\)"
+                },
+                {
+                  "text": " seja um subconjunto próprio de "
                 },
                 {
                   "text": "\\((\\mathbb{N})\\)"
@@ -6198,10 +6238,12 @@
               "align": "center",
               "runs": [
                 {
-                  "text": "\\(|\\mathbb{R}|=2^{\\aleph_0}\\\\),"
+                  "text": "\\(|\\mathbb{R}|=2^{\\aleph_0}\\\\)"
+                },
+                {
+                  "text": ","
                 }
-              ],
-              "id": "introducao"
+              ]
             },
             {
               "tag": "p",
@@ -6350,7 +6392,31 @@
               "align": "center",
               "runs": [
                 {
-                  "text": "“Para todo objeto \\((x)\\), existe algum objeto \\((y)\\) tal que \\((x)\\) pertence a \\((y)\\).”"
+                  "text": "“Para todo objeto "
+                },
+                {
+                  "text": "\\((x)\\)"
+                },
+                {
+                  "text": ", existe algum objeto "
+                },
+                {
+                  "text": "\\((y)\\)"
+                },
+                {
+                  "text": " tal que "
+                },
+                {
+                  "text": "\\((x)\\)"
+                },
+                {
+                  "text": " pertence a "
+                },
+                {
+                  "text": "\\((y)\\)"
+                },
+                {
+                  "text": ".”"
                 }
               ]
             },
@@ -6365,63 +6431,34 @@
             },
             {
               "tag": "p",
-              "align": "left",
+              "align": "center",
               "runs": [
                 {
-                  "text": "\\("
+                  "text": "\\(\\forall x\\forall y\\)"
                 },
                 {
                   "text": "\n"
                 },
                 {
-                  "text": "\\forall x\\forall y"
+                  "text": "\\(\\left[\\)"
                 },
                 {
                   "text": "\n"
                 },
                 {
-                  "text": "\\left["
+                  "text": "\\(\\forall z,(z\\in x\\leftrightarrow z\\in y)\\)"
                 },
                 {
                   "text": "\n"
                 },
                 {
-                  "text": "\\forall z,(z\\in x\\leftrightarrow z\\in y)"
+                  "text": "\\(\\rightarrow x=y\\)"
                 },
                 {
                   "text": "\n"
                 },
                 {
-                  "text": "\\rightarrow x=y"
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\right]."
-                },
-                {
-                  "text": "\n"
-                }
-              ],
-              "id": "introducao"
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "\\)"
-                }
-              ],
-              "id": "introducao"
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "O axioma do conjunto das partes afirma que, para cada conjunto (x), existe um conjunto formado pelos subconjuntos de (x). Uma formulação simplificada é:"
+                  "text": "\\(\\right]\\)."
                 }
               ]
             },
@@ -6430,41 +6467,34 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "\\("
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\forall x,\\exists y,\\forall z"
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\left["
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "z\\subseteq x\\leftrightarrow z\\in y"
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\right]."
+                  "text": "O axioma do conjunto das partes afirma que, para cada conjunto (x), existe um conjunto formado pelos subconjuntos de (x). Uma formulação simplificada é: "
                 }
-              ],
-              "id": "introducao"
+              ]
             },
             {
               "tag": "p",
-              "align": "left",
+              "align": "center",
               "runs": [
                 {
-                  "text": "\\)"
+                  "text": "\\(\\forall x,\\exists y,\\forall z\\)"
+                },
+                {
+                  "text": "\n"
+                },
+                {
+                  "text": "\\(\\left[\\)"
+                },
+                {
+                  "text": "\n"
+                },
+                {
+                  "text": "\\(z\\subseteq x\\leftrightarrow z\\in y\\)"
+                },
+                {
+                  "text": "\n"
+                },
+                {
+                  "text": "\\(\\right]\\)."
                 }
               ]
             },
@@ -6537,7 +6567,10 @@
               "align": "center",
               "runs": [
                 {
-                  "text": "\\(\\exists x,\\varphi(x)\\)."
+                  "text": "\\(\\exists x,\\varphi(x)\\)"
+                },
+                {
+                  "text": "."
                 }
               ]
             },
@@ -6546,7 +6579,19 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "A primeira significa que a fórmula \\((\\varphi(x))\\) é verdadeira para todo objeto do domínio. A segunda significa que existe pelo menos um objeto do domínio que satisfaz \\((\\varphi(x))\\)."
+                  "text": "A primeira significa que a fórmula "
+                },
+                {
+                  "text": "\\((\\varphi(x))\\)"
+                },
+                {
+                  "text": " é verdadeira para todo objeto do domínio. A segunda significa que existe pelo menos um objeto do domínio que satisfaz "
+                },
+                {
+                  "text": "\\((\\varphi(x))\\)"
+                },
+                {
+                  "text": "."
                 }
               ]
             },
@@ -6607,7 +6652,10 @@
                   "text": "\n"
                 },
                 {
-                  "text": "\\(M=\\langle |M|,\\in^M\\rangle\\)."
+                  "text": "\\(M=\\langle |M|,\\in^M\\rangle\\)"
+                },
+                {
+                  "text": "."
                 }
               ]
             },
@@ -6616,7 +6664,19 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "O símbolo \\((|M|)\\) representa o domínio do modelo. O símbolo \\((\\in^M)\\) representa a relação que o modelo interpreta como pertencimento."
+                  "text": "O símbolo "
+                },
+                {
+                  "text": "\\((|M|)\\)"
+                },
+                {
+                  "text": " representa o domínio do modelo. O símbolo "
+                },
+                {
+                  "text": "\\((\\in^M)\\)"
+                },
+                {
+                  "text": " representa a relação que o modelo interpreta como pertencimento."
                 }
               ]
             },
@@ -6625,7 +6685,13 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "É importante perceber que \\((\\in^M)\\) não precisa ser automaticamente idêntico à relação de pertencimento que o matemático utiliza externamente. Em alguns modelos, seus elementos podem ser objetos abstratos da estrutura, e não conjuntos no sentido habitual."
+                  "text": "É importante perceber que "
+                },
+                {
+                  "text": "\\((\\in^M)\\)"
+                },
+                {
+                  "text": " não precisa ser automaticamente idêntico à relação de pertencimento que o matemático utiliza externamente. Em alguns modelos, seus elementos podem ser objetos abstratos da estrutura, e não conjuntos no sentido habitual."
                 }
               ]
             },
@@ -6643,7 +6709,10 @@
               "align": "center",
               "runs": [
                 {
-                  "text": "\\(M\\models\\varphi\\),"
+                  "text": "\\(M\\models\\varphi\\)"
+                },
+                {
+                  "text": ","
                 }
               ]
             },
@@ -6652,7 +6721,13 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "estamos afirmando que a fórmula \\((\\varphi)\\) é satisfeita pelo modelo (M)."
+                  "text": "estamos afirmando que a fórmula "
+                },
+                {
+                  "text": "\\((\\varphi)\\)"
+                },
+                {
+                  "text": " é satisfeita pelo modelo (M)."
                 }
               ]
             },
@@ -6661,7 +6736,13 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Se \\((T)\\)é uma teoria, escrevemos: "
+                  "text": "Se "
+                },
+                {
+                  "text": "\\((T)\\)"
+                },
+                {
+                  "text": "é uma teoria, escrevemos: "
                 }
               ]
             },
@@ -6679,7 +6760,31 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "quando todas as sentenças de \\((T)\\) são satisfeitas por \\((M)\\). Nesse caso, dizemos que \\((M)\\) é um modelo de \\((T)\\)."
+                  "text": "quando todas as sentenças de "
+                },
+                {
+                  "text": "\\((T)\\)"
+                },
+                {
+                  "text": " são satisfeitas por "
+                },
+                {
+                  "text": "\\((M)\\)"
+                },
+                {
+                  "text": ". Nesse caso, dizemos que "
+                },
+                {
+                  "text": "\\((M)\\)"
+                },
+                {
+                  "text": " é um modelo de "
+                },
+                {
+                  "text": "\\((T)\\)"
+                },
+                {
+                  "text": "."
                 }
               ]
             },
