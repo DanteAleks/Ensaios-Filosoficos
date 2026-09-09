@@ -67,15 +67,16 @@ test('Build gera o portal Peregrini e entrega as três fontes web',()=>{
   execFileSync(process.execPath,['scripts/verify-site.mjs'],{cwd:root,stdio:'pipe'});
   const portal=fs.readFileSync(path.join(root,'dist/peregrini/index.html'),'utf8');
   assert.match(portal,/Área Peregrini/);
-  assert.match(portal,/Maimônides/);
-  assert.match(portal,/Alfabeto Peregrini/);
-  assert.match(portal,/Prosseguir a via/);
-  assert.match(portal,/href="\.\/via\.html"/);
-  assert.match(portal,/Exemplos com vogais/);
+  assert(!portal.includes('<table>'));
+  assert.match(portal,/href="\.\/idioma\.html"/);
+  const idioma=fs.readFileSync(path.join(root,'dist/peregrini/idioma.html'),'utf8');
+  assert.match(idioma,/Exemplos com vogais/);
+  assert(!idioma.includes('Vocabulário ratificado'));
   assert(!portal.includes('<th scope="col">Estado</th>'));
   const via=fs.readFileSync(path.join(root,'dist/peregrini/via.html'),'utf8');
-  assert.match(via,/Entrar nos escritos/);
-  assert.match(via,/index\.html#escritos-peregrini/);
+  assert.match(via,/Prosseguir Área Peregrini/);
+  assert.match(via,/Maimônides/);
+  assert.match(via,/href=".\/index\.html"/);
   for(const value of ['peregrini-text','peregrini-display','peregrini-iluminada'])assert.match(fs.readFileSync(path.join(root,'dist/obras/metafisica-recuperado/didatico.html'),'utf8'),new RegExp(`value="${value}"`));
   for(const file of ['PalavraPeregriniDisplay-Regular.woff2','PalavraPeregriniTexto-Regular.woff2','PalavraPeregriniIluminada-Regular.woff2']){
     assert(fs.statSync(path.join(root,'dist/fonts',file)).size>1000,file);

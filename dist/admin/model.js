@@ -1,6 +1,7 @@
 (function (root) {
   'use strict';
   const D=typeof module!=='undefined'&&module.exports?require('../document.js'):root.PeregriniDocument;
+  const P=typeof module!=='undefined'&&module.exports?require('../peregrini-language.js'):root.PeregriniLanguage;
   const clone = value => JSON.parse(JSON.stringify(value));
   const slug = text => text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'texto';
   function unique(text, taken) { const base=slug(text); let id=base, i=2; while(taken.includes(id)) id=`${base}-${i++}`; return id; }
@@ -8,6 +9,7 @@
   function assert(ok,message) { if (!ok) throw new Error(message); }
   function validate(data,{draft=false}={}) {
     assert(data && typeof data.author==='string' && Array.isArray(data.works),'O arquivo precisa conter o autor e a lista de obras.');
+    assert(P.validate(data.peregrini),'Revise o vocabulário Peregrini: palavras únicas e significados preenchidos.');
     const workIDs=new Set();
     for(const w of data.works){
       const peregrini=w.language==='peregrini';
@@ -46,8 +48,13 @@
     for(let i=0;i<tokens.length;i++){const t=tokens[i];if(t==='{')stack.push(new Set());else if(t==='[')stack.push(null);else if(t==='}'||t===']')stack.pop();else if(t.startsWith('"')&&tokens[i+1]===':'){const key=JSON.parse(t),keys=stack.at(-1);if(keys.has(key))throw new Error(`O catálogo tem o campo ${key} repetido. Corrija-o antes de abrir o editor.`);keys.add(key);}}
     return data;
   }
-  function mergeDraft(current,draft,original){const merged=clone(current),conflicts=[];for(const w of draft.works){const before=original?.works.find(x=>x.id===w.id),remote=merged.works.find(x=>x.id===w.id);if(before&&JSON.stringify(before)===JSON.stringify(w))continue;if(!remote){merged.works.push(clone(w));continue;}if(JSON.stringify(remote)===JSON.stringify(w))continue;if(before&&JSON.stringify(remote)===JSON.stringify(before)){merged.works[merged.works.indexOf(remote)]=clone(w);}else{const copy=clone(w);copy.id=unique(w.id+'-recuperado',merged.works.map(x=>x.id));copy.title+=' (rascunho recuperado)';delete copy.published;merged.works.push(copy);conflicts.push(w.title);}}validate(merged,{draft:true});return {data:merged,conflicts};}
+  function mergeDraft(current,draft,original){const merged=clone(current),conflicts=[];
+    if(draft.peregrini!==undefined&&JSON.stringify(draft.peregrini)!==JSON.stringify(original?.peregrini)){
+      const remote=JSON.stringify(current.peregrini),before=JSON.stringify(original?.peregrini),incoming=JSON.stringify(draft.peregrini);
+      assert(remote===before||remote===incoming||current.peregrini===undefined,'O vocabulário foi alterado no GitHub e no rascunho. Baixe a cópia do rascunho e confira as palavras antes de recuperá-lo.');
+      merged.peregrini=clone(draft.peregrini);
+    }
+    for(const w of draft.works){const before=original?.works.find(x=>x.id===w.id),remote=merged.works.find(x=>x.id===w.id);if(before&&JSON.stringify(before)===JSON.stringify(w))continue;if(!remote){merged.works.push(clone(w));continue;}if(JSON.stringify(remote)===JSON.stringify(w))continue;if(before&&JSON.stringify(remote)===JSON.stringify(before)){merged.works[merged.works.indexOf(remote)]=clone(w);}else{const copy=clone(w);copy.id=unique(w.id+'-recuperado',merged.works.map(x=>x.id));copy.title+=' (rascunho recuperado)';delete copy.published;merged.works.push(copy);conflicts.push(w.title);}}validate(merged,{draft:true});return {data:merged,conflicts};}
   const model={mergeDraft,parse,clone,unique,paragraphs,validate,chapter,variant,newWork,newPeregriniWork,prepare};
   if(typeof module!=='undefined'&&module.exports)module.exports=model;else root.PeregriniEditorModel=model;
 })(typeof window!=='undefined'?window:{});
-

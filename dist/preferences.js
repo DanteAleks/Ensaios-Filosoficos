@@ -9,7 +9,7 @@
     'peregrini-iluminada':"'Palavra Peregrini Iluminada', Georgia, serif",
     simples:'Arial, Helvetica, sans-serif'
   };
-  const pageDefault=document.querySelector('.peregrini-document')?'peregrini-text':'classica';
+  const pageDefault=(document.documentElement.dataset.readingLanguage==='peregrini'||document.querySelector('.peregrini-document'))?'peregrini-text':'classica';
   const defaults={theme:'luz',font:pageDefault,size:100};
   let stored={};try{stored=JSON.parse(localStorage.getItem('peregrini-reading')||'{}')||{};}catch{}
   if(stored.font==='peregrini')stored.font='peregrini-text';

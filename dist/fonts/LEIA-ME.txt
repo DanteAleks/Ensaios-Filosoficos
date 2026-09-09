@@ -1,0 +1,119 @@
+PALAVRA PEREGRINI — COLEÇÃO 1.2
+
+Esta é a primeira coleção com cobertura funcional do repertório definido para
+Peregrini, português, russo, grego clássico/politônico e latim. As versões alfa
+anteriores tinham somente o núcleo Peregrini. Esta coleção amplia esse núcleo,
+refina seus contornos e acrescenta acentuação, composição e símbolos.
+
+FAMÍLIAS
+Palavra Peregrini Display — Regular
+Títulos, inscrições e trechos curtos. 4.549 códigos Unicode.
+
+Palavra Peregrini Texto — Regular
+Parágrafos longos. Base de leitura DejaVu Serif, com ampliação matemática e
+complementos de marcas gregas. 4.549 códigos Unicode.
+
+Palavra Peregrini Iluminada — Regular
+Capitulares ornamentais. 678 códigos Unicode: maiúsculas/título, sinais
+combinantes e espaços. Não codifica minúsculas ou números.
+
+Cada família está disponível em TTF, OTF com contornos CFF e WOFF2.
+São estilos Regular. Não há pesos Bold ou Italic próprios nesta entrega.
+
+COMO INSTALAR E TESTAR
+Escolha os três arquivos de fontes/ttf OU os três de fontes/otf.
+Não é necessário instalar simultaneamente as duas versões da mesma família.
+Instale os arquivos pelo sistema do computador e reabra o editor, se necessário.
+Os nomes exibidos serão Palavra Peregrini Display, Texto e Iluminada.
+As fontes Alpha anteriores têm outros nomes e não são atualizadas automaticamente.
+
+Abra Teste-completo-Palavra-Peregrini.txt, copie o conteúdo para seu editor e
+aplique Display ou Texto. O TXT preserva Unicode e não contém formatação.
+Use Teste-capitulares-Iluminada.txt para testar somente as maiúsculas ornamentais.
+O catálogo exaustivo em documentacao/ identifica cada código individualmente,
+incluindo caracteres adicionais herdados da base que não pertencem aos cinco idiomas.
+
+Na Iluminada, aplique a fonte somente à inicial maiúscula e configure o tamanho
+ou recurso de capitular no editor. Ela não converte o parágrafo automaticamente.
+Comece com uma altura visual de três a cinco linhas de texto. Deixe margem para
+ramos laterais; as ornamentações podem ultrapassar o corpo principal da letra.
+
+COBERTURA E UNICODE
+A família preserva as letras mistas do Peregrini. Caracteres visualmente iguais,
+como A latino, А cirílico e Α grego, mantêm seus próprios códigos Unicode.
+Há cobertura das letras portuguesas, dos 33 pares russos, do alfabeto grego e
+sigma final, das letras latinas e dos sinais do grego politônico definido nos
+arquivos de teste. Há suporte às formas pré-compostas e às marcas combinantes.
+O conteúdo permanece texto, copiável e pesquisável; correspondências entre
+caracteres latinos/cirílicos visualmente iguais dependem dos códigos digitados.
+Busca com ou sem normalização de acentos depende do aplicativo.
+
+ESCRITA RTL
+O Unicode desses alfabetos tem direção intrínseca predominantemente LTR.
+Nenhuma fonte pode converter sozinha o idioma Peregrini em escrita RTL.
+Esta entrega inclui um exemplo CSS de composição visual RTL explícita, preservando
+a ordem lógica do texto armazenado. Números e trechos de outros idiomas devem
+ser isolados adequadamente. Não inverta manualmente as strings.
+O teste automatizado verificou composição forçada RTL no HarfBuzz, não o fluxo
+de edição, seleção e cópia de um editor Peregrini nem o comportamento no Word.
+A solução de edição RTL completa depende do editor/site e não está implementada
+por estes arquivos de fonte.
+
+LÓGICA E MATEMÁTICA
+Display e Texto incluem os símbolos solicitados e um repertório adicional.
+Índices e expoentes Unicode representam apenas os caracteres codificados;
+eles não substituem o editor de equações para qualquer expressão arbitrária.
+Para frações empilhadas, raízes extensíveis e integrais com limites, acompanha
+Latin Modern Math, sem alteração de seus arquivos, sob sua licença original.
+Essa fonte auxiliar possui tabela OpenType MATH. O editor de equações precisa
+aceitar e selecionar essa fonte. Display, Texto e Iluminada não possuem tabela
+MATH ajustada para composição profissional de equações; não se afirma equivalência.
+
+ORIGEM DOS DESENHOS — LEIA ANTES DE ATRIBUIR AUTORIA
+Esta é uma coleção híbrida, não uma criação integral de milhares de glifos novos.
+Display: núcleo Peregrini das pranchas aprovadas, suavizado e ajustado; outros
+caracteres e mecanismos de composição baseados em DejaVu Serif.
+Texto: adaptação funcional da base DejaVu Serif, com complementos de cobertura.
+Iluminada: capitulares Peregrini anteriores refinadas; outras maiúsculas derivadas
+da base aberta e enriquecidas com gravuras e folhas vetoriais. As maiúsculas
+acentuadas herdam os desenhos ornamentais por composição.
+Os símbolos complementares provêm de Latin Modern Math com ajustes de escala.
+As licenças e créditos das bases acompanham a coleção e devem ser preservados.
+A origem por caractere consta nos arquivos Unicode-*.csv. Alguns caracteres
+pré-compostos herdam modificações de componentes; o registro identifica a origem
+principal e não é uma lista exaustiva de todas as curvas de cada glifo.
+
+REVISÃO 1.1 — DISTINÇÃO ENTRE г E r
+Nas famílias Display e Texto, г tem haste única, lintel horizontal longo, canto
+reto e terminal quadrado. O r tem ombro ascendente curvo e terminal arredondado
+em forma de gota. A família Iluminada não contém minúsculas e não foi alterada.
+
+REVISÃO 1.2 — DISTINÇÃO ENTRE y E v
+Nas famílias Display e Texto, v é curto, angular e simétrico, terminando sobre
+a linha de base. O y tem braços curvos, assimetria e cauda longa descendente.
+As formas acentuadas de y herdam o novo desenho. A família Iluminada não contém
+minúsculas e permanece sem alterações de contorno.
+
+QUALIDADE E LIMITES DESTA VERSÃO
+A cobertura técnica requerida foi conferida nos arquivos exportados. As provas
+visuais foram renderizadas com os arquivos reais, não geradas como ilustração.
+A suavização reduz irregularidades do traçado; parte dos desenhos centrais ainda
+provém das imagens aprovadas e não equivale a um redesenho óptico manual completo.
+Pode haver diferenças de densidade e ornamentação entre o núcleo e os glifos
+complementares. Esta entrega não garante reprodução exata das pranchas conceituais.
+Kerning e ancoragem da base foram preservados; não houve revisão manual de todos
+os pares tipográficos. Use as provas para avaliar o estilo e a composição.
+
+VALIDAÇÃO REALIZADA
+Arquivos TTF, OTF e WOFF2 reabertos; mapas Unicode comparados entre os formatos.
+Repertório definido sem caracteres ausentes; amostras NFC/NFD compostas com HarfBuzz.
+Iluminada verificada sem códigos de minúsculas ou dígitos.
+Provas rasterizadas com Pillow/FreeType e inspecionadas visualmente.
+Nenhuma instalação ou edição foi executada no Microsoft Word nesta sessão.
+Não foi feita certificação em todos os navegadores, sistemas ou impressoras.
+
+ARQUIVOS DE TRABALHO
+projeto/ contém código de construção, dados dos contornos e fontes-base licenciadas.
+provas/ contém amostras visuais. documentacao/ contém inventários e verificações.
+web/ contém CSS de incorporação, capitular e composição RTL explicitamente controlada.
+A coleção é reproduzível com Python e as dependências listadas em requirements.txt.

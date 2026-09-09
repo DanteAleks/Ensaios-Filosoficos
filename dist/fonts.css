@@ -1,7 +1,7 @@
 /* Fontes locais: copiadas de Fonts/ pelo gerador. Os arquivos originais não são alterados. */
-@font-face{font-family:'Palavra Peregrini Texto';src:url('./fonts/PalavraPeregriniTexto-Regular.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
-@font-face{font-family:'Palavra Peregrini Display';src:url('./fonts/PalavraPeregriniDisplay-Regular.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
-@font-face{font-family:'Palavra Peregrini Iluminada';src:url('./fonts/PalavraPeregriniIluminada-Regular.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:'Palavra Peregrini Texto';src:url('./fonts/PalavraPeregriniTexto-Regular.woff2?v=14') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:'Palavra Peregrini Display';src:url('./fonts/PalavraPeregriniDisplay-Regular.woff2?v=14') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:'Palavra Peregrini Iluminada';src:url('./fonts/PalavraPeregriniIluminada-Regular.woff2?v=14') format('woff2');font-style:normal;font-weight:400;font-display:swap}
 :root{--peregrini-text:'Palavra Peregrini Texto',Georgia,serif;--peregrini-display:'Palavra Peregrini Display',Georgia,serif;--peregrini-initial:'Palavra Peregrini Iluminada',Georgia,serif}
 .peregrini-script{font-family:var(--peregrini-display);letter-spacing:0;line-height:1.8;text-transform:none}
 .peregrini-rtl{direction:rtl;unicode-bidi:isolate-override;text-align:start;writing-mode:horizontal-tb}
@@ -18,9 +18,10 @@
 .font-peregrini-text{font-family:'Palavra Peregrini Texto',Georgia,serif}
 .font-peregrini-display{font-family:'Palavra Peregrini Display',Georgia,serif}
 .font-peregrini-iluminada{font-family:'Palavra Peregrini Iluminada',Georgia,serif}
-.initial-illuminated-letter{display:inline-block;vertical-align:baseline;font-family:var(--peregrini-initial);font-size:3.25em;line-height:.9;letter-spacing:0;margin-inline-end:.12em;padding:.02em .08em 0;color:var(--initial-ink,#80601f);unicode-bidi:isolate;direction:inherit}
+.initial-illuminated-letter{display:inline;vertical-align:baseline;font-family:var(--peregrini-initial);font-size:2.65em;line-height:1.2;letter-spacing:0;color:var(--initial-ink,#80601f)}
+.initial-illuminated-letter [class^="font-peregrini-"]{font-family:inherit}
 /* Fallback ao editar um bloco ainda não renderizado pelo serializador. */
-.doc-block.initial-illuminated::first-letter{font-family:var(--peregrini-initial);font-size:3.25em;line-height:.9;color:var(--initial-ink,#80601f)}
+.document-editor .doc-block.initial-illuminated:not(:has(.initial-illuminated-letter))::first-letter{font-family:var(--peregrini-initial);font-size:2.65em;line-height:1.2;color:var(--initial-ink,#80601f)}
 html[data-theme=noite]{--initial-ink:#dec487}
 html[data-ornaments=off] .initial-illuminated-letter,html[data-ornaments=off] .initial-illuminated::first-letter{font:inherit;margin:0;padding:0;color:inherit}
-@media(max-width:600px){.initial-illuminated-letter,.doc-block.initial-illuminated::first-letter{font-size:2.65em}}
+@media(max-width:600px){.initial-illuminated-letter{font-size:2.3em}}

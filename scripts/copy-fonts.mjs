@@ -2,7 +2,9 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 export function copyFonts(root) {
-  const source = path.join(root, 'Fonts/Palavra-Peregrini-Colecao-v1.0');
+  // A coleção atual é enviada à raiz do repositório. A pasta Fonts é legada.
+  const source = fs.existsSync(path.join(root, 'fontes/woff2'))
+    ? root : path.join(root, 'Fonts/Palavra-Peregrini-Colecao-v1.0');
   const target = path.join(root, 'dist/fonts');
   const families = ['Texto', 'Display', 'Iluminada'];
   // Small catalogue tests copy only the generator and its prior dist output.
@@ -13,7 +15,7 @@ export function copyFonts(root) {
   for (const family of families) {
     const file = path.join(source, `fontes/woff2/PalavraPeregrini${family}-Regular.woff2`);
     if (!fs.existsSync(file) || fs.readFileSync(file).subarray(0, 4).toString() !== 'wOF2') {
-      throw new Error(`Fonte WOFF2 ausente ou inválida: ${path.relative(root, file)}. Preserve a pasta Fonts do repositório.`);
+      throw new Error(`Fonte WOFF2 ausente ou inválida: ${path.relative(root, file)}. Preserve a coleção completa de fontes.`);
     }
   }
   fs.mkdirSync(target, { recursive: true });
