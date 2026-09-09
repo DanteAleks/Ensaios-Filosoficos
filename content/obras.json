@@ -4664,10 +4664,10 @@
               "id": "introducao",
               "title": "Texto",
               "paragraphs": [
-                "VИA ПEREГRИHЖ ЛYMИHC",
-                "CЛOVO",
+                "Vиa пereгrиhи",
+                "Cлovo",
                 "TTTTCRTTTCCPPPP",
-                "TECT"
+                "Tect"
               ],
               "subchapters": []
             }
@@ -4678,30 +4678,56 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "VИA ПEREГRИHЖ ЛYMИHC"
-                }
-              ],
-              "direction": "rtl"
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
+                  "text": "V"
+                },
                 {
-                  "text": "CЛOVO"
-                }
-              ],
-              "direction": "rtl"
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
+                  "text": "и"
+                },
                 {
-                  "text": "TTTTCRTTTCCPPPP"
+                  "text": "a"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "п"
+                },
+                {
+                  "text": "e"
+                },
+                {
+                  "text": "r"
+                },
+                {
+                  "text": "e"
+                },
+                {
+                  "text": "г"
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "text": "r"
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "text": "и"
+                },
+                {
+                  "text": "h"
+                },
+                {
+                  "text": "и"
                 }
               ],
-              "direction": "rtl",
+              "id": "introducao",
+              "direction": "ltr",
               "initial": "illuminated"
             },
             {
@@ -4709,14 +4735,72 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "TECT"
+                  "text": "C"
+                },
+                {
+                  "text": "л"
+                },
+                {
+                  "text": "o"
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "text": "v"
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "text": "o"
                 }
               ],
-              "direction": "rtl",
+              "direction": "ltr",
+              "initial": "illuminated"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "T"
+                },
+                {
+                  "text": "TTTCRTTTCCPPPP"
+                }
+              ],
+              "direction": "ltr",
+              "initial": "illuminated"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "T"
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "text": "e"
+                },
+                {
+                  "text": "c"
+                },
+                {
+                  "text": "t"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "direction": "ltr",
               "initial": "illuminated"
             }
           ],
-          "direction": "rtl"
+          "direction": "ltr"
         }
       ]
     }
