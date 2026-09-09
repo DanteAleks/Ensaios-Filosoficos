@@ -4667,7 +4667,8 @@
                 "Vиa пereгrиhи",
                 "Cлovo",
                 "TTTTCRTTTCCPPPP",
-                "Tect"
+                "Tect",
+                "tesa"
               ],
               "subchapters": []
             }
@@ -4681,53 +4682,11 @@
                   "text": "V"
                 },
                 {
-                  "text": "и"
-                },
-                {
-                  "text": "a"
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "п"
-                },
-                {
-                  "text": "e"
-                },
-                {
-                  "text": "r"
-                },
-                {
-                  "text": "e"
-                },
-                {
-                  "text": "г"
-                },
-                {
-                  "text": ""
-                },
-                {
-                  "text": ""
-                },
-                {
-                  "text": "r"
-                },
-                {
-                  "text": ""
-                },
-                {
-                  "text": "и"
-                },
-                {
-                  "text": "h"
-                },
-                {
-                  "text": "и"
+                  "text": "иa пereгrиhи"
                 }
               ],
               "id": "introducao",
-              "direction": "ltr",
+              "direction": "rtl",
               "initial": "illuminated"
             },
             {
@@ -4738,25 +4697,10 @@
                   "text": "C"
                 },
                 {
-                  "text": "л"
-                },
-                {
-                  "text": "o"
-                },
-                {
-                  "text": ""
-                },
-                {
-                  "text": "v"
-                },
-                {
-                  "text": ""
-                },
-                {
-                  "text": "o"
+                  "text": "лovo"
                 }
               ],
-              "direction": "ltr",
+              "direction": "rtl",
               "initial": "illuminated"
             },
             {
@@ -4770,7 +4714,7 @@
                   "text": "TTTCRTTTCCPPPP"
                 }
               ],
-              "direction": "ltr",
+              "direction": "rtl",
               "initial": "illuminated"
             },
             {
@@ -4781,26 +4725,25 @@
                   "text": "T"
                 },
                 {
-                  "text": ""
-                },
-                {
-                  "text": "e"
-                },
-                {
-                  "text": "c"
-                },
-                {
-                  "text": "t"
-                },
-                {
-                  "text": ""
+                  "text": "ect"
                 }
               ],
-              "direction": "ltr",
+              "direction": "rtl",
+              "initial": "illuminated"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "tesa"
+                }
+              ],
+              "direction": "rtl",
               "initial": "illuminated"
             }
           ],
-          "direction": "ltr"
+          "direction": "rtl"
         }
       ]
     }
