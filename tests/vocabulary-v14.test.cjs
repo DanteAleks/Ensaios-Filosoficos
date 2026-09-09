@@ -12,20 +12,29 @@ test('Percurso público: início → apresentação → escritos → idioma',()=
   const home=read('index.html'),via=read('peregrini/via.html'),portal=read('peregrini/index.html'),language=read('peregrini/idioma.html');
   try{
     assert.equal(home.window.document.querySelector('.peregrini-entry').getAttribute('href'),'./peregrini/via.html');
-    assert.equal(home.window.document.querySelector('.peregrini-entry bdo').dir,'rtl');
+    const homeWord=home.window.document.querySelector('.peregrini-entry bdo');
+    assert.equal(homeWord.dir,'rtl');
+    assert.equal(homeWord.textContent,'Пereгrиhи');
+    assert.equal(home.window.document.querySelector('.peregrini-entry small'),null);
     const enter=via.window.document.querySelector('.primary-button');
     assert.equal(enter.getAttribute('href'),'./index.html');
     assert.match(enter.textContent,/Prosseguir Área Peregrini/);
+    for(const wordmark of [via.window.document.querySelector('.peregrini-wordmark bdo'),portal.window.document.querySelector('.peregrini-wordmark bdo')]){
+      assert.equal(wordmark.textContent,'Cлovo Пereгrиhи');
+      assert.equal(wordmark.dir,'rtl');
+    }
     assert.equal(portal.window.document.querySelector('table'),null);
     assert(portal.window.document.querySelector('#escritos-peregrini'));
     assert.equal(portal.window.document.querySelector('.language-door').getAttribute('href'),'./idioma.html');
     assert(language.window.document.querySelector('#vocabulario'));
+    assert.equal(language.window.document.querySelector('nav.desktop-nav a[href="./idioma.html#vocabulario"]').textContent,'Vocabulário');
     const yes=language.window.document.querySelector('[data-term="ДA"] bdo');
     assert.equal(yes.dir,'rtl');assert.equal(yes.textContent,'ДA');
     assert.equal(language.window.document.querySelectorAll('tbody tr').length,28);
     for(const row of language.window.document.querySelectorAll('tbody tr')){
       assert.equal(row.querySelectorAll('.vowel-word-examples li').length,7);
       assert([...row.querySelectorAll('.vowel-word-examples li span')].every(el=>el.textContent.trim()));
+      assert([...row.querySelectorAll('.vowel-word-examples li span')].every(el=>!/[+]/.test(el.textContent)));
     }
   }finally{[home,via,portal,language].forEach(dom=>dom.window.close());}
 });

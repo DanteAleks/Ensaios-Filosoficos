@@ -1,7 +1,7 @@
-/* Fontes locais: copiadas de Fonts/ pelo gerador. Os arquivos originais não são alterados. */
-@font-face{font-family:'Palavra Peregrini Texto';src:url('./fonts/PalavraPeregriniTexto-Regular.woff2?v=14') format('woff2');font-style:normal;font-weight:400;font-display:swap}
-@font-face{font-family:'Palavra Peregrini Display';src:url('./fonts/PalavraPeregriniDisplay-Regular.woff2?v=14') format('woff2');font-style:normal;font-weight:400;font-display:swap}
-@font-face{font-family:'Palavra Peregrini Iluminada';src:url('./fonts/PalavraPeregriniIluminada-Regular.woff2?v=14') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+/* Fontes locais: copiadas da coleção em fontes/ (ou do legado Fonts/) pelo gerador. */
+@font-face{font-family:'Palavra Peregrini Texto';src:url('./fonts/PalavraPeregriniTexto-Regular.woff2?v=15') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:'Palavra Peregrini Display';src:url('./fonts/PalavraPeregriniDisplay-Regular.woff2?v=15') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:'Palavra Peregrini Iluminada';src:url('./fonts/PalavraPeregriniIluminada-Regular.woff2?v=15') format('woff2');font-style:normal;font-weight:400;font-display:swap}
 :root{--peregrini-text:'Palavra Peregrini Texto',Georgia,serif;--peregrini-display:'Palavra Peregrini Display',Georgia,serif;--peregrini-initial:'Palavra Peregrini Iluminada',Georgia,serif}
 .peregrini-script{font-family:var(--peregrini-display);letter-spacing:0;line-height:1.8;text-transform:none}
 .peregrini-rtl{direction:rtl;unicode-bidi:isolate-override;text-align:start;writing-mode:horizontal-tb}

@@ -30,45 +30,51 @@
     ['З','з','z /z/','Como em zero.'],['N','n','nasalização','Nasaliza a vogal anterior; não é a consoante n.']
   ];
   // Palavras portuguesas de apoio sonoro, não entradas do léxico Peregrini.
-  // Nas colunas Я e Ю, duas palavras ajudam a unir consoante + ia/iu.
+  // Cada célula usa uma única palavra: ela é uma aproximação auditiva da
+  // combinação da consoante com a vogal da coluna.
   const soundWords={
-    B:['bala','bebê','bico','bola','bule'],
-    K:['casa','querer','quilo','copo','cubo'],
-    X:['chave','chegar','chinelo','choro','chuva'],
-    Д:['dado','dedo','dito (d puro)','dono','duro'],
-    Φ:['faca','feliz','fita','foca','fumo'],
-    Ж:['janela','gelo','giro','jogo','juba'],
-    Г:['gato','guerra','guia','gota','gula'],
-    Л:['lado','lema','lima','lobo','lua'],
-    Љ:['palha','colher','velhice','filhote','palhudo'],
-    M:['mala','mesa','mimo','mola','muro'],
-    H:['navio','neve','ninho','nome','nuvem'],
-    Њ:['aranha','companheiro','ninho','sonho','nenhum'],
-    П:['pato','pelo','pipa','povo','pulo'],
-    P:['rato','rede','rico','roda','rua'],
-    R:['cara','areia','ferida','caro','peru'],
-    C:['sapo','cedo','sino','sopa','suco'],
-    T:['tato','telha','tipo (t puro)','toca','tubo'],
-    Ч:['tchau','tchê','tchibum','tchau + ovo','tchau + uva'],
-    V:['vaca','vela','vida','voto','vulto'],
-    З:['azar','zero','zinco','zona','azul']
+    B:['bala','bebê','bicho','biombo','burro','bola','bule'],
+    K:['casa','querer','quilo','copo','cubo','caixa','cuca'],
+    X:['caixa','chegar','chinelo','choro','chuva','chuchu','chave'],
+    Д:['dado','dedo','dito','diodo','duro','dono','duna'],
+    Φ:['faca','feliz','fita','foca','fumo','feira','fúria'],
+    Ж:['janela','gelo','giro','jogo','juba','jeito','julho'],
+    Г:['gato','guerra','guia','gota','gula','gêmeo','guitarra'],
+    Л:['lado','lema','lima','lobo','lua','lago','luta'],
+    Љ:['palha','colher','velhice','filhote','palhudo','malha','telhado'],
+    M:['mala','mesa','mimo','mola','muro','maçã','muda'],
+    H:['navio','neve','ninho','nome','nuvem','nada','nudez'],
+    Њ:['aranha','companhia','ninho','sonho','nenhum','manhã','nhambu'],
+    П:['pato','pelo','pipa','povo','pulo','paca','puma'],
+    P:['rato','rede','rico','roda','rua','rala','ruma'],
+    R:['cara','areia','ferida','caro','peru','cera','cura'],
+    C:['sapo','cedo','sino','sopa','suco','sala','suma'],
+    T:['tato','telha','tipo','toca','tubo','tala','tua'],
+    Ч:['tchau','tchê','tchibum','tchã','tchaca','tchuru','tchutchuca'],
+    V:['vaca','vela','vida','voto','vulto','vila','viva'],
+    З:['azar','zero','zinco','zona','azul','zaga','zulu']
   };
-  const vowelWords={A:'casa',E:'mesa',И:'ilha',Я:'iate',Ю:'viu',O:'ovo',Y:'uva'};
-  const nasalWords=['lã','vento','tinta','iate (com vogal nasalizada)','viu (com vogal nasalizada)','onda','mundo'];
+  const vowelWords={
+    A:['casa','cedo','ilha','iate','viúva','ovo','uva'],
+    E:['mesa','bebê','ilha','iate','viúva','ovo','uva'],
+    И:['míssil','medida','ilha','iate','viúva','ovo','uva'],
+    Я:['piada','mediano','viagem','iate','viúva','violão','rua'],
+    Ю:['viúva','miúdo','viagem','iate','viúva','violão','lua'],
+    O:['casa','mesa','ilha','iate','viúva','ovo','uva'],
+    Y:['lua','leu','lixo','iate','viúva','ovo','uva']
+  };
+  const fallbackWords=['casa','mesa','ilha','iate','viúva','ovo','uva'];
+  const nasalWords=['lã','venda','tinta','gente','mundo','onda','nunca'];
   function examplesFor(upper){
     return vowels.map((v,index)=>{
       if(upper==='N')return {vowel:v.upper,sample:v.upper+'N',reference:nasalWords[index]};
-      const words=soundWords[upper];
-      const plainIndex={A:0,E:1,И:2,O:3,Y:4}[v.upper];
-      const reference=words
-        ? (plainIndex===undefined?words[0]+' + '+vowelWords[v.upper]:words[plainIndex])
-        : vowelWords[upper]+' + '+vowelWords[v.upper];
-      return {vowel:v.upper,sample:upper+v.upper,reference};
+      const words=soundWords[upper]||vowelWords[upper]||fallbackWords;
+      return {vowel:v.upper,sample:upper+v.upper,reference:words[index]||fallbackWords[index]};
     });
   }
   const alphabet=rows.map(([upper,lower,sound,note])=>({upper,lower,sound,note,examples:examplesFor(upper)}));
   const defaults={
-    name:'Peregrini',word:'Пereгrиhи Лovoc',proceed:'Prosseguir Área Peregrini',
+    name:'Peregrini',entryWord:'Пereгrиhи',word:'Cлovo Пereгrиhи',proceed:'Prosseguir Área Peregrini',
     notice:'Esta área reúne escritos originais sobre a Via Peregrini Luminus como religião de orientação monoteísta, segundo minha visão pessoal. Ela encontra afinidades, em alguns aspectos, com Maimônides, Hasdai Crescas, Joseph Albo e Ibn Taymiyyah. A Via possui idioma próprio: o Peregrini.',
     alphabet,vowels,
     lexicon:[
@@ -85,7 +91,7 @@
   function validate(value){
     if(value===undefined)return true;
     if(!value||Array.isArray(value)||typeof value!=='object')return false;
-    for(const key of ['name','word','proceed','notice'])if(value[key]!==undefined&&(typeof value[key]!=='string'||value[key].length>(key==='notice'?2500:150)))return false;
+    for(const key of ['name','entryWord','word','proceed','notice'])if(value[key]!==undefined&&(typeof value[key]!=='string'||value[key].length>(key==='notice'?2500:150)))return false;
     if(value.name!==undefined&&!value.name.trim())return false;
     if(value.alphabet!==undefined){
       if(!Array.isArray(value.alphabet)||value.alphabet.length>100)return false;

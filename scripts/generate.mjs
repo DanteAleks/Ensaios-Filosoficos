@@ -10,7 +10,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-const assetVersion='14';
+const assetVersion='15';
 const source=fs.readFileSync(path.join(root,'content/obras.json'),'utf8');
 const data=M.validate(parseCatalog(source));
 const languagePage=JSON.parse(fs.readFileSync(path.join(root,'content/peregrini.json'),'utf8'));
@@ -112,7 +112,7 @@ const language=P.settings(data.peregrini);
 const peregriniCards=peregriniWorks().length?`<div class="peregrini-work-grid">${markedCards(peregriniWorks()).replaceAll('./peregrini/','./')}</div>`:`<p class="peregrini-empty">${E(languagePage.emptyText)}</p>`;
 writePeregriniPages({root,assetVersion,config:languagePage,language,cards:peregriniCards});
 
-let home=fs.readFileSync(path.join(root,'templates/home.html'),'utf8').replace('{{PEREGRINI_NAME}}',E(languagePage.label)).replace('{{PEREGRINI_WORD}}',E(language.word)).replace('{{UPDATES}}',updates).replace('{{WORKS}}',cards(false)).replace('{{SUMAS}}',cards(true)).replace('{{COLLECTIONS}}',collectionNames.length?collections:'<p>As coleções serão reunidas aqui conforme o acervo crescer.</p>').replace('{{ORDER_WORKS}}',controls('work-grid')).replace('{{ORDER_SUMAS}}',controls('sumas-grid'));
+let home=fs.readFileSync(path.join(root,'templates/home.html'),'utf8').replace('{{PEREGRINI_NAME}}',E(languagePage.label)).replace('{{PEREGRINI_ENTRY_WORD}}',E(language.entryWord||language.word)).replace('{{PEREGRINI_WORD}}',E(language.word)).replace('{{UPDATES}}',updates).replace('{{WORKS}}',cards(false)).replace('{{SUMAS}}',cards(true)).replace('{{COLLECTIONS}}',collectionNames.length?collections:'<p>As coleções serão reunidas aqui conforme o acervo crescer.</p>').replace('{{ORDER_WORKS}}',controls('work-grid')).replace('{{ORDER_SUMAS}}',controls('sumas-grid'));
 fs.writeFileSync(path.join(root,'dist/index.html'),home);
 console.log(`Acervo gerado: ${data.works.length} obras, ${expected.size} páginas de leitura.`);
 fs.writeFileSync(path.join(root,'dist/publication.json'),JSON.stringify({catalogHash:createHash('sha256').update(source).digest('hex'),builtAt:new Date().toISOString()}));
