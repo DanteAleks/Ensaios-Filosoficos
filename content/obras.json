@@ -4639,6 +4639,86 @@
         "David Hume"
       ],
       "published": "2026-09-08"
+    },
+    {
+      "id": "test",
+      "language": "peregrini",
+      "direction": "rtl",
+      "title": "Test",
+      "kind": "Texto Peregrini",
+      "summary": "Test",
+      "collections": [
+        "CYHИMYЛ ИHИRГEREП AИV"
+      ],
+      "published": "2026-09-08",
+      "variants": [
+        {
+          "id": "didatico",
+          "status": "andamento",
+          "availability": "demonstracao",
+          "updated": "2026-09-08",
+          "last": "",
+          "next": "",
+          "chapters": [
+            {
+              "id": "introducao",
+              "title": "Texto",
+              "paragraphs": [
+                "VИA ПEREГRИHЖ ЛYMИHC",
+                "CЛOVO",
+                "TTTTCRTTTCCPPPP",
+                "TECT"
+              ],
+              "subchapters": []
+            }
+          ],
+          "blocks": [
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "VИA ПEREГRИHЖ ЛYMИHC"
+                }
+              ],
+              "direction": "rtl"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "CЛOVO"
+                }
+              ],
+              "direction": "rtl"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "TTTTCRTTTCCPPPP"
+                }
+              ],
+              "direction": "rtl",
+              "initial": "illuminated"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "TECT"
+                }
+              ],
+              "direction": "rtl",
+              "initial": "illuminated"
+            }
+          ],
+          "direction": "rtl"
+        }
+      ]
     }
   ]
 }
