@@ -147,6 +147,59 @@ def distinct_ge_and_r(f,origins):
   (0x0072,rr,1030,'Peregrini 1.1: r caligráfico, ombro curvo e terminal em gota')]:
   n=cmap[cp];g=ttglyph(recording(q));f['glyf'][n]=g;g.recalcBounds(f['glyf']);f['hmtx'][n]=(advance,g.xMin);origins[cp]=origin
 
+
+def distinct_y_and_v(f,origins):
+ """Separate Latin/Peregrini y and v by their entire silhouettes.
+ v is a short, symmetrical architectural wedge ending on the baseline.
+ y has rounded arms and a deep curved descender with a leftward hook.
+ """
+ cmap=f.getBestCmap()
+ # DejaVu reuses Latin y/v as components in Cyrillic у and Roman numerals.
+ # Preserve their exact old outlines through unencoded internal aliases, while
+ # allowing actual Latin accented y/v forms to inherit the new designs.
+ inherit={0x0076,0x1E7D,0x1E7F,0x0079,0x00FD,0x00FF,0x0177,0x0233,
+          0x1E8F,0x1E99,0x1EF3,0x1EF5,0x1EF7,0x1EF9}
+ aliases={cmap[0x0076]:'ppOldLatinV',cmap[0x0079]:'ppOldLatinY'}
+ order=list(f.getGlyphOrder())
+ for original,alias in aliases.items():
+  f['glyf'][alias]=copy.deepcopy(f['glyf'][original]);f['hmtx'][alias]=f['hmtx'][original];order.append(alias)
+ f.setGlyphOrder(order)
+ for cp,n in list(cmap.items()):
+  if cp in inherit:continue
+  g=f['glyf'][n]
+  if g.isComposite():
+   for component in g.components:
+    if component.glyphName in aliases:component.glyphName=aliases[component.glyphName]
+ def rectangle(x0,y0,x1,y1):
+  q=pathops.Path();p=q.getPen();p.moveTo((x0,y0));p.lineTo((x1,y0));p.lineTo((x1,y1));p.lineTo((x0,y1));p.closePath();return q
+ def unite(*items):
+  out=items[0]
+  for item in items[1:]:out=pathops.op(out,item,pathops.PathOp.UNION)
+  return out
+ def recording(q):
+  out=RecordingPen();q.draw(out);return out
+ # v: compact and angular, with a sharp base apex and balanced upper arms.
+ vv=pathops.Path();p=vv.getPen()
+ p.moveTo((70,1080));p.lineTo((390,1080));p.lineTo((602,292))
+ p.lineTo((814,1080));p.lineTo((1135,1080));p.lineTo((1135,990))
+ p.lineTo((1000,950));p.lineTo((705,0));p.lineTo((500,0))
+ p.lineTo((205,950));p.lineTo((70,990));p.closePath()
+ vv=unite(vv,rectangle(55,990,420,1102),rectangle(785,990,1150,1102));vv.convertConicsToQuads()
+ # y: rounded bifurcation and a long calligraphic tail well below baseline.
+ left=pathops.Path();p=left.getPen();p.moveTo((145,1030));p.curveTo((255,900),(375,650),(590,505));p.endPath()
+ left.stroke(154,pathops.LineCap.ROUND_CAP,pathops.LineJoin.ROUND_JOIN,4);left.convertConicsToQuads()
+ right=pathops.Path();p=right.getPen();p.moveTo((1045,1030));p.curveTo((925,920),(805,650),(590,505));p.endPath()
+ right.stroke(132,pathops.LineCap.ROUND_CAP,pathops.LineJoin.ROUND_JOIN,4);right.convertConicsToQuads()
+ tail=pathops.Path();p=tail.getPen();p.moveTo((590,530));p.curveTo((640,280),(690,-90),(520,-355));p.curveTo((445,-472),(275,-520),(195,-405));p.endPath()
+ tail.stroke(158,pathops.LineCap.ROUND_CAP,pathops.LineJoin.ROUND_JOIN,4);tail.convertConicsToQuads()
+ # Distinct leaf-shaped terminal on the right arm reinforces the curved form.
+ leaf=pathops.Path();p=leaf.getPen();p.moveTo((980,1060));p.curveTo((1080,1115),(1160,1050),(1150,960));p.curveTo((1138,885),(1045,892),(980,1060));p.closePath()
+ yy=unite(left,right,tail,leaf);yy.convertConicsToQuads()
+ for cp,q,advance,origin in [
+  (0x0076,vv,1210,'Peregrini 1.2: v curto, simétrico, angular e sem descendente'),
+  (0x0079,yy,1210,'Peregrini 1.2: y curvo, assimétrico e com cauda descendente longa')]:
+  n=cmap[cp];g=ttglyph(recording(q));f['glyf'][n]=g;g.recalcBounds(f['glyf']);f['hmtx'][n]=(advance,g.xMin);origins[cp]=origin
+
 def extend_math(f,origins):
  mf=TTFont(MATH);mc=mf.getBestCmap();c=f.getBestCmap();scale=f['head'].unitsPerEm/mf['head'].unitsPerEm
  additions=[cp for cp in mc if cp not in c and (0x2000<=cp<=0x2bff or 0x1d400<=cp<=0x1d7ff)]
@@ -202,8 +255,8 @@ def decorate(rec):
 def rename(f,family):
  original_license=f['name'].getDebugName(13) or 'See bundled licenses.'
  f['name'].names=[]
- FontBuilder(font=f).setupNameTable({'familyName':family,'styleName':'Regular','uniqueFontIdentifier':family.replace(' ','')+'-1.100','fullName':family+' Regular','psName':family.replace(' ','')+'-Regular','version':'Version 1.100','copyright':'Peregrini artwork and adaptations; includes Bitstream/DejaVu and Latin Modern components. See accompanying credits and licenses.','description':'Hybrid Peregrini collection. Original approved core drawings refined; extended repertoire from credited open vector foundations.','licenseDescription':original_license+'; mathematical additions under GUST Font License. See bundled licenses.'})
- f['head'].fontRevision=1.1
+ FontBuilder(font=f).setupNameTable({'familyName':family,'styleName':'Regular','uniqueFontIdentifier':family.replace(' ','')+'-1.200','fullName':family+' Regular','psName':family.replace(' ','')+'-Regular','version':'Version 1.200','copyright':'Peregrini artwork and adaptations; includes Bitstream/DejaVu and Latin Modern components. See accompanying credits and licenses.','description':'Hybrid Peregrini collection. Original approved core drawings refined; extended repertoire from credited open vector foundations.','licenseDescription':original_license+'; mathematical additions under GUST Font License. See bundled licenses.'})
+ f['head'].fontRevision=1.2
  # Clear stale names/signatures and math metrics that were not recalibrated.
  for tag in ['DSIG','FFTM','MATH']:
   if tag in f:del f[tag]
@@ -285,6 +338,7 @@ def build(family):
   origins={cp:origins[cp] for cp in f.getBestCmap()}
  if family in ['Display','Texto']:
   distinct_ge_and_r(f,origins)
+  distinct_y_and_v(f,origins)
  # Strip stale point-index hint programs from modified/composite outlines.
  if family!='Texto':
   for g in f['glyf'].glyphs.values():g.removeHinting()

@@ -2,7 +2,7 @@
   {
     "family": "Display",
     "unicode_count": 4549,
-    "glyph_count": 4629,
+    "glyph_count": 4631,
     "formats_equal_cmap": true,
     "required_missing": [],
     "shaping_NFC_NFD": [
@@ -15,7 +15,7 @@
   {
     "family": "Texto",
     "unicode_count": 4549,
-    "glyph_count": 4629,
+    "glyph_count": 4631,
     "formats_equal_cmap": true,
     "required_missing": [],
     "shaping_NFC_NFD": [

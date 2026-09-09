@@ -1,4 +1,4 @@
-PALAVRA PEREGRINI — COLEÇÃO 1.1
+PALAVRA PEREGRINI — COLEÇÃO 1.2
 
 Esta é a primeira coleção com cobertura funcional do repertório definido para
 Peregrini, português, russo, grego clássico/politônico e latim. As versões alfa
@@ -87,6 +87,12 @@ REVISÃO 1.1 — DISTINÇÃO ENTRE г E r
 Nas famílias Display e Texto, г tem haste única, lintel horizontal longo, canto
 reto e terminal quadrado. O r tem ombro ascendente curvo e terminal arredondado
 em forma de gota. A família Iluminada não contém minúsculas e não foi alterada.
+
+REVISÃO 1.2 — DISTINÇÃO ENTRE y E v
+Nas famílias Display e Texto, v é curto, angular e simétrico, terminando sobre
+a linha de base. O y tem braços curvos, assimetria e cauda longa descendente.
+As formas acentuadas de y herdam o novo desenho. A família Iluminada não contém
+minúsculas e permanece sem alterações de contorno.
 
 QUALIDADE E LIMITES DESTA VERSÃO
 A cobertura técnica requerida foi conferida nos arquivos exportados. As provas

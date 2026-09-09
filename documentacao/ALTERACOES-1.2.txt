@@ -1,0 +1,17 @@
+PALAVRA PEREGRINI — ALTERAÇÕES 1.2
+
+Display e Texto
+- v (U+0076): redesenhado como forma curta, simétrica e angular, com ápice
+  sobre a linha de base e sem descendente.
+- y (U+0079): redesenhado com braços arredondados, junção assimétrica e cauda
+  longa, curva e descendente.
+- Formas acentuadas e variantes construídas a partir de y e v acompanham os
+  novos desenhos.
+- O cirílico у e suas variantes, bem como os numerais romanos minúsculos,
+  foram preservados visualmente por meio de componentes internos independentes.
+- O mapa Unicode e a cobertura multilíngue foram preservados.
+
+Iluminada
+- Nenhum contorno alterado; a família não contém minúsculas.
+
+A prova Distincao-y-v-v1.2.png foi renderizada com os arquivos TTF reais.

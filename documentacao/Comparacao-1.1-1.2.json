@@ -1,0 +1,17 @@
+{
+  "versoes": {"origem": "1.1", "destino": "1.2"},
+  "Display": {
+    "cmap_unchanged": true,
+    "unicode_mappings": 4549,
+    "changed_visual_glyphs": ["v", "y", "yacute", "ydieresis", "ycircumflex", "ygrave", "uni0233", "uni1E7D", "uni1E7F", "uni1E8F", "uni1E99", "uni1EF5", "uni1EF7", "uni1EF9"],
+    "preserved_visual_glyphs_with_internal_aliases": ["uni0443", "uni045E", "uni04EF", "uni04F1", "uni04F3", "uni1D20", "uni2173", "uni2174", "uni2175", "uni2176", "uni2177"]
+  },
+  "Texto": {
+    "cmap_unchanged": true,
+    "unicode_mappings": 4549,
+    "changed_visual_glyphs": ["v", "y", "yacute", "ydieresis", "ycircumflex", "ygrave", "uni0233", "uni1E7D", "uni1E7F", "uni1E8F", "uni1E99", "uni1EF5", "uni1EF7", "uni1EF9"],
+    "preserved_visual_glyphs_with_internal_aliases": ["uni0443", "uni045E", "uni04EF", "uni04F1", "uni04F3", "uni1D20", "uni2173", "uni2174", "uni2175", "uni2176", "uni2177"]
+  },
+  "Iluminada": {"cmap_unchanged": true, "unicode_mappings": 678, "changed_visual_glyphs": []},
+  "observacao": "Os glifos cirilicos e numerais romanos listados usam aliases internos para conservar exatamente o desenho da versao 1.1, apesar de antes compartilharem componentes com y ou v."
+}
