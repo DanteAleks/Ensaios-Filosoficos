@@ -4824,27 +4824,19 @@
               "id": "secao-45",
               "title": "O argumento diagonal de Cantor",
               "paragraphs": [
-                "Suponhamos, para obter uma contradição, que exista uma função",
-                "[\nf\\to\\mathcal{P}(A)\n]",
-                "que seja sobrejetiva. Isso significa que todo subconjunto de (A) aparece como (f(a)) para algum elemento (a\\in A).",
-                "Construímos então o seguinte subconjunto de (A):",
-                "[\nD={a\\in A\\notin f(a)}.\n]",
+                "Suponhamos, para obter uma contradição, que exista uma função\n\\(f\\to\\mathcal{P}(A)\\)",
+                "que seja sobrejetiva. Isso significa que todo subconjunto de (A) aparece como (f(a)) para algum elemento \\((a\\in A)\\).",
+                "Construímos então o seguinte subconjunto de (A):\n\\(D={a\\in A\\notin f(a)}\\).",
                 "O conjunto (D) contém exatamente aqueles elementos de (A) que não pertencem ao subconjunto que a função (f) lhes atribui.",
-                "Como supusemos que (f) é sobrejetiva, o conjunto (D) deveria aparecer na lista. Portanto, deveria existir algum (d\\in A) tal que:",
-                "[\nf(d)=D.\n]",
+                "Como supusemos que (f) é sobrejetiva, o conjunto (D) deveria aparecer na lista. Portanto, deveria existir algum \\((d\\in A)\\)tal que:\n\\(f(d)=D\\).",
                 "Agora perguntamos se (d) pertence a (D).",
-                "Se (d\\in D), então, pela definição de (D), temos:",
-                "[\nd\\notin f(d).\n]",
-                "Mas (f(d)=D). Logo:",
-                "[\nd\\notin D.\n]",
-                "Por outro lado, se (d\\notin D), então, pela definição de (D), temos:",
-                "[\nd\\in f(d).\n]",
-                "Como (f(d)=D), concluímos:",
-                "[\nd\\in D.\n]",
+                "Se \\((d\\in D)\\), então, pela definição de (D), temos:\n\\(d\\notin f(d)\\).",
+                "Mas \\((f(d)=D)\\). Logo:\n\\(d\\notin D\\).",
+                "Por outro lado, se \\((d\\notin D),\\) então, pela definição de (D), temos:\n\\(d\\in f(d)\\).",
+                "Como \\((f(d)=D)\\), concluímos:\n\\(d\\in D\\).",
                 "Nos dois casos surge uma contradição. Portanto, (D) não pode ser um dos subconjuntos incluídos na lista de (f).",
-                "A função (f) não é sobrejetiva. Como nenhuma função de (A) para (\\mathcal{P}(A)) pode alcançar todos os subconjuntos de (A), não existe bijeção entre os dois conjuntos.",
-                "Assim, o conjunto das partes de (A) é sempre maior do que o próprio conjunto:",
-                "[\n|\\mathcal{P}(A)|>|A|.\n]"
+                "A função (f) não é sobrejetiva. Como nenhuma função de (A) para \\((\\mathcal{P}(A))\\) pode alcançar todos os subconjuntos de (A), não existe bijeção entre os dois conjuntos.",
+                "Assim, o conjunto das partes de (A) é sempre maior do que o próprio conjunto:\n\\(|\\mathcal{P}(A)|>|A|\\)."
               ],
               "subchapters": []
             },
@@ -4852,22 +4844,16 @@
               "id": "secao-67",
               "title": "Por que existem conjuntos incontáveis?",
               "paragraphs": [
-                "Agora aplicamos o teorema de Cantor ao conjunto dos números naturais:",
-                "[\n\\mathcal{P}(\\mathbb{N}).\n]",
-                "O teorema afirma:",
-                "[\n|\\mathcal{P}(\\mathbb{N})|>|\\mathbb{N}|.\n]",
+                "Agora aplicamos o teorema de Cantor ao conjunto dos números naturais:\n\\(\\mathcal{P}(\\mathbb{N})\\).",
+                "O teorema afirma:\n\\(|\\mathcal{P}(\\mathbb{N})|>|\\mathbb{N}|\\).",
                 "Portanto, o conjunto de todos os subconjuntos dos números naturais não é contável.",
                 "Isso já é suficiente para demonstrar que existem conjuntos incontáveis.",
                 "Os números reais também são incontáveis. Uma maneira de compreender isso é observar que muitos números reais podem ser representados por sequências infinitas de algarismos binários. Cada sequência binária pode ser associada a um subconjunto dos números naturais.",
-                "Por exemplo, uma sequência como:",
-                "[\n1,0,1,0,0,1,\\ldots\n]",
+                "Por exemplo, uma sequência como:\n\\(1,0,1,0,0,1,\\ldots\\)",
                 "pode ser associada ao conjunto formado pelas posições em que aparece o algarismo (1).",
-                "Assim, existe uma relação profunda entre o conjunto dos números reais e o conjunto das partes dos naturais. A cardinalidade dos reais é normalmente representada por:",
-                "[\n|\\mathbb{R}|=2^{\\aleph_0},\n]",
-                "enquanto a cardinalidade dos naturais é representada por:",
-                "[\n|\\mathbb{N}|=\\aleph_0.\n]",
-                "A desigualdade de Cantor pode então ser expressa como:",
-                "[\n\\aleph_0<2^{\\aleph_0}.\n]",
+                "Assim, existe uma relação profunda entre o conjunto dos números reais e o conjunto das partes dos naturais. A cardinalidade dos reais é normalmente representada por:\n|\\(\\mathbb{R}|=2^{\\aleph_0}\\),",
+                "enquanto a cardinalidade dos naturais é representada por:\n\\(|\\mathbb{N}|=\\aleph_0\\).\n\n",
+                "A desigualdade de Cantor pode então ser expressa como:\n\\(\\aleph_0<2^{\\aleph_0}\\).",
                 "É importante distinguir esse resultado da hipótese do contínuo. O teorema de Cantor afirma que os reais são mais numerosos do que os naturais. A hipótese do contínuo pergunta se existe uma cardinalidade intermediária entre esses dois tamanhos. São questões diferentes."
               ],
               "subchapters": []
@@ -5496,7 +5482,10 @@
                   "text": "\n"
                 },
                 {
-                  "text": "\\(\\mathbb{N}={0,1,2,3,4,\\ldots}\\)."
+                  "text": "\\(\\mathbb{N}={0,1,2,3,4,\\ldots}\\)"
+                },
+                {
+                  "text": "."
                 }
               ]
             },
@@ -5517,7 +5506,10 @@
                   "text": "\n"
                 },
                 {
-                  "text": "\\(E={0,2,4,6,8,\\ldots}\\)."
+                  "text": "\\(E={0,2,4,6,8,\\ldots}\\)"
+                },
+                {
+                  "text": "."
                 },
                 {
                   "text": "\n"
@@ -5556,7 +5548,13 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Cada número par aparece exatamente uma vez nessa correspondência. Portanto, embora (E) seja um subconjunto próprio de \\((\\mathbb{N})\\), os dois conjuntos possuem a mesma cardinalidade."
+                  "text": "Cada número par aparece exatamente uma vez nessa correspondência. Portanto, embora (E) seja um subconjunto próprio de "
+                },
+                {
+                  "text": "\\((\\mathbb{N})\\)"
+                },
+                {
+                  "text": ", os dois conjuntos possuem a mesma cardinalidade."
                 }
               ]
             },
@@ -5607,7 +5605,19 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Um conjunto é chamado de contável quando seus elementos podem ser enumerados usando os números naturais. Em termos formais, um conjunto (A) é contável quando existe uma função bijetiva entre (A) e \\((\\mathbb{N})\\), ou, em algumas definições, quando existe uma injeção de (A) em \\((\\mathbb{N})\\)."
+                  "text": "Um conjunto é chamado de contável quando seus elementos podem ser enumerados usando os números naturais. Em termos formais, um conjunto (A) é contável quando existe uma função bijetiva entre (A) e "
+                },
+                {
+                  "text": "\\((\\mathbb{N})\\)"
+                },
+                {
+                  "text": ", ou, em algumas definições, quando existe uma injeção de (A) em "
+                },
+                {
+                  "text": "\\((\\mathbb{N})\\)"
+                },
+                {
+                  "text": "."
                 }
               ]
             },
@@ -5650,7 +5660,10 @@
                   "text": "\n"
                 },
                 {
-                  "text": "\\(\\mathcal{P}(A)\\)."
+                  "text": "\\(\\mathcal{P}(A)\\)"
+                },
+                {
+                  "text": "."
                 }
               ]
             },
@@ -5665,7 +5678,10 @@
                   "text": "\n"
                 },
                 {
-                  "text": "\\(A={1,2,3}\\),"
+                  "text": "\\(A={1,2,3}\\)"
+                },
+                {
+                  "text": ","
                 }
               ]
             },
@@ -5680,7 +5696,10 @@
                   "text": "\n"
                 },
                 {
-                  "text": "\\(\\mathcal{P}(A)={\\varnothing,{1},{2},{3},{1,2},{1,3},{2,3},{1,2,3}}\\)."
+                  "text": "\\(\\mathcal{P}(A)={\\varnothing,{1},{2},{3},{1,2},{1,3},{2,3},{1,2,3}}\\)"
+                },
+                {
+                  "text": "."
                 }
               ]
             },
@@ -5689,7 +5708,13 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "O conjunto (A) possui três elementos, enquanto\\((\\mathcal{P}(A))\\) possui oito elementos."
+                  "text": "O conjunto (A) possui três elementos, enquanto"
+                },
+                {
+                  "text": "\\((\\mathcal{P}(A))\\)"
+                },
+                {
+                  "text": " possui oito elementos."
                 }
               ]
             },
@@ -5713,7 +5738,10 @@
                   "text": "\n"
                 },
                 {
-                  "text": "\\(|\\mathcal{P}(A)|>|A|\\)."
+                  "text": "\\(|\\mathcal{P}(A)|>|A|\\)"
+                },
+                {
+                  "text": "."
                 }
               ]
             },
@@ -5722,7 +5750,13 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Essa desigualdade significa que não existe uma bijeção entre (A) e \\((\\mathcal{P}(A))\\)."
+                  "text": "Essa desigualdade significa que não existe uma bijeção entre (A) e "
+                },
+                {
+                  "text": "\\((\\mathcal{P}(A))\\)"
+                },
+                {
+                  "text": "."
                 }
               ]
             },
@@ -5731,7 +5765,25 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "A demonstração de Cantor possui duas partes. Primeiro, é fácil mostrar que (A) pode ser injetado em \\((\\mathcal{P}(A))\\). Basta associar a cada elemento \\((a\\in A)\\) o conjunto unitário \\(({a})\\)."
+                  "text": "A demonstração de Cantor possui duas partes. Primeiro, é fácil mostrar que (A) pode ser injetado em "
+                },
+                {
+                  "text": "\\((\\mathcal{P}(A))\\)"
+                },
+                {
+                  "text": ". Basta associar a cada elemento "
+                },
+                {
+                  "text": "\\((a\\in A)\\)"
+                },
+                {
+                  "text": " o conjunto unitário "
+                },
+                {
+                  "text": "\\(({a})\\)"
+                },
+                {
+                  "text": "."
                 }
               ]
             },
@@ -5740,7 +5792,13 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "A segunda parte é demonstrar que não existe uma função sobrejetiva de (A) sobre \\((\\mathcal{P}(A))\\). Essa é a parte conhecida como argumento diagonal."
+                  "text": "A segunda parte é demonstrar que não existe uma função sobrejetiva de (A) sobre "
+                },
+                {
+                  "text": "\\((\\mathcal{P}(A))\\)"
+                },
+                {
+                  "text": ". Essa é a parte conhecida como argumento diagonal."
                 }
               ]
             },
@@ -5760,6 +5818,12 @@
               "runs": [
                 {
                   "text": "Suponhamos, para obter uma contradição, que exista uma função"
+                },
+                {
+                  "text": "\n"
+                },
+                {
+                  "text": "\\(f\\to\\mathcal{P}(A)\\)"
                 }
               ]
             },
@@ -5768,28 +5832,7 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "["
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "f\\to\\mathcal{P}(A)"
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "que seja sobrejetiva. Isso significa que todo subconjunto de (A) aparece como (f(a)) para algum elemento (a\\in A)."
+                  "text": "que seja sobrejetiva. Isso significa que todo subconjunto de (A) aparece como (f(a)) para algum elemento \\((a\\in A)\\)."
                 }
               ]
             },
@@ -5799,27 +5842,12 @@
               "runs": [
                 {
                   "text": "Construímos então o seguinte subconjunto de (A):"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "["
                 },
                 {
                   "text": "\n"
                 },
                 {
-                  "text": "D={a\\in A\\notin f(a)}."
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "\\(D={a\\in A\\notin f(a)}\\)."
                 }
               ]
             },
@@ -5837,28 +5865,13 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Como supusemos que (f) é sobrejetiva, o conjunto (D) deveria aparecer na lista. Portanto, deveria existir algum (d\\in A) tal que:"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "["
+                  "text": "Como supusemos que (f) é sobrejetiva, o conjunto (D) deveria aparecer na lista. Portanto, deveria existir algum \\((d\\in A)\\)tal que:"
                 },
                 {
                   "text": "\n"
                 },
                 {
-                  "text": "f(d)=D."
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "\\(f(d)=D\\)."
                 }
               ]
             },
@@ -5876,7 +5889,13 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Se (d\\in D), então, pela definição de (D), temos:"
+                  "text": "Se \\((d\\in D)\\), então, pela definição de (D), temos:"
+                },
+                {
+                  "text": "\n"
+                },
+                {
+                  "text": "\\(d\\notin f(d)\\)."
                 }
               ]
             },
@@ -5885,19 +5904,13 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "["
+                  "text": "Mas \\((f(d)=D)\\). Logo:"
                 },
                 {
                   "text": "\n"
                 },
                 {
-                  "text": "d\\notin f(d)."
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "\\(d\\notin D\\)."
                 }
               ]
             },
@@ -5906,7 +5919,13 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Mas (f(d)=D). Logo:"
+                  "text": "Por outro lado, se \\((d\\notin D),\\) então, pela definição de (D), temos:"
+                },
+                {
+                  "text": "\n"
+                },
+                {
+                  "text": "\\(d\\in f(d)\\)."
                 }
               ]
             },
@@ -5915,79 +5934,13 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "["
+                  "text": "Como \\((f(d)=D)\\), concluímos:"
                 },
                 {
                   "text": "\n"
                 },
                 {
-                  "text": "d\\notin D."
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "Por outro lado, se (d\\notin D), então, pela definição de (D), temos:"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "["
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "d\\in f(d)."
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "Como (f(d)=D), concluímos:"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "["
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "d\\in D."
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "\\(d\\in D\\)."
                 }
               ]
             },
@@ -6005,7 +5958,7 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "A função (f) não é sobrejetiva. Como nenhuma função de (A) para (\\mathcal{P}(A)) pode alcançar todos os subconjuntos de (A), não existe bijeção entre os dois conjuntos."
+                  "text": "A função (f) não é sobrejetiva. Como nenhuma função de (A) para \\((\\mathcal{P}(A))\\) pode alcançar todos os subconjuntos de (A), não existe bijeção entre os dois conjuntos."
                 }
               ]
             },
@@ -6015,27 +5968,12 @@
               "runs": [
                 {
                   "text": "Assim, o conjunto das partes de (A) é sempre maior do que o próprio conjunto:"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "["
                 },
                 {
                   "text": "\n"
                 },
                 {
-                  "text": "|\\mathcal{P}(A)|>|A|."
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "\\(|\\mathcal{P}(A)|>|A|\\)."
                 }
               ]
             },
@@ -6055,27 +5993,12 @@
               "runs": [
                 {
                   "text": "Agora aplicamos o teorema de Cantor ao conjunto dos números naturais:"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "["
                 },
                 {
                   "text": "\n"
                 },
                 {
-                  "text": "\\mathcal{P}(\\mathbb{N})."
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "\\(\\mathcal{P}(\\mathbb{N})\\)."
                 }
               ]
             },
@@ -6085,27 +6008,12 @@
               "runs": [
                 {
                   "text": "O teorema afirma:"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "["
                 },
                 {
                   "text": "\n"
                 },
                 {
-                  "text": "|\\mathcal{P}(\\mathbb{N})|>|\\mathbb{N}|."
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "\\(|\\mathcal{P}(\\mathbb{N})|>|\\mathbb{N}|\\)."
                 }
               ]
             },
@@ -6142,27 +6050,12 @@
               "runs": [
                 {
                   "text": "Por exemplo, uma sequência como:"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "["
                 },
                 {
                   "text": "\n"
                 },
                 {
-                  "text": "1,0,1,0,0,1,\\ldots"
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "\\(1,0,1,0,0,1,\\ldots\\)"
                 }
               ]
             },
@@ -6181,27 +6074,12 @@
               "runs": [
                 {
                   "text": "Assim, existe uma relação profunda entre o conjunto dos números reais e o conjunto das partes dos naturais. A cardinalidade dos reais é normalmente representada por:"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "["
                 },
                 {
                   "text": "\n"
                 },
                 {
-                  "text": "|\\mathbb{R}|=2^{\\aleph_0},"
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "|\\(\\mathbb{R}|=2^{\\aleph_0}\\),"
                 }
               ]
             },
@@ -6211,27 +6089,18 @@
               "runs": [
                 {
                   "text": "enquanto a cardinalidade dos naturais é representada por:"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "["
                 },
                 {
                   "text": "\n"
                 },
                 {
-                  "text": "|\\mathbb{N}|=\\aleph_0."
+                  "text": "\\(|\\mathbb{N}|=\\aleph_0\\)."
                 },
                 {
                   "text": "\n"
                 },
                 {
-                  "text": "]"
+                  "text": "\n"
                 }
               ]
             },
@@ -6241,27 +6110,12 @@
               "runs": [
                 {
                   "text": "A desigualdade de Cantor pode então ser expressa como:"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "["
                 },
                 {
                   "text": "\n"
                 },
                 {
-                  "text": "\\aleph_0<2^{\\aleph_0}."
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "\\(\\aleph_0<2^{\\aleph_0}\\)."
                 }
               ]
             },
