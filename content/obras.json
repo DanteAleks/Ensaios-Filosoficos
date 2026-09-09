@@ -4664,10 +4664,11 @@
               "id": "introducao",
               "title": "Texto",
               "paragraphs": [
-                "VИA ПEREГRИHЖ ЛYMИHC",
-                "CЛOVO",
+                "Vиa пereгrиhи",
+                "Cлovo",
                 "TTTTCRTTTCCPPPP",
-                "TECT"
+                "Tect",
+                "tesa"
               ],
               "subchapters": []
             }
@@ -4678,27 +4679,25 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "VИA ПEREГRИHЖ ЛYMИHC"
+                  "text": "V"
+                },
+                {
+                  "text": "иa пereгrиhи"
                 }
               ],
-              "direction": "rtl"
+              "id": "introducao",
+              "direction": "rtl",
+              "initial": "illuminated"
             },
             {
               "tag": "p",
               "align": "left",
               "runs": [
                 {
-                  "text": "CЛOVO"
-                }
-              ],
-              "direction": "rtl"
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
+                  "text": "C"
+                },
                 {
-                  "text": "TTTTCRTTTCCPPPP"
+                  "text": "лovo"
                 }
               ],
               "direction": "rtl",
@@ -4709,7 +4708,35 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "TECT"
+                  "text": "T"
+                },
+                {
+                  "text": "TTTCRTTTCCPPPP"
+                }
+              ],
+              "direction": "rtl",
+              "initial": "illuminated"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "T"
+                },
+                {
+                  "text": "ect"
+                }
+              ],
+              "direction": "rtl",
+              "initial": "illuminated"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "tesa"
                 }
               ],
               "direction": "rtl",
