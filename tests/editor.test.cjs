@@ -3,9 +3,9 @@ const M=require('../dist/admin/model.js'),G=require('../dist/admin/github.js');
 const original=fs.readFileSync(require('node:path').join(__dirname,'../content/obras.json'),'utf8');
 const clone=()=>JSON.parse(original);
 test('Catalog roundtrip preserves all current text and metadata',()=>{assert.deepEqual(M.validate(M.parse(JSON.stringify(M.parse(original)))),clone());assert.throws(()=>M.parse('{"paragraphs":["first"],"paragraphs":["second"]}'),/repetido/);});
-test('Paragraph entry generates a single valid list; unique IDs preserve URLs',()=>{assert.deepEqual(M.paragraphs('Primeiro.\n\nSegundo.\n\nTerceiro.'),['Primeiro.','Segundo.','Terceiro.']);const d=clone(),w=M.newWork(d,'Metafísica');assert.notEqual(w.id,'metafisica');w.variants[0].blocks=[{tag:'p',runs:[{text:'Um texto novo.'}]}];d.works.push(w);assert.equal(M.validate(d),d);});
+test('Paragraph entry generates a single valid list; unique IDs preserve URLs',()=>{assert.deepEqual(M.paragraphs('Primeiro.\n\nSegundo.\n\nTerceiro.'),['Primeiro.','Segundo.','Terceiro.']);const d=clone(),w=M.newWork(d,'Metafísica');assert(!d.works.some(existing=>existing.id===w.id));w.variants[0].blocks=[{tag:'p',runs:[{text:'Um texto novo.'}]}];d.works.push(w);assert.equal(M.validate(d),d);});
 test('Only changed presentations receive an update date',()=>{const d=clone(),base=clone();d.works[0].variants[0].chapters[0].paragraphs.push('Novo parágrafo.');const ready=M.prepare(d,base,'2026-09-06');assert.equal(ready.works[0].variants[0].updated,'2026-09-06');assert.deepEqual(ready.works.slice(1),base.works.slice(1));assert.deepEqual(M.prepare(base,base,'2026-09-06'),base);});
-test('Invalid empty chapter lists cannot be saved',()=>{const d=clone();d.works[0].variants[0].chapters=[];assert.throws(()=>M.validate(d),/capítulo/);});
+test('Invalid empty chapter lists cannot be saved',()=>{const d=clone();delete d.works[0].variants[0].blocks;d.works[0].variants[0].chapters=[];assert.throws(()=>M.validate(d),/capítulo/);});
 test('Unicode survives GitHub base64 encoding',()=>{const text='Ж · Ontológica — criação 🌿\n'+original;assert.equal(G.decode(G.encode(text)),text);});
 function server({login='DanteAleks',conflict=false,denied=false,uncertain=false}={}){
  const calls=[];let reads=0,text=original,sha='initial-sha';
@@ -22,4 +22,3 @@ test('Current owner saves only the catalog; token never goes in URL or body',asy
 test('Concurrent edits stop before any write',async()=>{const s=server({conflict:true}),c=G.createClient(s.fetcher);await c.connect('test-only-value');await assert.rejects(c.save(original),/mais recente/);assert(!s.calls.some(x=>x.options.method==='PUT'));});
 test('Read-only token cannot claim successful save',async()=>{const s=server({denied:true}),c=G.createClient(s.fetcher);await c.connect('test-only-value');await assert.rejects(c.save(original),/não autorizou/);});
 test('Ambiguous network failure is reconciled without a second write',async()=>{const s=server({uncertain:true}),c=G.createClient(s.fetcher);await c.connect('test-only-value');await c.save(original);assert.equal(s.calls.filter(x=>x.options.method==='PUT').length,1);});
-

@@ -54,3 +54,16 @@
 .collection-picks label{display:flex;align-items:center;gap:.5rem;padding:.45rem .75rem;border:1px solid var(--gold);border-radius:20px;margin:0;font-size:.9rem;font-weight:400;background:var(--surface)}
 .collection-picks input{width:auto;min-height:20px;accent-color:var(--ink)}
 #published-today{margin-top:.5rem;font-size:.9rem}
+
+.peregrini-action{border-color:var(--gold);font-family:var(--peregrini-display,Georgia,serif)}
+.peregrini-editor-badge{border-left:3px solid var(--gold);padding:.45rem .75rem;color:var(--gold);font-family:var(--peregrini-display,Georgia,serif)}
+.peregrini-toolbar{display:flex;flex-wrap:wrap;gap:.35rem;padding:.8rem;background:var(--paper);border:1px solid var(--gold);position:sticky;top:5.6rem;z-index:2}
+.peregrini-toolbar label{display:flex;align-items:center;gap:.4rem;margin:0;font-size:.9rem}
+.peregrini-toolbar button{font-size:.85rem;padding:.4rem .65rem;font-family:var(--peregrini-text,Georgia,serif)}
+.peregrini-palette{display:flex;flex-wrap:wrap;gap:.2rem;width:100%;padding-top:.5rem;border-top:1px solid var(--line)}
+.peregrini-palette button{min-width:2.1rem;padding:.2rem .35rem;font-family:var(--peregrini-display,Georgia,serif);font-size:1.1rem;color:var(--gold)}
+.peregrini-document{font-family:var(--peregrini-text,Georgia,serif);direction:rtl;unicode-bidi:isolate-override}
+.peregrini-document[data-study=ltr]{direction:ltr;unicode-bidi:normal}
+.peregrini-document .doc-block{direction:rtl;unicode-bidi:isolate-override}
+.peregrini-document[data-study=ltr] .doc-block{direction:ltr;unicode-bidi:normal}
+@media(max-width:800px){.peregrini-toolbar{top:0}.peregrini-toolbar button{min-height:44px}}

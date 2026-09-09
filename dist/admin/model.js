@@ -10,9 +10,12 @@
     assert(data && typeof data.author==='string' && Array.isArray(data.works),'O arquivo precisa conter o autor e a lista de obras.');
     const workIDs=new Set();
     for(const w of data.works){
+      const peregrini=w.language==='peregrini';
       assert(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(w.id)&&!workIDs.has(w.id),'Uma obra tem endereço inválido ou repetido.');workIDs.add(w.id);
       assert(typeof w.title==='string'&&(draft||w.title.trim()),'Dê um título a cada obra.');
       assert(typeof w.kind==='string'&&typeof w.summary==='string',`Revise o tipo e o resumo de ${w.title}.`);
+      assert(w.language===undefined||w.language==='peregrini','Idioma de obra inválido.');
+      if(peregrini)assert(w.direction===undefined||['ltr','rtl'].includes(w.direction),'Direção da obra Peregrini inválida.');
       assert(Array.isArray(w.variants)&&w.variants.length,`Adicione uma apresentação a ${w.title}.`);
       assert(w.collections===undefined||(Array.isArray(w.collections)&&w.collections.every(c=>typeof c==='string'&&c.trim()&&c.length<=100)),'Coleções inválidas.');
       assert(w.published===undefined||w.published===null||(/^\d{4}-\d{2}-\d{2}$/.test(w.published)&&!isNaN(Date.parse(w.published))),'Data de publicação inválida.');
@@ -34,6 +37,7 @@
   function chapter(version, title='Novo capítulo') { const ids=version.chapters.flatMap(c=>[c.id,...(c.subchapters||[]).map(s=>s.id)]);return {id:unique(title,ids),title,paragraphs:[],subchapters:[]}; }
   function variant(id) { return {id,status:'andamento',availability:'trecho',updated:null,last:'',next:'',chapters:[{id:'capitulo-1',title:'Primeiro capítulo',paragraphs:[],subchapters:[]}]}; }
   function newWork(data,title){return {id:unique(title,data.works.map(w=>w.id)),title,kind:'Ensaio',summary:'',collections:[],published:null,variants:[{...variant('didatico'),blocks:[{tag:'p',runs:[{text:''}]}]}]};}
+  function newPeregriniWork(data,title='Novo texto Peregrini'){return {id:unique(title,data.works.map(w=>w.id)),language:'peregrini',direction:'rtl',title,kind:'Texto Peregrini',summary:'',collections:[],published:null,variants:[{...variant('didatico'),blocks:[{tag:'p',direction:'rtl',initial:'illuminated',runs:[{text:''}]}]}]};}
   // Timestamp only presentations whose content/metadata changed, preserving untouched works.
   function prepare(data,base,date){const next=clone(data);for(const w of next.works){if(!base.works.some(old=>old.id===w.id)&&!w.published)w.published=date;}for(const w of next.works)for(const v of w.variants){const oldW=base.works.find(x=>x.id===w.id),oldV=oldW?.variants.find(x=>x.id===v.id);const a=clone(v);delete a.updated;const b=oldV?clone(oldV):null;if(b)delete b.updated;if(!oldW||w.title!==oldW.title||w.summary!==oldW.summary||w.kind!==oldW.kind||JSON.stringify(a)!==JSON.stringify(b))v.updated=date;}validate(next);return next;}
   function parse(source) {
@@ -43,8 +47,7 @@
     return data;
   }
   function mergeDraft(current,draft,original){const merged=clone(current),conflicts=[];for(const w of draft.works){const before=original?.works.find(x=>x.id===w.id),remote=merged.works.find(x=>x.id===w.id);if(before&&JSON.stringify(before)===JSON.stringify(w))continue;if(!remote){merged.works.push(clone(w));continue;}if(JSON.stringify(remote)===JSON.stringify(w))continue;if(before&&JSON.stringify(remote)===JSON.stringify(before)){merged.works[merged.works.indexOf(remote)]=clone(w);}else{const copy=clone(w);copy.id=unique(w.id+'-recuperado',merged.works.map(x=>x.id));copy.title+=' (rascunho recuperado)';delete copy.published;merged.works.push(copy);conflicts.push(w.title);}}validate(merged,{draft:true});return {data:merged,conflicts};}
-  const model={mergeDraft,parse,clone,unique,paragraphs,validate,chapter,variant,newWork,prepare};
+  const model={mergeDraft,parse,clone,unique,paragraphs,validate,chapter,variant,newWork,newPeregriniWork,prepare};
   if(typeof module!=='undefined'&&module.exports)module.exports=model;else root.PeregriniEditorModel=model;
 })(typeof window!=='undefined'?window:{});
-
 

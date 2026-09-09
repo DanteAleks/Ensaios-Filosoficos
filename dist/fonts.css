@@ -1,0 +1,23 @@
+/* Fontes locais: copiadas de Fonts/ pelo gerador. Os arquivos originais não são alterados. */
+@font-face{font-family:'Palavra Peregrini Texto';src:url('./fonts/PalavraPeregriniTexto-Regular.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:'Palavra Peregrini Display';src:url('./fonts/PalavraPeregriniDisplay-Regular.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:'Palavra Peregrini Iluminada';src:url('./fonts/PalavraPeregriniIluminada-Regular.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+:root{--peregrini-text:'Palavra Peregrini Texto',Georgia,serif;--peregrini-display:'Palavra Peregrini Display',Georgia,serif;--peregrini-initial:'Palavra Peregrini Iluminada',Georgia,serif}
+.peregrini-script{font-family:var(--peregrini-display);letter-spacing:0;line-height:1.8;text-transform:none}
+.peregrini-rtl{direction:rtl;unicode-bidi:isolate-override;text-align:start}
+.peregrini-document{font-family:var(--peregrini-text);direction:rtl}
+.peregrini-document .doc-block{direction:rtl;unicode-bidi:isolate-override;text-align:start}
+.peregrini-document .doc-block[dir=ltr],.ltr-fragment{direction:ltr;unicode-bidi:isolate;text-align:start}
+.peregrini-document .align-center{text-align:center}
+.peregrini-document .align-justify{text-align:justify}
+.peregrini-document .align-right{text-align:right}
+.peregrini-document .align-left{text-align:left}
+.peregrini-document .align-start{text-align:start}
+.peregrini-document[data-study=ltr],.peregrini-document[data-study=ltr] .doc-block{direction:ltr;unicode-bidi:normal}
+.doc-block{white-space:pre-wrap;overflow-wrap:anywhere}
+.align-start{text-align:start}
+.doc-block.initial-illuminated::first-letter{font-family:var(--peregrini-initial);font-size:3.25em;line-height:1.1;float:left;float:inline-start;margin-inline-end:.18em;padding:.06em .12em .02em;color:var(--initial-ink,#80601f)}
+.peregrini-document[data-study=rtl] .initial-illuminated::first-letter{float:right;float:inline-start}
+html[data-theme=noite]{--initial-ink:#dec487}
+html[data-ornaments=off] .initial-illuminated::first-letter{font:inherit;float:none;margin:0;padding:0;color:inherit}
+@media(max-width:600px){.doc-block.initial-illuminated::first-letter{font-size:2.65em}}
