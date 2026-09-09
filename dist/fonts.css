@@ -4,9 +4,9 @@
 @font-face{font-family:'Palavra Peregrini Iluminada';src:url('./fonts/PalavraPeregriniIluminada-Regular.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
 :root{--peregrini-text:'Palavra Peregrini Texto',Georgia,serif;--peregrini-display:'Palavra Peregrini Display',Georgia,serif;--peregrini-initial:'Palavra Peregrini Iluminada',Georgia,serif}
 .peregrini-script{font-family:var(--peregrini-display);letter-spacing:0;line-height:1.8;text-transform:none}
-.peregrini-rtl{direction:rtl;unicode-bidi:isolate-override;text-align:start}
-.peregrini-document{font-family:var(--peregrini-text);direction:rtl}
-.peregrini-document .doc-block{direction:rtl;unicode-bidi:isolate-override;text-align:start}
+.peregrini-rtl{direction:rtl;unicode-bidi:isolate-override;text-align:start;writing-mode:horizontal-tb}
+.peregrini-document{font-family:var(--reading-font,var(--peregrini-text));font-size:var(--reading-size,1.25rem);direction:rtl;unicode-bidi:isolate-override;writing-mode:horizontal-tb}
+.peregrini-document .doc-block{font-family:inherit;direction:rtl;unicode-bidi:isolate-override;text-align:start;writing-mode:horizontal-tb}
 .peregrini-document .doc-block[dir=ltr],.ltr-fragment{direction:ltr;unicode-bidi:isolate;text-align:start}
 .peregrini-document .align-center{text-align:center}
 .peregrini-document .align-justify{text-align:justify}
@@ -14,10 +14,13 @@
 .peregrini-document .align-left{text-align:left}
 .peregrini-document .align-start{text-align:start}
 .peregrini-document[data-study=ltr],.peregrini-document[data-study=ltr] .doc-block{direction:ltr;unicode-bidi:normal}
-.doc-block{white-space:pre-wrap;overflow-wrap:anywhere}
-.align-start{text-align:start}
-.doc-block.initial-illuminated::first-letter{font-family:var(--peregrini-initial);font-size:3.25em;line-height:1.1;float:left;float:inline-start;margin-inline-end:.18em;padding:.06em .12em .02em;color:var(--initial-ink,#80601f)}
-.peregrini-document[data-study=rtl] .initial-illuminated::first-letter{float:right;float:inline-start}
+/* Classes persistidas pelo editor: qualquer obra pode usar as três famílias. */
+.font-peregrini-text{font-family:'Palavra Peregrini Texto',Georgia,serif}
+.font-peregrini-display{font-family:'Palavra Peregrini Display',Georgia,serif}
+.font-peregrini-iluminada{font-family:'Palavra Peregrini Iluminada',Georgia,serif}
+.initial-illuminated-letter{display:inline-block;vertical-align:baseline;font-family:var(--peregrini-initial);font-size:3.25em;line-height:.9;letter-spacing:0;margin-inline-end:.12em;padding:.02em .08em 0;color:var(--initial-ink,#80601f);unicode-bidi:isolate;direction:inherit}
+/* Fallback ao editar um bloco ainda não renderizado pelo serializador. */
+.doc-block.initial-illuminated::first-letter{font-family:var(--peregrini-initial);font-size:3.25em;line-height:.9;color:var(--initial-ink,#80601f)}
 html[data-theme=noite]{--initial-ink:#dec487}
-html[data-ornaments=off] .initial-illuminated::first-letter{font:inherit;float:none;margin:0;padding:0;color:inherit}
-@media(max-width:600px){.doc-block.initial-illuminated::first-letter{font-size:2.65em}}
+html[data-ornaments=off] .initial-illuminated-letter,html[data-ornaments=off] .initial-illuminated::first-letter{font:inherit;margin:0;padding:0;color:inherit}
+@media(max-width:600px){.initial-illuminated-letter,.doc-block.initial-illuminated::first-letter{font-size:2.65em}}

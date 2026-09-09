@@ -4,6 +4,7 @@ const root=path.resolve('dist'),errors=[];
 const required=[
   'index.html',
   'peregrini/index.html',
+  'peregrini/via.html',
   'fonts.css',
   'peregrini-language.js',
   'fonts/PalavraPeregriniDisplay-Regular.woff2',

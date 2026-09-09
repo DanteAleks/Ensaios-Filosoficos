@@ -2,6 +2,17 @@
   'use strict';
   // Exact code points of Alfabeto Peregrini Oficial v5 (24/08/2026).
   // Latin P is the strong R. Latin H is /n/. Do not replace lookalikes.
+  // Vogais usadas nos exemplos de leitura. A lista é deliberadamente explícita
+  // para que o editor, a tabela pública e os testes compartilhem o mesmo inventário.
+  const vowels=[
+    {upper:'A',lower:'a',sound:'a'},
+    {upper:'E',lower:'e',sound:'e'},
+    {upper:'И',lower:'и',sound:'i /i/'},
+    {upper:'Я',lower:'я',sound:'ia'},
+    {upper:'Ю',lower:'ю',sound:'iu'},
+    {upper:'O',lower:'o',sound:'o'},
+    {upper:'Y',lower:'y',sound:'u'}
+  ];
   const rows=[
     ['A','a','a','Como em casa.'],['B','b','b','Como em bola.'],
     ['K','k','k','Como em casa e quilo.'],['X','x','ch /ʃ/','Como em chave.'],
@@ -18,11 +29,19 @@
     ['Y','y','u','Como em lua e música.'],['V','v','v','Como em vida.'],
     ['З','з','z /z/','Como em zero.'],['N','n','nasalização','Nasaliza a vogal anterior; não é a consoante n.']
   ];
-  const alphabet=rows.map(([upper,lower,sound,note])=>({upper,lower,sound,note,status:'ratificado'}));
+  const alphabet=rows.map(([upper,lower,sound,note])=>({
+    upper,lower,sound,note,status:'ratificado',
+    // Combinações de demonstração: não são palavras do léxico.
+    examples:vowels.map(v=>({
+      vowel:v.upper,
+      upper:`${upper}${v.upper}`,
+      lower:`${lower}${v.lower}`
+    }))
+  }));
   const defaults={
     name:'Peregrini',word:'CЛOVO',proceed:'Prosseguir a via',
     notice:'Esta área reúne escritos originais sobre a Via Peregrini Luminus como religião de orientação monoteísta, segundo minha visão pessoal. Ela encontra afinidades, em alguns aspectos, com Maimônides, Hasdai Crescas, Joseph Albo e Ibn Taymiyyah. A Via possui idioma próprio: o Peregrini.',
-    alphabet,
+    alphabet,vowels,
     lexicon:[
       {term:'ДA',meaning:'Sim.',status:'ratificado'},
       {term:'HИET',meaning:'Não.',status:'ratificado'},
@@ -49,6 +68,6 @@
   }
   const isPeregrini=w=>w?.language==='peregrini';
   const code=s=>[...s].map(c=>'U+'+c.codePointAt(0).toString(16).toUpperCase().padStart(4,'0')).join(' ');
-  const api={alphabet,defaults,settings,validate,isPeregrini,code};
+  const api={alphabet,vowels,defaults,settings,validate,isPeregrini,code};
   if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.PeregriniLanguage=api;
 })(typeof window!=='undefined'?window:{});

@@ -500,3 +500,22 @@ details.collection-section[open] .collection-invitation span{transform:rotate(45
 .reading-text>.doc-block,.reading-text .chapter p{line-height:1.9}
 @media(max-width:600px){.collection-content{padding:0 .8rem .8rem}.reading-text .work-heading{padding:1.8rem .6rem 1rem}.recent-publications>li{padding:1.1rem}}
 @media print{.reading-text .work-heading{background:none;border-radius:0}.reading-text .work-heading::before{display:none}}
+
+/* Correções finais da composição Peregrini e da nova página de entrada. */
+.peregrini-wordmark{position:relative;z-index:1;margin:0 0 .8rem;color:var(--gold-light,#dec487);font:clamp(2rem,5vw,4.5rem)/1 var(--peregrini-display,var(--serif));direction:rtl;unicode-bidi:isolate-override;writing-mode:horizontal-tb;letter-spacing:.04em}
+.peregrini-entry-label{display:block;font:600 .72rem/1.2 system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.peregrini-reading .peregrini-document .work-heading,.peregrini-reading .peregrini-document .reader-reactions,.peregrini-reading .peregrini-document .reader-contact{direction:ltr;unicode-bidi:isolate}
+.peregrini-reading .peregrini-document .doc-block{direction:rtl;unicode-bidi:isolate-override;writing-mode:horizontal-tb}
+.peregrini-reading .peregrini-document .doc-block[dir=ltr]{direction:ltr;unicode-bidi:isolate}
+.peregrini-gateway-card{max-width:76rem;margin:clamp(2rem,7vw,7rem) auto;padding:clamp(2rem,7vw,7rem);border:3px double var(--gold);background:radial-gradient(ellipse at top,color-mix(in srgb,var(--gold) 13%,transparent),transparent 58%),var(--surface);box-shadow:var(--shadow);position:relative;overflow:hidden}
+.peregrini-gateway-card::after{content:'Ж';position:absolute;right:clamp(1rem,8vw,8rem);bottom:clamp(1rem,5vw,5rem);font:clamp(6rem,18vw,15rem)/1 var(--peregrini-display,var(--serif));color:color-mix(in srgb,var(--gold) 18%,transparent);transform:rotate(45deg);pointer-events:none}
+.peregrini-gateway-card>*{position:relative;z-index:1;max-width:65ch}
+.peregrini-gateway-card h1{font-size:clamp(2.8rem,7vw,6rem);margin:.4rem 0 1.5rem}
+.peregrini-gateway-card p{font-size:1.1rem;line-height:1.85}
+.peregrini-gateway-card .primary-button{margin-top:1.5rem}
+.peregrini-examples{min-width:16rem;overflow-wrap:anywhere}
+.peregrini-examples>div{display:grid;gap:.15rem;margin:.35rem 0}
+.peregrini-examples small{color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.08em}
+.peregrini-examples .peregrini-glyph{display:block;font-size:1.1rem;line-height:1.5;direction:rtl;unicode-bidi:isolate-override}
+.table-note{margin:.8rem 1rem 1.5rem;color:var(--muted);font-size:.9rem}
+@media(max-width:700px){.peregrini-examples{min-width:12rem}.peregrini-gateway-card{margin:1.5rem .8rem;padding:1.5rem}.peregrini-gateway-card::after{opacity:.6;right:-1rem;bottom:1rem}}
