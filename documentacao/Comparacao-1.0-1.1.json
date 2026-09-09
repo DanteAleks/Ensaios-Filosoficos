@@ -1,0 +1,42 @@
+{
+  "Display": {
+    "cmap_unchanged": true,
+    "changed_outline_glyphs": [
+      "r",
+      "racute",
+      "rcommaaccent",
+      "rcaron",
+      "uni0211",
+      "uni0213",
+      "uni0433",
+      "uni0453",
+      "uni1D26",
+      "uni1E59",
+      "uni1E5B",
+      "uni1E5D",
+      "uni1E5F"
+    ]
+  },
+  "Texto": {
+    "cmap_unchanged": true,
+    "changed_outline_glyphs": [
+      "r",
+      "racute",
+      "rcommaaccent",
+      "rcaron",
+      "uni0211",
+      "uni0213",
+      "uni0433",
+      "uni0453",
+      "uni1D26",
+      "uni1E59",
+      "uni1E5B",
+      "uni1E5D",
+      "uni1E5F"
+    ]
+  },
+  "Iluminada": {
+    "cmap_unchanged": true,
+    "changed_outline_glyphs": []
+  }
+}

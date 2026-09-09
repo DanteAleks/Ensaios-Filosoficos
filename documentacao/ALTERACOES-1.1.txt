@@ -1,0 +1,19 @@
+PALAVRA PEREGRINI — ALTERAÇÕES 1.1
+
+Display e Texto
+- г (U+0433): redesenhado com haste vertical única, lintel horizontal longo,
+  canto reto, terminal quadrado descendente e base assimétrica.
+- r (U+0072): redesenhado com haste vertical, ombro ascendente curvo e
+  terminal arredondado em forma de gota.
+- Mapas Unicode e cobertura multilíngue preservados.
+- TTF, OTF e WOFF2 recompilados.
+
+Iluminada
+- Nenhum glifo foi alterado; a família não contém minúsculas.
+
+Validação
+- 4.549 códigos Unicode em Display e Texto; 678 em Iluminada.
+- Mapas TTF, OTF e WOFF2 iguais.
+- Composição NFC/NFD verificada.
+- Prova Distincao-g-r-v1.1.png renderizada a partir dos TTF reais.
+- A revisão não foi instalada no Microsoft Word neste ambiente.

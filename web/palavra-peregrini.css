@@ -1,0 +1,26 @@
+/* Caminhos relativos a este arquivo. Fontes preservam os caracteres Unicode. */
+@font-face {
+  font-family: 'Palavra Peregrini Display';
+  src: url('../fontes/woff2/PalavraPeregriniDisplay-Regular.woff2') format('woff2');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Palavra Peregrini Texto';
+  src: url('../fontes/woff2/PalavraPeregriniTexto-Regular.woff2') format('woff2');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Palavra Peregrini Iluminada';
+  src: url('../fontes/woff2/PalavraPeregriniIluminada-Regular.woff2') format('woff2');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+.peregrini-titulo {font-family:'Palavra Peregrini Display',serif; font-weight:400;}
+.peregrini-texto {font-family:'Palavra Peregrini Texto',serif; line-height:1.65;}
+/* A inicial deve ser uma letra MAIÚSCULA, incluindo seu acento. */
+.peregrini-capitular {font-family:'Palavra Peregrini Iluminada',serif; font-size:4.6em;
+  line-height:1; float:left; padding:.05em .18em .02em .10em; font-synthesis:none;}
+/* Exemplo de composição visual, não de editor RTL completo.
+   Mantenha o texto armazenado na ordem lógica. */
+.peregrini-rtl {direction:rtl; unicode-bidi:isolate-override; text-align:right;}
+.peregrini-rtl .trecho-ltr {direction:ltr; unicode-bidi:isolate;}
+.peregrini-rtl .peregrini-capitular {float:right;}

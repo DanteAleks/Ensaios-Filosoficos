@@ -1,0 +1,9 @@
+Unicode Bidirectional Algorithm (direcionalidade):
+https://www.unicode.org/reports/tr9/
+
+OpenType MATH (métricas e construção de fórmulas):
+https://learn.microsoft.com/en-us/typography/opentype/spec/math
+
+Fontes-base e licenças: consultar licencas/ e projeto/bases/.
+DejaVu Serif: https://dejavu-fonts.github.io/
+Latin Modern Math: https://www.gust.org.pl/projects/e-foundry/lm-math
