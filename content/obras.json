@@ -4920,7 +4920,8 @@
               "title": "O que é um modelo?",
               "paragraphs": [
                 "Um modelo é uma estrutura que fornece um domínio de objetos e interpreta os símbolos de uma linguagem.",
-                "Para a linguagem da teoria dos conjuntos, podemos representar um modelo por:\n\\(M=\\langle |M|,\\in^M\\rangle\\).",
+                "Para a linguagem da teoria dos conjuntos, podemos representar um modelo por: ",
+                "\\(M=\\langle |M|,\\in^M\\rangle\\).",
                 "O símbolo \\((|M|)\\) representa o domínio do modelo. O símbolo \\((\\in^M)\\) representa a relação que o modelo interpreta como pertencimento.",
                 "É importante perceber que \\((\\in^M)\\) não precisa ser automaticamente idêntico à relação de pertencimento que o matemático utiliza externamente. Em alguns modelos, seus elementos podem ser objetos abstratos da estrutura, e não conjuntos no sentido habitual.",
                 "Quando escrevemos: ",
@@ -4947,10 +4948,10 @@
                 "Uma estrutura é contável quando seu domínio pode ser colocado em correspondência biunívoca com os números naturais.",
                 "O teorema descendente não afirma que todos os modelos de uma teoria sejam contáveis. Ele afirma que, se existir um modelo infinito, então existirá pelo menos um modelo contável.",
                 "Existe também um teorema ascendente de Löwenheim-Skolem. Ele afirma, de modo geral, que uma teoria de primeira ordem com modelos infinitos também possui modelos de tamanhos arbitrariamente grandes.",
-                "Assim, uma teoria de primeira ordem pode possuir:",
-                "[\n\\text{modelos contáveis}\n]",
-                "e também:",
-                "[\n\\text{modelos incontáveis}.\n]",
+                "Assim, uma teoria de primeira ordem pode possuir: ",
+                "\\(\\text{modelos contáveis}\\)",
+                "e também: ",
+                "\\(\\text{modelos incontáveis}\\).",
                 "Esse fenômeno mostra que, no caso de teorias com modelos infinitos, os axiomas de primeira ordem frequentemente não determinam uma única cardinalidade para o domínio."
               ],
               "subchapters": []
@@ -4960,9 +4961,9 @@
               "title": "Uma ideia intuitiva da demonstração de Löwenheim-Skolem",
               "paragraphs": [
                 "A ideia básica do teorema descendente pode ser explicada por meio das testemunhas existenciais.",
-                "Suponhamos que uma estrutura satisfaça uma fórmula como:",
-                "[\n\\exists x,\\varphi(x,a).\n]",
-                "Isso significa que existe algum objeto no modelo que torna (\\varphi(x,a)) verdadeira. Esse objeto pode ser chamado de testemunha da afirmação existencial.",
+                "Suponhamos que uma estrutura satisfaça uma fórmula como: ",
+                "\\(\\exists x,\\varphi(x,a)\\).",
+                "Isso significa que existe algum objeto no modelo que torna \\((\\varphi(x,a))\\) verdadeira. Esse objeto pode ser chamado de testemunha da afirmação existencial.",
                 "Para construir um submodelo menor, começamos com alguns elementos escolhidos. Em seguida, para cada fórmula existencial relevante, acrescentamos uma testemunha. Repetimos o procedimento várias vezes.",
                 "Como a linguagem possui apenas contavelmente muitas fórmulas e começamos com uma quantidade contável de elementos, o conjunto total de elementos acrescentados continua sendo contável.",
                 "O resultado pode ser fechado sob as operações necessárias para preservar a verdade das sentenças de primeira ordem. Esse processo é associado ao fecho de Skolem.",
@@ -4975,25 +4976,25 @@
               "id": "secao-151",
               "title": "Como o paradoxo surge",
               "paragraphs": [
-                "Suponhamos que ZFC possua um modelo infinito.",
-                "Como a linguagem de ZFC é contável, o teorema descendente de Löwenheim-Skolem garante que ZFC possui um modelo contável. Chamemos esse modelo de (M).",
-                "O domínio de (M) pode ser representado por:",
-                "[\n|M|.\n]",
-                "Do ponto de vista externo, temos:",
-                "[\n|M|\\leq|\\mathbb{N}|.\n]",
+                "Suponhamos que ZFC (Teoria de conjuntos de Zermelo-Fraenkel + Axioma da Escolha) possua um modelo infinito.",
+                "Como a linguagem de ZFC é contável, o teorema descendente de Löwenheim-Skolem garante que ZFC possui um modelo contável. Chamemos esse modelo de \\((M)\\).",
+                "O domínio de \\((M)\\) pode ser representado por: ",
+                "\\(|M|\\).",
+                "Do ponto de vista externo, temos: ",
+                "\\(|M|\\leq|\\mathbb{N}|\\).",
                 "Isso significa que existem apenas contavelmente muitos elementos no domínio do modelo.",
                 "Agora, ZFC demonstra o teorema de Cantor. Consequentemente, ZFC demonstra que existe pelo menos um conjunto incontável.",
-                "Podemos representar a propriedade “(x) é incontável” por uma fórmula (\\Omega(x)). Em termos simplificados:",
-                "[\n\\Omega(x)\\equiv\n\\neg\\exists f,\n\\operatorname{Bij}(f,\\omega,x).\n]",
-                "A teoria ZFC demonstra:",
-                "[\n\\mathrm{ZFC}\\vdash\\exists x,\\Omega(x).\n]",
-                "Como (M) é um modelo de ZFC, existe algum elemento (m\\in |M|) tal que:",
-                "[\nM\\models\\Omega(m).\n]",
+                "Podemos representar a propriedade “\\((x)\\) é incontável” por uma fórmula \\((\\Omega(x))\\). Em termos simplificados: ",
+                "\\(\\Omega(x)\\equiv \\neg\\exists f, \\operatorname{Bij}(f,\\omega,x)\\).",
+                "A teoria ZFC demonstra: ",
+                "\\(\\mathrm{ZFC}\\vdash\\exists x,\\Omega(x)\\).",
+                "Como (M) é um modelo de ZFC, existe algum elemento (m\\in |M|) tal que: ",
+                "\\(M\\models\\Omega(m)\\).",
                 "Segundo o modelo, (m) é incontável.",
-                "Mas o próprio modelo (M) é contável do ponto de vista externo. Então parece que temos:",
-                "[\nm\\text{ é incontável internamente}\n]",
-                "e:",
-                "[\nm\\text{ é contável externamente}.\n]",
+                "Mas o próprio modelo (M) é contável do ponto de vista externo. Então parece que temos: ",
+                "\\(m\\text{ é incontável internamente}\\) ",
+                "e: ",
+                "\\(m\\text{ é contável externamente}\\).",
                 "É essa situação que recebe o nome de paradoxo de Skolem."
               ],
               "subchapters": []
@@ -6434,7 +6435,10 @@
               "align": "center",
               "runs": [
                 {
-                  "text": "\\(\\forall x\\forall y\\left[\\forall z,(z\\in x\\leftrightarrow z\\in y)\\rightarrow x=y \\right]\\)."
+                  "text": "\\(\\forall x\\forall y\\left[\\forall z,(z\\in x\\leftrightarrow z\\in y)\\rightarrow x=y \\right]\\)"
+                },
+                {
+                  "text": "."
                 }
               ]
             },
@@ -6613,11 +6617,14 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Para a linguagem da teoria dos conjuntos, podemos representar um modelo por:"
-                },
-                {
-                  "text": "\n"
-                },
+                  "text": "Para a linguagem da teoria dos conjuntos, podemos representar um modelo por: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
                 {
                   "text": "\\(M=\\langle |M|,\\in^M\\rangle\\)"
                 },
@@ -6869,7 +6876,16 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Assim, uma teoria de primeira ordem pode possuir:"
+                  "text": "Assim, uma teoria de primeira ordem pode possuir: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
+                {
+                  "text": "\\(\\text{modelos contáveis}\\)"
                 }
               ]
             },
@@ -6878,49 +6894,16 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "["
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\text{modelos contáveis}"
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "e também: "
                 }
               ]
             },
             {
               "tag": "p",
-              "align": "left",
+              "align": "center",
               "runs": [
                 {
-                  "text": "e também:"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "["
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\text{modelos incontáveis}."
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "\\(\\text{modelos incontáveis}\\)."
                 }
               ]
             },
@@ -6957,7 +6940,16 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Suponhamos que uma estrutura satisfaça uma fórmula como:"
+                  "text": "Suponhamos que uma estrutura satisfaça uma fórmula como: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
+                {
+                  "text": "\\(\\exists x,\\varphi(x,a)\\)."
                 }
               ]
             },
@@ -6966,28 +6958,7 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "["
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\exists x,\\varphi(x,a)."
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "Isso significa que existe algum objeto no modelo que torna (\\varphi(x,a)) verdadeira. Esse objeto pode ser chamado de testemunha da afirmação existencial."
+                  "text": "Isso significa que existe algum objeto no modelo que torna \\((\\varphi(x,a))\\) verdadeira. Esse objeto pode ser chamado de testemunha da afirmação existencial."
                 }
               ]
             },
@@ -7051,7 +7022,7 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Suponhamos que ZFC possua um modelo infinito."
+                  "text": "Suponhamos que ZFC (Teoria de conjuntos de Zermelo-Fraenkel + Axioma da Escolha) possua um modelo infinito."
                 }
               ]
             },
@@ -7060,7 +7031,7 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Como a linguagem de ZFC é contável, o teorema descendente de Löwenheim-Skolem garante que ZFC possui um modelo contável. Chamemos esse modelo de (M)."
+                  "text": "Como a linguagem de ZFC é contável, o teorema descendente de Löwenheim-Skolem garante que ZFC possui um modelo contável. Chamemos esse modelo de \\((M)\\)."
                 }
               ]
             },
@@ -7069,7 +7040,16 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "O domínio de (M) pode ser representado por:"
+                  "text": "O domínio de \\((M)\\) pode ser representado por: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
+                {
+                  "text": "\\(|M|\\)."
                 }
               ]
             },
@@ -7078,49 +7058,16 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "["
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "|M|."
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "Do ponto de vista externo, temos: "
                 }
               ]
             },
             {
               "tag": "p",
-              "align": "left",
+              "align": "center",
               "runs": [
                 {
-                  "text": "Do ponto de vista externo, temos:"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "["
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "|M|\\leq|\\mathbb{N}|."
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "\\(|M|\\leq|\\mathbb{N}|\\)."
                 }
               ]
             },
@@ -7147,7 +7094,16 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Podemos representar a propriedade “(x) é incontável” por uma fórmula (\\Omega(x)). Em termos simplificados:"
+                  "text": "Podemos representar a propriedade “\\((x)\\) é incontável” por uma fórmula \\((\\Omega(x))\\). Em termos simplificados: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
+                {
+                  "text": "\\(\\Omega(x)\\equiv \\neg\\exists f, \\operatorname{Bij}(f,\\omega,x)\\)."
                 }
               ]
             },
@@ -7156,31 +7112,16 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "["
-                },
+                  "text": "A teoria ZFC demonstra: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
                 {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\Omega(x)\\equiv"
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\neg\\exists f,"
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\operatorname{Bij}(f,\\omega,x)."
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "\\(\\mathrm{ZFC}\\vdash\\exists x,\\Omega(x)\\)."
                 }
               ]
             },
@@ -7189,58 +7130,16 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "A teoria ZFC demonstra:"
+                  "text": "Como (M) é um modelo de ZFC, existe algum elemento (m\\in |M|) tal que: "
                 }
               ]
             },
             {
               "tag": "p",
-              "align": "left",
+              "align": "center",
               "runs": [
                 {
-                  "text": "["
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\mathrm{ZFC}\\vdash\\exists x,\\Omega(x)."
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "Como (M) é um modelo de ZFC, existe algum elemento (m\\in |M|) tal que:"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "["
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "M\\models\\Omega(m)."
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "\\(M\\models\\Omega(m)\\)."
                 }
               ]
             },
@@ -7258,7 +7157,16 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "Mas o próprio modelo (M) é contável do ponto de vista externo. Então parece que temos:"
+                  "text": "Mas o próprio modelo (M) é contável do ponto de vista externo. Então parece que temos: "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "center",
+              "runs": [
+                {
+                  "text": "\\(m\\text{ é incontável internamente}\\) "
                 }
               ]
             },
@@ -7267,49 +7175,16 @@
               "align": "left",
               "runs": [
                 {
-                  "text": "["
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "m\\text{ é incontável internamente}"
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "e: "
                 }
               ]
             },
             {
               "tag": "p",
-              "align": "left",
+              "align": "center",
               "runs": [
                 {
-                  "text": "e:"
-                }
-              ]
-            },
-            {
-              "tag": "p",
-              "align": "left",
-              "runs": [
-                {
-                  "text": "["
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "m\\text{ é contável externamente}."
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "]"
+                  "text": "\\(m\\text{ é contável externamente}\\)."
                 }
               ]
             },
