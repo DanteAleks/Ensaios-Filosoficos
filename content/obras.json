@@ -4891,9 +4891,9 @@
                 "pode ser lida como:",
                 "“Para todo objeto \\((x)\\), existe algum objeto \\((y)\\) tal que \\((x)\\) pertence a \\((y)\\).”",
                 "Os axiomas de ZFC estabelecem princípios sobre a formação e a identidade dos conjuntos. O axioma da extensionalidade, por exemplo, afirma que dois conjuntos são iguais quando possuem exatamente os mesmos elementos:",
-                "\\(\\forall x\\forall y\\)\n\\(\\left[\\)\n\\(\\forall z,(z\\in x\\leftrightarrow z\\in y)\\)\n\\(\\rightarrow x=y\\)\n\\(\\right]\\).",
+                "\\(\\forall x\\forall y\\left[\\forall z,(z\\in x\\leftrightarrow z\\in y)\\rightarrow x=y \\right]\\).",
                 "O axioma do conjunto das partes afirma que, para cada conjunto (x), existe um conjunto formado pelos subconjuntos de (x). Uma formulação simplificada é: ",
-                "\\(\\forall x,\\exists y,\\forall z\\)\n\\(\\left[\\)\n\\(z\\subseteq x\\leftrightarrow z\\in y\\)\n\\(\\right]\\).",
+                "\\(\\forall x,\\exists y,\\forall z\\)\n\\(\\left[z\\subseteq x\\leftrightarrow z\\in y \\right]\\).",
                 "O axioma do infinito garante a existência de um conjunto infinito. A partir dele, é possível construir o conjunto dos números naturais.",
                 "O teorema de Cantor utiliza recursos como o conjunto das partes, a noção de função e o argumento diagonal. Todos esses conceitos podem ser definidos dentro da teoria dos conjuntos.",
                 "Portanto, a própria teoria que demonstra a existência de conjuntos incontáveis pode ser formulada como uma teoria de primeira ordem."
@@ -6434,31 +6434,7 @@
               "align": "center",
               "runs": [
                 {
-                  "text": "\\(\\forall x\\forall y\\)"
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\(\\left[\\)"
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\(\\forall z,(z\\in x\\leftrightarrow z\\in y)\\)"
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\(\\rightarrow x=y\\)"
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\(\\right]\\)."
+                  "text": "\\(\\forall x\\forall y\\left[\\forall z,(z\\in x\\leftrightarrow z\\in y)\\rightarrow x=y \\right]\\)."
                 }
               ]
             },
@@ -6482,19 +6458,10 @@
                   "text": "\n"
                 },
                 {
-                  "text": "\\(\\left[\\)"
+                  "text": "\\(\\left[z\\subseteq x\\leftrightarrow z\\in y \\right]\\)"
                 },
                 {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\(z\\subseteq x\\leftrightarrow z\\in y\\)"
-                },
-                {
-                  "text": "\n"
-                },
-                {
-                  "text": "\\(\\right]\\)."
+                  "text": "."
                 }
               ]
             },
