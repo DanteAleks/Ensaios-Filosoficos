@@ -1,0 +1,204 @@
+/* v14 — logical text; visual RTL per line, top-to-bottom between lines. */
+html[data-peregrini-layout="logical-rtl"] .pg-rtl {
+  direction: rtl !important;
+  unicode-bidi: bidi-override !important;
+  text-align: start;
+  text-transform: none;
+  letter-spacing: normal;
+  word-break: normal;
+  overflow-wrap: break-word;
+  hyphens: none;
+}
+html[data-peregrini-layout="logical-rtl"] .pg-run {
+  direction: inherit;
+  unicode-bidi: normal;
+}
+html[data-peregrini-layout="logical-rtl"] :is(.pg-ltr,code,pre,math,.katex,.MathJax,mjx-container,.peregrini-glyph,[data-no-peregrini-codification]) {
+  direction: ltr !important;
+  unicode-bidi: isolate !important;
+}
+html[data-peregrini-layout="logical-rtl"] :is(input,textarea,[contenteditable="true"],.pg-native-select) {
+  direction: ltr !important;
+  unicode-bidi: isolate !important;
+  text-align: start;
+}
+html[data-peregrini-layout="logical-rtl"] .pg-native-select { text-align: right; }
+html[data-peregrini-layout="logical-rtl"] :is(.align-center,.align-center .pg-rtl) { text-align:center; }
+html[data-peregrini-layout="logical-rtl"] :is(.align-justify,.align-justify .pg-rtl) { text-align:justify; }
+html[data-peregrini-layout="logical-rtl"] .pg-ltr { white-space: normal; overflow-wrap:anywhere; }
+
+/* Scoped to the Peregrini area: the Portuguese archive and author editor are unchanged. */
+.pg-page {
+  font-family: var(--peregrini-text,Georgia,serif);
+  font-size: 1.0625rem;
+  line-height: 1.8;
+}
+.pg-page *, .pg-page *::before, .pg-page *::after { box-sizing:border-box; }
+.pg-page [hidden] { display:none !important; }
+.pg-page :is(main,section,article,aside,.section-heading>div,.brand-copy) { min-width:0; }
+.pg-page .site-header { gap:1.2rem; }
+.pg-page .brand { flex-shrink:0; max-width:100%; }
+.pg-page .brand-copy { min-width:0; }
+.pg-page .brand-copy strong { font-size:1.1rem; line-height:1.4; }
+.pg-page .brand-copy small { font-size:.8rem; line-height:1.5; }
+.pg-page .desktop-nav { flex-wrap:wrap; gap:1.4rem; }
+.pg-page .desktop-nav a { font-size:1rem; padding-block:.35rem; }
+.pg-page :is(.icon-button,.menu-button) { min-width:44px; min-height:44px; }
+.pg-page .header-actions { flex-shrink:0; }
+.pg-page .eyebrow { font-size:.9rem; font-weight:400; line-height:1.6; }
+.pg-page :is(h1,h2,h3) { font-family:var(--peregrini-display,Georgia,serif); font-weight:400; }
+.pg-page .peregrini-portal-hero {
+  min-height:0;
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(0,44rem);
+  gap:1.35rem clamp(2rem,5vw,5rem);
+  padding:clamp(3rem,6vw,5.5rem) clamp(1.25rem,7vw,8rem);
+  align-items:start;
+  border-bottom:3px double var(--gold);
+  isolation:isolate;
+}
+.pg-page .peregrini-portal-hero > :not(.portal-seal) {
+  grid-column:2;
+  margin:0;
+  position:relative;
+  z-index:1;
+  justify-self:stretch;
+}
+.pg-page .peregrini-portal-hero::after {
+  inset:1.1rem;
+  width:auto;
+  height:auto;
+  border-radius:0;
+  border-color:rgba(215,189,123,.25);
+  pointer-events:none;
+}
+.pg-page .peregrini-portal-hero h1 {
+  max-width:none;
+  font-size:clamp(2.25rem,4.3vw,4.7rem);
+  line-height:1.38;
+  text-wrap:wrap;
+  color:var(--gold-light);
+}
+.pg-page .peregrini-portal-hero .lead {
+  max-width:none;
+  font-family:var(--peregrini-text,Georgia,serif);
+  font-size:clamp(1.0625rem,1.25vw,1.25rem);
+  line-height:1.95;
+  color:#eee8db;
+}
+.pg-page .peregrini-portal-hero .eyebrow { color:#d7bd7b; }
+.pg-page .peregrini-portal-hero .primary-button {
+  justify-self:end;
+  margin-top:.6rem;
+  max-width:100%;
+  min-height:48px;
+  padding:.8rem 1.4rem;
+  color:#102a22;
+  background:#d7bd7b;
+  border:1px solid #d7bd7b;
+  font-size:1.1rem;
+  line-height:1.6;
+  outline:none;
+}
+.pg-page .peregrini-portal-hero .primary-button:hover { background:#eee0b4; border-color:#eee0b4; }
+.pg-page .portal-seal {
+  grid-column:1;
+  grid-row:1 / span 4;
+  align-self:center;
+  justify-self:center;
+  position:static;
+  width:clamp(6rem,12vw,10rem);
+  height:clamp(8rem,16vw,13rem);
+  transform:none;
+  border-radius:50% 50% 0 0;
+  box-shadow:0 0 0 8px #102a22,0 0 0 9px rgba(215,189,123,.25);
+  font-size:clamp(3rem,5vw,4.8rem);
+  opacity:1;
+}
+.pg-page :is(.peregrini-warning,.peregrini-works,.peregrini-language) {
+  max-width:88rem;
+  margin-inline:auto;
+  padding:clamp(2.5rem,5vw,5rem) clamp(1.25rem,7vw,8rem);
+}
+.pg-page :is(.peregrini-works,.peregrini-language) { border-bottom:1px solid var(--line); }
+.pg-page :is(.peregrini-works h2,.peregrini-language h2,.peregrini-warning h2) {
+  font-size:clamp(1.85rem,3.1vw,3rem);
+  line-height:1.45;
+  margin-block:.4rem 1rem;
+}
+.pg-page .section-description { margin-inline-start:auto; max-width:64ch; }
+.pg-page .peregrini-empty { max-width:none; margin-block:2rem 0; padding:1.5rem 2rem; border-width:1px; background:var(--surface); }
+.pg-page .section-heading { direction:rtl; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:2rem; margin-bottom:2rem; }
+.pg-page .section-heading > p { max-width:none; font-size:1.0625rem; line-height:1.85; }
+.pg-page .language-table-wrap { max-width:100%; border-radius:2px; scrollbar-color:var(--gold) var(--paper); }
+.pg-page .language-table-wrap table { direction:rtl; }
+.pg-page .language-table-wrap caption { font-size:1.4rem; }
+.pg-page .language-table-wrap th { font-weight:400; }
+.pg-page .language-table-wrap :is(td,th) { padding:.85rem 1rem; font-size:1rem; line-height:1.7; }
+.pg-page .language-table-wrap .peregrini-glyph { font-size:1.4rem; }
+.pg-page .language-table-wrap tbody tr:nth-child(even) { background:color-mix(in srgb,var(--gold) 5%,transparent); }
+.pg-page .status-pill { font-size:.8rem; line-height:1.5; }
+.pg-page :is(.language-notes,.peregrini-lexicon) { direction:rtl; }
+.pg-page .language-notes h3 { font-size:1.4rem; line-height:1.5; }
+.pg-page .peregrini-lexicon { grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),1fr)); }
+.pg-page .peregrini-lexicon li { padding:1.25rem; }
+.pg-page .peregrini-lexicon small { font-size:.8rem; }
+.pg-page .peregrini-work-grid { grid-template-columns:repeat(auto-fit,minmax(min(100%,18rem),1fr)); direction:rtl; }
+.pg-page .work-card h3 { font-size:clamp(1.55rem,2vw,2.1rem); line-height:1.5; }
+.pg-page .card-action { font-size:1rem; }
+.pg-page footer { gap:1.5rem; }
+.pg-page footer p { text-align:right; }
+.pg-page :is(.peregrini-document,.reading-text) {
+  min-width:0;
+  font-family:var(--reading-font,var(--peregrini-text,Georgia,serif));
+  font-size:var(--reading-size,1.25rem);
+  line-height:1.95;
+}
+.pg-page :is(.peregrini-document,.reading-text) :is(h1,h2,h3) { line-height:1.5; }
+.pg-page .peregrini-document h1 { font-size:clamp(2rem,4vw,3.5rem); }
+.pg-page .peregrini-document h2 { font-size:1.65em; margin-block:2rem 1rem; }
+.pg-page .peregrini-document h3 { font-size:1.3em; }
+.pg-page :is(.peregrini-document,.reading-text) p { margin-block:1.1em; }
+.pg-page .initial-illuminated::first-letter { float:right; margin-inline:.16em 0; }
+.pg-page :focus-visible { outline:2px solid var(--gold); outline-offset:5px; }
+.pg-page .peregrini-portal-hero :focus-visible { outline-color:#eee0b4; }
+@media(max-width:960px) {
+  .pg-page .peregrini-portal-hero { grid-template-columns:minmax(0,1fr); }
+  .pg-page .peregrini-portal-hero > :not(.portal-seal) { grid-column:1; }
+  .pg-page .portal-seal { display:none; }
+  .pg-page .peregrini-portal-hero h1 { font-size:clamp(2.25rem,6vw,3.7rem); }
+}
+@media(max-width:800px) {
+  .pg-page .site-header { height:auto; min-height:86px; padding-block:.65rem; position:relative; top:auto; }
+  .pg-page .mobile-nav { position:static; }
+  .pg-page .desktop-nav { display:none; }
+  .pg-page .menu-button { display:block; font-size:.95rem; }
+  .pg-page .section-heading { grid-template-columns:minmax(0,1fr); gap:.75rem; }
+  .pg-page .reading-layout { grid-template-columns:minmax(0,1fr); }
+  .pg-page .reading-sidebar { position:static; max-height:none; }
+}
+@media(max-width:480px) {
+  .pg-page .site-header { gap:.5rem; padding-inline:1rem; }
+  .pg-page .site-header .brand { gap:.45rem; flex-shrink:1; }
+  .pg-page .brand-copy strong { font-size:.98rem; }
+  .pg-page .brand-copy small { font-size:.75rem; }
+  .pg-page .site-header .brand-mark { width:32px; height:36px; flex-shrink:0; }
+  .pg-page .header-actions { gap:.3rem; }
+  .pg-page .peregrini-portal-hero { padding:2.6rem 1.35rem; }
+  .pg-page .peregrini-portal-hero::after { inset:.5rem; }
+  .pg-page .peregrini-portal-hero h1 { font-size:2.25rem; }
+  .pg-page .peregrini-portal-hero .lead { font-size:1.0625rem; }
+  .pg-page .peregrini-portal-hero .primary-button { justify-self:stretch; justify-content:center; }
+  .pg-page .peregrini-empty { padding:1.2rem; }
+  .pg-page .language-notes { grid-template-columns:minmax(0,1fr); }
+}
+@media(prefers-reduced-motion:reduce) {
+  html[data-peregrini-layout="logical-rtl"] { scroll-behavior:auto; }
+  .pg-page * { transition:none !important; animation:none !important; }
+}
+@media print {
+  .pg-page :is(.peregrini-document,.reading-text) { font-size:12pt; line-height:1.7; }
+  .pg-page :is(h1,h2,h3) { break-after:avoid; }
+  .pg-page p { orphans:3; widows:3; }
+  .pg-page .portal-seal { display:none; }
+}

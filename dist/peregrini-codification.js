@@ -9,10 +9,30 @@
   ]);
 
   const vowels='aeiouáàâãéêíóôõúü';
-  const isVowel=c=>vowels.includes((c||'').toLowerCase());
+  const isVowel=c=>!!c&&vowels.includes(c.toLowerCase());
   const upper=(source,value)=>source===source.toUpperCase()?value.toUpperCase():value;
+  const reserved=new Set(['SVXED','ORIT','ORITVOR','PARISTOR']);
+  const segmenter=typeof Intl!=='undefined'&&Intl.Segmenter?new Intl.Segmenter('pt',{granularity:'grapheme'}):null;
+  const reverse=text=>(segmenter?Array.from(segmenter.segment(text),part=>part.segment):Array.from(text)).reverse().join('');
+  // The user's samples are visual RTL strings. Recover logical reading order
+  // ONCE. CSS, not string reversal, then composes each wrapped line right-to-left.
+  const logicalExamples=new Map([...exact].map(([source,visual])=>[source,reverse(visual)]));
+  const visualExamples=new Map([...exact.values()].map(visual=>[visual,reverse(visual)]));
+  const protectedPattern=/(https?:\/\/[^\s<>]+|www\.[^\s<>]+|[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}|\\\([\s\S]*?\\\)|\\\[[\s\S]*?\\\]|\$\$[\s\S]*?\$\$|\$[^$\n]+\$|\d+(?:[.,:/–-]\d+)*(?:\s?%)?|\/[\p{L}\p{M}͡.]+\/)/gu;
+
+  function parts(text){
+    const out=[];let start=0;
+    for(const match of text.matchAll(protectedPattern)){
+      if(match.index>start)out.push({text:text.slice(start,match.index),protected:false});
+      out.push({text:match[0],protected:true});start=match.index+match[0].length;
+    }
+    if(start<text.length)out.push({text:text.slice(start),protected:false});
+    return out;
+  }
 
   function word(input){
+    // Mixed-script Peregrini terms and reserved names must not be encoded twice.
+    if(reserved.has(input)||/[\u0370-\u03ff\u0400-\u04ff]/u.test(input))return input;
     if(input==='Via')return 'Vиa';
     let out='';
     for(let i=0;i<input.length;i++){
@@ -26,7 +46,7 @@
       if(pair==='gu'&&/[eiéêí]/.test((input[i+2]||'').toLowerCase())){out+=upper(ch,'г');i++;continue;}
       if(pair==='ia'&&i>0){out+=upper(ch,'я');i++;continue;}
       if(pair==='iu'&&i>0){out+=upper(ch,'ю');i++;continue;}
-      if(low==='ã'){out+='an';continue;} if(low==='õ'){out+='on';continue;}
+      if(low==='ã'){out+=upper(ch,'an');continue;} if(low==='õ'){out+=upper(ch,'on');continue;}
       if(low==='á'||low==='à'||low==='â'){out+=upper(ch,'a');continue;}
       if(low==='é'||low==='ê'){out+=upper(ch,'e');continue;}
       if(low==='í'){out+=upper(ch,'и');continue;}
@@ -37,6 +57,7 @@
       if(low==='g'){out+=upper(ch,/[eéií]/.test(next)?'ж':'г');continue;}
       if(low==='j'){out+=upper(ch,'ж');continue;}
       if(low==='d'&&/[ií]/.test(next)){out+=upper(ch,'дж');continue;}
+      if(low==='d'){out+=upper(ch,'д');continue;}
       if(low==='t'&&/[ií]/.test(next)){out+=upper(ch,'ч');continue;}
       if(low==='f'){out+=upper(ch,'φ');continue;}
       if(low==='i'){out+=upper(ch,'и');continue;}
@@ -50,44 +71,111 @@
       if(low==='e'&&i===input.length-1){out+=upper(ch,'и');continue;}
       if(low==='o'&&i===input.length-1){out+=upper(ch,'y');continue;}
       if(low==='l'&&i===input.length-1){out+=upper(ch,'y');continue;}
+      if(low==='l'){out+=upper(ch,'л');continue;}
       out+=ch;
     }
     return out;
   }
 
   function encode(text){
-    if(exact.has(text))return exact.get(text);
-    const converted=text.replace(/[A-Za-zÀ-ÖØ-öø-ÿ]+/g,word);
-    const parts=converted.split(/(\d+(?:[.,:/-]\d+)*%?)/g);
-    return parts.reverse().map(part=>/^\d/.test(part)?part:Array.from(part).reverse().join('')).join('');
+    const value=String(text??'').normalize('NFC');
+    const match=value.match(/^(\s*)([\s\S]*?)(\s*)$/),core=match[2];
+    const sample=logicalExamples.get(core)||visualExamples.get(core);
+    if(sample)return match[1]+sample+match[3];
+    return parts(value).map(part=>part.protected?part.text:part.text.replace(/[\p{L}\p{M}]+/gu,word)).join('');
+  }
+
+  const skipped='script,style,noscript,template,code,pre,textarea,input,svg,math,iframe,option,select,mjx-container,.katex,.MathJax,.peregrini-glyph,.portal-seal,.brand-mark,.pg-ltr,[aria-hidden="true"],[contenteditable]:not([contenteditable="false"]),[data-no-peregrini-codification]';
+  const blockSelector='p,h1,h2,h3,h4,h5,h6,li,dt,dd,blockquote,figcaption,caption,td,th,label,summary,.doc-block';
+  const processed=new WeakMap();
+  const documents=new WeakMap();
+  const currentScript=typeof document!=='undefined'?document.currentScript:null;
+
+  function inScope(doc){return !!(doc.documentElement.hasAttribute('data-peregrini-codification')||doc.querySelector('.peregrini-portal,.peregrini-reading'));}
+
+  function installStyle(doc){
+    if(doc.getElementById('peregrini-codification-style'))return;
+    // The essential direction rule also works while the visual stylesheet loads.
+    const critical=doc.createElement('style');critical.id='peregrini-direction';
+    critical.textContent='html[data-peregrini-layout="logical-rtl"] .pg-rtl{direction:rtl!important;unicode-bidi:bidi-override!important;text-align:start}html[data-peregrini-layout="logical-rtl"] .pg-ltr{direction:ltr!important;unicode-bidi:isolate!important}';
+    doc.head.appendChild(critical);
+    const style=doc.createElement('link');
+    style.id='peregrini-codification-style';style.rel='stylesheet';
+    const script=currentScript||doc.querySelector('script[src*="peregrini-codification.js"]');
+    style.href=new URL('peregrini-codification.css?v=14',script?.src||doc.baseURI).href;
+    doc.head.appendChild(style);
   }
 
   function convertTextNode(node){
-    if(!node.nodeValue||!node.nodeValue.trim())return;
-    const match=node.nodeValue.match(/^(\s*)([\s\S]*?)(\s*)$/);
-    node.nodeValue=match[1]+encode(match[2])+match[3];
+    const parent=node.parentElement,value=node.nodeValue;
+    if(!parent||!value?.trim()||parent.closest(skipped)||processed.get(node)===value)return;
+    // Each text-bearing element is RTL; the structural page grid stays separate.
+    parent.classList.add('pg-rtl');
+    parent.closest(blockSelector)?.classList.add('pg-rtl');
+    const converted=encode(value),chunks=parts(converted);
+    if(!chunks.some(part=>part.protected)){
+      node.nodeValue=converted;processed.set(node,converted);return;
+    }
+    // Group a run so a flex button does not turn every number into a flex item.
+    const run=node.ownerDocument.createElement('span');run.className='pg-run';
+    for(const part of chunks){
+      const text=node.ownerDocument.createTextNode(part.text);processed.set(text,part.text);
+      if(part.protected){
+        const span=node.ownerDocument.createElement('bdi');span.className='pg-ltr';span.dir='ltr';span.append(text);run.append(span);
+      }else run.append(text);
+    }
+    node.replaceWith(run);
+  }
+
+  function convertTree(target){
+    if(target.nodeType===3){convertTextNode(target);return;}
+    if(target.nodeType!==1||target.closest(skipped))return;
+    const doc=target.ownerDocument;
+    const walker=doc.createTreeWalker(target,4); // SHOW_TEXT, independent of window globals.
+    const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
+    nodes.forEach(convertTextNode);
   }
 
   function apply(doc){
-    if(!doc?.documentElement||doc.documentElement.dataset.peregriniCodified==='true')return;
-    doc.title=encode(doc.title);
-    const description=doc.querySelector('meta[name="description"]');
-    if(description)description.content=encode(description.content);
-    const walker=doc.createTreeWalker(doc.body,NodeFilter.SHOW_TEXT,{acceptNode(node){
-      const parent=node.parentElement;
-      if(!parent||parent.closest('script,style,code,pre,.peregrini-glyph,.portal-seal,.brand-mark,[data-no-peregrini-codification]'))return NodeFilter.FILTER_REJECT;
-      return NodeFilter.FILTER_ACCEPT;
-    }});
-    const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);nodes.forEach(convertTextNode);
-    doc.querySelectorAll('[aria-label],[title],[placeholder]').forEach(el=>{
-      for(const name of ['aria-label','title','placeholder'])if(el.hasAttribute(name))el.setAttribute(name,encode(el.getAttribute(name)));
+    if(!doc?.body||!inScope(doc))return;
+    if(documents.has(doc)){convertTree(doc.body);return;}
+    installStyle(doc);
+    doc.documentElement.dataset.peregriniCodification='portuguese';
+    doc.documentElement.dataset.peregriniLayout='logical-rtl';
+    doc.body.classList.add('pg-page');
+    convertTree(doc.body);
+    // Keep title, metadata, form values and accessible labels in their source form.
+    // Screen readers, author inputs, sorting keys and links are never rewritten.
+    const Observer=doc.defaultView?.MutationObserver;
+    if(Observer){
+      const options={subtree:true,childList:true,characterData:true};
+      const observer=new Observer(records=>{
+        observer.disconnect();
+        try{
+          const pending=new Set();
+          records.forEach(record=>{
+            if(record.type==='characterData')pending.add(record.target);
+            else record.addedNodes.forEach(node=>pending.add(node));
+          });
+          pending.forEach(node=>{if(node.isConnected)convertTree(node);});
+        }finally{observer.observe(doc.body,options);}
+      });
+      observer.observe(doc.body,options);documents.set(doc,observer);
+    }else documents.set(doc,true);
+    doc.documentElement.dataset.peregriniCodified='logical-rtl';
+    // CSS cannot reliably apply a bidi override to native <option> popups.
+    // They use single-line visual strings; values and selected state stay intact.
+    doc.querySelectorAll('select option').forEach(option=>{
+      if(option.closest('[data-no-peregrini-codification]'))return;
+      option.textContent=parts(encode(option.textContent)).reverse().map(part=>part.protected?part.text:reverse(part.text)).join('');
     });
-    doc.documentElement.dataset.peregriniCodified='true';
+    doc.querySelectorAll('select').forEach(select=>select.classList.add('pg-native-select'));
   }
 
-  const api={encode,word,apply};
+  const api={encode,word,apply,parts,version:14};
   if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.PeregriniPortugueseCodification=api;
   if(typeof document!=='undefined'){
+    if(document.documentElement.hasAttribute('data-peregrini-codification'))installStyle(document);
     if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>apply(document),{once:true});else apply(document);
   }
 })(typeof window!=='undefined'?window:{});
