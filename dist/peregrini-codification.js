@@ -18,6 +18,12 @@
   // ONCE. CSS, not string reversal, then composes each wrapped line right-to-left.
   const logicalExamples=new Map([...exact].map(([source,visual])=>[source,reverse(visual)]));
   const visualExamples=new Map([...exact.values()].map(visual=>[visual,reverse(visual)]));
+  // Keep the same spelling when an approved sentence contains <strong> or links.
+  const approvedWords=new Map();
+  for(const [source,logical] of logicalExamples){
+    const from=source.match(/[\p{L}\p{M}]+/gu)||[],to=logical.match(/[\p{L}\p{M}]+/gu)||[];
+    if(from.length===to.length)from.forEach((word,i)=>approvedWords.set(word.toLowerCase(),to[i].toLowerCase()));
+  }
   const protectedPattern=/(https?:\/\/[^\s<>]+|www\.[^\s<>]+|[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}|\\\([\s\S]*?\\\)|\\\[[\s\S]*?\\\]|\$\$[\s\S]*?\$\$|\$[^$\n]+\$|\d+(?:[.,:/–-]\d+)*(?:\s?%)?|\/[\p{L}\p{M}͡.]+\/)/gu;
 
   function parts(text){
@@ -33,6 +39,11 @@
   function word(input){
     // Mixed-script Peregrini terms and reserved names must not be encoded twice.
     if(reserved.has(input)||/[\u0370-\u03ff\u0400-\u04ff]/u.test(input))return input;
+    const approved=approvedWords.get(input.toLowerCase());
+    if(approved){
+      if(input===input.toUpperCase())return approved.toUpperCase();
+      return input[0]===input[0].toUpperCase()?approved[0].toUpperCase()+approved.slice(1):approved;
+    }
     if(input==='Via')return 'Vиa';
     let out='';
     for(let i=0;i<input.length;i++){
@@ -88,8 +99,14 @@
   const skipped='script,style,noscript,template,code,pre,textarea,input,svg,math,iframe,option,select,mjx-container,.katex,.MathJax,.peregrini-glyph,.portal-seal,.brand-mark,.pg-ltr,[aria-hidden="true"],[contenteditable]:not([contenteditable="false"]),[data-no-peregrini-codification]';
   const blockSelector='p,h1,h2,h3,h4,h5,h6,li,dt,dd,blockquote,figcaption,caption,td,th,label,summary,.doc-block';
   const processed=new WeakMap();
+  const nativeLabels=new WeakMap();
   const documents=new WeakMap();
   const currentScript=typeof document!=='undefined'?document.currentScript:null;
+
+  function asset(doc,name){
+    const script=currentScript||doc.querySelector('script[src*="peregrini-codification.js"]');
+    return new URL(name,script?.src||doc.baseURI).href;
+  }
 
   function inScope(doc){return !!(doc.documentElement.hasAttribute('data-peregrini-codification')||doc.querySelector('.peregrini-portal,.peregrini-reading'));}
 
@@ -101,9 +118,49 @@
     doc.head.appendChild(critical);
     const style=doc.createElement('link');
     style.id='peregrini-codification-style';style.rel='stylesheet';
-    const script=currentScript||doc.querySelector('script[src*="peregrini-codification.js"]');
-    style.href=new URL('peregrini-codification.css?v=14',script?.src||doc.baseURI).href;
+    style.href=asset(doc,'peregrini-codification.css?v=15');
     doc.head.appendChild(style);
+  }
+
+  function enhancePortal(doc){
+    const hero=doc.querySelector('.peregrini-portal-hero');
+    if(hero&&!hero.querySelector('.pg-intro')){
+      const intro=doc.createElement('div');intro.className='pg-intro';
+      while(hero.firstChild)intro.append(hero.firstChild);
+      const seal=intro.querySelector('.portal-seal');if(seal)intro.prepend(seal);
+      hero.append(intro);
+      const figure=doc.createElement('figure');figure.className='pg-frontispiece';figure.setAttribute('aria-hidden','true');
+      const img=doc.createElement('img');img.src=asset(doc,'pilgrim.png');img.alt='';
+      img.width=1024;img.height=1536;img.decoding='async';
+      img.addEventListener('error',()=>{figure.remove();hero.classList.add('pg-no-art');},{once:true});
+      figure.append(img);hero.append(figure);
+    }
+    for(const region of doc.querySelectorAll('.language-table-wrap')){
+      region.tabIndex=0;region.setAttribute('role','region');
+      if(!region.hasAttribute('aria-label'))region.setAttribute('aria-label','Alfabeto Peregrini — tabela com rolagem horizontal');
+    }
+  }
+
+  function convertNativeLabels(target){
+    const element=target.nodeType===3?target.parentElement:target;
+    if(!element||element.nodeType!==1||element.closest('[data-no-peregrini-codification],[contenteditable="true"]'))return;
+    const options=element.matches('option')?[element]:[...element.querySelectorAll('option')];
+    for(const option of options){
+      if(option.closest('[data-no-peregrini-codification]'))continue;
+      const value=option.textContent,previous=nativeLabels.get(option);
+      if(previous===value)continue;
+      const converted=parts(encode(value)).reverse().map(part=>part.protected?part.text:reverse(part.text)).join('');
+      option.textContent=converted;nativeLabels.set(option,converted);
+      option.closest('select')?.classList.add('pg-native-select');
+    }
+  }
+
+  function enhanceReader(doc){
+    // Leave the text within reach on a phone. Only set the initial state;
+    // subsequent resizing must preserve the reader's choices.
+    if(doc.body.classList.contains('peregrini-reading')&&doc.defaultView?.matchMedia?.('(max-width: 800px)').matches){
+      for(const panel of doc.querySelectorAll('.reading-sidebar > details'))panel.open=false;
+    }
   }
 
   function convertTextNode(node){
@@ -138,12 +195,15 @@
 
   function apply(doc){
     if(!doc?.body||!inScope(doc))return;
-    if(documents.has(doc)){convertTree(doc.body);return;}
+    if(documents.has(doc)){convertTree(doc.body);convertNativeLabels(doc.body);return;}
     installStyle(doc);
     doc.documentElement.dataset.peregriniCodification='portuguese';
     doc.documentElement.dataset.peregriniLayout='logical-rtl';
     doc.body.classList.add('pg-page');
+    enhancePortal(doc);
+    enhanceReader(doc);
     convertTree(doc.body);
+    convertNativeLabels(doc.body);
     // Keep title, metadata, form values and accessible labels in their source form.
     // Screen readers, author inputs, sorting keys and links are never rewritten.
     const Observer=doc.defaultView?.MutationObserver;
@@ -157,22 +217,16 @@
             if(record.type==='characterData')pending.add(record.target);
             else record.addedNodes.forEach(node=>pending.add(node));
           });
-          pending.forEach(node=>{if(node.isConnected)convertTree(node);});
+          pending.forEach(node=>{if(node.isConnected){convertTree(node);convertNativeLabels(node);}});
         }finally{observer.observe(doc.body,options);}
       });
       observer.observe(doc.body,options);documents.set(doc,observer);
     }else documents.set(doc,true);
     doc.documentElement.dataset.peregriniCodified='logical-rtl';
-    // CSS cannot reliably apply a bidi override to native <option> popups.
-    // They use single-line visual strings; values and selected state stay intact.
-    doc.querySelectorAll('select option').forEach(option=>{
-      if(option.closest('[data-no-peregrini-codification]'))return;
-      option.textContent=parts(encode(option.textContent)).reverse().map(part=>part.protected?part.text:reverse(part.text)).join('');
-    });
-    doc.querySelectorAll('select').forEach(select=>select.classList.add('pg-native-select'));
+    // Native option labels are single-line visual strings; their values are intact.
   }
 
-  const api={encode,word,apply,parts,version:14};
+  const api={encode,word,apply,parts,version:15};
   if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.PeregriniPortugueseCodification=api;
   if(typeof document!=='undefined'){
     if(document.documentElement.hasAttribute('data-peregrini-codification'))installStyle(document);
