@@ -1,4 +1,4 @@
-/* Peregrini — folio, v15. Direction belongs to text, not to the page grid. */
+/* Peregrini — folio, v17. Direction belongs to text, not to the page grid. */
 html[data-peregrini-layout="logical-rtl"] .pg-rtl {
   direction: rtl !important;
   unicode-bidi: bidi-override !important;
@@ -341,7 +341,7 @@ html[data-theme="noite"] .pg-page {
 .pg-page :is(.peregrini-document,.reading-text) p { margin-block:1.1em; }
 .pg-page .work-metadata { font-size:.94rem; padding-block:1.25rem; border-block:1px solid var(--pg-rule); }
 .pg-page .work-metadata dt { color:var(--pg-quiet); }
-.pg-page .initial-illuminated::first-letter { float:right; margin-inline:.16em 0; }
+.pg-page .initial-illuminated::first-letter { float:none; margin:0; }
 
 @media(max-width:1240px) {
   .pg-page :is(.peregrini-portal-hero,.peregrini-warning,.peregrini-works,.peregrini-language) { margin-inline:2.5rem; }
@@ -396,4 +396,168 @@ html[data-theme="noite"] .pg-page {
   .pg-page .work-heading h1 { font-size:24pt; }
   .pg-page :is(h1,h2,h3) { break-after:avoid; }
   .pg-page p { orphans:3; widows:3; }
+}
+
+/* Presentation, archive and alphabet are three distinct pages. */
+.pg-page .pg-official {
+  direction:rtl !important;
+  unicode-bidi:bidi-override !important;
+  font-family:var(--peregrini-display,Georgia,serif);
+  letter-spacing:0;
+}
+.pg-page .peregrini-wordmark { color:var(--pg-gold); text-align:right; font-size:1.2rem; }
+.pg-page .pg-flourish { display:block; width:min(100%,22rem); height:auto; margin:1rem 0 1.5rem auto; pointer-events:none; }
+.pg-page.pg-via { background:radial-gradient(ellipse at top,#e8eadf 0,transparent 65%),var(--pg-paper); }
+html[data-theme="noite"] .pg-page.pg-via { background:radial-gradient(ellipse at top,#27372a 0,transparent 65%),var(--pg-paper); }
+.pg-page .pg-gateway-shell {
+  max-width:1280px;
+  margin:3rem auto;
+  padding:1rem;
+  position:relative;
+  border:1px solid var(--pg-gold);
+  background:var(--pg-sheet);
+  box-shadow:0 20px 80px rgba(28,46,32,.09);
+}
+.pg-page .pg-gateway-shell::before {
+  content:"";
+  position:absolute;
+  inset:9px;
+  border:1px solid var(--pg-rule);
+  pointer-events:none;
+}
+.pg-page .pg-gateway-shell .peregrini-portal-hero {
+  max-width:none;
+  margin:0;
+  padding:3.5rem;
+  gap:clamp(2.25rem,5vw,4.5rem);
+  border:0;
+}
+.pg-page .pg-gateway-shell h1 { font-size:clamp(2.2rem,3.8vw,3.35rem); margin-bottom:0; }
+.pg-page .pg-gateway-shell h1::after { display:none; }
+.pg-page .pg-gateway-shell .lead { font-size:1.125rem; line-height:1.95; }
+.pg-page .pg-gateway-shell .eyebrow { margin-top:1.2rem; }
+.pg-page .pg-gateway-shell .pg-frontispiece { box-shadow:0 10px 28px rgba(28,46,32,.12); }
+.pg-page .pg-gateway-signature { display:flex; justify-content:center; align-items:center; gap:1.3rem; color:var(--pg-gold); margin:0 1rem 1.6rem; }
+.pg-page .pg-gateway-signature span { height:1px; background:var(--pg-rule); width:5rem; }
+.pg-page .pg-gateway-signature b { font:1.9rem/1 var(--peregrini-display,Georgia,serif); }
+.pg-page .pg-area-hero { max-width:1160px; padding:4.5rem 0 2.5rem; margin:auto; text-align:right; border-bottom:1px solid var(--pg-rule); }
+.pg-page .pg-area-hero h1 { font-size:clamp(2.25rem,4.5vw,3.8rem); line-height:1.45; margin:.4rem 0 1rem; }
+.pg-page .pg-area-hero .eyebrow { margin-top:1rem; }
+.pg-page .pg-area-hero .lead { max-width:46rem; margin-left:auto; font-size:1.15rem; }
+.pg-page .pg-area-hero .pg-flourish { width:16rem; margin-bottom:0; }
+.pg-page.pg-index .peregrini-works { padding-top:2.5rem; }
+.pg-page .pg-language-invitation {
+  max-width:1160px;
+  margin:3.25rem auto 5rem;
+  display:grid;
+  grid-template-columns:minmax(0,.65fr) minmax(0,1.35fr);
+  gap:3rem;
+  align-items:center;
+  padding:3rem 4rem;
+  background:#203c34;
+  color:#e9e2d1;
+  border:1px solid var(--pg-gold);
+  outline:1px solid rgba(179,155,102,.45);
+  outline-offset:-10px;
+}
+.pg-page .pg-language-invitation h2 { color:#f6f0df; font-size:clamp(1.8rem,3vw,2.6rem); margin:.4rem 0 1rem; }
+.pg-page .pg-language-invitation .eyebrow { color:#d2b57c; }
+.pg-page .pg-letter-art { text-align:center; font:3.6rem/1.4 var(--peregrini-display,Georgia,serif); letter-spacing:.15em; color:#c6ae78; border-right:1px solid #61715a; padding:1rem 3rem 1rem 0; }
+.pg-page .language-door { display:table; margin:1.5rem 0 0 auto; padding:.65rem 0; color:#f4e8c9; text-decoration:none; border-bottom:1px solid #b7a16c; }
+.pg-page .language-door:hover { color:white; border-color:white; }
+.pg-page .pg-section-nav { display:flex; flex-wrap:wrap; justify-content:flex-start; direction:rtl; gap:.75rem 1.75rem; margin-top:2rem; }
+.pg-page .pg-section-nav a { text-decoration:none; border-bottom:1px solid var(--pg-rule); padding:.3rem 0; }
+.pg-page .pg-section-nav a:hover { color:var(--pg-gold); }
+.pg-page .pg-alphabet-table table { min-width:1130px; }
+.pg-page .pg-alphabet-table :is(th,td) { padding:1rem .85rem; }
+.pg-page .pg-alphabet-table td code { font-size:.75rem; white-space:nowrap; color:var(--pg-quiet); background:none; padding:0; }
+.pg-page .pg-alphabet-table .pg-pronunciation { width:15rem; }
+.pg-page .pg-alphabet-table .pg-examples { width:24rem; }
+.pg-page .pg-pronunciation { text-align:left; }
+.pg-page .vowel-word-examples { display:block; list-style:none; margin:0; padding:0; font-size:.98rem; line-height:1.8; text-align:left; }
+.pg-page .vowel-word-examples li { margin:0; }
+.pg-page .pg-reference-note { font-size:.9rem; line-height:1.8; margin:1.4rem 0; color:var(--pg-quiet); }
+.pg-page .pg-reference-section { padding-top:3.5rem; scroll-margin-top:6rem; }
+.pg-page .pg-reference-table { margin-top:1.5rem; direction:ltr; }
+.pg-page .pg-reference-table table { direction:ltr; }
+.pg-page .pg-reference-table th { text-align:left; }
+.pg-page .pg-reference-rules { line-height:1.85; padding-left:1.4rem; }
+.pg-page .pg-reference-rules li { margin-bottom:.7rem; padding-left:.3rem; }
+.pg-page .pg-reference-details { border-block-start:1px solid var(--pg-rule); padding:1rem 0; }
+.pg-page .pg-reference-details summary { cursor:pointer; font-size:1.15rem; padding:.4rem 0; }
+.pg-page .pg-reference-details[open] summary { color:var(--pg-gold); }
+.pg-page .pg-vocabulary { margin-top:3.5rem; padding-top:2.5rem; border-top:1px solid var(--pg-rule); scroll-margin-top:6rem; }
+.pg-page .vocabulary-controls { display:grid; grid-template-columns:1.5fr 1fr .8fr; gap:1rem; direction:rtl; margin:1.8rem 0 1rem; }
+.pg-page .vocabulary-controls label { display:block; font-size:.95rem; margin-bottom:.45rem; }
+.pg-page .vocabulary-controls :is(input,select) { min-width:0; width:100%; min-height:46px; padding:.6rem; background:var(--pg-sheet); color:var(--pg-ink); border:1px solid var(--pg-rule); border-radius:2px; }
+.pg-page .vocabulary-controls > div { min-width:0; }
+.pg-page .peregrini-lexicon { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.pg-page .peregrini-lexicon h3 { margin:0 0 .4rem; text-align:right; font-size:1.5rem; }
+.pg-page .peregrini-lexicon p { margin:.3rem 0; }
+.pg-page .vocabulary-grammar { font-size:.875rem; color:var(--pg-quiet); }
+.pg-page [id] { scroll-margin-top:6rem; }
+
+@media(max-width:1360px) {
+  .pg-page .pg-gateway-shell { margin:2rem; }
+}
+@media(max-width:1240px) {
+  .pg-page :is(.pg-area-hero,.pg-language-invitation) { margin-left:2.5rem; margin-right:2.5rem; }
+  .pg-page .pg-gateway-shell .peregrini-portal-hero { padding:2rem; }
+  .pg-page .desktop-nav { gap:1rem; }
+  .pg-page .site-header { gap:1rem; }
+}
+@media(max-width:960px) {
+  .pg-page .pg-gateway-shell .peregrini-portal-hero { gap:2rem; grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr); }
+  .pg-page .pg-gateway-shell .lead { font-size:1.0625rem; }
+  .pg-page .pg-language-invitation { padding:2.5rem; gap:2rem; }
+  .pg-page .pg-letter-art { padding-right:1.5rem; font-size:3rem; }
+}
+@media(max-width:800px) {
+  .pg-page .pg-gateway-shell .peregrini-portal-hero { grid-template-columns:minmax(0,1fr); padding:2rem 1.25rem; gap:3rem; }
+  .pg-page .pg-gateway-shell { margin:1.5rem; }
+  .pg-page .pg-gateway-shell .pg-frontispiece { width:min(100% - 1rem,19rem); }
+  .pg-page .pg-area-hero { padding-top:3rem; }
+  .pg-page .vocabulary-controls { grid-template-columns:minmax(0,1fr); }
+  .pg-page .peregrini-lexicon { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+@media(max-width:480px) {
+  .pg-page .pg-gateway-shell { margin:1rem; padding:.75rem; }
+  .pg-page .pg-gateway-shell::before { inset:6px; }
+  .pg-page .pg-gateway-shell .peregrini-portal-hero { padding:1.8rem .75rem; }
+  .pg-page .pg-gateway-shell h1 { font-size:2.15rem; }
+  .pg-page .pg-gateway-shell .lead { font-size:1rem; line-height:1.95; }
+  .pg-page :is(.pg-area-hero,.pg-language-invitation) { margin-left:1.5rem; margin-right:1.5rem; }
+  .pg-page .pg-language-invitation { display:block; padding:2rem; }
+  .pg-page .pg-letter-art { display:none; }
+  .pg-page .peregrini-lexicon { grid-template-columns:minmax(0,1fr); }
+  .pg-page [id] { scroll-margin-top:1rem; }
+}
+@media screen and (max-width:700px) {
+  .pg-page .pg-alphabet-table { border:0; overflow:visible; background:none; }
+  .pg-page .pg-alphabet-table table { display:block; min-width:0; }
+  .pg-page .pg-alphabet-table caption { display:block; padding:0 0 1.5rem; }
+  .pg-page .pg-alphabet-table thead { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip-path:inset(50%); }
+  .pg-page .pg-alphabet-table tbody { display:grid; gap:1.5rem; }
+  .pg-page .pg-alphabet-table tr { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr) 4.5rem; border:1px solid var(--pg-rule); background:var(--pg-sheet); }
+  .pg-page .pg-alphabet-table :is(th,td) { min-width:0; width:auto; padding:.75rem; border:0; text-align:center; }
+  .pg-page .pg-alphabet-table :is(.pg-pronunciation,.pg-examples) { width:auto; max-width:100%; }
+  .pg-page .pg-alphabet-table td:nth-child(1) { grid-column:3; grid-row:1; color:var(--pg-gold); }
+  .pg-page .pg-alphabet-table th:nth-child(2) { grid-column:1; grid-row:1; font-size:2.3rem; padding-bottom:0; }
+  .pg-page .pg-alphabet-table td:nth-child(3) { grid-column:1; grid-row:2; padding-top:0; }
+  .pg-page .pg-alphabet-table td:nth-child(4) { grid-column:2; grid-row:1; font-size:2.3rem; padding-bottom:0; }
+  .pg-page .pg-alphabet-table td:nth-child(5) { grid-column:2; grid-row:2; padding-top:0; }
+  .pg-page .pg-alphabet-table td:nth-child(6) { grid-column:3; grid-row:2; padding-top:0; }
+  .pg-page .pg-alphabet-table td:nth-child(7) { grid-column:1/-1; grid-row:3; text-align:left; border-top:1px solid var(--pg-rule); }
+  .pg-page .pg-alphabet-table td:nth-child(8) { grid-column:1/-1; grid-row:4; text-align:left; background:var(--pg-paper); }
+  .pg-page .pg-alphabet-table [data-label]::before { content:attr(data-label); display:block; direction:ltr; unicode-bidi:isolate; font-size:.76rem; color:var(--pg-quiet); margin-bottom:.2rem; }
+}
+@media print {
+  .pg-page :is(.pg-flourish,.pg-gateway-signature,.pg-section-nav,.vocabulary-controls) { display:none; }
+  .pg-page .pg-gateway-shell { margin:0; padding:0; border:0; box-shadow:none; }
+  .pg-page .pg-gateway-shell::before { display:none; }
+  .pg-page .pg-gateway-shell .peregrini-portal-hero { padding:0; }
+  .pg-page .language-table-wrap { overflow:visible; }
+  .pg-page .pg-alphabet-table table { min-width:0; font-size:8pt; }
+  .pg-page .pg-alphabet-table :is(th,td) { font-size:8pt; padding:.2rem; }
+  .pg-page .vowel-word-examples { font-size:8pt; }
 }

@@ -5,6 +5,8 @@ const path=require('node:path');
 const {JSDOM}=require('jsdom');
 const P=require('../dist/peregrini-language.js');
 const M=require('../dist/admin/model.js');
+const C=require('../dist/peregrini-codification.js');
+const officialAlphabet=require('../content/peregrini-alphabet-v5.json');
 const root=path.resolve(__dirname,'..');
 
 test('Percurso público: início → apresentação → escritos → idioma',()=>{
@@ -12,13 +14,17 @@ test('Percurso público: início → apresentação → escritos → idioma',()=
   const home=read('index.html'),via=read('peregrini/via.html'),portal=read('peregrini/index.html'),language=read('peregrini/idioma.html');
   try{
     assert.equal(home.window.document.querySelector('.peregrini-entry').getAttribute('href'),'./peregrini/via.html');
-    const homeWord=home.window.document.querySelector('.peregrini-entry bdo');
-    assert.equal(homeWord.dir,'rtl');
+    const homeWord=home.window.document.querySelector('.peregrini-entry bdi');
+    assert.equal(homeWord.dir,'ltr');
     assert.equal(homeWord.textContent,'Пereгrиhи');
     assert.equal(home.window.document.querySelector('.peregrini-entry small'),null);
     const enter=via.window.document.querySelector('.primary-button');
     assert.equal(enter.getAttribute('href'),'./index.html');
-    assert.match(enter.textContent,/Prosseguir Área Peregrini/);
+    assert.equal(enter.textContent,C.encode('Prosseguir Área Peregrini'));
+    assert.equal(via.window.document.querySelector('h1').textContent,C.encode('A Via e seus escritos'));
+    assert.equal(portal.window.document.querySelector('h1').textContent,C.encode('Escritos em Peregrini'));
+    assert(!home.window.document.body.textContent.includes('PEREGRINI_ENTRY_WORD'));
+    assert.equal(portal.window.document.querySelector('.gateway-notice'),null);
     for(const wordmark of [via.window.document.querySelector('.peregrini-wordmark bdo'),portal.window.document.querySelector('.peregrini-wordmark bdo')]){
       assert.equal(wordmark.textContent,'Cлovo Пereгrиhи');
       assert.equal(wordmark.dir,'rtl');
@@ -27,15 +33,17 @@ test('Percurso público: início → apresentação → escritos → idioma',()=
     assert(portal.window.document.querySelector('#escritos-peregrini'));
     assert.equal(portal.window.document.querySelector('.language-door').getAttribute('href'),'./idioma.html');
     assert(language.window.document.querySelector('#vocabulario'));
-    assert.equal(language.window.document.querySelector('nav.desktop-nav a[href="./idioma.html#vocabulario"]').textContent,'Vocabulário');
-    const yes=language.window.document.querySelector('[data-term="ДA"] bdo');
-    assert.equal(yes.dir,'rtl');assert.equal(yes.textContent,'ДA');
-    assert.equal(language.window.document.querySelectorAll('tbody tr').length,28);
-    for(const row of language.window.document.querySelectorAll('tbody tr')){
+    assert.equal(language.window.document.querySelector('nav.desktop-nav a[href="./idioma.html#vocabulario"]').textContent,C.encode('Vocabulário'));
+    const yes=language.window.document.querySelector('[data-term="Дa"] bdo');
+    assert.equal(yes.dir,'rtl');assert.equal(yes.textContent,'Дa');
+    assert.equal(language.window.document.querySelectorAll('#alphabet-table tbody tr').length,28);
+    for(const row of language.window.document.querySelectorAll('#alphabet-table tbody tr')){
       assert(row.querySelectorAll('.vowel-word-examples li').length>=2);
-      assert([...row.querySelectorAll('.vowel-word-examples li span')].every(el=>el.textContent.trim()));
+      assert([...row.querySelectorAll('.vowel-word-examples li')].every(el=>el.textContent.trim()));
       assert([...row.querySelectorAll('.vowel-word-examples li span')].every(el=>!/[+]/.test(el.textContent)));
     }
+    const published=[...language.window.document.querySelectorAll('#alphabet-table tbody tr')].map(row=>[...row.cells].map((cell,i)=>i===7?[...cell.querySelectorAll('li')].map(li=>li.textContent).join(' · '):cell.textContent));
+    assert.deepEqual(published,officialAlphabet.letters.map(letter=>['number','upper','upperCode','lower','lowerCode','cursive','pronunciation','examples'].map(key=>letter[key])));
     const examples=letter=>P.alphabet.find(item=>item.upper===letter).examples.map(item=>[item.sample,item.reference]);
     assert.deepEqual(examples('B'),[['BA','bala'],['BE','beleza'],['BИ','bico'],['BO','bola'],['BY','buraco'],['BЯ','biá'],['BЮ','biú']]);
     assert.deepEqual(examples('X'),[['XA','chave'],['XE','cheio'],['XИ','xícara'],['XO','choque'],['XY','chuva'],['XЯ','chiá'],['XЮ','chiú']]);
@@ -51,14 +59,14 @@ test('Busca pública filtra significado, pronúncia e inicial sem alterar a graf
     const query=w.document.querySelector('#vocabulary-query'),letter=w.document.querySelector('#vocabulary-letter'),order=w.document.querySelector('#vocabulary-order');
     const visible=()=>[...w.document.querySelectorAll('[data-vocabulary-entry]')].filter(el=>!el.hidden);
     query.value='nao';query.dispatchEvent(new w.Event('input'));
-    assert.equal(visible().length,1);assert.equal(visible()[0].dataset.term,'HИET');
+    assert.equal(visible().length,1);assert.equal(visible()[0].dataset.term,'Hиet');
     query.value='ausente123';query.dispatchEvent(new w.Event('input'));
     assert.equal(w.document.querySelector('[data-vocabulary-empty]').hidden,false);
     query.value='';query.dispatchEvent(new w.Event('input'));
     letter.value='C';letter.dispatchEvent(new w.Event('change'));
-    assert.deepEqual(visible().map(el=>el.dataset.term),['CAV','CЛOVO']);
+    assert.deepEqual(visible().map(el=>el.dataset.term),['Cav','Cлovo']);
     order.value='reverse';order.dispatchEvent(new w.Event('change'));
-    assert.deepEqual(visible().map(el=>el.dataset.term),['CЛOVO','CAV']);
+    assert.deepEqual(visible().map(el=>el.dataset.term),['Cлovo','Cav']);
     assert.equal(P.filterLexicon([{term:'A',meaning:'Teste',pronunciation:'água'}],{query:'agua'}).length,1);
   }finally{dom.window.close();}
 });

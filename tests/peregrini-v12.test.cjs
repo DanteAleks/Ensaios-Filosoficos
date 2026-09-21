@@ -5,6 +5,7 @@ const path=require('node:path');
 const {execFileSync}=require('node:child_process');
 const root=path.resolve(__dirname,'..');
 const P=require('../dist/peregrini-language.js');
+const C=require('../dist/peregrini-codification.js');
 const D=require('../dist/document.js');
 const M=require('../dist/admin/model.js');
 
@@ -66,16 +67,17 @@ test('Build gera o portal Peregrini e entrega as três fontes web',()=>{
   execFileSync(process.execPath,['scripts/generate.mjs'],{cwd:root,stdio:'pipe'});
   execFileSync(process.execPath,['scripts/verify-site.mjs'],{cwd:root,stdio:'pipe'});
   const portal=fs.readFileSync(path.join(root,'dist/peregrini/index.html'),'utf8');
-  assert.match(portal,/Área Peregrini/);
+  assert(portal.includes(C.encode('Área Peregrini')));
   assert(!portal.includes('<table>'));
   assert.match(portal,/href="\.\/idioma\.html"/);
   const idioma=fs.readFileSync(path.join(root,'dist/peregrini/idioma.html'),'utf8');
-  assert.match(idioma,/Combinações e exemplos vocálicos/);
+  assert.match(idioma,/Combinações e exemplos/);
+  assert(idioma.includes('data-peregrini-codification="portuguese"'));
   assert(!idioma.includes('Vocabulário ratificado'));
   assert(!portal.includes('<th scope="col">Estado</th>'));
   const via=fs.readFileSync(path.join(root,'dist/peregrini/via.html'),'utf8');
-  assert.match(via,/Prosseguir Área Peregrini/);
-  assert.match(via,/Maimônides/);
+  assert(via.includes(C.encode('Prosseguir Área Peregrini')));
+  assert(via.includes(C.encode('Maimônides')));
   assert.match(via,/href=".\/index\.html"/);
   for(const value of ['peregrini-text','peregrini-display','peregrini-iluminada'])assert.match(fs.readFileSync(path.join(root,'dist/obras/metafisica-recuperado/didatico.html'),'utf8'),new RegExp(`value="${value}"`));
   for(const file of ['PalavraPeregriniDisplay-Regular.woff2','PalavraPeregriniTexto-Regular.woff2','PalavraPeregriniIluminada-Regular.woff2']){

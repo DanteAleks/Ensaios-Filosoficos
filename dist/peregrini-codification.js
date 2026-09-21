@@ -96,7 +96,7 @@
     return parts(value).map(part=>part.protected?part.text:part.text.replace(/[\p{L}\p{M}]+/gu,word)).join('');
   }
 
-  const skipped='script,style,noscript,template,code,pre,textarea,input,svg,math,iframe,option,select,mjx-container,.katex,.MathJax,.peregrini-glyph,.portal-seal,.brand-mark,.pg-ltr,[aria-hidden="true"],[contenteditable]:not([contenteditable="false"]),[data-no-peregrini-codification]';
+  const skipped='script,style,noscript,template,code,pre,textarea,input,svg,math,iframe,option,select,mjx-container,.katex,.MathJax,.peregrini-glyph,.portal-seal,.brand-mark,.pg-ltr,[aria-hidden="true"],[contenteditable]:not([contenteditable="false"]),[data-no-peregrini-codification],[data-peregrini-encoded]';
   const blockSelector='p,h1,h2,h3,h4,h5,h6,li,dt,dd,blockquote,figcaption,caption,td,th,label,summary,.doc-block';
   const processed=new WeakMap();
   const nativeLabels=new WeakMap();
@@ -118,7 +118,7 @@
     doc.head.appendChild(critical);
     const style=doc.createElement('link');
     style.id='peregrini-codification-style';style.rel='stylesheet';
-    style.href=asset(doc,'peregrini-codification.css?v=15');
+    style.href=asset(doc,'peregrini-codification.css?v=17');
     doc.head.appendChild(style);
   }
 
@@ -226,7 +226,7 @@
     // Native option labels are single-line visual strings; their values are intact.
   }
 
-  const api={encode,word,apply,parts,version:15};
+  const api={encode,word,apply,parts,version:17};
   if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.PeregriniPortugueseCodification=api;
   if(typeof document!=='undefined'){
     if(document.documentElement.hasAttribute('data-peregrini-codification'))installStyle(document);

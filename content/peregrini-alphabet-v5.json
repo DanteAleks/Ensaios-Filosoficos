@@ -1,0 +1,650 @@
+{
+  "source": {
+    "title": "Alfabeto Peregrini Oficial",
+    "version": 5,
+    "date": "2026-08-24",
+    "file": "Alfabeto_Peregrini_Oficial_v5.docx",
+    "sha256": "148d548663ebca15f9f7e75155dd8cd0c84bc72f11c5bcf5d02c82589d732da6"
+  },
+  "readingRules": [
+    "Cada letra produtiva possui valor fonético normativo previsível.",
+    "Я e Ю são letras vocálicas únicas: /ia/ e /iu/.",
+    "И é vogal plena /i/ e não vira /j/: MAИ = /ma.i/; ЧAИ = /tʃa.i/.",
+    "N latino é marcador de nasalização e nunca representa /n/ consonantal. H representa /n/.",
+    "Л não ocorre no final de uma palavra completa. Pode aparecer no final de uma raiz ligada se um designador obrigatoriamente vier depois, como AHЖEЛ- → AHЖEЛЮ.",
+    "A ortografia de empréstimos é adaptada; nenhuma língua doadora introduz regras próprias no Peregrini.",
+    "A coluna cursiva permanece reservada até a caligrafia cursiva oficial ser desenhada e ratificada. A coluna “Combinações e exemplos vocálicos” apresenta também exemplos aproximados em português para facilitar a leitura; esses exemplos são apenas didáticos e não importam a ortografia portuguesa para o Peregrini.",
+    "As grafias teorreferenciais reservadas SVXED, ORIT, ORITVOR e PARISTOR podem conservar caracteres que não pertencem ao inventário produtivo comum. Isso não cria novos valores fonológicos nem autoriza seu uso em novas palavras comuns."
+  ],
+  "headers": [
+    "N°",
+    "Maiúscula",
+    "Unicode maiúscula",
+    "Minúscula",
+    "Unicode minúscula",
+    "Forma cursiva",
+    "Pronúncia aproximada em português",
+    "Combinações e exemplos vocálicos em português"
+  ],
+  "letters": [
+    {
+      "number": "1",
+      "upper": "A",
+      "upperCode": "U+0041",
+      "lower": "a",
+      "lowerCode": "U+0061",
+      "cursive": "—",
+      "pronunciation": "a, como em casa",
+      "examples": "A: casa · AN: lã, maçã"
+    },
+    {
+      "number": "2",
+      "upper": "B",
+      "upperCode": "U+0042",
+      "lower": "b",
+      "lowerCode": "U+0062",
+      "cursive": "—",
+      "pronunciation": "b, como em bola",
+      "examples": "BA bala · BE beleza · BИ bico · BO bola · BY buraco · BЯ biá · BЮ biú"
+    },
+    {
+      "number": "3",
+      "upper": "K",
+      "upperCode": "U+004B",
+      "lower": "k",
+      "lowerCode": "U+006B",
+      "cursive": "—",
+      "pronunciation": "k, como C/QU em casa, quero, quilo",
+      "examples": "KA casa · KE quero · KИ quilo · KO coisa · KY culinária · KЯ kiá · KЮ kiú"
+    },
+    {
+      "number": "4",
+      "upper": "X",
+      "upperCode": "U+0058",
+      "lower": "x",
+      "lowerCode": "U+0078",
+      "cursive": "—",
+      "pronunciation": "ch /ʃ/, como em chave",
+      "examples": "XA chave · XE cheio · XИ xícara · XO choque · XY chuva · XЯ chiá · XЮ chiú"
+    },
+    {
+      "number": "5",
+      "upper": "Д",
+      "upperCode": "U+0414",
+      "lower": "д",
+      "lowerCode": "U+0434",
+      "cursive": "—",
+      "pronunciation": "d puro, como em dado",
+      "examples": "ДA dado · ДE dedo · ДИ di · ДO dono · ДY duro · ДЯ diá · ДЮ diú"
+    },
+    {
+      "number": "6",
+      "upper": "E",
+      "upperCode": "U+0045",
+      "lower": "e",
+      "lowerCode": "U+0065",
+      "cursive": "—",
+      "pronunciation": "e médio, como no início de escola",
+      "examples": "E: escola, elefante · EN: ẽ aproximado, como o primeiro E de “tempo”"
+    },
+    {
+      "number": "7",
+      "upper": "Φ",
+      "upperCode": "U+03A6",
+      "lower": "φ",
+      "lowerCode": "U+03C6",
+      "cursive": "—",
+      "pronunciation": "f, como em faca",
+      "examples": "ΦA faca · ΦE feira · ΦИ fita · ΦO fogo · ΦY fumaça · ΦЯ fiá · ΦЮ fiú"
+    },
+    {
+      "number": "8",
+      "upper": "Ж",
+      "upperCode": "U+0416",
+      "lower": "ж",
+      "lowerCode": "U+0436",
+      "cursive": "—",
+      "pronunciation": "j /ʒ/, como em jogo; G de gelo",
+      "examples": "ЖA jato · ЖE jeito · ЖИ girafa · ЖO jogo · ЖY juro · ЖЯ jiá · ЖЮ jiú"
+    },
+    {
+      "number": "9",
+      "upper": "И",
+      "upperCode": "U+0418",
+      "lower": "и",
+      "lowerCode": "U+0438",
+      "cursive": "—",
+      "pronunciation": "i, como em vida; vogal plena /i/",
+      "examples": "И: vida · ИN: sim, fim · MAИ = /ma.i/"
+    },
+    {
+      "number": "10",
+      "upper": "Я",
+      "upperCode": "U+042F",
+      "lower": "я",
+      "lowerCode": "U+044F",
+      "cursive": "—",
+      "pronunciation": "iá unido /ia/; não “já”",
+      "examples": "Я = iá como unidade Peregrini; aprox. sequência “iá” de piá · ЯN ≈ iã"
+    },
+    {
+      "number": "11",
+      "upper": "Ю",
+      "upperCode": "U+042E",
+      "lower": "ю",
+      "lowerCode": "U+044E",
+      "cursive": "—",
+      "pronunciation": "iú unido /iu/; não “jú”",
+      "examples": "Ю = iú como unidade Peregrini; aprox. sequência “iú” · ЮN ≈ iũ"
+    },
+    {
+      "number": "12",
+      "upper": "Г",
+      "upperCode": "U+0413",
+      "lower": "г",
+      "lowerCode": "U+0433",
+      "cursive": "—",
+      "pronunciation": "g forte, como em gato, guerra, guia",
+      "examples": "ГA gato · ГE guerra · ГИ guia · ГO gota · ГY gula · ГЯ guiá · ГЮ guiú"
+    },
+    {
+      "number": "13",
+      "upper": "Л",
+      "upperCode": "U+041B",
+      "lower": "л",
+      "lowerCode": "U+043B",
+      "cursive": "—",
+      "pronunciation": "l, como em lado",
+      "examples": "ЛA lado · ЛE leite · ЛИ livro · ЛO lobo · ЛY lua · ЛЯ liá · ЛЮ liú; Л não termina palavra completa"
+    },
+    {
+      "number": "14",
+      "upper": "Љ",
+      "upperCode": "U+0409",
+      "lower": "љ",
+      "lowerCode": "U+0459",
+      "cursive": "—",
+      "pronunciation": "lh /ʎ/, como em palha, filho",
+      "examples": "ЉA lha · ЉE lhe · ЉИ lhi · ЉO lho · ЉY lhu · ЉЯ lhiá · ЉЮ lhiú"
+    },
+    {
+      "number": "15",
+      "upper": "M",
+      "upperCode": "U+004D",
+      "lower": "m",
+      "lowerCode": "U+006D",
+      "cursive": "—",
+      "pronunciation": "m, como em mala",
+      "examples": "MA mala · ME mesa · MИ milho · MO moda · MY música · MЯ miá · MЮ miú"
+    },
+    {
+      "number": "16",
+      "upper": "H",
+      "upperCode": "U+0048",
+      "lower": "h",
+      "lowerCode": "U+0068",
+      "cursive": "—",
+      "pronunciation": "n consonantal, como em navio",
+      "examples": "HA navio · HE neve · HИ nível · HO nome · HY nuvem · HЯ niá · HЮ niú"
+    },
+    {
+      "number": "17",
+      "upper": "Њ",
+      "upperCode": "U+040A",
+      "lower": "њ",
+      "lowerCode": "U+045A",
+      "cursive": "—",
+      "pronunciation": "nh /ɲ/, como em ninho",
+      "examples": "ЊA “nha” de manhã · ЊE nhe · ЊИ “nhi” de ninho · ЊO “nho” de sonho · ЊY nhu · ЊЯ nhiá · ЊЮ nhiú"
+    },
+    {
+      "number": "18",
+      "upper": "O",
+      "upperCode": "U+004F",
+      "lower": "o",
+      "lowerCode": "U+006F",
+      "cursive": "—",
+      "pronunciation": "o médio, como no início de onde",
+      "examples": "O: onde, ostra · ON: õ, como o primeiro O de “onde”"
+    },
+    {
+      "number": "19",
+      "upper": "П",
+      "upperCode": "U+041F",
+      "lower": "п",
+      "lowerCode": "U+043F",
+      "cursive": "—",
+      "pronunciation": "p, como em pato",
+      "examples": "ПA pato · ПE pedra · ПИ pino · ПO povo · ПY puro · ПЯ piá · ПЮ piú"
+    },
+    {
+      "number": "20",
+      "upper": "P",
+      "upperCode": "U+0050",
+      "lower": "p",
+      "lowerCode": "U+0070",
+      "cursive": "—",
+      "pronunciation": "R forte, como R inicial de rato",
+      "examples": "PA rato · PE remo · PИ rio · PO roda · PY rua · PЯ riá forte · PЮ riú forte"
+    },
+    {
+      "number": "21",
+      "upper": "R",
+      "upperCode": "U+0052",
+      "lower": "r",
+      "lowerCode": "U+0072",
+      "cursive": "—",
+      "pronunciation": "R fraco /ɾ/, como em caro, arara",
+      "examples": "RA arara · RE parede · RИ perigo · RO caro · RY peru · RЯ riá · RЮ riú"
+    },
+    {
+      "number": "22",
+      "upper": "C",
+      "upperCode": "U+0043",
+      "lower": "c",
+      "lowerCode": "U+0063",
+      "cursive": "—",
+      "pronunciation": "s /s/, sempre como em sal",
+      "examples": "CA salada · CE cegonha · CИ Sicília · CO sobre · CY sul · CЯ siá · CЮ siú"
+    },
+    {
+      "number": "23",
+      "upper": "T",
+      "upperCode": "U+0054",
+      "lower": "t",
+      "lowerCode": "U+0074",
+      "cursive": "—",
+      "pronunciation": "t puro, como em tato",
+      "examples": "TA tato · TE tela · TИ ti · TO toca · TY tudo · TЯ tiá · TЮ tiú"
+    },
+    {
+      "number": "24",
+      "upper": "Ч",
+      "upperCode": "U+0427",
+      "lower": "ч",
+      "lowerCode": "U+0447",
+      "cursive": "—",
+      "pronunciation": "tch /t͡ʃ/, como em tchau",
+      "examples": "ЧA tchau · ЧE tchê · ЧИ tchim · ЧO tcho · ЧY tchu · ЧЯ tchiá · ЧЮ tchiú · ЧAИ = /tʃa.i/"
+    },
+    {
+      "number": "25",
+      "upper": "Y",
+      "upperCode": "U+0059",
+      "lower": "y",
+      "lowerCode": "U+0079",
+      "cursive": "—",
+      "pronunciation": "u, como em lua, música",
+      "examples": "Y: lua, música · YN: um, mundo"
+    },
+    {
+      "number": "26",
+      "upper": "V",
+      "upperCode": "U+0056",
+      "lower": "v",
+      "lowerCode": "U+0076",
+      "cursive": "—",
+      "pronunciation": "v, como em vida",
+      "examples": "VA vaca · VE vela · VИ vida · VO voto · VY vulcão · VЯ viá · VЮ viú"
+    },
+    {
+      "number": "27",
+      "upper": "З",
+      "upperCode": "U+0417",
+      "lower": "з",
+      "lowerCode": "U+0437",
+      "cursive": "—",
+      "pronunciation": "z /z/, como em zero",
+      "examples": "ЗA zaga · ЗE zero · ЗИ zíper · ЗO zona · ЗY zulu · ЗЯ ziá · ЗЮ ziú"
+    },
+    {
+      "number": "28",
+      "upper": "N",
+      "upperCode": "U+004E",
+      "lower": "n",
+      "lowerCode": "U+006E",
+      "cursive": "—",
+      "pronunciation": "sem som consonantal; nasaliza a vogal anterior",
+      "examples": "AN lã/maçã · EN ẽ de “tempo” · ИN sim/fim · ON õ de “onde” · YN um/mundo · ЯN iã · ЮN iũ"
+    }
+  ],
+  "nasalization": {
+    "headers": [
+      "Forma oral",
+      "Forma nasalizada",
+      "Pronúncia aproximada",
+      "Exemplo aproximado"
+    ],
+    "rows": [
+      [
+        "A",
+        "AN",
+        "ã",
+        "lã, maçã"
+      ],
+      [
+        "E",
+        "EN",
+        "ẽ",
+        "primeiro E de tempo"
+      ],
+      [
+        "И",
+        "ИN",
+        "ĩ",
+        "sim, fim"
+      ],
+      [
+        "O",
+        "ON",
+        "õ",
+        "primeiro O de onde"
+      ],
+      [
+        "Y",
+        "YN",
+        "ũ",
+        "um, primeiro U de mundo"
+      ],
+      [
+        "Я",
+        "ЯN",
+        "iã",
+        "aproximadamente o início de Yan, unido e nasalizado"
+      ],
+      [
+        "Ю",
+        "ЮN",
+        "iũ",
+        "iú com núcleo final nasalizado"
+      ]
+    ],
+    "note": [
+      "N atua imediatamente sobre a vogal anterior. Em sequência consonantal, /n/ é sempre H. Essa oposição é estrutural: AHИMИ translitera-se ANIMI; AN representa /ã/."
+    ]
+  },
+  "restrictions": [
+    "Nenhuma palavra completa termina em Л. A regra não proíbe Л interno nem raízes ligadas terminadas em Л.",
+    "Em adaptações do português brasileiro, L final vocalizado é normalmente convertido a Y /u/.",
+    "Consoantes duplicadas não são usadas sem função fonêmica ou gramatical expressa.",
+    "Toda letra escrita é pronunciada; não há apagamento automático por posição.",
+    "Não se introduzem /ɛ/ e /ɔ/ apenas para copiar português: colisões lexicais podem ser resolvidas por outras raízes."
+  ],
+  "transliteration": {
+    "headers": [
+      "Peregrini",
+      "Transliteração latina",
+      "Valor de leitura"
+    ],
+    "rows": [
+      [
+        "A",
+        "A",
+        "a, como em casa"
+      ],
+      [
+        "B",
+        "B",
+        "b, como em bola"
+      ],
+      [
+        "K",
+        "K",
+        "k, como C/QU em casa, quero, quilo"
+      ],
+      [
+        "X",
+        "X",
+        "ch /ʃ/, como em chave"
+      ],
+      [
+        "Д",
+        "D",
+        "d puro, como em dado"
+      ],
+      [
+        "E",
+        "E",
+        "e médio, como no início de escola"
+      ],
+      [
+        "Φ",
+        "F",
+        "f, como em faca"
+      ],
+      [
+        "Ж",
+        "J",
+        "j /ʒ/, como em jogo; G de gelo"
+      ],
+      [
+        "И",
+        "I",
+        "i, como em vida; vogal plena /i/"
+      ],
+      [
+        "Я",
+        "IA",
+        "iá unido /ia/; não “já”"
+      ],
+      [
+        "Ю",
+        "IU",
+        "iú unido /iu/; não “jú”"
+      ],
+      [
+        "Г",
+        "G",
+        "g forte, como em gato, guerra, guia"
+      ],
+      [
+        "Л",
+        "L",
+        "l, como em lado"
+      ],
+      [
+        "Љ",
+        "LH",
+        "lh /ʎ/, como em palha, filho"
+      ],
+      [
+        "M",
+        "M",
+        "m, como em mala"
+      ],
+      [
+        "H",
+        "N",
+        "n consonantal, como em navio"
+      ],
+      [
+        "Њ",
+        "NH",
+        "nh /ɲ/, como em ninho"
+      ],
+      [
+        "O",
+        "O",
+        "o médio, como no início de onde"
+      ],
+      [
+        "П",
+        "P",
+        "p, como em pato"
+      ],
+      [
+        "P",
+        "RR",
+        "R forte, como R inicial de rato"
+      ],
+      [
+        "R",
+        "R",
+        "R fraco /ɾ/, como em caro, arara"
+      ],
+      [
+        "C",
+        "S",
+        "s /s/, sempre como em sal"
+      ],
+      [
+        "T",
+        "T",
+        "t puro, como em tato"
+      ],
+      [
+        "Ч",
+        "TCH",
+        "tch /t͡ʃ/, como em tchau"
+      ],
+      [
+        "Y",
+        "U",
+        "u, como em lua, música"
+      ],
+      [
+        "V",
+        "V",
+        "v, como em vida"
+      ],
+      [
+        "З",
+        "Z",
+        "z /z/, como em zero"
+      ],
+      [
+        "N",
+        "N",
+        "sem som consonantal; nasaliza a vogal anterior"
+      ]
+    ],
+    "note": [
+      "Na transliteração, P Peregrini (R forte) é representado por RR para distingui-lo de R Peregrini (R fraco). Essa transliteração é técnica; não altera a grafia oficial."
+    ]
+  },
+  "available": {
+    "headers": [
+      "Maiúscula",
+      "Minúscula",
+      "Pronúncia aproximada",
+      "Situação"
+    ],
+    "rows": [
+      [
+        "Б",
+        "б",
+        "b",
+        "livre; B já representa /b/"
+      ],
+      [
+        "Ц",
+        "ц",
+        "ts",
+        "livre"
+      ],
+      [
+        "Ш",
+        "ш",
+        "ch retraído",
+        "livre"
+      ],
+      [
+        "Щ",
+        "щ",
+        "ch suave/prolongado",
+        "livre"
+      ],
+      [
+        "Ъ",
+        "ъ",
+        "sem som próprio no russo",
+        "livre"
+      ],
+      [
+        "Ы",
+        "ы",
+        "/ɨ/",
+        "livre; não usado nos pronomes"
+      ],
+      [
+        "Ь",
+        "ь",
+        "sinal de palatalização",
+        "livre"
+      ],
+      [
+        "Э",
+        "э",
+        "é/e aberto aproximado",
+        "livre"
+      ],
+      [
+        "D",
+        "d",
+        "/d/",
+        "livre; Д já representa /d/"
+      ],
+      [
+        "F",
+        "f",
+        "/f/",
+        "livre; Φ já representa /f/"
+      ],
+      [
+        "G",
+        "g",
+        "g/j em ortografias latinas",
+        "livre"
+      ],
+      [
+        "I",
+        "i",
+        "/i/",
+        "livre no inventário produtivo comum; aparece em grafias teorreferenciais reservadas como ORIT/ORITVOR"
+      ],
+      [
+        "J",
+        "j",
+        "/ʒ/",
+        "livre; Ж representa /ʒ/"
+      ],
+      [
+        "L",
+        "l",
+        "/l/",
+        "livre; Л representa /l/"
+      ],
+      [
+        "Q",
+        "q",
+        "/k/ etc.",
+        "livre"
+      ],
+      [
+        "S",
+        "s",
+        "/s/ ou /z/",
+        "livre; C representa /s/"
+      ],
+      [
+        "U",
+        "u",
+        "/u/",
+        "deliberadamente não produtivo; Y representa /u/"
+      ],
+      [
+        "W",
+        "w",
+        "/w/",
+        "livre"
+      ],
+      [
+        "Z",
+        "z",
+        "/z/",
+        "livre; З representa /z/"
+      ]
+    ]
+  },
+  "reserved": "SVXED, ORIT, ORITVOR e PARISTOR são grafias invariáveis reservadas. Sua presença não reintroduz automaticamente letras latinas livres como S, D ou I no inventário produtivo comum. ORIT é verbo teorreferencial exclusivo; sua grafia reservada não torna I produtivo no vocabulário comum."
+}
