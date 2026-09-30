@@ -517,9 +517,9 @@
           "id": "sintetico",
           "status": "andamento",
           "availability": "trecho",
-          "updated": "2026-09-08",
-          "last": "Secção 3",
-          "next": "Secção 4",
+          "updated": "2026-09-30",
+          "last": "Secção 4",
+          "next": "Secção 5",
           "chapters": [
             {
               "id": "introducao",
@@ -1232,7 +1232,490 @@
                     "Esses princípios são a semelhança, a contiguidade no tempo ou no espaço e a relação de causa e efeito. Um retrato recorda a pessoa representada por semelhança. A menção a um cômodo conduz aos demais espaços do edifício por contiguidade. A ideia de um ferimento conduz à dor por causa e efeito.",
                     "Hume reconhece que é difícil demonstrar que essa classificação seja completa. Seu método consiste em examinar muitos casos e tentar reduzir as relações particulares aos princípios mais gerais.",
                     "Na passagem presente nas edições anteriores, ele aplica a teoria à literatura e à história. Uma obra pode adquirir unidade pela semelhança temática, pela proximidade temporal ou espacial e pelo encadeamento causal de seus acontecimentos. Quanto mais intensa for a participação da imaginação e das paixões, mais próxima deverá ser a conexão entre as partes da narrativa.",
-                    "A associação de ideias explica, assim, como a mente organiza os materiais recebidos pela experiência. Ela estabelece a ligação entre perceber, recordar, imaginar e inferir. Ao final da seção, Hume prepara o problema que ocupará as partes seguintes da obra: compreender por que a relação de causa e efeito exerce uma influência tão poderosa sobre o pensamento humano."
+                    "A associação de ideias explica, assim, como a mente organiza os materiais recebidos pela experiência. Ela estabelece a ligação entre perceber, recordar, imaginar e inferir. Ao final da seção, Hume prepara o problema que ocupará as partes seguintes da obra: compreender por que a relação de causa e efeito exerce uma influência tão poderosa sobre o pensamento humano.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                }
+              ]
+            },
+            {
+              "id": "secao-356",
+              "title": "Dúvidas céticas sobre as operações do entendimento",
+              "paragraphs": [
+                "Na seção anterior, Hume mostrou que as ideias se conectam por semelhança, contiguidade e causalidade. Agora ele concentra sua atenção na relação de causa e efeito, pois é por meio dela que ultrapassamos aquilo que está imediatamente presente aos sentidos ou conservado na memória.",
+                "Quando vemos fumaça e concluímos que existe fogo, quando recebemos uma carta e acreditamos que seu remetente está vivo ou quando esperamos que um alimento nos nutra, estamos realizando inferências causais. Hume deseja descobrir qual é o fundamento dessas inferências.",
+                "Sua investigação conduz a uma dificuldade profunda. O conhecimento das relações causais depende da experiência, mas a experiência passada informa apenas aquilo que já aconteceu. Para utilizá-la como guia do futuro, precisamos pressupor que a natureza continuará comportando-se de maneira semelhante. Hume pergunta, então, como essa pressuposição pode ser racionalmente justificada.",
+                "\n"
+              ],
+              "subchapters": [
+                {
+                  "id": "secao-361",
+                  "title": "O significado das dúvidas céticas",
+                  "paragraphs": [
+                    "O título da seção pode sugerir que Hume pretende rejeitar todo conhecimento ou defender que nada pode ser conhecido. Essa interpretação seria incorreta.",
+                    "As dúvidas são chamadas de céticas porque questionam a capacidade da razão de justificar determinadas crenças que empregamos constantemente. Hume não nega que esperamos o nascimento do Sol, confiamos nos alimentos e evitamos o fogo. Ele próprio declara que, como agente, está plenamente convencido da autoridade da experiência. Sua dúvida surge quando, como filósofo, procura descobrir o fundamento racional dessa confiança.",
+                    "A investigação distingue, portanto, duas questões. A primeira pergunta se efetivamente realizamos inferências a partir da experiência. A resposta é evidentemente afirmativa. A segunda pergunta se essas inferências podem ser justificadas por um raciocínio que não pressuponha aquilo que pretende provar. É nesse segundo ponto que surge a dificuldade.",
+                    "Hume não quer impedir o uso da experiência. Pretende compreender por que confiamos nela e determinar se essa confiança é produzida pela razão ou por algum outro princípio da natureza humana.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-5-2-2",
+                  "title": "Os dois objetos da razão humana",
+                  "paragraphs": [
+                    "Hume inicia a seção dividindo os objetos da razão humana em duas classes: relações de ideias e questões de fato.",
+                    "Essa divisão tornou-se conhecida posteriormente como a “forquilha de Hume”. Ela estabelece uma diferença entre verdades cuja negação implica contradição e afirmações sobre a realidade cujo contrário permanece concebível.",
+                    "A distinção é essencial para seu argumento. Se todo raciocínio pertence a uma dessas classes, Hume poderá examinar se alguma delas consegue justificar nossas expectativas sobre o futuro."
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-1-2-2-2",
+                  "title": "As relações de ideias",
+                  "paragraphs": [
+                    "As relações de ideias incluem as verdades da geometria, da álgebra, da aritmética e dos raciocínios demonstrativos. Sua verdade depende das relações entre os conceitos envolvidos, e não da existência de determinados objetos no mundo.",
+                    "A afirmação de que três vezes cinco é igual à metade de trinta permanece verdadeira independentemente de existirem quinze objetos concretos diante de nós. De maneira semelhante, uma demonstração geométrica pode ser desenvolvida pelo pensamento sem que exista na natureza uma figura perfeitamente correspondente àquela que está sendo examinada.",
+                    "As relações de ideias são necessárias. Negá-las corretamente formuladas conduz a uma contradição. Não podemos aceitar os mesmos conceitos, as mesmas definições e as mesmas operações e, ao mesmo tempo, afirmar que três vezes cinco não é quinze.",
+                    "Essas verdades são tradicionalmente chamadas de conhecimentos a priori, pois podem ser reconhecidas independentemente da observação de casos particulares. Isso não significa que uma pessoa não precise aprender os conceitos matemáticos. Significa que, uma vez compreendidos os conceitos e as relações envolvidas, a verdade da conclusão não depende de realizar novos experimentos no mundo.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-6-2",
+                  "title": "As questões de fato",
+                  "paragraphs": [
+                    "As questões de fato referem-se à existência e aos acontecimentos do mundo. São afirmações como “está chovendo”, “a cidade foi fundada em determinado ano”, “o pão alimentará uma pessoa” ou “o Sol nascerá amanhã”.",
+                    "Mesmo quando temos grande confiança em uma afirmação factual, seu contrário não contém necessariamente uma contradição. A proposição de que o Sol não nascerá amanhã é extremamente improvável diante de nossa experiência, mas pode ser formulada sem incoerência lógica.",
+                    "Dizer que o contrário de uma questão de fato é possível não significa dizer que seja igualmente provável. A possibilidade mencionada por Hume é lógica ou conceitual. Podemos conceber a afirmação sem produzir uma contradição, embora tenhamos excelentes razões práticas e científicas para acreditar que ela não ocorrerá.",
+                    "As questões de fato são contingentes. Elas são verdadeiras ou falsas de acordo com o modo como o mundo efetivamente se encontra. Não podem ser descobertas pela análise exclusiva dos conceitos empregados.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-11-2-2",
+                  "title": "A proximidade com Leibniz",
+                  "paragraphs": [
+                    "Antes de Hume, Gottfried Wilhelm Leibniz havia distinguido verdades de razão e verdades de fato. Na Monadologia, Leibniz afirma que as verdades de razão são necessárias e que seu contrário é impossível, enquanto as verdades de fato são contingentes e admitem a possibilidade de seu contrário. marxists.org",
+                    "A semelhança com a divisão de Hume é evidente, mas os dois filósofos não chegam às mesmas conclusões. Leibniz acreditava que até mesmo as verdades contingentes possuíam uma razão suficiente, ainda que essa razão completa pudesse ultrapassar o conhecimento humano. Hume concentra-se nas condições pelas quais nós, seres humanos, passamos daquilo que observamos para aquilo que não observamos.",
+                    "A questão humeana não é simplesmente se os acontecimentos possuem causas. Ele pergunta como adquirimos conhecimento dessas causas e por que esperamos que relações observadas no passado continuem ocorrendo.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-15-2",
+                  "title": "Aquilo que está presente e aquilo que está ausente",
+                  "paragraphs": [
+                    "Os sentidos informam aquilo que experimentamos no momento. A memória conserva certas experiências passadas. Entretanto, grande parte de nossas crenças refere-se a coisas que não estão atualmente presentes.",
+                    "Se ouvimos uma voz articulada na escuridão, concluímos que existe uma pessoa próxima. Se encontramos um relógio em uma ilha deserta, concluímos que algum ser humano esteve ali. Se recebemos uma mensagem de um amigo, acreditamos que ele estava vivo quando a escreveu.",
+                    "Em nenhum desses casos observamos diretamente tudo aquilo em que acreditamos. Vemos ou ouvimos um fato presente e inferimos outro fato ausente.",
+                    "Hume sustenta que essas inferências dependem da relação de causa e efeito. A voz é compreendida como efeito de uma pessoa que fala. O relógio é considerado efeito da atividade humana. A mensagem é tomada como efeito da ação de seu remetente.",
+                    "Se não existisse qualquer conexão entre o fato observado e o fato inferido, a conclusão seria inteiramente arbitrária. É a relação causal que permite ao pensamento ultrapassar o testemunho imediato dos sentidos e da memória.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-21",
+                  "title": "A relação entre causa e efeito",
+                  "paragraphs": [
+                    "Depois de concluir que os raciocínios sobre questões de fato dependem da causalidade, Hume pergunta como adquirimos conhecimento das causas e dos efeitos.",
+                    "Sua resposta é que esse conhecimento não procede de raciocínios a priori. Conhecemos as relações causais por meio da experiência.",
+                    "Ao encontrar um objeto completamente novo, não conseguimos descobrir seus efeitos apenas examinando sua aparência. Podemos observar sua cor, forma, peso e consistência, mas essas propriedades não revelam necessariamente aquilo que o objeto fará quando for utilizado ou colocado em contato com outros.",
+                    "Hume imagina Adão dotado, desde o primeiro instante, de capacidades racionais perfeitas. Mesmo assim, antes de qualquer experiência, Adão não poderia concluir, apenas observando a transparência e a fluidez da água, que ela seria capaz de sufocá-lo. Também não poderia descobrir, somente pela luminosidade do fogo, que este poderia queimá-lo.",
+                    "A inteligência, por mais elevada que seja, não encontra o efeito oculto no interior da aparência da causa. É necessário observar o que acontece.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-27",
+                  "title": "O significado de conhecimento a priori",
+                  "paragraphs": [
+                    "Um conhecimento é chamado de a priori quando sua justificação não depende da observação de experiências particulares. Um raciocínio matemático é o exemplo mais utilizado por Hume.",
+                    "O conhecimento a posteriori, por sua vez, depende da experiência. Sabemos que o fogo queima, que determinados alimentos nutrem e que certos medicamentos produzem efeitos porque essas relações foram observadas.",
+                    "A tese de Hume não é que seja impossível raciocinar sobre causas. Depois de adquirirmos conhecimentos experimentais, podemos reuni-los, compará-los e extrair consequências. Seu argumento é que a relação inicial entre uma causa particular e seu efeito não pode ser descoberta pela análise isolada da causa.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-31",
+                  "title": "Os fenômenos desconhecidos",
+                  "paragraphs": [
+                    "A dependência da experiência é facilmente reconhecida quando encontramos fenômenos incomuns. Uma pessoa que nada soubesse sobre magnetismo não descobriria, pela simples aparência de um ímã, que ele atrai determinados metais.",
+                    "Da mesma maneira, ninguém poderia prever apenas pela observação visual da pólvora que ela explodiria ao entrar em contato com uma chama. Também não seria possível descobrir imediatamente todas as propriedades químicas de uma substância observando apenas sua cor e sua textura.",
+                    "Nesses casos, admitimos sem dificuldade que precisamos realizar experimentos. A aparência do objeto não contém uma representação visível de todos os seus possíveis efeitos.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-35",
+                  "title": "Os fenômenos familiares",
+                  "paragraphs": [
+                    "A dificuldade torna-se menos evidente quando tratamos de acontecimentos familiares. Como observamos determinadas relações desde a infância, temos a impressão de que seus efeitos poderiam ser descobertos pela própria razão.",
+                    "Ao ver uma bola de bilhar atingir outra, esperamos que a segunda se movimente. A familiaridade é tão grande que o resultado parece estar contido no próprio choque.",
+                    "Hume argumenta que essa aparência é produzida pelo hábito. Se nunca tivéssemos observado uma colisão, não poderíamos determinar antecipadamente o que aconteceria. A segunda bola poderia permanecer parada, a primeira poderia recuar ou ambas poderiam mover-se em direções inesperadas. Todas essas possibilidades podem ser concebidas sem contradição.",
+                    "A experiência faz uma possibilidade parecer natural e as demais parecerem estranhas. Entretanto, antes da experiência, a razão não dispõe de um fundamento para escolher uma delas.",
+                    "O hábito é tão poderoso que esconde nossa ignorância. Como determinadas relações sempre estiveram presentes em nossa experiência, esquecemos que um dia precisamos aprendê-las.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-41",
+                  "title": "A causa não contém visivelmente o efeito",
+                  "paragraphs": [
+                    "Hume sustenta que todo efeito é um acontecimento distinto de sua causa. O movimento da primeira bola de bilhar e o movimento da segunda são dois acontecimentos diferentes. A existência de um não pode ser deduzida pela simples análise conceitual do outro.",
+                    "Isso não significa que os acontecimentos estejam realmente desconectados na natureza. Significa que a conexão não pode ser conhecida apenas pela contemplação das ideias envolvidas.",
+                    "Mesmo que a imaginação proponha corretamente um possível efeito, ainda restará explicar por que esse efeito deve ser preferido aos demais. A capacidade de imaginar o resultado correto não demonstra que ele foi descoberto pela razão.",
+                    "Podemos imaginar que uma pedra abandonada no ar cairá. Também conseguimos imaginar, sem contradição lógica, que ela subirá ou permanecerá imóvel. Somente a experiência nos ensina qual dessas possibilidades corresponde ao comportamento regular dos objetos em nosso mundo.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-46",
+                  "title": "Possibilidade lógica e possibilidade física",
+                  "paragraphs": [
+                    "O argumento de Hume exige uma distinção entre possibilidade lógica e possibilidade física.",
+                    "Uma possibilidade lógica é aquilo que pode ser pensado sem contradição. Uma possibilidade física é aquilo que pode ocorrer de acordo com as leis efetivas da natureza.",
+                    "Uma pedra subir espontaneamente pode contrariar as leis físicas que conhecemos, mas sua descrição não é logicamente contraditória. A proposição não possui a mesma incoerência encontrada na afirmação de que uma figura é, ao mesmo tempo e no mesmo sentido, inteiramente circular e inteiramente quadrada.",
+                    "Hume utiliza a possibilidade lógica para mostrar que as leis da natureza não podem ser demonstradas como verdades necessárias apenas pelo pensamento. Conhecemos essas leis por meio da observação do mundo.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-51",
+                  "title": "O alcance da ciência",
+                  "paragraphs": [
+                    "A conclusão de Hume não destrói a investigação científica. Ele reconhece que uma das maiores realizações da razão humana consiste em reunir muitos fenômenos sob um número menor de princípios gerais.",
+                    "A ciência pode mostrar que acontecimentos aparentemente diferentes resultam das mesmas regularidades. Pode formular leis, construir modelos e calcular consequências que não seriam evidentes sem uma investigação cuidadosa.",
+                    "Entretanto, Hume distingue a descoberta de leis gerais da descoberta de causas últimas. Podemos reconhecer que os corpos se atraem de acordo com determinadas relações e ainda perguntar por que a natureza possui essa estrutura.",
+                    "A ciência explica acontecimentos particulares por meio de princípios mais gerais. Quando perguntamos pela causa desses próprios princípios, porém, talvez alcancemos o limite de nossa investigação.",
+                    "Isso não torna as explicações científicas inúteis. Uma explicação não precisa revelar a razão última de toda a realidade para ampliar nosso conhecimento. O argumento de Hume recomenda modéstia: compreender uma regularidade não significa necessariamente compreender o poder último que a produz.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-57",
+                  "title": "O papel da matemática na ciência",
+                  "paragraphs": [
+                    "Hume também examina a relação entre matemática e experiência. A matemática permite calcular com precisão as consequências de determinadas leis, mas não estabelece sozinha quais leis governam o mundo.",
+                    "A geometria pode ajudar a construir uma máquina, determinar proporções e calcular a influência das forças envolvidas. Contudo, a descoberta de que os corpos se comportam de determinada maneira exige observação.",
+                    "Uma vez conhecida experimentalmente uma lei, a matemática permite aplicá-la a situações novas. Ela mostra o que se segue das condições e dos princípios adotados. A constatação de que esses princípios descrevem a natureza, porém, não se deve apenas ao raciocínio abstrato.",
+                    "Essa distinção continua importante para a ciência contemporânea. Um modelo matemático pode ser internamente correto e, ainda assim, não representar adequadamente o mundo. Sua coerência é examinada matematicamente; sua adequação empírica precisa ser comparada às observações.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-62",
+                  "title": "A passagem para a segunda parte",
+                  "paragraphs": [
+                    "Ao final da primeira parte, Hume considera estabelecido que os conhecimentos causais procedem da experiência. A segunda parte começa quando ele pergunta por que a experiência passada possui autoridade sobre nossas expectativas futuras.",
+                    "O percurso da investigação pode ser compreendido por meio de três perguntas sucessivas. Primeiro, em que se fundam nossos raciocínios sobre questões de fato? Na relação de causa e efeito. Segundo, como conhecemos as relações entre causas e efeitos? Pela experiência. Terceiro, por que acreditamos que a experiência passada continuará sendo válida em casos futuros?",
+                    "A terceira pergunta revela o verdadeiro problema da seção.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-66",
+                  "title": "A experiência passada e o futuro",
+                  "paragraphs": [
+                    "A experiência informa que determinados objetos estiveram acompanhados de certos efeitos. O pão que comemos no passado nos alimentou. A água que bebemos matou a sede. O fogo que tocamos produziu calor ou dor.",
+                    "Quando encontramos novos objetos semelhantes, esperamos efeitos semelhantes. Acreditamos que outro pão também nos alimentará, que outra água poderá ser bebida e que outra chama poderá queimar.",
+                    "Hume observa, porém, que duas afirmações diferentes estão envolvidas nesse processo. A primeira diz que determinado tipo de objeto esteve acompanhado por determinado efeito nos casos passados. A segunda diz que objetos semelhantes estarão acompanhados por efeitos semelhantes no futuro.",
+                    "A primeira proposição relata experiências já realizadas. A segunda ultrapassa essas experiências. Entre elas existe um passo inferencial que precisa ser explicado.",
+                    "O passado, considerado isoladamente, informa apenas o que aconteceu no passado. Para transformá-lo em regra para o futuro, precisamos pressupor alguma continuidade no curso da natureza.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-72-2",
+                  "title": "O princípio da uniformidade da natureza",
+                  "paragraphs": [
+                    "A pressuposição de que o futuro conservará alguma conformidade com o passado é chamada de princípio da uniformidade da natureza.",
+                    "Esse princípio não exige que todos os acontecimentos se repitam de maneira idêntica. A natureza contém transformações, diferenças e irregularidades. A pressuposição relevante é que existem regularidades suficientemente estáveis para que a experiência passada ofereça orientação sobre casos ainda não observados.",
+                    "Quando esperamos que um objeto semelhante ao pão possua propriedades nutritivas semelhantes, supomos que qualidades observáveis semelhantes continuarão associadas a poderes semelhantes.",
+                    "Sem alguma forma de uniformidade, nenhuma experiência poderia orientar uma nova situação. Se as relações naturais se modificassem inteiramente a cada instante, aquilo que aconteceu anteriormente não ofereceria qualquer indicação sobre o que acontecerá depois.",
+                    "Hume não afirma que a natureza deixará de ser uniforme. Ele pergunta como podemos justificar racionalmente a crença de que continuará sendo.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-78",
+                  "title": "O problema da indução",
+                  "paragraphs": [
+                    "A indução é o raciocínio pelo qual passamos de casos observados para casos não observados, ou de ocorrências particulares para uma conclusão mais geral.",
+                    "Depois de observar repetidamente que certos metais se expandem quando aquecidos, esperamos que outro objeto do mesmo tipo também se expanda. Depois de observar muitos seres humanos mortais, concluímos que os seres humanos ainda vivos também morrerão.",
+                    "Essas conclusões podem ser extremamente razoáveis e possuir diferentes graus de probabilidade. Entretanto, não são demonstrações necessárias. As premissas podem ser verdadeiras e a conclusão ainda ser logicamente falsa.",
+                    "O problema da indução consiste em explicar o que justifica essa passagem. Por que a repetição de acontecimentos passados fornece razões para acreditar em acontecimentos futuros?",
+                    "A formulação de Hume tornou-se a origem clássica do problema na filosofia moderna. Seu argumento procura mostrar que o princípio da uniformidade não pode ser provado por raciocínio demonstrativo nem por raciocínio baseado na experiência. plato.stanford.edu",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-84",
+                  "title": "Por que a uniformidade não pode ser demonstrada",
+                  "paragraphs": [
+                    "Uma demonstração estabelece uma conclusão cuja negação implica contradição. Se o princípio da uniformidade pudesse ser demonstrado, seria logicamente impossível que o futuro divergisse do passado.",
+                    "Hume observa, porém, que podemos conceber uma mudança no curso da natureza. Podemos imaginar árvores florescendo em estações diferentes, objetos com aparência de neve produzindo calor ou alimentos comuns deixando de possuir seus efeitos habituais.",
+                    "Essas possibilidades podem ser extremamente improváveis, mas não são contraditórias. A razão demonstrativa, portanto, não consegue provar que a natureza continuará apresentando as mesmas regularidades.",
+                    "As relações de ideias não são suficientes para justificar a indução. Nenhuma análise puramente conceitual do passado contém uma afirmação necessária sobre o futuro.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-89",
+                  "title": "Por que a experiência não pode provar a uniformidade",
+                  "paragraphs": [
+                    "Poderíamos tentar justificar a uniformidade por meio da própria experiência. A natureza mostrou-se suficientemente regular no passado; logo, provavelmente continuará regular.",
+                    "Hume considera esse argumento circular. Toda inferência baseada na experiência já pressupõe que o futuro se assemelhará ao passado. Utilizar uma inferência desse tipo para provar o princípio da uniformidade significa assumir aquilo que está sendo questionado.",
+                    "O raciocínio seria semelhante a afirmar que a experiência é confiável porque, nas experiências anteriores, ela se mostrou confiável. Para passar desses casos passados à confiabilidade futura, já precisamos confiar na continuidade entre passado e futuro.",
+                    "A repetição de uma inferência não fornece sua fundamentação sem que exista algum princípio que autorize a passagem. Dizer que a natureza sempre apresentou regularidades apenas acrescenta novos dados sobre o passado. Ainda precisamos explicar por que esses dados devem valer para aquilo que não foi observado.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-94",
+                  "title": "O círculo da justificação indutiva",
+                  "paragraphs": [
+                    "A estrutura circular aparece quando tentamos justificar a indução indutivamente. Partimos da regularidade passada, pressupomos que essa regularidade continuará e concluímos que podemos confiar na regularidade futura.",
+                    "O princípio utilizado na conclusão já estava presente na passagem entre as premissas e a conclusão. O argumento não fornece um fundamento independente.",
+                    "Isso não significa que toda utilização prática da indução seja uma falácia cometida conscientemente. Hume não acredita que as pessoas formulem esse argumento circular antes de esperar que o fogo aqueça.",
+                    "Seu ponto é que, quando o filósofo tenta transformar a expectativa habitual em uma demonstração racional, não encontra uma premissa intermediária que ligue necessariamente o passado ao futuro.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-99",
+                  "title": "A ausência de um termo médio",
+                  "paragraphs": [
+                    "Na lógica tradicional, um termo médio estabelece a conexão entre duas proposições. Hume desafia o leitor a apresentar a ideia ou proposição que ligaria a experiência passada à expectativa futura.",
+                    "Sabemos que determinados objetos estiveram associados a certos efeitos. Esperamos que objetos semelhantes produzam efeitos semelhantes. Mas qual proposição permite realizar essa passagem sem pressupor previamente a uniformidade da natureza?",
+                    "Se dissermos que os objetos naturais preservam seus poderes, estaremos apenas afirmando o próprio princípio que precisa ser demonstrado. Se dissermos que eles sempre os preservaram, continuaremos falando apenas do passado.",
+                    "Hume não encontra um termo médio capaz de transformar a conclusão indutiva em demonstração.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-104",
+                  "title": "O exemplo do pão",
+                  "paragraphs": [
+                    "O pão possui cor, peso, sabor e consistência perceptíveis. Também possui propriedades que o tornam capaz de nutrir o corpo.",
+                    "Hume chama essas propriedades de poderes secretos porque elas não são diretamente reveladas pelos sentidos. Observamos as qualidades superficiais do pão e experimentamos seus efeitos nutritivos, mas não percebemos imediatamente a conexão necessária entre ambas.",
+                    "Quando encontramos outro alimento com aparência semelhante, esperamos que produza o mesmo efeito. Entretanto, a semelhança exterior não demonstra que todos os seus poderes sejam idênticos.",
+                    "Na vida comum, essa expectativa é razoável e normalmente correta. Filosoficamente, porém, sua passagem precisa ser explicada. A experiência anterior mostrou que certos pães alimentaram. Ela não contém uma demonstração de que todo pão futuro necessariamente fará o mesmo.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-109",
+                  "title": "Um exemplo oferecido por Bertrand Russell",
+                  "paragraphs": [
+                    "Bertrand Russell retomou o problema da indução em Os problemas da filosofia. Ele apresenta o caso de uma galinha que recebe alimento diariamente de uma pessoa. A repetição fortalece a expectativa de que a aproximação dessa pessoa continuará sendo seguida pela alimentação. Entretanto, um dia, em vez de alimentar a galinha, a pessoa a mata.",
+                    "O exemplo mostra que uma sequência regular pode sustentar uma expectativa e ainda assim terminar de maneira inesperada. Para Russell, uma compreensão mais cuidadosa da uniformidade da natureza teria sido útil à galinha: não basta contar repetições; é necessário investigar relações mais amplas e as circunstâncias que podem alterar o resultado. Project Gutenberg",
+                    "O exemplo não demonstra que toda indução fracassará. Mostra que nenhuma quantidade finita de repetições transforma automaticamente uma generalização empírica em verdade necessária.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-113",
+                  "title": "A diferença entre repetição e necessidade",
+                  "paragraphs": [
+                    "Quanto maior o número de experiências uniformes, maior costuma ser nossa confiança. Uma única observação pode parecer acidental; centenas de observações semelhantes produzem uma expectativa firme.",
+                    "Hume pergunta o que se modifica racionalmente entre o primeiro caso e os seguintes. Se a passagem ao futuro fosse uma demonstração baseada apenas na razão, um único caso deveria fornecer a mesma necessidade lógica que muitos casos.",
+                    "A repetição modifica nossa disposição psicológica. Depois de observarmos frequentemente a mesma sequência, a presença da causa conduz com maior facilidade à expectativa do efeito.",
+                    "Essa mudança é real, mas ainda não constitui uma demonstração lógica. Ela ajuda a explicar por que acreditamos, embora não transforme a conclusão em uma relação de ideias.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-118",
+                  "title": "Crianças, pessoas sem instrução e animais",
+                  "paragraphs": [
+                    "Hume fortalece seu argumento observando que crianças pequenas, pessoas sem formação filosófica e animais aprendem por meio da experiência.",
+                    "Uma criança que sente dor ao tocar uma vela passa a evitar outras chamas. Um animal que encontra alimento em determinado lugar retorna a ele. Essas condutas revelam expectativas baseadas na repetição de acontecimentos.",
+                    "Seria implausível afirmar que uma criança ou um animal realizou silenciosamente uma demonstração sobre a uniformidade da natureza. A inferência ocorre sem a formulação de uma cadeia lógica complexa.",
+                    "Hume conclui que algum princípio diferente do raciocínio demonstrativo deve explicar o processo. A natureza produz em nós a passagem da experiência passada à expectativa futura antes que sejamos capazes de formular argumentos filosóficos.",
+                    "A identificação positiva desse princípio será desenvolvida na quinta seção. Hume o encontrará no costume ou hábito.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-124",
+                  "title": "Hume como agente e como filósofo",
+                  "paragraphs": [
+                    "Uma das passagens mais importantes da seção distingue a posição prática da posição filosófica. Como agente, Hume confia na experiência. Como filósofo, deseja compreender o fundamento dessa confiança.",
+                    "Isso significa que a dúvida filosófica não paralisa necessariamente a ação. Podemos reconhecer que uma crença não possui demonstração absoluta e, ainda assim, utilizá-la racionalmente na vida.",
+                    "Ao atravessar uma rua, esperamos que os veículos continuem sujeitos a regularidades físicas e que os motoristas reajam de maneiras aproximadamente previsíveis. Não precisamos resolver o problema da indução antes de agir.",
+                    "A filosofia aparece quando perguntamos por que essas expectativas parecem justificadas e qual grau de certeza realmente possuem. Hume não tenta eliminar as crenças naturais, mas impedir que sejam confundidas com verdades demonstrativas.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-129",
+                  "title": "A interpretação psicológica e a interpretação normativa",
+                  "paragraphs": [
+                    "O argumento de Hume pode ser interpretado de duas maneiras relacionadas.",
+                    "Segundo uma interpretação psicológica, ele procura mostrar que a razão não é a causa mental de nossas inferências indutivas. Não esperamos o efeito porque formulamos primeiro um argumento sobre a uniformidade da natureza. A expectativa surge naturalmente após a repetição.",
+                    "Segundo uma interpretação normativa, Hume sustenta que a razão não consegue justificar logicamente a indução. Mesmo que tentemos construir um argumento, acabamos em uma petição de princípio ou em uma circularidade.",
+                    "Essas leituras não precisam ser inteiramente incompatíveis. Hume pode estar investigando tanto aquilo que efetivamente produz a crença quanto aquilo que seria capaz de justificá-la. A relação entre essas duas dimensões permanece discutida entre seus intérpretes. plato.stanford.edu",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-134",
+                  "title": "A resposta de Kant",
+                  "paragraphs": [
+                    "Immanuel Kant reconheceu a força do desafio de Hume, mas rejeitou a conclusão de que a causalidade pudesse ser explicada apenas pela repetição e pelo hábito.",
+                    "Para Kant, a experiência não consiste em uma coleção desorganizada de sensações. Para perceber acontecimentos objetivos em uma sequência temporal, a mente precisa organizá-los por meio de determinadas estruturas. A causalidade seria uma dessas estruturas fundamentais do entendimento.",
+                    "Kant não afirma que conhecemos antecipadamente todas as causas e todos os efeitos particulares. Somente a experiência pode mostrar que determinado medicamento produz certo resultado ou que uma substância reage de determinada maneira.",
+                    "Sua tese é que o princípio geral de organização causal não é simplesmente copiado da repetição. Ele constitui uma condição para que possamos experimentar uma sucessão como uma ordem objetiva de acontecimentos.",
+                    "A resposta kantiana conduz à ideia de conhecimento sintético a priori: um conhecimento que amplia aquilo que pensamos, mas que não deriva simplesmente da repetição experimental. A possibilidade desse tipo de conhecimento representa uma das principais divergências entre Kant e Hume. plato.stanford.edu",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-140",
+                  "title": "A resposta de Karl Popper",
+                  "paragraphs": [
+                    "No século XX, Karl Popper aceitou grande parte da crítica humeana à indução. Segundo ele, nenhuma quantidade de observações particulares consegue demonstrar definitivamente uma lei universal.",
+                    "Observar muitos cisnes brancos não prova que todos os cisnes sejam brancos. A descoberta de um único cisne negro, porém, pode mostrar que a generalização universal é falsa.",
+                    "Popper propôs que a ciência não depende de provar teorias por indução. Os pesquisadores formulam conjecturas, extraem delas consequências observáveis e procuram submetê-las a testes capazes de revelar seus erros.",
+                    "Uma teoria que resiste a testes rigorosos não se torna definitivamente verdadeira. Ela permanece provisoriamente corroborada e aberta a revisões futuras.",
+                    "Essa proposta procura responder ao problema de Hume retirando da indução a função de fundamentar as leis científicas. Ainda assim, também enfrenta dificuldades, pois as decisões sobre testes, observações e teorias auxiliares envolvem pressuposições que não são sempre simples. O próprio falsificacionismo deve ser entendido como uma proposta metodológica, e não como descrição completa de tudo o que os cientistas efetivamente fazem. Internet Encyclopedia of Philosophy",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-146",
+                  "title": "O problema no raciocínio estatístico",
+                  "paragraphs": [
+                    "A dificuldade de Hume também aparece na estatística. Uma amostra contém informações sobre os casos observados. Para utilizá-la na estimação de características de uma população ou na previsão de dados futuros, precisamos adotar pressupostos sobre a relação entre o observado e o não observado.",
+                    "Quando supomos que uma amostra foi selecionada aleatoriamente, que as observações são comparáveis ou que determinado processo permanece suficientemente estável, estabelecemos condições sob as quais a inferência pode ser desenvolvida.",
+                    "A matemática permite determinar o que se segue dessas condições. Ela pode calcular estimativas, probabilidades, intervalos e medidas de incerteza. Entretanto, a adequação das condições ao fenômeno real precisa ser avaliada mediante conhecimento empírico, desenho da pesquisa e diagnóstico do modelo.",
+                    "Um modelo estatístico não elimina o problema da indução. Ele torna explícitas as hipóteses sob as quais a passagem dos dados observados para os casos não observados será realizada.",
+                    "Isso representa um avanço importante em relação a uma generalização ingênua. Em vez de apenas afirmar que o futuro repetirá o passado, procura-se identificar quais aspectos devem permanecer estáveis, quais variações são admitidas e qual incerteza acompanha a conclusão.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-152",
+                  "title": "Indução não é certeza",
+                  "paragraphs": [
+                    "O argumento de Hume ajuda a distinguir confiança racional de certeza absoluta. Uma afirmação pode estar muito bem apoiada pelas evidências sem tornar-se logicamente necessária.",
+                    "Esperamos que o Sol nasça porque essa expectativa está integrada a uma extensa compreensão astronômica, sustentada por observações, modelos e teorias que explicam o movimento dos corpos celestes. A crença não depende apenas de contar quantas vezes o Sol apareceu no horizonte.",
+                    "Ainda assim, a conclusão continua pertencendo ao domínio das questões de fato. Ela não possui a mesma necessidade lógica de uma igualdade matemática.",
+                    "Reconhecer essa diferença não coloca todas as crenças no mesmo nível. Algumas previsões possuem evidências extremamente fortes; outras apoiam-se em observações escassas ou analogias superficiais. A ausência de certeza demonstrativa não elimina a possibilidade de comparar graus de justificação.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-157",
+                  "title": "O que Hume não está afirmando",
+                  "paragraphs": [
+                    "Hume não afirma que o futuro necessariamente será diferente do passado. Também não afirma que a natureza seja caótica ou que a ciência esteja condenada ao fracasso.",
+                    "Seu argumento não demonstra que as inferências indutivas sejam falsas. Ele mostra que elas não podem ser justificadas por uma demonstração que parta apenas da razão nem por uma defesa experimental que não caia em circularidade.",
+                    "Também não conclui que devemos abandonar todas as previsões. A experiência permanece a grande orientadora da vida humana. A questão é compreender que sua autoridade não se origina de uma prova lógica da uniformidade universal da natureza.",
+                    "A dúvida de Hume limita uma pretensão de certeza. Ela não elimina a investigação empírica.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-162",
+                  "title": "Limitações e problemas da divisão humeana",
+                  "paragraphs": [
+                    "A divisão entre relações de ideias e questões de fato exerceu grande influência, mas sua completude foi questionada.",
+                    "Kant sustentou que existem juízos sintéticos a priori, que não seriam meras explicitações de conceitos nem simples generalizações da experiência. Essa proposta desafia a ideia de que todo conhecimento deva ser classificado exatamente segundo as duas categorias humeanas.",
+                    "A concepção de geometria também se modificou depois de Hume. O desenvolvimento das geometrias não euclidianas mostrou que diferentes sistemas podem ser construídos a partir de diferentes axiomas. Isso exige distinguir a verdade interna de uma demonstração matemática da questão empírica sobre qual geometria descreve melhor o espaço físico.",
+                    "Esses desenvolvimentos não eliminam a diferença fundamental apontada por Hume. Continua sendo relevante distinguir aquilo que se segue necessariamente de conceitos, axiomas ou premissas daquilo que depende da maneira como o mundo se encontra.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-167",
+                  "title": "Limitações do critério de concebibilidade",
+                  "paragraphs": [
+                    "Hume utiliza a possibilidade de conceber o contrário de uma proposição como sinal de que ela não é demonstrativamente necessária. Esse método também pode ser questionado.",
+                    "Nossa capacidade de imaginar alguma coisa não garante que ela seja realmente possível. Podemos acreditar que concebemos uma situação coerente e depois descobrir uma contradição que não havíamos percebido.",
+                    "Da mesma maneira, nossa incapacidade de imaginar algo pode resultar apenas dos limites de nossa compreensão. A realidade pode comportar estruturas que não conseguimos representar intuitivamente.",
+                    "Apesar disso, o critério cumpre uma função importante no argumento. Ao mostrar que podemos formular sem contradição resultados diferentes para uma causa, Hume revela que o efeito efetivo não pode ser extraído apenas da aparência sensível do objeto.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-172",
+                  "title": "A modéstia filosófica",
+                  "paragraphs": [
+                    "A quarta seção expressa uma atitude central da filosofia de Hume: a modéstia diante dos limites do entendimento humano.",
+                    "Os seres humanos conseguem descobrir regularidades, formular teorias e controlar muitos acontecimentos. Contudo, essas realizações não nos autorizam automaticamente a afirmar que compreendemos os poderes últimos da natureza ou que nossas expectativas possuem necessidade absoluta.",
+                    "A filosofia revela tanto aquilo que podemos conhecer quanto os limites de nossas justificações. Para Hume, reconhecer a ignorância não é abandonar a razão. É impedir que a razão reivindique uma autoridade que não consegue sustentar.",
+                    "Esse resultado retoma o projeto apresentado na primeira seção. A verdadeira metafísica deve investigar as capacidades do entendimento e utilizar essa investigação para limitar afirmações obscuras ou excessivas.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-177",
+                  "title": "Consideração crítica",
+                  "paragraphs": [
+                    "A força do argumento humeano está em separar o sucesso prático de uma inferência de sua fundamentação lógica. O fato de a indução funcionar frequentemente não fornece, sem pressuposições adicionais, uma demonstração de que continuará funcionando.",
+                    "Hume também identifica uma circularidade difícil de evitar. Se tentamos defender a confiabilidade futura da experiência mencionando sua confiabilidade passada, já estamos utilizando o tipo de inferência que pretendíamos justificar.",
+                    "Entretanto, pode-se questionar se toda justificação precisa possuir a forma exigida por Hume. Talvez uma prática racional não necessite de uma demonstração inteiramente externa a ela. Algumas respostas posteriores procuram justificar a indução de maneira pragmática, probabilística ou naturalista, sem transformá-la em dedução.",
+                    "Também é necessário evitar uma conclusão excessiva. O problema da indução não torna equivalentes uma teoria científica cuidadosamente testada e uma suposição sem evidências. Mesmo que nenhuma delas alcance certeza lógica absoluta, existem diferenças importantes na qualidade das observações, na precisão das previsões, na capacidade explicativa e na resistência aos testes.",
+                    "A seção destrói a pretensão de transformar a experiência em demonstração necessária. Ela não destrói a possibilidade de avaliar comparativamente nossas crenças sobre o mundo.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-183",
+                  "title": "Síntese final",
+                  "paragraphs": [
+                    "Na quarta seção da Investigação sobre o entendimento humano, Hume divide os objetos da razão em relações de ideias e questões de fato. As relações de ideias são necessárias e podem ser conhecidas por demonstração. As questões de fato dependem da experiência, e seu contrário permanece logicamente concebível.",
+                    "Todo conhecimento factual que ultrapassa os sentidos e a memória depende da relação de causa e efeito. Contudo, as relações entre causas e efeitos não podem ser descobertas apenas pelo raciocínio a priori. Um objeto novo não revela, por sua aparência, quais efeitos produzirá. É a experiência que nos ensina essas relações.",
+                    "A dificuldade surge quando utilizamos a experiência passada para prever acontecimentos futuros. O passado informa apenas aquilo que já ocorreu. Para empregá-lo como guia, pressupomos que causas semelhantes continuarão produzindo efeitos semelhantes.",
+                    "Essa pressuposição não pode ser demonstrada, porque uma mudança no curso da natureza não contém contradição. Também não pode ser provada pela experiência, pois todo argumento experimental já pressupõe que o futuro conservará alguma conformidade com o passado. Tentar justificar a indução por meio da própria indução produz um círculo.",
+                    "Hume não conclui que devemos rejeitar a experiência. Crianças e animais aprendem com ela antes de serem capazes de formular argumentos. Isso indica que nossas expectativas causais não são originalmente produzidas por demonstrações racionais.",
+                    "A quarta seção oferece principalmente uma conclusão negativa: a passagem do passado ao futuro não se funda em um processo demonstrativo do entendimento. A explicação positiva será apresentada na seção seguinte, quando Hume atribuirá essa passagem ao costume ou hábito.",
+                    "Sua dúvida cética não pretende paralisar a vida ou destruir a ciência. Ela revela que grande parte de nosso conhecimento factual depende de inferências indispensáveis, mas não demonstrativamente certas. A experiência orienta a vida humana, embora a razão não consiga provar, sem circularidade, que o futuro continuará semelhante ao passado.",
+                    "\n",
+                    "\n\n",
+                    "\n",
+                    "\n",
+                    "\n\n",
+                    "\n",
+                    "\n"
                   ],
                   "subchapters": []
                 }
@@ -4629,6 +5112,2361 @@
               "runs": [
                 {
                   "text": "A associação de ideias explica, assim, como a mente organiza os materiais recebidos pela experiência. Ela estabelece a ligação entre perceber, recordar, imaginar e inferir. Ao final da seção, Hume prepara o problema que ocupará as partes seguintes da obra: compreender por que a relação de causa e efeito exerce uma influência tão poderosa sobre o pensamento humano."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h2",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Dúvidas céticas sobre as operações do entendimento"
+                }
+              ],
+              "id": "secao-356"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Na seção anterior, Hume mostrou que as ideias se conectam por semelhança, contiguidade e causalidade. Agora ele concentra sua atenção na relação de causa e efeito, pois é por meio dela que ultrapassamos aquilo que está imediatamente presente aos sentidos ou conservado na memória."
+                }
+              ],
+              "id": "introducao"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Quando vemos fumaça e concluímos que existe fogo, quando recebemos uma carta e acreditamos que seu remetente está vivo ou quando esperamos que um alimento nos nutra, estamos realizando inferências causais. Hume deseja descobrir qual é o fundamento dessas inferências."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sua investigação conduz a uma dificuldade profunda. O conhecimento das relações causais depende da experiência, mas a experiência passada informa apenas aquilo que já aconteceu. Para utilizá-la como guia do futuro, precisamos pressupor que a natureza continuará comportando-se de maneira semelhante. Hume pergunta, então, como essa pressuposição pode ser racionalmente justificada."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O significado das dúvidas céticas"
+                }
+              ],
+              "id": "secao-361"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O título da seção pode sugerir que Hume pretende rejeitar todo conhecimento ou defender que nada pode ser conhecido. Essa interpretação seria incorreta."
+                }
+              ],
+              "id": "introducao"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "As dúvidas são chamadas de céticas porque questionam a capacidade da razão de justificar determinadas crenças que empregamos constantemente. Hume não nega que esperamos o nascimento do Sol, confiamos nos alimentos e evitamos o fogo. Ele próprio declara que, como agente, está plenamente convencido da autoridade da experiência. Sua dúvida surge quando, como filósofo, procura descobrir o fundamento racional dessa confiança."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A investigação distingue, portanto, duas questões. A primeira pergunta se efetivamente realizamos inferências a partir da experiência. A resposta é evidentemente afirmativa. A segunda pergunta se essas inferências podem ser justificadas por um raciocínio que não pressuponha aquilo que pretende provar. É nesse segundo ponto que surge a dificuldade."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume não quer impedir o uso da experiência. Pretende compreender por que confiamos nela e determinar se essa confiança é produzida pela razão ou por algum outro princípio da natureza humana."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Os dois objetos da razão humana"
+                }
+              ],
+              "id": "secao-5-2-2"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume inicia a seção dividindo os objetos da razão humana em duas classes: relações de ideias e questões de fato."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Essa divisão tornou-se conhecida posteriormente como a “forquilha de Hume”. Ela estabelece uma diferença entre verdades cuja negação implica contradição e afirmações sobre a realidade cujo contrário permanece concebível."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A distinção é essencial para seu argumento. Se todo raciocínio pertence a uma dessas classes, Hume poderá examinar se alguma delas consegue justificar nossas expectativas sobre o futuro."
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "As relações de ideias"
+                }
+              ],
+              "id": "secao-1-2-2-2"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "As relações de ideias incluem as verdades da geometria, da álgebra, da aritmética e dos raciocínios demonstrativos. Sua verdade depende das relações entre os conceitos envolvidos, e não da existência de determinados objetos no mundo."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A afirmação de que três vezes cinco é igual à metade de trinta permanece verdadeira independentemente de existirem quinze objetos concretos diante de nós. De maneira semelhante, uma demonstração geométrica pode ser desenvolvida pelo pensamento sem que exista na natureza uma figura perfeitamente correspondente àquela que está sendo examinada."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "As relações de ideias são necessárias. Negá-las corretamente formuladas conduz a uma contradição. Não podemos aceitar os mesmos conceitos, as mesmas definições e as mesmas operações e, ao mesmo tempo, afirmar que três vezes cinco não é quinze."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Essas verdades são tradicionalmente chamadas de conhecimentos "
+                },
+                {
+                  "text": "a priori",
+                  "italic": true
+                },
+                {
+                  "text": ", pois podem ser reconhecidas independentemente da observação de casos particulares. Isso não significa que uma pessoa não precise aprender os conceitos matemáticos. Significa que, uma vez compreendidos os conceitos e as relações envolvidas, a verdade da conclusão não depende de realizar novos experimentos no mundo."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "As questões de fato"
+                }
+              ],
+              "id": "secao-6-2"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "As questões de fato referem-se à existência e aos acontecimentos do mundo. São afirmações como “está chovendo”, “a cidade foi fundada em determinado ano”, “o pão alimentará uma pessoa” ou “o Sol nascerá amanhã”."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Mesmo quando temos grande confiança em uma afirmação factual, seu contrário não contém necessariamente uma contradição. A proposição de que o Sol não nascerá amanhã é extremamente improvável diante de nossa experiência, mas pode ser formulada sem incoerência lógica."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Dizer que o contrário de uma questão de fato é possível não significa dizer que seja igualmente provável. A possibilidade mencionada por Hume é lógica ou conceitual. Podemos conceber a afirmação sem produzir uma contradição, embora tenhamos excelentes razões práticas e científicas para acreditar que ela não ocorrerá."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "As questões de fato são contingentes. Elas são verdadeiras ou falsas de acordo com o modo como o mundo efetivamente se encontra. Não podem ser descobertas pela análise exclusiva dos conceitos empregados."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A proximidade com Leibniz"
+                }
+              ],
+              "id": "secao-11-2-2"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Antes de Hume, Gottfried Wilhelm Leibniz havia distinguido verdades de razão e verdades de fato. Na "
+                },
+                {
+                  "text": "Monadologia",
+                  "italic": true
+                },
+                {
+                  "text": ", Leibniz afirma que as verdades de razão são necessárias e que seu contrário é impossível, enquanto as verdades de fato são contingentes e admitem a possibilidade de seu contrário. marxists.org"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A semelhança com a divisão de Hume é evidente, mas os dois filósofos não chegam às mesmas conclusões. Leibniz acreditava que até mesmo as verdades contingentes possuíam uma razão suficiente, ainda que essa razão completa pudesse ultrapassar o conhecimento humano. Hume concentra-se nas condições pelas quais nós, seres humanos, passamos daquilo que observamos para aquilo que não observamos."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A questão humeana não é simplesmente se os acontecimentos possuem causas. Ele pergunta como adquirimos conhecimento dessas causas e por que esperamos que relações observadas no passado continuem ocorrendo."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Aquilo que está presente e aquilo que está ausente"
+                }
+              ],
+              "id": "secao-15-2"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Os sentidos informam aquilo que experimentamos no momento. A memória conserva certas experiências passadas. Entretanto, grande parte de nossas crenças refere-se a coisas que não estão atualmente presentes."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Se ouvimos uma voz articulada na escuridão, concluímos que existe uma pessoa próxima. Se encontramos um relógio em uma ilha deserta, concluímos que algum ser humano esteve ali. Se recebemos uma mensagem de um amigo, acreditamos que ele estava vivo quando a escreveu."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Em nenhum desses casos observamos diretamente tudo aquilo em que acreditamos. Vemos ou ouvimos um fato presente e inferimos outro fato ausente."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume sustenta que essas inferências dependem da relação de causa e efeito. A voz é compreendida como efeito de uma pessoa que fala. O relógio é considerado efeito da atividade humana. A mensagem é tomada como efeito da ação de seu remetente."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Se não existisse qualquer conexão entre o fato observado e o fato inferido, a conclusão seria inteiramente arbitrária. É a relação causal que permite ao pensamento ultrapassar o testemunho imediato dos sentidos e da memória."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A relação entre causa e efeito"
+                }
+              ],
+              "id": "secao-21"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Depois de concluir que os raciocínios sobre questões de fato dependem da causalidade, Hume pergunta como adquirimos conhecimento das causas e dos efeitos."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sua resposta é que esse conhecimento não procede de raciocínios "
+                },
+                {
+                  "text": "a priori",
+                  "italic": true
+                },
+                {
+                  "text": ". Conhecemos as relações causais por meio da experiência."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Ao encontrar um objeto completamente novo, não conseguimos descobrir seus efeitos apenas examinando sua aparência. Podemos observar sua cor, forma, peso e consistência, mas essas propriedades não revelam necessariamente aquilo que o objeto fará quando for utilizado ou colocado em contato com outros."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume imagina Adão dotado, desde o primeiro instante, de capacidades racionais perfeitas. Mesmo assim, antes de qualquer experiência, Adão não poderia concluir, apenas observando a transparência e a fluidez da água, que ela seria capaz de sufocá-lo. Também não poderia descobrir, somente pela luminosidade do fogo, que este poderia queimá-lo."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A inteligência, por mais elevada que seja, não encontra o efeito oculto no interior da aparência da causa. É necessário observar o que acontece."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O significado de conhecimento "
+                },
+                {
+                  "text": "a priori",
+                  "italic": true
+                }
+              ],
+              "id": "secao-27"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Um conhecimento é chamado de "
+                },
+                {
+                  "text": "a priori",
+                  "italic": true
+                },
+                {
+                  "text": " quando sua justificação não depende da observação de experiências particulares. Um raciocínio matemático é o exemplo mais utilizado por Hume."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O conhecimento "
+                },
+                {
+                  "text": "a posteriori",
+                  "italic": true
+                },
+                {
+                  "text": ", por sua vez, depende da experiência. Sabemos que o fogo queima, que determinados alimentos nutrem e que certos medicamentos produzem efeitos porque essas relações foram observadas."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A tese de Hume não é que seja impossível raciocinar sobre causas. Depois de adquirirmos conhecimentos experimentais, podemos reuni-los, compará-los e extrair consequências. Seu argumento é que a relação inicial entre uma causa particular e seu efeito não pode ser descoberta pela análise isolada da causa."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Os fenômenos desconhecidos"
+                }
+              ],
+              "id": "secao-31"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A dependência da experiência é facilmente reconhecida quando encontramos fenômenos incomuns. Uma pessoa que nada soubesse sobre magnetismo não descobriria, pela simples aparência de um ímã, que ele atrai determinados metais."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Da mesma maneira, ninguém poderia prever apenas pela observação visual da pólvora que ela explodiria ao entrar em contato com uma chama. Também não seria possível descobrir imediatamente todas as propriedades químicas de uma substância observando apenas sua cor e sua textura."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Nesses casos, admitimos sem dificuldade que precisamos realizar experimentos. A aparência do objeto não contém uma representação visível de todos os seus possíveis efeitos."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Os fenômenos familiares"
+                }
+              ],
+              "id": "secao-35"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A dificuldade torna-se menos evidente quando tratamos de acontecimentos familiares. Como observamos determinadas relações desde a infância, temos a impressão de que seus efeitos poderiam ser descobertos pela própria razão."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Ao ver uma bola de bilhar atingir outra, esperamos que a segunda se movimente. A familiaridade é tão grande que o resultado parece estar contido no próprio choque."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume argumenta que essa aparência é produzida pelo hábito. Se nunca tivéssemos observado uma colisão, não poderíamos determinar antecipadamente o que aconteceria. A segunda bola poderia permanecer parada, a primeira poderia recuar ou ambas poderiam mover-se em direções inesperadas. Todas essas possibilidades podem ser concebidas sem contradição."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A experiência faz uma possibilidade parecer natural e as demais parecerem estranhas. Entretanto, antes da experiência, a razão não dispõe de um fundamento para escolher uma delas."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O hábito é tão poderoso que esconde nossa ignorância. Como determinadas relações sempre estiveram presentes em nossa experiência, esquecemos que um dia precisamos aprendê-las."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A causa não contém visivelmente o efeito"
+                }
+              ],
+              "id": "secao-41"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume sustenta que todo efeito é um acontecimento distinto de sua causa. O movimento da primeira bola de bilhar e o movimento da segunda são dois acontecimentos diferentes. A existência de um não pode ser deduzida pela simples análise conceitual do outro."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Isso não significa que os acontecimentos estejam realmente desconectados na natureza. Significa que a conexão não pode ser conhecida apenas pela contemplação das ideias envolvidas."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Mesmo que a imaginação proponha corretamente um possível efeito, ainda restará explicar por que esse efeito deve ser preferido aos demais. A capacidade de imaginar o resultado correto não demonstra que ele foi descoberto pela razão."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Podemos imaginar que uma pedra abandonada no ar cairá. Também conseguimos imaginar, sem contradição lógica, que ela subirá ou permanecerá imóvel. Somente a experiência nos ensina qual dessas possibilidades corresponde ao comportamento regular dos objetos em nosso mundo."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Possibilidade lógica e possibilidade física"
+                }
+              ],
+              "id": "secao-46"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O argumento de Hume exige uma distinção entre possibilidade lógica e possibilidade física."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Uma possibilidade lógica é aquilo que pode ser pensado sem contradição. Uma possibilidade física é aquilo que pode ocorrer de acordo com as leis efetivas da natureza."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Uma pedra subir espontaneamente pode contrariar as leis físicas que conhecemos, mas sua descrição não é logicamente contraditória. A proposição não possui a mesma incoerência encontrada na afirmação de que uma figura é, ao mesmo tempo e no mesmo sentido, inteiramente circular e inteiramente quadrada."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume utiliza a possibilidade lógica para mostrar que as leis da natureza não podem ser demonstradas como verdades necessárias apenas pelo pensamento. Conhecemos essas leis por meio da observação do mundo."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O alcance da ciência"
+                }
+              ],
+              "id": "secao-51"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A conclusão de Hume não destrói a investigação científica. Ele reconhece que uma das maiores realizações da razão humana consiste em reunir muitos fenômenos sob um número menor de princípios gerais."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A ciência pode mostrar que acontecimentos aparentemente diferentes resultam das mesmas regularidades. Pode formular leis, construir modelos e calcular consequências que não seriam evidentes sem uma investigação cuidadosa."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Entretanto, Hume distingue a descoberta de leis gerais da descoberta de causas últimas. Podemos reconhecer que os corpos se atraem de acordo com determinadas relações e ainda perguntar por que a natureza possui essa estrutura."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A ciência explica acontecimentos particulares por meio de princípios mais gerais. Quando perguntamos pela causa desses próprios princípios, porém, talvez alcancemos o limite de nossa investigação."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Isso não torna as explicações científicas inúteis. Uma explicação não precisa revelar a razão última de toda a realidade para ampliar nosso conhecimento. O argumento de Hume recomenda modéstia: compreender uma regularidade não significa necessariamente compreender o poder último que a produz."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O papel da matemática na ciência"
+                }
+              ],
+              "id": "secao-57"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume também examina a relação entre matemática e experiência. A matemática permite calcular com precisão as consequências de determinadas leis, mas não estabelece sozinha quais leis governam o mundo."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A geometria pode ajudar a construir uma máquina, determinar proporções e calcular a influência das forças envolvidas. Contudo, a descoberta de que os corpos se comportam de determinada maneira exige observação."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Uma vez conhecida experimentalmente uma lei, a matemática permite aplicá-la a situações novas. Ela mostra o que se segue das condições e dos princípios adotados. A constatação de que esses princípios descrevem a natureza, porém, não se deve apenas ao raciocínio abstrato."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Essa distinção continua importante para a ciência contemporânea. Um modelo matemático pode ser internamente correto e, ainda assim, não representar adequadamente o mundo. Sua coerência é examinada matematicamente; sua adequação empírica precisa ser comparada às observações."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A passagem para a segunda parte"
+                }
+              ],
+              "id": "secao-62"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Ao final da primeira parte, Hume considera estabelecido que os conhecimentos causais procedem da experiência. A segunda parte começa quando ele pergunta por que a experiência passada possui autoridade sobre nossas expectativas futuras."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O percurso da investigação pode ser compreendido por meio de três perguntas sucessivas. Primeiro, em que se fundam nossos raciocínios sobre questões de fato? Na relação de causa e efeito. Segundo, como conhecemos as relações entre causas e efeitos? Pela experiência. Terceiro, por que acreditamos que a experiência passada continuará sendo válida em casos futuros?"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A terceira pergunta revela o verdadeiro problema da seção."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A experiência passada e o futuro"
+                }
+              ],
+              "id": "secao-66"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A experiência informa que determinados objetos estiveram acompanhados de certos efeitos. O pão que comemos no passado nos alimentou. A água que bebemos matou a sede. O fogo que tocamos produziu calor ou dor."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Quando encontramos novos objetos semelhantes, esperamos efeitos semelhantes. Acreditamos que outro pão também nos alimentará, que outra água poderá ser bebida e que outra chama poderá queimar."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume observa, porém, que duas afirmações diferentes estão envolvidas nesse processo. A primeira diz que determinado tipo de objeto esteve acompanhado por determinado efeito nos casos passados. A segunda diz que objetos semelhantes estarão acompanhados por efeitos semelhantes no futuro."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A primeira proposição relata experiências já realizadas. A segunda ultrapassa essas experiências. Entre elas existe um passo inferencial que precisa ser explicado."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O passado, considerado isoladamente, informa apenas o que aconteceu no passado. Para transformá-lo em regra para o futuro, precisamos pressupor alguma continuidade no curso da natureza."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O princípio da uniformidade da natureza"
+                }
+              ],
+              "id": "secao-72-2"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A pressuposição de que o futuro conservará alguma conformidade com o passado é chamada de princípio da uniformidade da natureza."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Esse princípio não exige que todos os acontecimentos se repitam de maneira idêntica. A natureza contém transformações, diferenças e irregularidades. A pressuposição relevante é que existem regularidades suficientemente estáveis para que a experiência passada ofereça orientação sobre casos ainda não observados."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Quando esperamos que um objeto semelhante ao pão possua propriedades nutritivas semelhantes, supomos que qualidades observáveis semelhantes continuarão associadas a poderes semelhantes."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sem alguma forma de uniformidade, nenhuma experiência poderia orientar uma nova situação. Se as relações naturais se modificassem inteiramente a cada instante, aquilo que aconteceu anteriormente não ofereceria qualquer indicação sobre o que acontecerá depois."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume não afirma que a natureza deixará de ser uniforme. Ele pergunta como podemos justificar racionalmente a crença de que continuará sendo."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O problema da indução"
+                }
+              ],
+              "id": "secao-78"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A indução é o raciocínio pelo qual passamos de casos observados para casos não observados, ou de ocorrências particulares para uma conclusão mais geral."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Depois de observar repetidamente que certos metais se expandem quando aquecidos, esperamos que outro objeto do mesmo tipo também se expanda. Depois de observar muitos seres humanos mortais, concluímos que os seres humanos ainda vivos também morrerão."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Essas conclusões podem ser extremamente razoáveis e possuir diferentes graus de probabilidade. Entretanto, não são demonstrações necessárias. As premissas podem ser verdadeiras e a conclusão ainda ser logicamente falsa."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O problema da indução consiste em explicar o que justifica essa passagem. Por que a repetição de acontecimentos passados fornece razões para acreditar em acontecimentos futuros?"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A formulação de Hume tornou-se a origem clássica do problema na filosofia moderna. Seu argumento procura mostrar que o princípio da uniformidade não pode ser provado por raciocínio demonstrativo nem por raciocínio baseado na experiência. plato.stanford.edu"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Por que a uniformidade não pode ser demonstrada"
+                }
+              ],
+              "id": "secao-84"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Uma demonstração estabelece uma conclusão cuja negação implica contradição. Se o princípio da uniformidade pudesse ser demonstrado, seria logicamente impossível que o futuro divergisse do passado."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume observa, porém, que podemos conceber uma mudança no curso da natureza. Podemos imaginar árvores florescendo em estações diferentes, objetos com aparência de neve produzindo calor ou alimentos comuns deixando de possuir seus efeitos habituais."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Essas possibilidades podem ser extremamente improváveis, mas não são contraditórias. A razão demonstrativa, portanto, não consegue provar que a natureza continuará apresentando as mesmas regularidades."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "As relações de ideias não são suficientes para justificar a indução. Nenhuma análise puramente conceitual do passado contém uma afirmação necessária sobre o futuro."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Por que a experiência não pode provar a uniformidade"
+                }
+              ],
+              "id": "secao-89"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Poderíamos tentar justificar a uniformidade por meio da própria experiência. A natureza mostrou-se suficientemente regular no passado; logo, provavelmente continuará regular."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume considera esse argumento circular. Toda inferência baseada na experiência já pressupõe que o futuro se assemelhará ao passado. Utilizar uma inferência desse tipo para provar o princípio da uniformidade significa assumir aquilo que está sendo questionado."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O raciocínio seria semelhante a afirmar que a experiência é confiável porque, nas experiências anteriores, ela se mostrou confiável. Para passar desses casos passados à confiabilidade futura, já precisamos confiar na continuidade entre passado e futuro."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A repetição de uma inferência não fornece sua fundamentação sem que exista algum princípio que autorize a passagem. Dizer que a natureza sempre apresentou regularidades apenas acrescenta novos dados sobre o passado. Ainda precisamos explicar por que esses dados devem valer para aquilo que não foi observado."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O círculo da justificação indutiva"
+                }
+              ],
+              "id": "secao-94"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A estrutura circular aparece quando tentamos justificar a indução indutivamente. Partimos da regularidade passada, pressupomos que essa regularidade continuará e concluímos que podemos confiar na regularidade futura."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O princípio utilizado na conclusão já estava presente na passagem entre as premissas e a conclusão. O argumento não fornece um fundamento independente."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Isso não significa que toda utilização prática da indução seja uma falácia cometida conscientemente. Hume não acredita que as pessoas formulem esse argumento circular antes de esperar que o fogo aqueça."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Seu ponto é que, quando o filósofo tenta transformar a expectativa habitual em uma demonstração racional, não encontra uma premissa intermediária que ligue necessariamente o passado ao futuro."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A ausência de um termo médio"
+                }
+              ],
+              "id": "secao-99"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Na lógica tradicional, um termo médio estabelece a conexão entre duas proposições. Hume desafia o leitor a apresentar a ideia ou proposição que ligaria a experiência passada à expectativa futura."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sabemos que determinados objetos estiveram associados a certos efeitos. Esperamos que objetos semelhantes produzam efeitos semelhantes. Mas qual proposição permite realizar essa passagem sem pressupor previamente a uniformidade da natureza?"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Se dissermos que os objetos naturais preservam seus poderes, estaremos apenas afirmando o próprio princípio que precisa ser demonstrado. Se dissermos que eles sempre os preservaram, continuaremos falando apenas do passado."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume não encontra um termo médio capaz de transformar a conclusão indutiva em demonstração."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O exemplo do pão"
+                }
+              ],
+              "id": "secao-104"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O pão possui cor, peso, sabor e consistência perceptíveis. Também possui propriedades que o tornam capaz de nutrir o corpo."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume chama essas propriedades de poderes secretos porque elas não são diretamente reveladas pelos sentidos. Observamos as qualidades superficiais do pão e experimentamos seus efeitos nutritivos, mas não percebemos imediatamente a conexão necessária entre ambas."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Quando encontramos outro alimento com aparência semelhante, esperamos que produza o mesmo efeito. Entretanto, a semelhança exterior não demonstra que todos os seus poderes sejam idênticos."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Na vida comum, essa expectativa é razoável e normalmente correta. Filosoficamente, porém, sua passagem precisa ser explicada. A experiência anterior mostrou que certos pães alimentaram. Ela não contém uma demonstração de que todo pão futuro necessariamente fará o mesmo."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Um exemplo oferecido por Bertrand Russell"
+                }
+              ],
+              "id": "secao-109"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Bertrand Russell retomou o problema da indução em "
+                },
+                {
+                  "text": "Os problemas da filosofia",
+                  "italic": true
+                },
+                {
+                  "text": ". Ele apresenta o caso de uma galinha que recebe alimento diariamente de uma pessoa. A repetição fortalece a expectativa de que a aproximação dessa pessoa continuará sendo seguida pela alimentação. Entretanto, um dia, em vez de alimentar a galinha, a pessoa a mata."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O exemplo mostra que uma sequência regular pode sustentar uma expectativa e ainda assim terminar de maneira inesperada. Para Russell, uma compreensão mais cuidadosa da uniformidade da natureza teria sido útil à galinha: não basta contar repetições; é necessário investigar relações mais amplas e as circunstâncias que podem alterar o resultado. Project Gutenberg"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O exemplo não demonstra que toda indução fracassará. Mostra que nenhuma quantidade finita de repetições transforma automaticamente uma generalização empírica em verdade necessária."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A diferença entre repetição e necessidade"
+                }
+              ],
+              "id": "secao-113"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Quanto maior o número de experiências uniformes, maior costuma ser nossa confiança. Uma única observação pode parecer acidental; centenas de observações semelhantes produzem uma expectativa firme."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume pergunta o que se modifica racionalmente entre o primeiro caso e os seguintes. Se a passagem ao futuro fosse uma demonstração baseada apenas na razão, um único caso deveria fornecer a mesma necessidade lógica que muitos casos."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A repetição modifica nossa disposição psicológica. Depois de observarmos frequentemente a mesma sequência, a presença da causa conduz com maior facilidade à expectativa do efeito."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Essa mudança é real, mas ainda não constitui uma demonstração lógica. Ela ajuda a explicar por que acreditamos, embora não transforme a conclusão em uma relação de ideias."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Crianças, pessoas sem instrução e animais"
+                }
+              ],
+              "id": "secao-118"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume fortalece seu argumento observando que crianças pequenas, pessoas sem formação filosófica e animais aprendem por meio da experiência."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Uma criança que sente dor ao tocar uma vela passa a evitar outras chamas. Um animal que encontra alimento em determinado lugar retorna a ele. Essas condutas revelam expectativas baseadas na repetição de acontecimentos."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Seria implausível afirmar que uma criança ou um animal realizou silenciosamente uma demonstração sobre a uniformidade da natureza. A inferência ocorre sem a formulação de uma cadeia lógica complexa."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume conclui que algum princípio diferente do raciocínio demonstrativo deve explicar o processo. A natureza produz em nós a passagem da experiência passada à expectativa futura antes que sejamos capazes de formular argumentos filosóficos."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A identificação positiva desse princípio será desenvolvida na quinta seção. Hume o encontrará no costume ou hábito."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume como agente e como filósofo"
+                }
+              ],
+              "id": "secao-124"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Uma das passagens mais importantes da seção distingue a posição prática da posição filosófica. Como agente, Hume confia na experiência. Como filósofo, deseja compreender o fundamento dessa confiança."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Isso significa que a dúvida filosófica não paralisa necessariamente a ação. Podemos reconhecer que uma crença não possui demonstração absoluta e, ainda assim, utilizá-la racionalmente na vida."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Ao atravessar uma rua, esperamos que os veículos continuem sujeitos a regularidades físicas e que os motoristas reajam de maneiras aproximadamente previsíveis. Não precisamos resolver o problema da indução antes de agir."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A filosofia aparece quando perguntamos por que essas expectativas parecem justificadas e qual grau de certeza realmente possuem. Hume não tenta eliminar as crenças naturais, mas impedir que sejam confundidas com verdades demonstrativas."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A interpretação psicológica e a interpretação normativa"
+                }
+              ],
+              "id": "secao-129"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O argumento de Hume pode ser interpretado de duas maneiras relacionadas."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Segundo uma interpretação psicológica, ele procura mostrar que a razão não é a causa mental de nossas inferências indutivas. Não esperamos o efeito porque formulamos primeiro um argumento sobre a uniformidade da natureza. A expectativa surge naturalmente após a repetição."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Segundo uma interpretação normativa, Hume sustenta que a razão não consegue justificar logicamente a indução. Mesmo que tentemos construir um argumento, acabamos em uma petição de princípio ou em uma circularidade."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Essas leituras não precisam ser inteiramente incompatíveis. Hume pode estar investigando tanto aquilo que efetivamente produz a crença quanto aquilo que seria capaz de justificá-la. A relação entre essas duas dimensões permanece discutida entre seus intérpretes. plato.stanford.edu"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A resposta de Kant"
+                }
+              ],
+              "id": "secao-134"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Immanuel Kant reconheceu a força do desafio de Hume, mas rejeitou a conclusão de que a causalidade pudesse ser explicada apenas pela repetição e pelo hábito."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Para Kant, a experiência não consiste em uma coleção desorganizada de sensações. Para perceber acontecimentos objetivos em uma sequência temporal, a mente precisa organizá-los por meio de determinadas estruturas. A causalidade seria uma dessas estruturas fundamentais do entendimento."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Kant não afirma que conhecemos antecipadamente todas as causas e todos os efeitos particulares. Somente a experiência pode mostrar que determinado medicamento produz certo resultado ou que uma substância reage de determinada maneira."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sua tese é que o princípio geral de organização causal não é simplesmente copiado da repetição. Ele constitui uma condição para que possamos experimentar uma sucessão como uma ordem objetiva de acontecimentos."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A resposta kantiana conduz à ideia de conhecimento sintético "
+                },
+                {
+                  "text": "a priori",
+                  "italic": true
+                },
+                {
+                  "text": ": um conhecimento que amplia aquilo que pensamos, mas que não deriva simplesmente da repetição experimental. A possibilidade desse tipo de conhecimento representa uma das principais divergências entre Kant e Hume. plato.stanford.edu"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A resposta de Karl Popper"
+                }
+              ],
+              "id": "secao-140"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "No século XX, Karl Popper aceitou grande parte da crítica humeana à indução. Segundo ele, nenhuma quantidade de observações particulares consegue demonstrar definitivamente uma lei universal."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Observar muitos cisnes brancos não prova que todos os cisnes sejam brancos. A descoberta de um único cisne negro, porém, pode mostrar que a generalização universal é falsa."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Popper propôs que a ciência não depende de provar teorias por indução. Os pesquisadores formulam conjecturas, extraem delas consequências observáveis e procuram submetê-las a testes capazes de revelar seus erros."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Uma teoria que resiste a testes rigorosos não se torna definitivamente verdadeira. Ela permanece provisoriamente corroborada e aberta a revisões futuras."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Essa proposta procura responder ao problema de Hume retirando da indução a função de fundamentar as leis científicas. Ainda assim, também enfrenta dificuldades, pois as decisões sobre testes, observações e teorias auxiliares envolvem pressuposições que não são sempre simples. O próprio falsificacionismo deve ser entendido como uma proposta metodológica, e não como descrição completa de tudo o que os cientistas efetivamente fazem. Internet Encyclopedia of Philosophy"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O problema no raciocínio estatístico"
+                }
+              ],
+              "id": "secao-146"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A dificuldade de Hume também aparece na estatística. Uma amostra contém informações sobre os casos observados. Para utilizá-la na estimação de características de uma população ou na previsão de dados futuros, precisamos adotar pressupostos sobre a relação entre o observado e o não observado."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Quando supomos que uma amostra foi selecionada aleatoriamente, que as observações são comparáveis ou que determinado processo permanece suficientemente estável, estabelecemos condições sob as quais a inferência pode ser desenvolvida."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A matemática permite determinar o que se segue dessas condições. Ela pode calcular estimativas, probabilidades, intervalos e medidas de incerteza. Entretanto, a adequação das condições ao fenômeno real precisa ser avaliada mediante conhecimento empírico, desenho da pesquisa e diagnóstico do modelo."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Um modelo estatístico não elimina o problema da indução. Ele torna explícitas as hipóteses sob as quais a passagem dos dados observados para os casos não observados será realizada."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Isso representa um avanço importante em relação a uma generalização ingênua. Em vez de apenas afirmar que o futuro repetirá o passado, procura-se identificar quais aspectos devem permanecer estáveis, quais variações são admitidas e qual incerteza acompanha a conclusão."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Indução não é certeza"
+                }
+              ],
+              "id": "secao-152"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O argumento de Hume ajuda a distinguir confiança racional de certeza absoluta. Uma afirmação pode estar muito bem apoiada pelas evidências sem tornar-se logicamente necessária."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Esperamos que o Sol nasça porque essa expectativa está integrada a uma extensa compreensão astronômica, sustentada por observações, modelos e teorias que explicam o movimento dos corpos celestes. A crença não depende apenas de contar quantas vezes o Sol apareceu no horizonte."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Ainda assim, a conclusão continua pertencendo ao domínio das questões de fato. Ela não possui a mesma necessidade lógica de uma igualdade matemática."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Reconhecer essa diferença não coloca todas as crenças no mesmo nível. Algumas previsões possuem evidências extremamente fortes; outras apoiam-se em observações escassas ou analogias superficiais. A ausência de certeza demonstrativa não elimina a possibilidade de comparar graus de justificação."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O que Hume não está afirmando"
+                }
+              ],
+              "id": "secao-157"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume não afirma que o futuro necessariamente será diferente do passado. Também não afirma que a natureza seja caótica ou que a ciência esteja condenada ao fracasso."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Seu argumento não demonstra que as inferências indutivas sejam falsas. Ele mostra que elas não podem ser justificadas por uma demonstração que parta apenas da razão nem por uma defesa experimental que não caia em circularidade."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Também não conclui que devemos abandonar todas as previsões. A experiência permanece a grande orientadora da vida humana. A questão é compreender que sua autoridade não se origina de uma prova lógica da uniformidade universal da natureza."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A dúvida de Hume limita uma pretensão de certeza. Ela não elimina a investigação empírica."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Limitações e problemas da divisão humeana"
+                }
+              ],
+              "id": "secao-162"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A divisão entre relações de ideias e questões de fato exerceu grande influência, mas sua completude foi questionada."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Kant sustentou que existem juízos sintéticos "
+                },
+                {
+                  "text": "a priori",
+                  "italic": true
+                },
+                {
+                  "text": ", que não seriam meras explicitações de conceitos nem simples generalizações da experiência. Essa proposta desafia a ideia de que todo conhecimento deva ser classificado exatamente segundo as duas categorias humeanas."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A concepção de geometria também se modificou depois de Hume. O desenvolvimento das geometrias não euclidianas mostrou que diferentes sistemas podem ser construídos a partir de diferentes axiomas. Isso exige distinguir a verdade interna de uma demonstração matemática da questão empírica sobre qual geometria descreve melhor o espaço físico."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Esses desenvolvimentos não eliminam a diferença fundamental apontada por Hume. Continua sendo relevante distinguir aquilo que se segue necessariamente de conceitos, axiomas ou premissas daquilo que depende da maneira como o mundo se encontra."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Limitações do critério de concebibilidade"
+                }
+              ],
+              "id": "secao-167"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume utiliza a possibilidade de conceber o contrário de uma proposição como sinal de que ela não é demonstrativamente necessária. Esse método também pode ser questionado."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Nossa capacidade de imaginar alguma coisa não garante que ela seja realmente possível. Podemos acreditar que concebemos uma situação coerente e depois descobrir uma contradição que não havíamos percebido."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Da mesma maneira, nossa incapacidade de imaginar algo pode resultar apenas dos limites de nossa compreensão. A realidade pode comportar estruturas que não conseguimos representar intuitivamente."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Apesar disso, o critério cumpre uma função importante no argumento. Ao mostrar que podemos formular sem contradição resultados diferentes para uma causa, Hume revela que o efeito efetivo não pode ser extraído apenas da aparência sensível do objeto."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A modéstia filosófica"
+                }
+              ],
+              "id": "secao-172"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A quarta seção expressa uma atitude central da filosofia de Hume: a modéstia diante dos limites do entendimento humano."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Os seres humanos conseguem descobrir regularidades, formular teorias e controlar muitos acontecimentos. Contudo, essas realizações não nos autorizam automaticamente a afirmar que compreendemos os poderes últimos da natureza ou que nossas expectativas possuem necessidade absoluta."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A filosofia revela tanto aquilo que podemos conhecer quanto os limites de nossas justificações. Para Hume, reconhecer a ignorância não é abandonar a razão. É impedir que a razão reivindique uma autoridade que não consegue sustentar."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Esse resultado retoma o projeto apresentado na primeira seção. A verdadeira metafísica deve investigar as capacidades do entendimento e utilizar essa investigação para limitar afirmações obscuras ou excessivas."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Consideração crítica"
+                }
+              ],
+              "id": "secao-177"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A força do argumento humeano está em separar o sucesso prático de uma inferência de sua fundamentação lógica. O fato de a indução funcionar frequentemente não fornece, sem pressuposições adicionais, uma demonstração de que continuará funcionando."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume também identifica uma circularidade difícil de evitar. Se tentamos defender a confiabilidade futura da experiência mencionando sua confiabilidade passada, já estamos utilizando o tipo de inferência que pretendíamos justificar."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Entretanto, pode-se questionar se toda justificação precisa possuir a forma exigida por Hume. Talvez uma prática racional não necessite de uma demonstração inteiramente externa a ela. Algumas respostas posteriores procuram justificar a indução de maneira pragmática, probabilística ou naturalista, sem transformá-la em dedução."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Também é necessário evitar uma conclusão excessiva. O problema da indução não torna equivalentes uma teoria científica cuidadosamente testada e uma suposição sem evidências. Mesmo que nenhuma delas alcance certeza lógica absoluta, existem diferenças importantes na qualidade das observações, na precisão das previsões, na capacidade explicativa e na resistência aos testes."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A seção destrói a pretensão de transformar a experiência em demonstração necessária. Ela não destrói a possibilidade de avaliar comparativamente nossas crenças sobre o mundo."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Síntese final"
+                }
+              ],
+              "id": "secao-183"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Na quarta seção da "
+                },
+                {
+                  "text": "Investigação sobre o entendimento humano",
+                  "italic": true
+                },
+                {
+                  "text": ", Hume divide os objetos da razão em relações de ideias e questões de fato. As relações de ideias são necessárias e podem ser conhecidas por demonstração. As questões de fato dependem da experiência, e seu contrário permanece logicamente concebível."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Todo conhecimento factual que ultrapassa os sentidos e a memória depende da relação de causa e efeito. Contudo, as relações entre causas e efeitos não podem ser descobertas apenas pelo raciocínio "
+                },
+                {
+                  "text": "a priori",
+                  "italic": true
+                },
+                {
+                  "text": ". Um objeto novo não revela, por sua aparência, quais efeitos produzirá. É a experiência que nos ensina essas relações."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A dificuldade surge quando utilizamos a experiência passada para prever acontecimentos futuros. O passado informa apenas aquilo que já ocorreu. Para empregá-lo como guia, pressupomos que causas semelhantes continuarão produzindo efeitos semelhantes."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Essa pressuposição não pode ser demonstrada, porque uma mudança no curso da natureza não contém contradição. Também não pode ser provada pela experiência, pois todo argumento experimental já pressupõe que o futuro conservará alguma conformidade com o passado. Tentar justificar a indução por meio da própria indução produz um círculo."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hume não conclui que devemos rejeitar a experiência. Crianças e animais aprendem com ela antes de serem capazes de formular argumentos. Isso indica que nossas expectativas causais não são originalmente produzidas por demonstrações racionais."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A quarta seção oferece principalmente uma conclusão negativa: a passagem do passado ao futuro não se funda em um processo demonstrativo do entendimento. A explicação positiva será apresentada na seção seguinte, quando Hume atribuirá essa passagem ao costume ou hábito."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sua dúvida cética não pretende paralisar a vida ou destruir a ciência. Ela revela que grande parte de nosso conhecimento factual depende de inferências indispensáveis, mas não demonstrativamente certas. A experiência orienta a vida humana, embora a razão não consiga provar, sem circularidade, que o futuro continuará semelhante ao passado."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                },
+                {
+                  "text": "\n"
+                }
+              ],
+              "id": "introducao"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                },
+                {
+                  "text": "\n"
+                }
+              ],
+              "id": "introducao"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
                 }
               ]
             }
