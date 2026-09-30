@@ -7479,6 +7479,2166 @@
       "published": "2026-09-08"
     },
     {
+      "id": "a-republica-platao",
+      "title": "A República - Platão",
+      "kind": "Ensaio",
+      "summary": "A República de Platão é estruturada em torno da busca pelo conceito de justiça, tanto na alma humana quanto na organização da cidade ideal (a Kallipolis). Por meio da figura de Sócrates, a obra argumenta que a sociedade justa deve ser dividida em três classes funcionais governantes, guardiões e produtores , refletindo as três partes da alma humana (racional, irascível e apetitiva), e ser liderada pelo \"rei-filósofo\", o único capaz de contemplar a verdade suprema. Utilizando alegorias célebres, como o Mito da Caverna, Platão expõe sua Teoria das Ideias para defender que o conhecimento racional e a busca pelo Bem são os únicos caminhos para superar as ilusões do mundo sensível e alcançar uma vida harmoniosa e uma política virtuosa.",
+      "collections": [
+        "Platão"
+      ],
+      "published": "2026-09-30",
+      "variants": [
+        {
+          "id": "didatico",
+          "status": "andamento",
+          "availability": "trecho",
+          "updated": "2026-09-30",
+          "last": "Livro 2",
+          "next": "Livro 3",
+          "chapters": [
+            {
+              "id": "secao-1",
+              "title": "Livro I: o que é a justiça?",
+              "paragraphs": [
+                "O Livro I de A República investiga duas questões inseparáveis: o que é a justiça e por que devemos ser justos? A discussão começa com experiências comuns, como envelhecer, cumprir obrigações e ajudar amigos, mas alcança problemas políticos e morais: a relação entre lei e poder, a finalidade do governo e a possibilidade de uma vida injusta ser mais vantajosa.",
+                "Platão apresenta essa investigação por meio de um diálogo narrado por Sócrates. As opiniões das personagens são examinadas, corrigidas ou contestadas ao longo da conversa. Por isso, compreender o livro exige acompanhar os argumentos e distinguir a posição de cada interlocutor, em vez de atribuir ao autor tudo o que aparece no texto.",
+                "\n"
+              ],
+              "subchapters": [
+                {
+                  "id": "secao-1-2",
+                  "title": "O cenário e o modo de investigar",
+                  "paragraphs": [
+                    "Sócrates vai ao Pireu, região portuária de Atenas, acompanhado de Gláucon, para participar de uma celebração religiosa. Quando se prepara para voltar, Polemarco o convence a permanecer. A conversa ocorre na casa de Polemarco, onde também estão seu pai, Céfalo, e outros participantes, entre eles Trasímaco.",
+                    "A investigação socrática parte de respostas que parecem razoáveis. Sócrates pede esclarecimentos, apresenta exemplos e verifica se as consequências de uma resposta são compatíveis com outras afirmações aceitas pelo interlocutor. Quando surge uma incompatibilidade, a definição precisa ser revista. Esse procedimento, chamado de refutação socrática, mostra que a convicção de alguém não basta para estabelecer que sua opinião seja verdadeira.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-4",
+                  "title": "Céfalo: velhice, riqueza e consciência tranquila",
+                  "paragraphs": [
+                    "O diálogo começa com uma pergunta sobre a velhice. Céfalo considera que seus sofrimentos dependem muito do caráter de cada pessoa. Para alguém moderado, o enfraquecimento das paixões pode trazer tranquilidade; para alguém dominado por desejos e insatisfações, tanto a juventude como a velhice são difíceis.",
+                    "Sócrates pergunta se essa serenidade não seria consequência da riqueza de Céfalo. Ele reconhece que os recursos materiais ajudam e que a pobreza pode tornar a velhice penosa mesmo para uma pessoa sensata. Entretanto, a riqueza, por si só, não torna alguém equilibrado.",
+                    "Seu principal benefício seria facilitar o cumprimento das obrigações: evitar enganar outras pessoas, pagar dívidas e realizar os sacrifícios devidos aos deuses. A proximidade da morte desperta o receio de responder pelas injustiças cometidas. Para Céfalo, uma vida honesta permite enfrentar esse momento com esperança. A questão da justiça surge, assim, ligada à consciência e à maneira como se viveu.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-8",
+                  "title": "Dizer a verdade e devolver o que se recebeu é sempre justo?",
+                  "paragraphs": [
+                    "Sócrates extrai da fala de Céfalo uma primeira proposta: a justiça consistiria em dizer a verdade e restituir aquilo que se recebeu de alguém. A fórmula expressa deveres importantes, mas precisa ser testada como definição geral.",
+                    "O exemplo decisivo é o de uma pessoa que recebe armas de um amigo em pleno uso da razão. Mais tarde, esse amigo perde o juízo e exige que sejam devolvidas. Cumprir a obrigação de restituí-las poderia permitir que ele ferisse a si mesmo ou a outros. Nesse caso, devolver o que lhe pertence não seria justo. Sócrates também questiona a obrigação de dizer toda a verdade a alguém nesse estado.",
+                    "O exemplo funciona como um contraexemplo: um caso que impede aceitar uma afirmação como regra válida sem exceções. O argumento não estabelece que mentir ou deixar de pagar dívidas seja, em geral, correto. Mostra que essas ações, consideradas isoladamente, não fornecem uma definição suficiente de justiça.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-12",
+                  "title": "Polemarco: dar a cada um o que lhe é devido",
+                  "paragraphs": [
+                    "Céfalo se retira para cuidar dos sacrifícios, e seu filho Polemarco assume a discussão. Apoiando-se no poeta Simônides, afirma que a justiça consiste em dar a cada um o que lhe é devido. Ao explicar essa fórmula, entende que aos amigos se deve fazer bem e aos inimigos, mal.",
+                    "Sócrates pergunta em que a justiça seria especialmente útil. Polemarco menciona a guerra e, depois, os contratos e a guarda do dinheiro. Entretanto, para usar bem um objeto, é preciso um conhecimento específico: o músico sabe usar a lira; o conhecedor de cavalos sabe avaliar sua compra. A definição acaba restringindo a utilidade da justiça à conservação de coisas que não estão sendo usadas.",
+                    "Surge ainda um paradoxo: quem conhece os meios de proteger algo também pode conhecer os meios de roubá-lo. Isso não significa que Sócrates considere o justo um ladrão; expõe uma dificuldade de tratar a justiça apenas como uma habilidade de guardar bens.",
+                    "Além disso, podemos nos enganar sobre quem são nossos amigos. Pessoas más podem parecer boas, e pessoas boas podem parecer inimigas. A lealdade pessoal, portanto, não garante que estejamos beneficiando quem merece ou prejudicando quem agiu injustamente.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-17",
+                  "title": "A justiça pode tornar alguém pior?",
+                  "paragraphs": [
+                    "Polemarco corrige sua proposta: devemos beneficiar os amigos que realmente são bons e prejudicar os inimigos que realmente são maus. Sócrates contesta também essa versão.",
+                    "Seu argumento relaciona o dano à perda de uma excelência. Quando cavalos são prejudicados, tornam-se piores enquanto cavalos. Aplicando o raciocínio aos seres humanos, Sócrates afirma que prejudicá-los os torna piores quanto à excelência humana. Como a justiça é reconhecida nessa discussão como uma excelência humana, fazer mal a alguém o tornaria mais injusto.",
+                    "A dificuldade é que a justiça, sendo uma virtude, não deveria produzir seu contrário. Assim como o conhecimento musical não torna alguém ignorante em música por meio de seu exercício adequado, a justiça não deveria tornar alguém injusto. Sócrates conclui que fazer mal não é próprio do justo, seja a amigos, seja a inimigos.",
+                    "Para compreender o argumento, é preciso observar o sentido de dano empregado: ele envolve tornar alguém pior. O trecho não resolve, por si só, todas as questões sobre punição, defesa ou uso da força. Sua crítica dirige-se à ideia de que a hostilidade contra um inimigo basta para transformar o mal que lhe fazemos em justiça.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-22",
+                  "title": "Trasímaco: a justiça como vantagem do mais forte",
+                  "paragraphs": [
+                    "Trasímaco intervém de maneira agressiva. Acusa Sócrates de apenas questionar os outros e exige uma resposta direta. Sua própria tese é que a justiça consiste na vantagem do mais forte.",
+                    "O mais forte, nesse argumento, é o poder que governa a cidade. Cada governo estabelece leis conforme seus interesses e chama de justo o comportamento que as obedece. Os transgressores são punidos como injustos. A justiça dos governados serviria, portanto, aos interesses dos governantes.",
+                    "A tese coloca em dúvida a ligação entre justiça e bem moral. Uma lei pode exigir obediência e, ao mesmo tempo, favorecer quem exerce o poder. Trasímaco pretende revelar que aquilo que se apresenta como justiça beneficia o grupo dominante. Sócrates precisa examinar, então, se o interesse de quem manda é realmente o critério que define o justo.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-26",
+                  "title": "A dificuldade dos governantes que se enganam",
+                  "paragraphs": [
+                    "Sócrates pergunta se os governantes podem cometer erros. Trasímaco inicialmente admite que sim. Mas, se um governante cria uma lei que prejudica seus próprios interesses e os súditos devem obedecê-la, a justiça passa a exigir uma ação contrária à vantagem do mais forte. As duas afirmações deixam de coincidir.",
+                    "Clitofonte sugere uma saída: talvez justo seja fazer o que o governante julga vantajoso, mesmo quando se engana. Trasímaco não aceita essa reformulação. Prefere distinguir o uso comum de uma palavra de seu sentido rigoroso.",
+                    "Assim como um médico, enquanto exerce corretamente seu saber, não erra, o governante, considerado estritamente como conhecedor da arte de governar, também não erraria. Os erros ocorreriam quando seu conhecimento falhasse. Essa resposta desloca o debate: já não basta falar de quem ocupa o poder; é preciso esclarecer em que consiste o exercício competente do governo.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-30",
+                  "title": "A arte de governar e o benefício dos governados",
+                  "paragraphs": [
+                    "Sócrates examina a finalidade das artes. A palavra grega téchne, traduzida como arte ou técnica, designa aqui uma atividade orientada por conhecimento, como a medicina ou a navegação, e não apenas uma atividade artística.",
+                    "A medicina, considerada como medicina, procura a saúde do paciente. A navegação procura conduzir os navegantes com segurança. Seguindo essa analogia, Sócrates afirma que a arte de governar deve procurar o benefício dos governados. O conhecimento de quem dirige é exercido em favor daqueles que dependem dele.",
+                    "Trasímaco contrapõe o exemplo dos pastores: eles cuidam das ovelhas para beneficiar a si mesmos ou aos proprietários. Sócrates responde distinguindo o cuidado próprio da atividade e os ganhos associados a ela. Produzir saúde é a finalidade da medicina; receber um pagamento é um benefício adicional. Da mesma maneira, ele separa a arte de cuidar do rebanho do interesse em vendê-lo ou utilizá-lo.",
+                    "Essa distinção permite compreender por que Sócrates considera necessário oferecer incentivos para governar. Os melhores poderiam aceitar essa responsabilidade para evitar uma consequência pior: serem governados por pessoas inferiores a eles em qualidade.",
+                    "O argumento apresenta um critério para o governo adequadamente exercido. Sua força depende de aceitar a analogia entre governar e exercer uma arte voltada ao benefício de seu objeto; não é uma simples descrição do comportamento de todos os governantes existentes.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-36",
+                  "title": "A injustiça bem-sucedida seria mais vantajosa?",
+                  "paragraphs": [
+                    "Trasímaco amplia seu desafio: não apenas a justiça serve ao interesse alheio, como a injustiça pode ser mais vantajosa para quem a pratica. O justo respeita acordos, paga o que deve e evita aproveitar-se do cargo público. O injusto consegue obter benefícios precisamente por desrespeitar esses limites.",
+                    "O caso extremo é o tirano, que se apropria dos bens dos outros e submete cidades inteiras. Enquanto pequenas injustiças recebem condenação e castigo, uma injustiça suficientemente grande e bem-sucedida pode levar seu autor a ser considerado poderoso e feliz.",
+                    "Trasímaco não está elogiando qualquer delito, inclusive os que fracassam. Seu exemplo central é a injustiça capaz de conquistar poder e evitar suas consequências desfavoráveis. Ele chega a associá-la à inteligência e à prudência, enquanto considera a justiça uma ingenuidade. A investigação passa a enfrentar uma questão mais exigente: por que escolher a justiça quando a injustiça parece trazer melhores resultados?",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-40",
+                  "title": "Conhecimento, medida e desejo de superar os outros",
+                  "paragraphs": [
+                    "Uma resposta de Sócrates procura relacionar a justiça à sabedoria. O justo não pretende obter vantagem sobre outro justo, embora queira superar o injusto. O injusto, ao contrário, busca superar tanto os justos como os demais injustos.",
+                    "Sócrates compara esses comportamentos ao exercício de um conhecimento. Ao afinar um instrumento, o músico competente procura a afinação adequada. Não tenta tensionar as cordas mais do que outro músico competente apenas para superá-lo. Ambos devem reconhecer a medida correta. O ignorante, por não conhecer essa medida, pode tentar ultrapassar indistintamente quem sabe e quem não sabe.",
+                    "Com essa comparação, Sócrates aproxima o justo de quem conhece o que deve fazer e o injusto de quem procura vantagem sem reconhecer um limite adequado. Trasímaco acaba admitindo a associação entre justiça, sabedoria e virtude.",
+                    "A analogia é uma etapa da argumentação: sua aplicação à justiça exige admitir que o comportamento moral pode ser comparado à competência técnica. Não se deve reduzir sua conclusão à afirmação de que qualquer habilidade ou conhecimento torna alguém moralmente justo.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-45",
+                  "title": "A injustiça destrói a capacidade de agir em conjunto",
+                  "paragraphs": [
+                    "Sócrates também contesta a suposta superioridade da injustiça por meio de seus efeitos sobre a ação coletiva. Uma cidade, um exército ou mesmo um grupo de ladrões não consegue realizar um empreendimento comum se seus integrantes se enganam e prejudicam continuamente.",
+                    "Um grupo que pratica injustiças contra outras pessoas ainda precisa conservar alguma justiça entre seus membros. Caso contrário, a desconfiança e o conflito destroem sua capacidade de cooperar. Para Sócrates, o êxito de uma ação injusta não demonstra que a injustiça completa seja eficaz: pode demonstrar que seus autores preservam alguma justiça nas relações internas.",
+                    "O argumento é estendido ao indivíduo. Sócrates afirma que a injustiça produz discórdia também dentro de uma pessoa, tornando-a inimiga de si mesma e dificultando sua ação. A comparação aproxima o problema político do problema moral: tanto uma comunidade como uma pessoa precisam de alguma unidade para agir bem.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-49",
+                  "title": "Função, virtude e felicidade",
+                  "paragraphs": [
+                    "O último argumento procura mostrar que o justo vive melhor. Sócrates parte da ideia de função: aquilo que uma coisa realiza exclusivamente ou melhor do que outras. Ver é a função dos olhos; ouvir é a função dos ouvidos. Para desempenhar bem uma função, é necessário possuir a excelência correspondente.",
+                    "Aqui, virtude, tradução de aretê, significa excelência ou qualidade que permite um bom desempenho. A palavra não se limita ao caráter moral: podemos falar, nesse sentido, da excelência dos olhos ou de um instrumento.",
+                    "Sócrates atribui à alma funções como deliberar, dirigir e viver. Se a justiça é sua virtude, uma alma justa desempenhará bem essas funções, enquanto uma alma injusta as desempenhará mal. O homem justo, portanto, viverá bem e será feliz; o injusto viverá mal.",
+                    "A felicidade em questão está ligada a viver bem, e não apenas a sentir prazer ou possuir riqueza. Entretanto, o argumento depende de uma premissa decisiva: que a justiça seja a excelência própria da alma. Como a natureza da justiça ainda não foi suficientemente esclarecida, a conclusão permanece ligada a uma dificuldade que o próprio Sócrates reconhecerá ao encerrar a conversa.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-54",
+                  "title": "O desfecho: reconhecer o que ainda não se sabe",
+                  "paragraphs": [
+                    "Embora Trasímaco tenha cedido em diversos pontos, Sócrates não considera a investigação concluída. Reconhece que passou a discutir se a justiça é virtude e se torna alguém feliz antes de estabelecer o que ela é.",
+                    "O Livro I termina, assim, em aporia: uma dificuldade ainda não resolvida, na qual as respostas examinadas se mostraram insuficientes, mas uma definição satisfatória não foi alcançada. Refutar uma resposta não equivale automaticamente a conhecer a resposta correta.",
+                    "Esse desfecho confere sentido ao percurso. As obrigações tradicionais, a lealdade aos amigos e a obediência ao poder precisam ser examinadas; nenhuma dessas referências foi aceita como definição suficiente. Ao mesmo tempo, Sócrates apresentou razões para associar a justiça ao cuidado, à cooperação e à vida boa. A continuação da obra deverá enfrentar o problema que permanece: compreender a justiça suficientemente para justificar seu valor.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-58",
+                  "title": "Comparações com Aristóteles e Hobbes",
+                  "paragraphs": [
+                    "Na Ética a Nicômaco, V, 1–4, Aristóteles distingue a justiça como virtude exercida em relação aos outros de formas particulares: a distributiva, relativa à repartição de bens e honras, e a corretiva, relativa à reparação de desequilíbrios nas relações. Essa distinção ajuda a perceber que justiça pode designar tanto uma qualidade do caráter como critérios para organizar relações. É uma comparação esclarecedora com as dificuldades do Livro I, mas não corresponde a uma classificação já formulada por Sócrates nesse trecho. Nicomachean Ethics by Aristotle",
+                    "No capítulo XV do Leviatã, Hobbes relaciona a justiça ao cumprimento de pactos e contesta a ideia de que rompê-los por vantagem própria seja uma estratégia racional. Sua resposta destaca a segurança e a possibilidade de confiar na cooperação. A aproximação com o argumento socrático é esta: a vantagem individual depende de vínculos que a traição pode destruir. A diferença está no fundamento da análise: Hobbes discute pactos e condições de segurança; Sócrates procura também mostrar que a justiça constitui uma excelência da própria alma. ",
+                    "\n"
+                  ],
+                  "subchapters": []
+                }
+              ]
+            },
+            {
+              "id": "secao-1-2-2",
+              "title": "Livro II: por que ser justo, mesmo sem reconhecimento?",
+              "paragraphs": [
+                "O Livro II aprofunda a questão deixada em aberto pelo Livro I. A discussão com Trasímaco não convenceu plenamente Gláucon e Adimanto. Eles exigem que Sócrates mostre por que a justiça é boa para quem a possui, mesmo quando não traz honrarias, riqueza ou reconhecimento.",
+                "Para responder, Sócrates propõe investigar a justiça em uma cidade construída em pensamento. O diálogo passa da avaliação das escolhas individuais à origem da comunidade política, à divisão do trabalho e à educação dos guardiões. Essas questões integram a procura pelo valor da justiça.",
+                "\n"
+              ],
+              "subchapters": [
+                {
+                  "id": "secao-4-2",
+                  "title": "As três espécies de bens",
+                  "paragraphs": [
+                    "Gláucon distingue três maneiras de considerar algo bom. Há bens que desejamos por si mesmos, como os prazeres inofensivos, apreciados pelo próprio desfrute. Há bens desejados por si mesmos e por suas consequências, como a saúde, a visão e a sensatez. E há atividades penosas que aceitamos pelos resultados que proporcionam, como tratamentos médicos ou trabalhos realizados em troca de remuneração.",
+                    "Sócrates coloca a justiça na segunda categoria: ela deve ser amada por si mesma e por suas consequências. Gláucon observa, porém, que a opinião corrente a coloca na terceira. Segundo essa opinião, ser justo seria uma obrigação desagradável, suportada para obter boa reputação e evitar punições.",
+                    "A investigação precisa distinguir o valor próprio da justiça de suas vantagens externas. Isso não significa excluir seus efeitos sobre a alma: é justamente o que a justiça produz em quem a possui que os irmãos querem compreender. Eles pedem que Sócrates deixe de lado os benefícios dependentes da aprovação de outras pessoas.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-8-2",
+                  "title": "A justiça como acordo para evitar danos",
+                  "paragraphs": [
+                    "Gláucon reconstrói uma explicação corrente da origem da justiça. Segundo ela, praticar injustiça e escapar do castigo seria vantajoso; sofrer injustiça sem poder reagir seria profundamente prejudicial. Como muitas pessoas não conseguem garantir a primeira situação e evitar a segunda, estabelecem acordos para não cometer nem sofrer injustiças.",
+                    "As leis surgiriam dessa convenção. A justiça ocuparia uma posição intermediária entre dois extremos: a liberdade de prejudicar os outros impunemente e a vulnerabilidade de sofrer seus ataques. Ela seria respeitada porque oferece proteção, e não porque seja um bem em si.",
+                    "Gláucon apresenta essa hipótese para fortalecer o desafio que Sócrates terá de enfrentar. Ele declara que não está convencido da superioridade da injustiça. Sua intenção é ouvir uma defesa da justiça suficientemente forte para responder aos argumentos que circulam em favor da vida injusta.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-12-2",
+                  "title": "O anel de Giges: o teste da impunidade",
+                  "paragraphs": [
+                    "Para tornar o problema concreto, Gláucon conta o episódio tradicionalmente conhecido como anel de Giges. Um pastor encontra um anel que permite tornar-se invisível. Depois de descobrir seu poder, aproxima-se da rainha, participa do assassinato do rei e conquista o governo.",
+                    "Gláucon imagina então dois anéis: um entregue a uma pessoa justa, outro a uma injusta. O defensor da hipótese anterior afirmaria que ambos agiriam da mesma maneira, aproveitando a oportunidade de tomar bens alheios e satisfazer seus desejos sem serem descobertos.",
+                    "O relato funciona como um experimento de pensamento: uma situação imaginária criada para testar uma ideia. Sua pergunta central é se alguém continuaria justo caso tivesse certeza de que não seria punido. A história não prova, por si só, que todas as pessoas abandonariam a justiça; apresenta a hipótese que Sócrates precisa contestar.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-16",
+                  "title": "Ser justo e parecer justo",
+                  "paragraphs": [
+                    "Gláucon propõe uma comparação ainda mais rigorosa. De um lado, imagina alguém profundamente injusto, mas capaz de ocultar seus atos e conquistar a reputação de justo. Essa pessoa recebe confiança, poder e vantagens sociais. De outro, imagina alguém verdadeiramente justo que, apesar de não cometer injustiças, é considerado injusto e sofre as consequências dessa má reputação.",
+                    "O contraste separa o caráter real da pessoa e a imagem que os outros fazem dela. Se o justo recebesse honrarias, seria difícil saber se sua vida é boa por causa da justiça ou pelos benefícios da reputação. Ao retirar esses benefícios, Gláucon procura examinar o valor da justiça isoladamente.",
+                    "O exemplo chega ao extremo de atribuir ao justo perseguições, torturas e morte. A exigência não é que Sócrates demonstre que a sociedade sempre recompensa os bons. Ele deve mostrar por que a justiça continua sendo um bem para seu possuidor mesmo quando a avaliação social está inteiramente invertida.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-20",
+                  "title": "Adimanto: o problema de educar apenas pelas recompensas",
+                  "paragraphs": [
+                    "Adimanto acrescenta que muitos discursos favoráveis à justiça também são insuficientes. Pais, educadores e poetas recomendam uma vida justa, mas destacam sobretudo suas recompensas: prestígio, bons casamentos, cargos públicos e favores divinos. Assim, podem acabar ensinando a desejar a reputação de justo, sem explicar o valor de sê-lo.",
+                    "Ele também critica os discursos segundo os quais pessoas injustas poderiam obter o perdão dos deuses por meio de oferendas e rituais. Se alguém pudesse enriquecer pela injustiça e depois utilizar parte desses ganhos para evitar o castigo divino, a própria religião, apresentada dessa maneira, reforçaria a estratégia do injusto.",
+                    "Adimanto pede, portanto, que Sócrates explique os efeitos próprios da justiça e da injustiça na alma. Uma educação convincente deveria permitir que cada pessoa se tornasse guardiã de si mesma, evitando a injustiça por compreender o mal que ela representa. A vigilância externa seria insuficiente se o indivíduo continuasse desejando praticar injustiças sempre que pudesse escondê-las.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-24",
+                  "title": "A cidade como lugar de investigação",
+                  "paragraphs": [
+                    "Sócrates reconhece a dificuldade da tarefa. Propõe uma comparação com a leitura: se não conseguimos distinguir letras pequenas, podemos procurar as mesmas letras em tamanho maior e depois voltar às menores. Do mesmo modo, talvez seja mais fácil perceber a justiça em uma cidade inteira antes de examiná-la em um indivíduo.",
+                    "A cidade, ou pólis, é a comunidade política com suas atividades, relações e formas de organização. Sócrates pretende acompanhá-la desde sua formação, para observar como surgem nela a justiça e a injustiça. A comparação orienta a pesquisa; a correspondência entre cidade e indivíduo ainda precisará ser examinada durante a obra.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-27",
+                  "title": "Necessidades, divisão do trabalho e trocas",
+                  "paragraphs": [
+                    "A cidade nasce porque nenhum indivíduo é autossuficiente. Precisamos de alimentação, moradia, roupas e muitos outros recursos. A associação permite que diferentes pessoas atendam a essas necessidades mediante a cooperação.",
+                    "Sócrates pergunta se cada pessoa deve produzir tudo o que utiliza ou especializar-se em uma atividade e compartilhar seus produtos. Defende a segunda opção: as pessoas possuem aptidões diferentes, e uma tarefa é mais bem realizada quando alguém se dedica a ela, conforme sua natureza e no momento apropriado. Surge o princípio da divisão do trabalho, pelo qual as atividades são distribuídas entre pessoas que se ocupam de funções específicas.",
+                    "A comunidade se amplia porque os trabalhadores precisam de instrumentos, animais e materiais. Como dificilmente um território fornece tudo, aparecem também comerciantes e transportadores. As trocas internas exigem mercado, moeda e intermediários; outras atividades são realizadas por trabalhadores assalariados. A descrição mostra uma rede de dependências: a especialização aumenta a capacidade de produzir, mas também torna cada pessoa dependente do trabalho de outras.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-31",
+                  "title": "A cidade saudável e a cidade de luxo",
+                  "paragraphs": [
+                    "Sócrates descreve inicialmente uma comunidade de vida simples, com alimentação moderada, trabalho, convívio e satisfação das necessidades. Seus habitantes evitariam ter mais filhos do que poderiam sustentar, receando a pobreza e a guerra. Ele considera essa cidade saudável.",
+                    "Gláucon julga a descrição insuficiente e a chama de cidade de porcos. Deseja os confortos e hábitos da vida mais requintada: móveis, iguarias e outras comodidades. Sócrates aceita investigar essa cidade de luxo, embora a descreva como uma cidade tomada por excessos.",
+                    "A mudança introduz uma distinção entre necessidades e desejos que ultrapassam o necessário. A cidade passa a exigir mais profissões, serviços, objetos e alimentos. Seu crescimento deixa de acompanhar apenas as condições básicas de existência e passa a responder à multiplicação dos desejos. Sócrates acredita que esse processo tornará mais visíveis os problemas da justiça e da injustiça.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-35",
+                  "title": "A expansão dos desejos e a origem da guerra",
+                  "paragraphs": [
+                    "Com o aumento da população e do consumo, o território antes suficiente torna-se pequeno. A cidade procura terras dos vizinhos, que podem experimentar a mesma expansão de seus desejos. Nesse modelo, a busca de posses sem limite leva ao conflito por recursos e território.",
+                    "Sócrates identifica aí uma origem da guerra. O argumento relaciona a desmedida dos desejos a consequências coletivas: aquilo que parece apenas uma preferência por maior riqueza e conforto pode exigir conquistas e provocar sofrimento público. A cidade passa a precisar de um grupo dedicado à defesa e ao combate.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-38",
+                  "title": "Os guardiões: competência, coragem e discernimento",
+                  "paragraphs": [
+                    "A atividade militar também está sujeita ao princípio da especialização. Se uma pessoa precisa de aprendizagem para produzir bons sapatos, não se deve supor que consiga combater adequadamente apenas por receber armas. Os guardiões, responsáveis pela proteção da cidade, necessitam de aptidão, prática e educação.",
+                    "Sócrates procura pessoas rápidas, fortes, perspicazes e dotadas de ânimo para enfrentar perigos. Contudo, essas qualidades podem torná-las violentas contra os próprios cidadãos. Surge uma dificuldade: o guardião precisa reunir firmeza diante dos inimigos e brandura no convívio com aqueles que protege.",
+                    "O cão de guarda oferece uma analogia. Pode ser dócil com os conhecidos e agressivo com os desconhecidos. Sócrates destaca que essa diferença depende de reconhecer ou não quem se aproxima. Associa, assim, a natureza do bom guardião a uma disposição para conhecer e aprender.",
+                    "O termo filósofo aparece aqui nesse sentido inicial: amigo do saber. A força deve ser acompanhada de discernimento, para que os protetores da cidade não se tornem responsáveis por sua destruição. A escolha dos guardiões conduz, então, ao problema de sua formação.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-43",
+                  "title": "A educação do corpo e da alma",
+                  "paragraphs": [
+                    "Sócrates toma como referência a educação tradicional: ginástica para o corpo e música para a alma. Música, nesse contexto, tem um sentido mais amplo do que o atual. Inclui poesia, narrativas e outras práticas ligadas às Musas, participando da formação do caráter.",
+                    "Essa educação começa pelas histórias contadas às crianças. Os relatos podem ser fictícios e, ainda assim, conter verdades ou transmitir modelos de comportamento. O problema é avaliar que concepções eles introduzem na alma de quem ainda não possui capacidade suficiente para examiná-los.",
+                    "Sócrates considera os primeiros anos especialmente importantes porque as impressões recebidas nessa fase podem permanecer profundamente arraigadas. Propõe selecionar as narrativas ensinadas, persuadir mães e amas a utilizarem as aprovadas e rejeitar as que transmitam concepções inadequadas. A organização da cidade passa a incluir, portanto, o controle da formação cultural.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-47",
+                  "title": "A crítica aos mitos e a censura educativa",
+                  "paragraphs": [
+                    "Homero e Hesíodo são submetidos a exame porque seus poemas apresentam os deuses como protagonistas de conflitos, enganos e violências familiares. Sócrates teme que esses exemplos ofereçam aos jovens justificativas para agir da mesma maneira. Um guardião educado por histórias de hostilidade entre os deuses poderia considerar aceitável a hostilidade entre concidadãos.",
+                    "A avaliação é também pedagógica: Sócrates chega a dizer que certos relatos não deveriam ser contados indiscriminadamente aos jovens mesmo se fossem verdadeiros. O apelo à alegoria não elimina a dificuldade: crianças não distinguem facilmente um sentido figurado de uma descrição literal. Por isso, exige que as primeiras narrativas sejam orientadas à virtude.",
+                    "A proposta envolve censura: os fundadores da cidade estabelecem os modelos que os poetas devem respeitar, e determinadas histórias são excluídas da educação. Para compreender a posição apresentada, é preciso perceber a função atribuída à poesia: ela participa da formação das crenças, dos sentimentos e das disposições para agir, tendo consequências políticas.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-51",
+                  "title": "Primeiro critério teológico: a divindade é boa",
+                  "paragraphs": [
+                    "Sócrates estabelece padrões para representar os deuses. O primeiro parte de sua bondade: aquilo que é bom não pode ser causa de males. A divindade deve, portanto, ser apresentada como causa dos bens; para os males, é preciso procurar outras causas.",
+                    "Esse critério exclui narrativas nas quais um deus provoca a injustiça humana ou distribui arbitrariamente destinos bons e maus. Sócrates admite, contudo, que um castigo justo possa beneficiar o culpado. Nesse caso, o sofrimento não é apresentado como um mal produzido pela divindade, mas como uma correção de que o indivíduo necessita. O argumento distingue, assim, sofrer uma pena e ser moralmente prejudicado.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-54-2",
+                  "title": "Segundo critério: constância e veracidade divinas",
+                  "paragraphs": [
+                    "O segundo padrão rejeita a representação dos deuses como seres que mudam de forma ou enganam os seres humanos. Sócrates argumenta que aquilo que é excelente resiste melhor às alterações externas. Uma divindade perfeita também não teria motivo para modificar voluntariamente sua natureza: não poderia tornar-se melhor, e não desejaria tornar-se pior.",
+                    "Ao tratar da mentira, o diálogo introduz uma distinção importante. A mentira na alma é a condição de permanecer enganado sobre a realidade, conservando a ignorância como se fosse conhecimento. Sócrates considera essa condição indesejável tanto para homens como para deuses.",
+                    "Já a mentira por palavras pode ter utilidade em determinadas situações humanas. O texto menciona a relação com inimigos, a tentativa de impedir que um amigo transtornado pratique uma ação má e a composição de narrativas sobre um passado que não conhecemos inteiramente. Nesse último caso, procura-se aproximar a narrativa da verdade tanto quanto possível.",
+                    "Sócrates sustenta que esses motivos não se aplicam aos deuses. Eles não precisariam mentir por ignorância, temor ou para lidar com amigos enlouquecidos. Devem ser representados como verdadeiros em palavras e ações. Por isso, a conclusão sobre a veracidade divina não equivale a uma condenação indiscriminada de toda ficção ou de qualquer uso humano de afirmações falsas.",
+                    "\n"
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-59",
+                  "title": "O que o Livro II estabelece e o que permanece aberto",
+                  "paragraphs": [
+                    "O Livro II termina com a aprovação desses padrões para a representação dos deuses. A finalidade declarada é formar guardiões piedosos e semelhantes às divindades tanto quanto isso seja possível ao ser humano. O desenvolvimento da educação prossegue no livro seguinte.",
+                    "A definição de justiça ainda não foi alcançada. Entretanto, a pesquisa ganhou uma direção: examinar a organização da cidade e a formação de seus integrantes para compreender o que torna justa uma comunidade e, depois, um indivíduo. Permanece a exigência inicial de Gláucon e Adimanto: mostrar que a justiça beneficia seu possuidor por aquilo que ela própria é, mesmo quando sua reputação não lhe traz vantagem alguma."
+                  ],
+                  "subchapters": []
+                },
+                {
+                  "id": "secao-62",
+                  "title": "16. Comparações com Hobbes, Kant e Aristóteles",
+                  "paragraphs": [
+                    "Hobbes, no capítulo XV do Leviatã, relaciona a justiça ao cumprimento dos pactos e à necessidade de um poder que assegure sua observância. A comparação ajuda a compreender a explicação convencional apresentada por Gláucon: acordos limitam os conflitos e tornam possível a segurança. A diferença está no lugar dessa explicação: em Platão, ela integra o desafio a ser respondido; em Hobbes, faz parte de sua teoria da justiça e da ordem política. resources.saylor.org",
+                    "Kant, na primeira seção da Fundamentação da metafísica dos costumes, distingue agir conforme o dever e agir por dever. Um comerciante pode atender honestamente porque isso favorece seus negócios, sem que essa honestidade tenha o dever como motivo. A comparação esclarece a diferença entre comportamento correto e motivação moral. Os fundamentos, porém, diferem: os irmãos pedem a Sócrates que explique o bem produzido pela justiça na alma; Kant examina o valor moral de agir por respeito ao dever. Project Gutenberg",
+                    "Aristóteles, na Política, I, 2, afirma que a cidade surge para atender às necessidades da vida e existe em vista da vida boa. Essa formulação permite comparar a cooperação necessária à sobrevivência e a dimensão ética da comunidade. Aristóteles desenvolve sua explicação a partir da família e da aldeia; Sócrates constrói uma cidade em pensamento, partindo das necessidades e da divisão das atividades, para investigar a justiça. ",
+                    "\n",
+                    "\n\n",
+                    "\n"
+                  ],
+                  "subchapters": []
+                }
+              ]
+            }
+          ],
+          "blocks": [
+            {
+              "tag": "h2",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Livro I: o que é a justiça?"
+                }
+              ],
+              "id": "secao-1"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O Livro I de "
+                },
+                {
+                  "text": "A República",
+                  "italic": true
+                },
+                {
+                  "text": " investiga duas questões inseparáveis: "
+                },
+                {
+                  "text": "o que é a justiça e por que devemos ser justos?",
+                  "bold": true
+                },
+                {
+                  "text": " A discussão começa com experiências comuns, como envelhecer, cumprir obrigações e ajudar amigos, mas alcança problemas políticos e morais: a relação entre lei e poder, a finalidade do governo e a possibilidade de uma vida injusta ser mais vantajosa."
+                }
+              ],
+              "id": "introducao"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Platão apresenta essa investigação por meio de um diálogo narrado por Sócrates. As opiniões das personagens são examinadas, corrigidas ou contestadas ao longo da conversa. Por isso, compreender o livro exige acompanhar os argumentos e distinguir a posição de cada interlocutor, em vez de atribuir ao autor tudo o que aparece no texto."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O cenário e o modo de investigar"
+                }
+              ],
+              "id": "secao-1-2"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sócrates vai ao Pireu, região portuária de Atenas, acompanhado de Gláucon, para participar de uma celebração religiosa. Quando se prepara para voltar, Polemarco o convence a permanecer. A conversa ocorre na casa de Polemarco, onde também estão seu pai, Céfalo, e outros participantes, entre eles Trasímaco."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A investigação socrática parte de respostas que parecem razoáveis. Sócrates pede esclarecimentos, apresenta exemplos e verifica se as consequências de uma resposta são compatíveis com outras afirmações aceitas pelo interlocutor. Quando surge uma incompatibilidade, a definição precisa ser revista. Esse procedimento, chamado de "
+                },
+                {
+                  "text": "refutação socrática",
+                  "bold": true
+                },
+                {
+                  "text": ", mostra que a convicção de alguém não basta para estabelecer que sua opinião seja verdadeira."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Céfalo: velhice, riqueza e consciência tranquila"
+                }
+              ],
+              "id": "secao-4"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O diálogo começa com uma pergunta sobre a velhice. Céfalo considera que seus sofrimentos dependem muito do caráter de cada pessoa. Para alguém moderado, o enfraquecimento das paixões pode trazer tranquilidade; para alguém dominado por desejos e insatisfações, tanto a juventude como a velhice são difíceis."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sócrates pergunta se essa serenidade não seria consequência da riqueza de Céfalo. Ele reconhece que os recursos materiais ajudam e que a pobreza pode tornar a velhice penosa mesmo para uma pessoa sensata. Entretanto, a riqueza, por si só, não torna alguém equilibrado."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Seu principal benefício seria facilitar o cumprimento das obrigações: evitar enganar outras pessoas, pagar dívidas e realizar os sacrifícios devidos aos deuses. A proximidade da morte desperta o receio de responder pelas injustiças cometidas. Para Céfalo, uma vida honesta permite enfrentar esse momento com esperança. A questão da justiça surge, assim, ligada à consciência e à maneira como se viveu."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Dizer a verdade e devolver o que se recebeu é sempre justo?"
+                }
+              ],
+              "id": "secao-8"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sócrates extrai da fala de Céfalo uma primeira proposta: "
+                },
+                {
+                  "text": "a justiça consistiria em dizer a verdade e restituir aquilo que se recebeu de alguém",
+                  "bold": true
+                },
+                {
+                  "text": ". A fórmula expressa deveres importantes, mas precisa ser testada como definição geral."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O exemplo decisivo é o de uma pessoa que recebe armas de um amigo em pleno uso da razão. Mais tarde, esse amigo perde o juízo e exige que sejam devolvidas. Cumprir a obrigação de restituí-las poderia permitir que ele ferisse a si mesmo ou a outros. Nesse caso, devolver o que lhe pertence não seria justo. Sócrates também questiona a obrigação de dizer toda a verdade a alguém nesse estado."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O exemplo funciona como um "
+                },
+                {
+                  "text": "contraexemplo",
+                  "bold": true
+                },
+                {
+                  "text": ": um caso que impede aceitar uma afirmação como regra válida sem exceções. O argumento não estabelece que mentir ou deixar de pagar dívidas seja, em geral, correto. Mostra que essas ações, consideradas isoladamente, não fornecem uma definição suficiente de justiça."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Polemarco: dar a cada um o que lhe é devido"
+                }
+              ],
+              "id": "secao-12"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Céfalo se retira para cuidar dos sacrifícios, e seu filho Polemarco assume a discussão. Apoiando-se no poeta Simônides, afirma que a justiça consiste em dar a cada um o que lhe é devido. Ao explicar essa fórmula, entende que aos amigos se deve fazer bem e aos inimigos, mal."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sócrates pergunta em que a justiça seria especialmente útil. Polemarco menciona a guerra e, depois, os contratos e a guarda do dinheiro. Entretanto, para usar bem um objeto, é preciso um conhecimento específico: o músico sabe usar a lira; o conhecedor de cavalos sabe avaliar sua compra. A definição acaba restringindo a utilidade da justiça à conservação de coisas que não estão sendo usadas."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Surge ainda um paradoxo: quem conhece os meios de proteger algo também pode conhecer os meios de roubá-lo. Isso não significa que Sócrates considere o justo um ladrão; expõe uma dificuldade de tratar a justiça apenas como uma habilidade de guardar bens."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Além disso, podemos nos enganar sobre quem são nossos amigos. Pessoas más podem parecer boas, e pessoas boas podem parecer inimigas. A lealdade pessoal, portanto, não garante que estejamos beneficiando quem merece ou prejudicando quem agiu injustamente."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A justiça pode tornar alguém pior?"
+                }
+              ],
+              "id": "secao-17"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Polemarco corrige sua proposta: devemos beneficiar os amigos que realmente são bons e prejudicar os inimigos que realmente são maus. Sócrates contesta também essa versão."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Seu argumento relaciona o dano à perda de uma excelência. Quando cavalos são prejudicados, tornam-se piores enquanto cavalos. Aplicando o raciocínio aos seres humanos, Sócrates afirma que prejudicá-los os torna piores quanto à excelência humana. Como a justiça é reconhecida nessa discussão como uma excelência humana, fazer mal a alguém o tornaria mais injusto."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A dificuldade é que a justiça, sendo uma virtude, não deveria produzir seu contrário. Assim como o conhecimento musical não torna alguém ignorante em música por meio de seu exercício adequado, a justiça não deveria tornar alguém injusto. Sócrates conclui que "
+                },
+                {
+                  "text": "fazer mal não é próprio do justo",
+                  "bold": true
+                },
+                {
+                  "text": ", seja a amigos, seja a inimigos."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Para compreender o argumento, é preciso observar o sentido de dano empregado: ele envolve tornar alguém pior. O trecho não resolve, por si só, todas as questões sobre punição, defesa ou uso da força. Sua crítica dirige-se à ideia de que a hostilidade contra um inimigo basta para transformar o mal que lhe fazemos em justiça."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Trasímaco: a justiça como vantagem do mais forte"
+                }
+              ],
+              "id": "secao-22"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Trasímaco intervém de maneira agressiva. Acusa Sócrates de apenas questionar os outros e exige uma resposta direta. Sua própria tese é que "
+                },
+                {
+                  "text": "a justiça consiste na vantagem do mais forte",
+                  "bold": true
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O mais forte, nesse argumento, é o poder que governa a cidade. Cada governo estabelece leis conforme seus interesses e chama de justo o comportamento que as obedece. Os transgressores são punidos como injustos. A justiça dos governados serviria, portanto, aos interesses dos governantes."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A tese coloca em dúvida a ligação entre justiça e bem moral. Uma lei pode exigir obediência e, ao mesmo tempo, favorecer quem exerce o poder. Trasímaco pretende revelar que aquilo que se apresenta como justiça beneficia o grupo dominante. Sócrates precisa examinar, então, se o interesse de quem manda é realmente o critério que define o justo."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A dificuldade dos governantes que se enganam"
+                }
+              ],
+              "id": "secao-26"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sócrates pergunta se os governantes podem cometer erros. Trasímaco inicialmente admite que sim. Mas, se um governante cria uma lei que prejudica seus próprios interesses e os súditos devem obedecê-la, a justiça passa a exigir uma ação contrária à vantagem do mais forte. As duas afirmações deixam de coincidir."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Clitofonte sugere uma saída: talvez justo seja fazer o que o governante julga vantajoso, mesmo quando se engana. Trasímaco não aceita essa reformulação. Prefere distinguir o uso comum de uma palavra de seu sentido rigoroso."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Assim como um médico, enquanto exerce corretamente seu saber, não erra, o governante, considerado estritamente como conhecedor da arte de governar, também não erraria. Os erros ocorreriam quando seu conhecimento falhasse. Essa resposta desloca o debate: já não basta falar de quem ocupa o poder; é preciso esclarecer em que consiste o exercício competente do governo."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A arte de governar e o benefício dos governados"
+                }
+              ],
+              "id": "secao-30"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sócrates examina a finalidade das artes. A palavra grega "
+                },
+                {
+                  "text": "téchne",
+                  "bold": true
+                },
+                {
+                  "text": ", traduzida como arte ou técnica, designa aqui uma atividade orientada por conhecimento, como a medicina ou a navegação, e não apenas uma atividade artística."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A medicina, considerada como medicina, procura a saúde do paciente. A navegação procura conduzir os navegantes com segurança. Seguindo essa analogia, Sócrates afirma que a arte de governar deve procurar o benefício dos governados. O conhecimento de quem dirige é exercido em favor daqueles que dependem dele."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Trasímaco contrapõe o exemplo dos pastores: eles cuidam das ovelhas para beneficiar a si mesmos ou aos proprietários. Sócrates responde distinguindo o cuidado próprio da atividade e os ganhos associados a ela. Produzir saúde é a finalidade da medicina; receber um pagamento é um benefício adicional. Da mesma maneira, ele separa a arte de cuidar do rebanho do interesse em vendê-lo ou utilizá-lo."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Essa distinção permite compreender por que Sócrates considera necessário oferecer incentivos para governar. Os melhores poderiam aceitar essa responsabilidade para evitar uma consequência pior: serem governados por pessoas inferiores a eles em qualidade."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O argumento apresenta um critério para o governo adequadamente exercido. Sua força depende de aceitar a analogia entre governar e exercer uma arte voltada ao benefício de seu objeto; não é uma simples descrição do comportamento de todos os governantes existentes."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A injustiça bem-sucedida seria mais vantajosa?"
+                }
+              ],
+              "id": "secao-36"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Trasímaco amplia seu desafio: não apenas a justiça serve ao interesse alheio, como a injustiça pode ser mais vantajosa para quem a pratica. O justo respeita acordos, paga o que deve e evita aproveitar-se do cargo público. O injusto consegue obter benefícios precisamente por desrespeitar esses limites."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O caso extremo é o tirano, que se apropria dos bens dos outros e submete cidades inteiras. Enquanto pequenas injustiças recebem condenação e castigo, uma injustiça suficientemente grande e bem-sucedida pode levar seu autor a ser considerado poderoso e feliz."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Trasímaco não está elogiando qualquer delito, inclusive os que fracassam. Seu exemplo central é a injustiça capaz de conquistar poder e evitar suas consequências desfavoráveis. Ele chega a associá-la à inteligência e à prudência, enquanto considera a justiça uma ingenuidade. A investigação passa a enfrentar uma questão mais exigente: por que escolher a justiça quando a injustiça parece trazer melhores resultados?"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Conhecimento, medida e desejo de superar os outros"
+                }
+              ],
+              "id": "secao-40"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Uma resposta de Sócrates procura relacionar a justiça à sabedoria. O justo não pretende obter vantagem sobre outro justo, embora queira superar o injusto. O injusto, ao contrário, busca superar tanto os justos como os demais injustos."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sócrates compara esses comportamentos ao exercício de um conhecimento. Ao afinar um instrumento, o músico competente procura a afinação adequada. Não tenta tensionar as cordas mais do que outro músico competente apenas para superá-lo. Ambos devem reconhecer a medida correta. O ignorante, por não conhecer essa medida, pode tentar ultrapassar indistintamente quem sabe e quem não sabe."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Com essa comparação, Sócrates aproxima o justo de quem conhece o que deve fazer e o injusto de quem procura vantagem sem reconhecer um limite adequado. Trasímaco acaba admitindo a associação entre justiça, sabedoria e virtude."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A analogia é uma etapa da argumentação: sua aplicação à justiça exige admitir que o comportamento moral pode ser comparado à competência técnica. Não se deve reduzir sua conclusão à afirmação de que qualquer habilidade ou conhecimento torna alguém moralmente justo."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A injustiça destrói a capacidade de agir em conjunto"
+                }
+              ],
+              "id": "secao-45"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sócrates também contesta a suposta superioridade da injustiça por meio de seus efeitos sobre a ação coletiva. Uma cidade, um exército ou mesmo um grupo de ladrões não consegue realizar um empreendimento comum se seus integrantes se enganam e prejudicam continuamente."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Um grupo que pratica injustiças contra outras pessoas ainda precisa conservar alguma justiça entre seus membros. Caso contrário, a desconfiança e o conflito destroem sua capacidade de cooperar. Para Sócrates, o êxito de uma ação injusta não demonstra que a injustiça completa seja eficaz: pode demonstrar que seus autores preservam alguma justiça nas relações internas."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O argumento é estendido ao indivíduo. Sócrates afirma que a injustiça produz discórdia também dentro de uma pessoa, tornando-a inimiga de si mesma e dificultando sua ação. A comparação aproxima o problema político do problema moral: tanto uma comunidade como uma pessoa precisam de alguma unidade para agir bem."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Função, virtude e felicidade"
+                }
+              ],
+              "id": "secao-49"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O último argumento procura mostrar que o justo vive melhor. Sócrates parte da ideia de "
+                },
+                {
+                  "text": "função",
+                  "bold": true
+                },
+                {
+                  "text": ": aquilo que uma coisa realiza exclusivamente ou melhor do que outras. Ver é a função dos olhos; ouvir é a função dos ouvidos. Para desempenhar bem uma função, é necessário possuir a excelência correspondente."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Aqui, "
+                },
+                {
+                  "text": "virtude",
+                  "bold": true
+                },
+                {
+                  "text": ", tradução de "
+                },
+                {
+                  "text": "aretê",
+                  "italic": true
+                },
+                {
+                  "text": ", significa excelência ou qualidade que permite um bom desempenho. A palavra não se limita ao caráter moral: podemos falar, nesse sentido, da excelência dos olhos ou de um instrumento."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sócrates atribui à alma funções como deliberar, dirigir e viver. Se a justiça é sua virtude, uma alma justa desempenhará bem essas funções, enquanto uma alma injusta as desempenhará mal. O homem justo, portanto, viverá bem e será feliz; o injusto viverá mal."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A felicidade em questão está ligada a viver bem, e não apenas a sentir prazer ou possuir riqueza. Entretanto, o argumento depende de uma premissa decisiva: que a justiça seja a excelência própria da alma. Como a natureza da justiça ainda não foi suficientemente esclarecida, a conclusão permanece ligada a uma dificuldade que o próprio Sócrates reconhecerá ao encerrar a conversa."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O desfecho: reconhecer o que ainda não se sabe"
+                }
+              ],
+              "id": "secao-54"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Embora Trasímaco tenha cedido em diversos pontos, Sócrates não considera a investigação concluída. Reconhece que passou a discutir se a justiça é virtude e se torna alguém feliz antes de estabelecer o que ela é."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O Livro I termina, assim, em "
+                },
+                {
+                  "text": "aporia",
+                  "bold": true
+                },
+                {
+                  "text": ": uma dificuldade ainda não resolvida, na qual as respostas examinadas se mostraram insuficientes, mas uma definição satisfatória não foi alcançada. Refutar uma resposta não equivale automaticamente a conhecer a resposta correta."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Esse desfecho confere sentido ao percurso. As obrigações tradicionais, a lealdade aos amigos e a obediência ao poder precisam ser examinadas; nenhuma dessas referências foi aceita como definição suficiente. Ao mesmo tempo, Sócrates apresentou razões para associar a justiça ao cuidado, à cooperação e à vida boa. A continuação da obra deverá enfrentar o problema que permanece: compreender a justiça suficientemente para justificar seu valor."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Comparações com Aristóteles e Hobbes"
+                }
+              ],
+              "id": "secao-58"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Na "
+                },
+                {
+                  "text": "Ética a Nicômaco",
+                  "italic": true
+                },
+                {
+                  "text": ", V, 1–4, "
+                },
+                {
+                  "text": "Aristóteles",
+                  "bold": true
+                },
+                {
+                  "text": " distingue a justiça como virtude exercida em relação aos outros de formas particulares: a distributiva, relativa à repartição de bens e honras, e a corretiva, relativa à reparação de desequilíbrios nas relações. Essa distinção ajuda a perceber que justiça pode designar tanto uma qualidade do caráter como critérios para organizar relações. É uma comparação esclarecedora com as dificuldades do Livro I, mas não corresponde a uma classificação já formulada por Sócrates nesse trecho. Nicomachean Ethics by Aristotle"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "No capítulo XV do "
+                },
+                {
+                  "text": "Leviatã",
+                  "italic": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "Hobbes",
+                  "bold": true
+                },
+                {
+                  "text": " relaciona a justiça ao cumprimento de pactos e contesta a ideia de que rompê-los por vantagem própria seja uma estratégia racional. Sua resposta destaca a segurança e a possibilidade de confiar na cooperação. A aproximação com o argumento socrático é esta: a vantagem individual depende de vínculos que a traição pode destruir. A diferença está no fundamento da análise: Hobbes discute pactos e condições de segurança; Sócrates procura também mostrar que a justiça constitui uma excelência da própria alma. "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h2",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Livro II: por que ser justo, mesmo sem reconhecimento?"
+                }
+              ],
+              "id": "secao-1-2-2"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O Livro II aprofunda a questão deixada em aberto pelo Livro I. A discussão com Trasímaco não convenceu plenamente Gláucon e Adimanto. Eles exigem que Sócrates mostre "
+                },
+                {
+                  "text": "por que a justiça é boa para quem a possui",
+                  "bold": true
+                },
+                {
+                  "text": ", mesmo quando não traz honrarias, riqueza ou reconhecimento."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Para responder, Sócrates propõe investigar a justiça em uma cidade construída em pensamento. O diálogo passa da avaliação das escolhas individuais à origem da comunidade política, à divisão do trabalho e à educação dos guardiões. Essas questões integram a procura pelo valor da justiça."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "As três espécies de bens"
+                }
+              ],
+              "id": "secao-4-2"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Gláucon distingue três maneiras de considerar algo bom. Há bens que desejamos "
+                },
+                {
+                  "text": "por si mesmos",
+                  "bold": true
+                },
+                {
+                  "text": ", como os prazeres inofensivos, apreciados pelo próprio desfrute. Há bens desejados "
+                },
+                {
+                  "text": "por si mesmos e por suas consequências",
+                  "bold": true
+                },
+                {
+                  "text": ", como a saúde, a visão e a sensatez. E há atividades penosas que aceitamos "
+                },
+                {
+                  "text": "pelos resultados que proporcionam",
+                  "bold": true
+                },
+                {
+                  "text": ", como tratamentos médicos ou trabalhos realizados em troca de remuneração."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sócrates coloca a justiça na segunda categoria: ela deve ser amada por si mesma e por suas consequências. Gláucon observa, porém, que a opinião corrente a coloca na terceira. Segundo essa opinião, ser justo seria uma obrigação desagradável, suportada para obter boa reputação e evitar punições."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A investigação precisa distinguir o "
+                },
+                {
+                  "text": "valor próprio",
+                  "bold": true
+                },
+                {
+                  "text": " da justiça de suas vantagens externas. Isso não significa excluir seus efeitos sobre a alma: é justamente o que a justiça produz em quem a possui que os irmãos querem compreender. Eles pedem que Sócrates deixe de lado os benefícios dependentes da aprovação de outras pessoas."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A justiça como acordo para evitar danos"
+                }
+              ],
+              "id": "secao-8-2"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Gláucon reconstrói uma explicação corrente da origem da justiça. Segundo ela, praticar injustiça e escapar do castigo seria vantajoso; sofrer injustiça sem poder reagir seria profundamente prejudicial. Como muitas pessoas não conseguem garantir a primeira situação e evitar a segunda, estabelecem acordos para não cometer nem sofrer injustiças."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "As leis surgiriam dessa convenção. A justiça ocuparia uma posição intermediária entre dois extremos: a liberdade de prejudicar os outros impunemente e a vulnerabilidade de sofrer seus ataques. Ela seria respeitada porque oferece proteção, e não porque seja um bem em si."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Gláucon apresenta essa hipótese para fortalecer o desafio que Sócrates terá de enfrentar. Ele declara que não está convencido da superioridade da injustiça. Sua intenção é ouvir uma defesa da justiça suficientemente forte para responder aos argumentos que circulam em favor da vida injusta."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O anel de Giges: o teste da impunidade"
+                }
+              ],
+              "id": "secao-12-2"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Para tornar o problema concreto, Gláucon conta o episódio tradicionalmente conhecido como "
+                },
+                {
+                  "text": "anel de Giges",
+                  "bold": true
+                },
+                {
+                  "text": ". Um pastor encontra um anel que permite tornar-se invisível. Depois de descobrir seu poder, aproxima-se da rainha, participa do assassinato do rei e conquista o governo."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Gláucon imagina então dois anéis: um entregue a uma pessoa justa, outro a uma injusta. O defensor da hipótese anterior afirmaria que ambos agiriam da mesma maneira, aproveitando a oportunidade de tomar bens alheios e satisfazer seus desejos sem serem descobertos."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O relato funciona como um "
+                },
+                {
+                  "text": "experimento de pensamento",
+                  "bold": true
+                },
+                {
+                  "text": ": uma situação imaginária criada para testar uma ideia. Sua pergunta central é se alguém continuaria justo caso tivesse certeza de que não seria punido. A história não prova, por si só, que todas as pessoas abandonariam a justiça; apresenta a hipótese que Sócrates precisa contestar."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Ser justo e parecer justo"
+                }
+              ],
+              "id": "secao-16"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Gláucon propõe uma comparação ainda mais rigorosa. De um lado, imagina alguém profundamente injusto, mas capaz de ocultar seus atos e conquistar a reputação de justo. Essa pessoa recebe confiança, poder e vantagens sociais. De outro, imagina alguém verdadeiramente justo que, apesar de não cometer injustiças, é considerado injusto e sofre as consequências dessa má reputação."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O contraste separa "
+                },
+                {
+                  "text": "o caráter real da pessoa e a imagem que os outros fazem dela",
+                  "bold": true
+                },
+                {
+                  "text": ". Se o justo recebesse honrarias, seria difícil saber se sua vida é boa por causa da justiça ou pelos benefícios da reputação. Ao retirar esses benefícios, Gláucon procura examinar o valor da justiça isoladamente."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O exemplo chega ao extremo de atribuir ao justo perseguições, torturas e morte. A exigência não é que Sócrates demonstre que a sociedade sempre recompensa os bons. Ele deve mostrar por que a justiça continua sendo um bem para seu possuidor mesmo quando a avaliação social está inteiramente invertida."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Adimanto: o problema de educar apenas pelas recompensas"
+                }
+              ],
+              "id": "secao-20"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Adimanto acrescenta que muitos discursos favoráveis à justiça também são insuficientes. Pais, educadores e poetas recomendam uma vida justa, mas destacam sobretudo suas recompensas: prestígio, bons casamentos, cargos públicos e favores divinos. Assim, podem acabar ensinando a desejar a reputação de justo, sem explicar o valor de sê-lo."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Ele também critica os discursos segundo os quais pessoas injustas poderiam obter o perdão dos deuses por meio de oferendas e rituais. Se alguém pudesse enriquecer pela injustiça e depois utilizar parte desses ganhos para evitar o castigo divino, a própria religião, apresentada dessa maneira, reforçaria a estratégia do injusto."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Adimanto pede, portanto, que Sócrates explique os efeitos próprios da justiça e da injustiça na alma. Uma educação convincente deveria permitir que cada pessoa se tornasse "
+                },
+                {
+                  "text": "guardiã de si mesma",
+                  "bold": true
+                },
+                {
+                  "text": ", evitando a injustiça por compreender o mal que ela representa. A vigilância externa seria insuficiente se o indivíduo continuasse desejando praticar injustiças sempre que pudesse escondê-las."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A cidade como lugar de investigação"
+                }
+              ],
+              "id": "secao-24"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sócrates reconhece a dificuldade da tarefa. Propõe uma comparação com a leitura: se não conseguimos distinguir letras pequenas, podemos procurar as mesmas letras em tamanho maior e depois voltar às menores. Do mesmo modo, talvez seja mais fácil perceber a justiça em uma cidade inteira antes de examiná-la em um indivíduo."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A "
+                },
+                {
+                  "text": "cidade",
+                  "bold": true
+                },
+                {
+                  "text": ", ou "
+                },
+                {
+                  "text": "pólis",
+                  "italic": true
+                },
+                {
+                  "text": ", é a comunidade política com suas atividades, relações e formas de organização. Sócrates pretende acompanhá-la desde sua formação, para observar como surgem nela a justiça e a injustiça. A comparação orienta a pesquisa; a correspondência entre cidade e indivíduo ainda precisará ser examinada durante a obra."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Necessidades, divisão do trabalho e trocas"
+                }
+              ],
+              "id": "secao-27"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A cidade nasce porque nenhum indivíduo é autossuficiente. Precisamos de alimentação, moradia, roupas e muitos outros recursos. A associação permite que diferentes pessoas atendam a essas necessidades mediante a cooperação."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sócrates pergunta se cada pessoa deve produzir tudo o que utiliza ou especializar-se em uma atividade e compartilhar seus produtos. Defende a segunda opção: as pessoas possuem aptidões diferentes, e uma tarefa é mais bem realizada quando alguém se dedica a ela, conforme sua natureza e no momento apropriado. Surge o princípio da "
+                },
+                {
+                  "text": "divisão do trabalho",
+                  "bold": true
+                },
+                {
+                  "text": ", pelo qual as atividades são distribuídas entre pessoas que se ocupam de funções específicas."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A comunidade se amplia porque os trabalhadores precisam de instrumentos, animais e materiais. Como dificilmente um território fornece tudo, aparecem também comerciantes e transportadores. As trocas internas exigem mercado, moeda e intermediários; outras atividades são realizadas por trabalhadores assalariados. A descrição mostra uma rede de dependências: a especialização aumenta a capacidade de produzir, mas também torna cada pessoa dependente do trabalho de outras."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A cidade saudável e a cidade de luxo"
+                }
+              ],
+              "id": "secao-31"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sócrates descreve inicialmente uma comunidade de vida simples, com alimentação moderada, trabalho, convívio e satisfação das necessidades. Seus habitantes evitariam ter mais filhos do que poderiam sustentar, receando a pobreza e a guerra. Ele considera essa cidade saudável."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Gláucon julga a descrição insuficiente e a chama de cidade de porcos. Deseja os confortos e hábitos da vida mais requintada: móveis, iguarias e outras comodidades. Sócrates aceita investigar essa cidade de luxo, embora a descreva como uma cidade tomada por excessos."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A mudança introduz uma distinção entre "
+                },
+                {
+                  "text": "necessidades e desejos que ultrapassam o necessário",
+                  "bold": true
+                },
+                {
+                  "text": ". A cidade passa a exigir mais profissões, serviços, objetos e alimentos. Seu crescimento deixa de acompanhar apenas as condições básicas de existência e passa a responder à multiplicação dos desejos. Sócrates acredita que esse processo tornará mais visíveis os problemas da justiça e da injustiça."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A expansão dos desejos e a origem da guerra"
+                }
+              ],
+              "id": "secao-35"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Com o aumento da população e do consumo, o território antes suficiente torna-se pequeno. A cidade procura terras dos vizinhos, que podem experimentar a mesma expansão de seus desejos. Nesse modelo, a busca de posses sem limite leva ao conflito por recursos e território."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sócrates identifica aí uma origem da guerra. O argumento relaciona a desmedida dos desejos a consequências coletivas: aquilo que parece apenas uma preferência por maior riqueza e conforto pode exigir conquistas e provocar sofrimento público. A cidade passa a precisar de um grupo dedicado à defesa e ao combate."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Os guardiões: competência, coragem e discernimento"
+                }
+              ],
+              "id": "secao-38"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A atividade militar também está sujeita ao princípio da especialização. Se uma pessoa precisa de aprendizagem para produzir bons sapatos, não se deve supor que consiga combater adequadamente apenas por receber armas. Os "
+                },
+                {
+                  "text": "guardiões",
+                  "bold": true
+                },
+                {
+                  "text": ", responsáveis pela proteção da cidade, necessitam de aptidão, prática e educação."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sócrates procura pessoas rápidas, fortes, perspicazes e dotadas de ânimo para enfrentar perigos. Contudo, essas qualidades podem torná-las violentas contra os próprios cidadãos. Surge uma dificuldade: o guardião precisa reunir firmeza diante dos inimigos e brandura no convívio com aqueles que protege."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O cão de guarda oferece uma analogia. Pode ser dócil com os conhecidos e agressivo com os desconhecidos. Sócrates destaca que essa diferença depende de reconhecer ou não quem se aproxima. Associa, assim, a natureza do bom guardião a uma disposição para conhecer e aprender."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O termo "
+                },
+                {
+                  "text": "filósofo",
+                  "bold": true
+                },
+                {
+                  "text": " aparece aqui nesse sentido inicial: amigo do saber. A força deve ser acompanhada de discernimento, para que os protetores da cidade não se tornem responsáveis por sua destruição. A escolha dos guardiões conduz, então, ao problema de sua formação."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A educação do corpo e da alma"
+                }
+              ],
+              "id": "secao-43"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sócrates toma como referência a educação tradicional: "
+                },
+                {
+                  "text": "ginástica para o corpo e música para a alma",
+                  "bold": true
+                },
+                {
+                  "text": ". Música, nesse contexto, tem um sentido mais amplo do que o atual. Inclui poesia, narrativas e outras práticas ligadas às Musas, participando da formação do caráter."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Essa educação começa pelas histórias contadas às crianças. Os relatos podem ser fictícios e, ainda assim, conter verdades ou transmitir modelos de comportamento. O problema é avaliar que concepções eles introduzem na alma de quem ainda não possui capacidade suficiente para examiná-los."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sócrates considera os primeiros anos especialmente importantes porque as impressões recebidas nessa fase podem permanecer profundamente arraigadas. Propõe selecionar as narrativas ensinadas, persuadir mães e amas a utilizarem as aprovadas e rejeitar as que transmitam concepções inadequadas. A organização da cidade passa a incluir, portanto, o controle da formação cultural."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A crítica aos mitos e a censura educativa"
+                }
+              ],
+              "id": "secao-47"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Homero e Hesíodo são submetidos a exame porque seus poemas apresentam os deuses como protagonistas de conflitos, enganos e violências familiares. Sócrates teme que esses exemplos ofereçam aos jovens justificativas para agir da mesma maneira. Um guardião educado por histórias de hostilidade entre os deuses poderia considerar aceitável a hostilidade entre concidadãos."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A avaliação é também pedagógica: Sócrates chega a dizer que certos relatos não deveriam ser contados indiscriminadamente aos jovens mesmo se fossem verdadeiros. O apelo à alegoria não elimina a dificuldade: crianças não distinguem facilmente um sentido figurado de uma descrição literal. Por isso, exige que as primeiras narrativas sejam orientadas à virtude."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A proposta envolve "
+                },
+                {
+                  "text": "censura",
+                  "bold": true
+                },
+                {
+                  "text": ": os fundadores da cidade estabelecem os modelos que os poetas devem respeitar, e determinadas histórias são excluídas da educação. Para compreender a posição apresentada, é preciso perceber a função atribuída à poesia: ela participa da formação das crenças, dos sentimentos e das disposições para agir, tendo consequências políticas."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Primeiro critério teológico: a divindade é boa"
+                }
+              ],
+              "id": "secao-51"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sócrates estabelece padrões para representar os deuses. O primeiro parte de sua bondade: aquilo que é bom não pode ser causa de males. A divindade deve, portanto, ser apresentada como causa dos bens; para os males, é preciso procurar outras causas."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Esse critério exclui narrativas nas quais um deus provoca a injustiça humana ou distribui arbitrariamente destinos bons e maus. Sócrates admite, contudo, que um castigo justo possa beneficiar o culpado. Nesse caso, o sofrimento não é apresentado como um mal produzido pela divindade, mas como uma correção de que o indivíduo necessita. O argumento distingue, assim, sofrer uma pena e ser moralmente prejudicado."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Segundo critério: constância e veracidade divinas"
+                }
+              ],
+              "id": "secao-54-2"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O segundo padrão rejeita a representação dos deuses como seres que mudam de forma ou enganam os seres humanos. Sócrates argumenta que aquilo que é excelente resiste melhor às alterações externas. Uma divindade perfeita também não teria motivo para modificar voluntariamente sua natureza: não poderia tornar-se melhor, e não desejaria tornar-se pior."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Ao tratar da mentira, o diálogo introduz uma distinção importante. A "
+                },
+                {
+                  "text": "mentira na alma",
+                  "bold": true
+                },
+                {
+                  "text": " é a condição de permanecer enganado sobre a realidade, conservando a ignorância como se fosse conhecimento. Sócrates considera essa condição indesejável tanto para homens como para deuses."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Já a "
+                },
+                {
+                  "text": "mentira por palavras",
+                  "bold": true
+                },
+                {
+                  "text": " pode ter utilidade em determinadas situações humanas. O texto menciona a relação com inimigos, a tentativa de impedir que um amigo transtornado pratique uma ação má e a composição de narrativas sobre um passado que não conhecemos inteiramente. Nesse último caso, procura-se aproximar a narrativa da verdade tanto quanto possível."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Sócrates sustenta que esses motivos não se aplicam aos deuses. Eles não precisariam mentir por ignorância, temor ou para lidar com amigos enlouquecidos. Devem ser representados como verdadeiros em palavras e ações. Por isso, a conclusão sobre a veracidade divina não equivale a uma condenação indiscriminada de toda ficção ou de qualquer uso humano de afirmações falsas."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O que o Livro II estabelece e o que permanece aberto"
+                }
+              ],
+              "id": "secao-59"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "O Livro II termina com a aprovação desses padrões para a representação dos deuses. A finalidade declarada é formar guardiões piedosos e semelhantes às divindades tanto quanto isso seja possível ao ser humano. O desenvolvimento da educação prossegue no livro seguinte."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "A definição de justiça ainda não foi alcançada. Entretanto, a pesquisa ganhou uma direção: examinar a organização da cidade e a formação de seus integrantes para compreender o que torna justa uma comunidade e, depois, um indivíduo. Permanece a exigência inicial de Gláucon e Adimanto: mostrar que a justiça beneficia seu possuidor por aquilo que ela própria é, mesmo quando sua reputação não lhe traz vantagem alguma."
+                }
+              ]
+            },
+            {
+              "tag": "h3",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "16. Comparações com Hobbes, Kant e Aristóteles"
+                }
+              ],
+              "id": "secao-62"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Hobbes",
+                  "bold": true
+                },
+                {
+                  "text": ", no capítulo XV do "
+                },
+                {
+                  "text": "Leviatã",
+                  "italic": true
+                },
+                {
+                  "text": ", relaciona a justiça ao cumprimento dos pactos e à necessidade de um poder que assegure sua observância. A comparação ajuda a compreender a explicação convencional apresentada por Gláucon: acordos limitam os conflitos e tornam possível a segurança. A diferença está no lugar dessa explicação: em Platão, ela integra o desafio a ser respondido; em Hobbes, faz parte de sua teoria da justiça e da ordem política. resources.saylor.org"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Kant",
+                  "bold": true
+                },
+                {
+                  "text": ", na primeira seção da "
+                },
+                {
+                  "text": "Fundamentação da metafísica dos costumes",
+                  "italic": true
+                },
+                {
+                  "text": ", distingue agir conforme o dever e agir por dever. Um comerciante pode atender honestamente porque isso favorece seus negócios, sem que essa honestidade tenha o dever como motivo. A comparação esclarece a diferença entre comportamento correto e motivação moral. Os fundamentos, porém, diferem: os irmãos pedem a Sócrates que explique o bem produzido pela justiça na alma; Kant examina o valor moral de agir por respeito ao dever. Project Gutenberg"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "Aristóteles",
+                  "bold": true
+                },
+                {
+                  "text": ", na "
+                },
+                {
+                  "text": "Política",
+                  "italic": true
+                },
+                {
+                  "text": ", I, 2, afirma que a cidade surge para atender às necessidades da vida e existe em vista da vida boa. Essa formulação permite comparar a cooperação necessária à sobrevivência e a dimensão ética da comunidade. Aristóteles desenvolve sua explicação a partir da família e da aldeia; Sócrates constrói uma cidade em pensamento, partindo das necessidades e da divisão das atividades, para investigar a justiça. "
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                },
+                {
+                  "text": "\n"
+                }
+              ],
+              "id": "introducao"
+            },
+            {
+              "tag": "p",
+              "align": "left",
+              "runs": [
+                {
+                  "text": "\n"
+                }
+              ],
+              "id": "introducao"
+            }
+          ]
+        },
+        {
+          "id": "sintetico",
+          "status": "andamento",
+          "availability": "trecho",
+          "updated": "2026-09-30",
+          "last": "",
+          "next": "",
+          "chapters": [
+            {
+              "id": "capitulo-1",
+              "title": "Primeiro capítulo",
+              "paragraphs": [],
+              "subchapters": []
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "test",
       "language": "peregrini",
       "direction": "rtl",
